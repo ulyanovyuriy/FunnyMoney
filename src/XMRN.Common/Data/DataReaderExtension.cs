@@ -13,5 +13,14 @@ namespace XMRN.Common.Data
             while (reader.Read())
                 yield return reader;
         }
+
+        public static DataTable AsDataTable(this IDataReader reader)
+        {
+            if (reader == null) throw new ArgumentNullException(nameof(reader));
+
+            var dt = new DataTable();
+            dt.Load(reader);
+            return dt;
+        }
     }
 }

@@ -47,8 +47,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Cursor\CursorDataReader.cs" />
+    <Compile Include="Cursor\CursorExecutor.cs" />
     <Compile Include="Cursor\CursorField.cs" />
     <Compile Include="Cursor\CursorFieldType.cs" />
+    <Compile Include="Cursor\CursorQuery.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

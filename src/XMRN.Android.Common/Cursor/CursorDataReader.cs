@@ -14,13 +14,58 @@ using Android.Widget;
 
 namespace XMRN.Android.Common.Cursor
 {
-    public class CursorDataReader : IDataReader
+
+    public class CursorDataReader : IDataReader, IDisposable
     {
+        private CursorExecutor _executor;
+
+        private CursorQuery _query;
+
+        private ICursor _cursor;
+
+        public CursorDataReader(CursorExecutor executor
+            , CursorQuery query)
+        {
+            _executor = executor ?? throw new ArgumentNullException(nameof(executor));
+            _query = query ?? throw new ArgumentNullException(nameof(query));
+        }
+
+        public CursorExecutor Executor
+        {
+            get
+            {
+                if (disposedValue) throw new ObjectDisposedException(nameof(Executor));
+                return _executor;
+            }
+        }
+
+        public CursorQuery Query
+        {
+            get
+            {
+                if (disposedValue) throw new ObjectDisposedException(nameof(Query));
+                return _query;
+            }
+        }
+
+        public ICursor Cursor
+        {
+            get
+            {
+                if (disposedValue) throw new ObjectDisposedException(nameof(Cursor));
+
+                if (_cursor == null)
+                    _cursor = Executor.Execute(Query);
+
+                return _cursor;
+            }
+        }
+
         public object this[int i] => throw new NotImplementedException();
 
         public object this[string name] => throw new NotImplementedException();
 
-        public int Depth => throw new NotImplementedException();
+        public int Depth => throw new NotSupportedException();
 
         public bool IsClosed => throw new NotImplementedException();
 
@@ -28,12 +73,36 @@ namespace XMRN.Android.Common.Cursor
 
         public int FieldCount => throw new NotImplementedException();
 
-        public void Close()
+
+        #region IDisposable Support
+        private bool disposedValue = false; // To detect redundant calls
+
+        protected virtual void Dispose(bool disposing)
         {
-            throw new NotImplementedException();
+            if (!disposedValue)
+            {
+                if (disposing)
+                {
+                    if (_cursor != null)
+                        _cursor.Dispose();
+                }
+
+                _executor = null;
+                _query = null;
+                _cursor = null;
+
+                disposedValue = true;
+            }
         }
 
         public void Dispose()
+        {
+            Dispose(true);
+        }
+
+        #endregion
+
+        public void Close()
         {
             throw new NotImplementedException();
         }
@@ -162,5 +231,7 @@ namespace XMRN.Android.Common.Cursor
         {
             throw new NotImplementedException();
         }
+
+
     }
 }
