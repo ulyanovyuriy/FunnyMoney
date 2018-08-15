@@ -91,6 +91,14 @@
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\XMRN.Android.Common\XMRN.Android.Common.csproj">
+      <Project>{235500a0-3849-43c3-b24d-616f69ca9063}</Project>
+      <Name>XMRN.Android.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\XMRN.Common\XMRN.Common.csproj">
+      <Project>{b7ce64c7-310e-4b69-a964-591547c701d7}</Project>
+      <Name>XMRN.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\FunnyMoney\FunnyMoney.csproj">
       <Project>{6A52BB4A-1D82-4EF9-8A4E-555DCEA79C34}</Project>
       <Name>FunnyMoney</Name>
