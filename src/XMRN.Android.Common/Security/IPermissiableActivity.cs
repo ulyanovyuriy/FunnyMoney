@@ -10,11 +10,12 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 
-namespace XMRN.Android.Common.Cursor
+namespace XMRN.Android.Common.Security
 {
-    public enum CursorFieldType
+    public interface IPermissiableActivity
     {
-        Object = 0,
-        Blob = 1
+        event EventHandler<RequestPermissionResultEventArgs> RequestPermissionResult;
+
+        Activity Activity { get; }
     }
 }

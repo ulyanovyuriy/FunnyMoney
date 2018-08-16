@@ -12,9 +12,8 @@ using Android.Widget;
 
 namespace XMRN.Android.Common.Cursor
 {
-    public enum CursorFieldType
+    public static class CursorUri
     {
-        Object = 0,
-        Blob = 1
+        public static global::Android.Net.Uri SMS_INBOX = global::Android.Net.Uri.Parse("content://sms/inbox");
     }
 }

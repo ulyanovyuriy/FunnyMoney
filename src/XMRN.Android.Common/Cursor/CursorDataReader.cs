@@ -61,19 +61,6 @@ namespace XMRN.Android.Common.Cursor
             }
         }
 
-        public object this[int i] => throw new NotImplementedException();
-
-        public object this[string name] => throw new NotImplementedException();
-
-        public int Depth => throw new NotSupportedException();
-
-        public bool IsClosed => throw new NotImplementedException();
-
-        public int RecordsAffected => throw new NotImplementedException();
-
-        public int FieldCount => throw new NotImplementedException();
-
-
         #region IDisposable Support
         private bool disposedValue = false; // To detect redundant calls
 
@@ -102,19 +89,74 @@ namespace XMRN.Android.Common.Cursor
 
         #endregion
 
+        #region IDataReader Support
+
+        public object this[int i] => GetValue(i);
+
+        public object this[string name] => GetValue(name);
+
+        public int Depth => 0;
+
+        public bool IsClosed => Cursor.IsClosed;
+
+        public int RecordsAffected => Cursor.Position + 1;
+
+        public int FieldCount => Query.Fields.Length;
+
+        public bool NextResult()
+        {
+            return false;
+        }
+
+        public bool Read()
+        {
+            bool r;
+            if (Cursor.IsBeforeFirst)
+                r = Cursor.MoveToFirst();
+            else
+                r = Cursor.MoveToNext();
+            return r;
+        }
+
         public void Close()
         {
-            throw new NotImplementedException();
+            Cursor.Close();
         }
 
-        public bool GetBoolean(int i)
+        public CursorField GetField(int i)
         {
-            throw new NotImplementedException();
+            var field = Query.Fields[i];
+            return field;
         }
 
-        public byte GetByte(int i)
+        public CursorField GetField(string name)
         {
-            throw new NotImplementedException();
+            return GetField(GetOrdinal(name));
+        }
+
+        public object GetValue(int i)
+        {
+            var field = GetField(i);
+            if (field.Type == CursorFieldType.Object)
+                return GetString(i);
+            else if (field.Type == CursorFieldType.Blob)
+                return GetBlob(i);
+            else throw new NotSupportedException();
+        }
+
+        public object GetValue(string name)
+        {
+            return GetValue(GetOrdinal(name));
+        }
+
+        public byte[] GetBlob(int i)
+        {
+            return Cursor.GetBlob(i);
+        }
+
+        public string GetString(int i)
+        {
+            return Cursor.GetString(i);
         }
 
         public long GetBytes(int i, long fieldOffset, byte[] buffer, int bufferoffset, int length)
@@ -202,15 +244,7 @@ namespace XMRN.Android.Common.Cursor
             throw new NotImplementedException();
         }
 
-        public string GetString(int i)
-        {
-            throw new NotImplementedException();
-        }
 
-        public object GetValue(int i)
-        {
-            throw new NotImplementedException();
-        }
 
         public int GetValues(object[] values)
         {
@@ -222,16 +256,20 @@ namespace XMRN.Android.Common.Cursor
             throw new NotImplementedException();
         }
 
-        public bool NextResult()
+        #region NotSupported
+
+        public bool GetBoolean(int i)
         {
-            throw new NotImplementedException();
+            throw new NotSupportedException();
         }
 
-        public bool Read()
+        public byte GetByte(int i)
         {
-            throw new NotImplementedException();
+            throw new NotSupportedException();
         }
 
+        #endregion
 
+        #endregion
     }
 }

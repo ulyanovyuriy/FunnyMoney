@@ -27,2272 +27,6 @@ namespace FunnyMoney.Droid
 		public static void UpdateIdValues()
 		{
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::FunnyMoney.Droid.Resource.Attribute.actionBarSize;
-			global::XMRN.Android.Common.Resource.Animation.abc_fade_in = global::FunnyMoney.Droid.Resource.Animation.abc_fade_in;
-			global::XMRN.Android.Common.Resource.Animation.abc_fade_out = global::FunnyMoney.Droid.Resource.Animation.abc_fade_out;
-			global::XMRN.Android.Common.Resource.Animation.abc_grow_fade_in_from_bottom = global::FunnyMoney.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
-			global::XMRN.Android.Common.Resource.Animation.abc_popup_enter = global::FunnyMoney.Droid.Resource.Animation.abc_popup_enter;
-			global::XMRN.Android.Common.Resource.Animation.abc_popup_exit = global::FunnyMoney.Droid.Resource.Animation.abc_popup_exit;
-			global::XMRN.Android.Common.Resource.Animation.abc_shrink_fade_out_from_bottom = global::FunnyMoney.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
-			global::XMRN.Android.Common.Resource.Animation.abc_slide_in_bottom = global::FunnyMoney.Droid.Resource.Animation.abc_slide_in_bottom;
-			global::XMRN.Android.Common.Resource.Animation.abc_slide_in_top = global::FunnyMoney.Droid.Resource.Animation.abc_slide_in_top;
-			global::XMRN.Android.Common.Resource.Animation.abc_slide_out_bottom = global::FunnyMoney.Droid.Resource.Animation.abc_slide_out_bottom;
-			global::XMRN.Android.Common.Resource.Animation.abc_slide_out_top = global::FunnyMoney.Droid.Resource.Animation.abc_slide_out_top;
-			global::XMRN.Android.Common.Resource.Animation.design_bottom_sheet_slide_in = global::FunnyMoney.Droid.Resource.Animation.design_bottom_sheet_slide_in;
-			global::XMRN.Android.Common.Resource.Animation.design_bottom_sheet_slide_out = global::FunnyMoney.Droid.Resource.Animation.design_bottom_sheet_slide_out;
-			global::XMRN.Android.Common.Resource.Animation.design_snackbar_in = global::FunnyMoney.Droid.Resource.Animation.design_snackbar_in;
-			global::XMRN.Android.Common.Resource.Animation.design_snackbar_out = global::FunnyMoney.Droid.Resource.Animation.design_snackbar_out;
-			global::XMRN.Android.Common.Resource.Animation.tooltip_enter = global::FunnyMoney.Droid.Resource.Animation.tooltip_enter;
-			global::XMRN.Android.Common.Resource.Animation.tooltip_exit = global::FunnyMoney.Droid.Resource.Animation.tooltip_exit;
-			global::XMRN.Android.Common.Resource.Animator.design_appbar_state_list_animator = global::FunnyMoney.Droid.Resource.Animator.design_appbar_state_list_animator;
-			global::XMRN.Android.Common.Resource.Attribute.actionBarDivider = global::FunnyMoney.Droid.Resource.Attribute.actionBarDivider;
-			global::XMRN.Android.Common.Resource.Attribute.actionBarItemBackground = global::FunnyMoney.Droid.Resource.Attribute.actionBarItemBackground;
-			global::XMRN.Android.Common.Resource.Attribute.actionBarPopupTheme = global::FunnyMoney.Droid.Resource.Attribute.actionBarPopupTheme;
-			global::XMRN.Android.Common.Resource.Attribute.actionBarSize = global::FunnyMoney.Droid.Resource.Attribute.actionBarSize;
-			global::XMRN.Android.Common.Resource.Attribute.actionBarSplitStyle = global::FunnyMoney.Droid.Resource.Attribute.actionBarSplitStyle;
-			global::XMRN.Android.Common.Resource.Attribute.actionBarStyle = global::FunnyMoney.Droid.Resource.Attribute.actionBarStyle;
-			global::XMRN.Android.Common.Resource.Attribute.actionBarTabBarStyle = global::FunnyMoney.Droid.Resource.Attribute.actionBarTabBarStyle;
-			global::XMRN.Android.Common.Resource.Attribute.actionBarTabStyle = global::FunnyMoney.Droid.Resource.Attribute.actionBarTabStyle;
-			global::XMRN.Android.Common.Resource.Attribute.actionBarTabTextStyle = global::FunnyMoney.Droid.Resource.Attribute.actionBarTabTextStyle;
-			global::XMRN.Android.Common.Resource.Attribute.actionBarTheme = global::FunnyMoney.Droid.Resource.Attribute.actionBarTheme;
-			global::XMRN.Android.Common.Resource.Attribute.actionBarWidgetTheme = global::FunnyMoney.Droid.Resource.Attribute.actionBarWidgetTheme;
-			global::XMRN.Android.Common.Resource.Attribute.actionButtonStyle = global::FunnyMoney.Droid.Resource.Attribute.actionButtonStyle;
-			global::XMRN.Android.Common.Resource.Attribute.actionDropDownStyle = global::FunnyMoney.Droid.Resource.Attribute.actionDropDownStyle;
-			global::XMRN.Android.Common.Resource.Attribute.actionLayout = global::FunnyMoney.Droid.Resource.Attribute.actionLayout;
-			global::XMRN.Android.Common.Resource.Attribute.actionMenuTextAppearance = global::FunnyMoney.Droid.Resource.Attribute.actionMenuTextAppearance;
-			global::XMRN.Android.Common.Resource.Attribute.actionMenuTextColor = global::FunnyMoney.Droid.Resource.Attribute.actionMenuTextColor;
-			global::XMRN.Android.Common.Resource.Attribute.actionModeBackground = global::FunnyMoney.Droid.Resource.Attribute.actionModeBackground;
-			global::XMRN.Android.Common.Resource.Attribute.actionModeCloseButtonStyle = global::FunnyMoney.Droid.Resource.Attribute.actionModeCloseButtonStyle;
-			global::XMRN.Android.Common.Resource.Attribute.actionModeCloseDrawable = global::FunnyMoney.Droid.Resource.Attribute.actionModeCloseDrawable;
-			global::XMRN.Android.Common.Resource.Attribute.actionModeCopyDrawable = global::FunnyMoney.Droid.Resource.Attribute.actionModeCopyDrawable;
-			global::XMRN.Android.Common.Resource.Attribute.actionModeCutDrawable = global::FunnyMoney.Droid.Resource.Attribute.actionModeCutDrawable;
-			global::XMRN.Android.Common.Resource.Attribute.actionModeFindDrawable = global::FunnyMoney.Droid.Resource.Attribute.actionModeFindDrawable;
-			global::XMRN.Android.Common.Resource.Attribute.actionModePasteDrawable = global::FunnyMoney.Droid.Resource.Attribute.actionModePasteDrawable;
-			global::XMRN.Android.Common.Resource.Attribute.actionModePopupWindowStyle = global::FunnyMoney.Droid.Resource.Attribute.actionModePopupWindowStyle;
-			global::XMRN.Android.Common.Resource.Attribute.actionModeSelectAllDrawable = global::FunnyMoney.Droid.Resource.Attribute.actionModeSelectAllDrawable;
-			global::XMRN.Android.Common.Resource.Attribute.actionModeShareDrawable = global::FunnyMoney.Droid.Resource.Attribute.actionModeShareDrawable;
-			global::XMRN.Android.Common.Resource.Attribute.actionModeSplitBackground = global::FunnyMoney.Droid.Resource.Attribute.actionModeSplitBackground;
-			global::XMRN.Android.Common.Resource.Attribute.actionModeStyle = global::FunnyMoney.Droid.Resource.Attribute.actionModeStyle;
-			global::XMRN.Android.Common.Resource.Attribute.actionModeWebSearchDrawable = global::FunnyMoney.Droid.Resource.Attribute.actionModeWebSearchDrawable;
-			global::XMRN.Android.Common.Resource.Attribute.actionOverflowButtonStyle = global::FunnyMoney.Droid.Resource.Attribute.actionOverflowButtonStyle;
-			global::XMRN.Android.Common.Resource.Attribute.actionOverflowMenuStyle = global::FunnyMoney.Droid.Resource.Attribute.actionOverflowMenuStyle;
-			global::XMRN.Android.Common.Resource.Attribute.actionProviderClass = global::FunnyMoney.Droid.Resource.Attribute.actionProviderClass;
-			global::XMRN.Android.Common.Resource.Attribute.actionViewClass = global::FunnyMoney.Droid.Resource.Attribute.actionViewClass;
-			global::XMRN.Android.Common.Resource.Attribute.activityChooserViewStyle = global::FunnyMoney.Droid.Resource.Attribute.activityChooserViewStyle;
-			global::XMRN.Android.Common.Resource.Attribute.alertDialogButtonGroupStyle = global::FunnyMoney.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
-			global::XMRN.Android.Common.Resource.Attribute.alertDialogCenterButtons = global::FunnyMoney.Droid.Resource.Attribute.alertDialogCenterButtons;
-			global::XMRN.Android.Common.Resource.Attribute.alertDialogStyle = global::FunnyMoney.Droid.Resource.Attribute.alertDialogStyle;
-			global::XMRN.Android.Common.Resource.Attribute.alertDialogTheme = global::FunnyMoney.Droid.Resource.Attribute.alertDialogTheme;
-			global::XMRN.Android.Common.Resource.Attribute.allowStacking = global::FunnyMoney.Droid.Resource.Attribute.allowStacking;
-			global::XMRN.Android.Common.Resource.Attribute.alpha = global::FunnyMoney.Droid.Resource.Attribute.alpha;
-			global::XMRN.Android.Common.Resource.Attribute.alphabeticModifiers = global::FunnyMoney.Droid.Resource.Attribute.alphabeticModifiers;
-			global::XMRN.Android.Common.Resource.Attribute.arrowHeadLength = global::FunnyMoney.Droid.Resource.Attribute.arrowHeadLength;
-			global::XMRN.Android.Common.Resource.Attribute.arrowShaftLength = global::FunnyMoney.Droid.Resource.Attribute.arrowShaftLength;
-			global::XMRN.Android.Common.Resource.Attribute.autoCompleteTextViewStyle = global::FunnyMoney.Droid.Resource.Attribute.autoCompleteTextViewStyle;
-			global::XMRN.Android.Common.Resource.Attribute.autoSizeMaxTextSize = global::FunnyMoney.Droid.Resource.Attribute.autoSizeMaxTextSize;
-			global::XMRN.Android.Common.Resource.Attribute.autoSizeMinTextSize = global::FunnyMoney.Droid.Resource.Attribute.autoSizeMinTextSize;
-			global::XMRN.Android.Common.Resource.Attribute.autoSizePresetSizes = global::FunnyMoney.Droid.Resource.Attribute.autoSizePresetSizes;
-			global::XMRN.Android.Common.Resource.Attribute.autoSizeStepGranularity = global::FunnyMoney.Droid.Resource.Attribute.autoSizeStepGranularity;
-			global::XMRN.Android.Common.Resource.Attribute.autoSizeTextType = global::FunnyMoney.Droid.Resource.Attribute.autoSizeTextType;
-			global::XMRN.Android.Common.Resource.Attribute.background = global::FunnyMoney.Droid.Resource.Attribute.background;
-			global::XMRN.Android.Common.Resource.Attribute.backgroundSplit = global::FunnyMoney.Droid.Resource.Attribute.backgroundSplit;
-			global::XMRN.Android.Common.Resource.Attribute.backgroundStacked = global::FunnyMoney.Droid.Resource.Attribute.backgroundStacked;
-			global::XMRN.Android.Common.Resource.Attribute.backgroundTint = global::FunnyMoney.Droid.Resource.Attribute.backgroundTint;
-			global::XMRN.Android.Common.Resource.Attribute.backgroundTintMode = global::FunnyMoney.Droid.Resource.Attribute.backgroundTintMode;
-			global::XMRN.Android.Common.Resource.Attribute.barLength = global::FunnyMoney.Droid.Resource.Attribute.barLength;
-			global::XMRN.Android.Common.Resource.Attribute.behavior_autoHide = global::FunnyMoney.Droid.Resource.Attribute.behavior_autoHide;
-			global::XMRN.Android.Common.Resource.Attribute.behavior_hideable = global::FunnyMoney.Droid.Resource.Attribute.behavior_hideable;
-			global::XMRN.Android.Common.Resource.Attribute.behavior_overlapTop = global::FunnyMoney.Droid.Resource.Attribute.behavior_overlapTop;
-			global::XMRN.Android.Common.Resource.Attribute.behavior_peekHeight = global::FunnyMoney.Droid.Resource.Attribute.behavior_peekHeight;
-			global::XMRN.Android.Common.Resource.Attribute.behavior_skipCollapsed = global::FunnyMoney.Droid.Resource.Attribute.behavior_skipCollapsed;
-			global::XMRN.Android.Common.Resource.Attribute.borderWidth = global::FunnyMoney.Droid.Resource.Attribute.borderWidth;
-			global::XMRN.Android.Common.Resource.Attribute.borderlessButtonStyle = global::FunnyMoney.Droid.Resource.Attribute.borderlessButtonStyle;
-			global::XMRN.Android.Common.Resource.Attribute.bottomSheetDialogTheme = global::FunnyMoney.Droid.Resource.Attribute.bottomSheetDialogTheme;
-			global::XMRN.Android.Common.Resource.Attribute.bottomSheetStyle = global::FunnyMoney.Droid.Resource.Attribute.bottomSheetStyle;
-			global::XMRN.Android.Common.Resource.Attribute.buttonBarButtonStyle = global::FunnyMoney.Droid.Resource.Attribute.buttonBarButtonStyle;
-			global::XMRN.Android.Common.Resource.Attribute.buttonBarNegativeButtonStyle = global::FunnyMoney.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
-			global::XMRN.Android.Common.Resource.Attribute.buttonBarNeutralButtonStyle = global::FunnyMoney.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
-			global::XMRN.Android.Common.Resource.Attribute.buttonBarPositiveButtonStyle = global::FunnyMoney.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
-			global::XMRN.Android.Common.Resource.Attribute.buttonBarStyle = global::FunnyMoney.Droid.Resource.Attribute.buttonBarStyle;
-			global::XMRN.Android.Common.Resource.Attribute.buttonGravity = global::FunnyMoney.Droid.Resource.Attribute.buttonGravity;
-			global::XMRN.Android.Common.Resource.Attribute.buttonPanelSideLayout = global::FunnyMoney.Droid.Resource.Attribute.buttonPanelSideLayout;
-			global::XMRN.Android.Common.Resource.Attribute.buttonStyle = global::FunnyMoney.Droid.Resource.Attribute.buttonStyle;
-			global::XMRN.Android.Common.Resource.Attribute.buttonStyleSmall = global::FunnyMoney.Droid.Resource.Attribute.buttonStyleSmall;
-			global::XMRN.Android.Common.Resource.Attribute.buttonTint = global::FunnyMoney.Droid.Resource.Attribute.buttonTint;
-			global::XMRN.Android.Common.Resource.Attribute.buttonTintMode = global::FunnyMoney.Droid.Resource.Attribute.buttonTintMode;
-			global::XMRN.Android.Common.Resource.Attribute.cardBackgroundColor = global::FunnyMoney.Droid.Resource.Attribute.cardBackgroundColor;
-			global::XMRN.Android.Common.Resource.Attribute.cardCornerRadius = global::FunnyMoney.Droid.Resource.Attribute.cardCornerRadius;
-			global::XMRN.Android.Common.Resource.Attribute.cardElevation = global::FunnyMoney.Droid.Resource.Attribute.cardElevation;
-			global::XMRN.Android.Common.Resource.Attribute.cardMaxElevation = global::FunnyMoney.Droid.Resource.Attribute.cardMaxElevation;
-			global::XMRN.Android.Common.Resource.Attribute.cardPreventCornerOverlap = global::FunnyMoney.Droid.Resource.Attribute.cardPreventCornerOverlap;
-			global::XMRN.Android.Common.Resource.Attribute.cardUseCompatPadding = global::FunnyMoney.Droid.Resource.Attribute.cardUseCompatPadding;
-			global::XMRN.Android.Common.Resource.Attribute.checkboxStyle = global::FunnyMoney.Droid.Resource.Attribute.checkboxStyle;
-			global::XMRN.Android.Common.Resource.Attribute.checkedTextViewStyle = global::FunnyMoney.Droid.Resource.Attribute.checkedTextViewStyle;
-			global::XMRN.Android.Common.Resource.Attribute.closeIcon = global::FunnyMoney.Droid.Resource.Attribute.closeIcon;
-			global::XMRN.Android.Common.Resource.Attribute.closeItemLayout = global::FunnyMoney.Droid.Resource.Attribute.closeItemLayout;
-			global::XMRN.Android.Common.Resource.Attribute.collapseContentDescription = global::FunnyMoney.Droid.Resource.Attribute.collapseContentDescription;
-			global::XMRN.Android.Common.Resource.Attribute.collapseIcon = global::FunnyMoney.Droid.Resource.Attribute.collapseIcon;
-			global::XMRN.Android.Common.Resource.Attribute.collapsedTitleGravity = global::FunnyMoney.Droid.Resource.Attribute.collapsedTitleGravity;
-			global::XMRN.Android.Common.Resource.Attribute.collapsedTitleTextAppearance = global::FunnyMoney.Droid.Resource.Attribute.collapsedTitleTextAppearance;
-			global::XMRN.Android.Common.Resource.Attribute.color = global::FunnyMoney.Droid.Resource.Attribute.color;
-			global::XMRN.Android.Common.Resource.Attribute.colorAccent = global::FunnyMoney.Droid.Resource.Attribute.colorAccent;
-			global::XMRN.Android.Common.Resource.Attribute.colorBackgroundFloating = global::FunnyMoney.Droid.Resource.Attribute.colorBackgroundFloating;
-			global::XMRN.Android.Common.Resource.Attribute.colorButtonNormal = global::FunnyMoney.Droid.Resource.Attribute.colorButtonNormal;
-			global::XMRN.Android.Common.Resource.Attribute.colorControlActivated = global::FunnyMoney.Droid.Resource.Attribute.colorControlActivated;
-			global::XMRN.Android.Common.Resource.Attribute.colorControlHighlight = global::FunnyMoney.Droid.Resource.Attribute.colorControlHighlight;
-			global::XMRN.Android.Common.Resource.Attribute.colorControlNormal = global::FunnyMoney.Droid.Resource.Attribute.colorControlNormal;
-			global::XMRN.Android.Common.Resource.Attribute.colorError = global::FunnyMoney.Droid.Resource.Attribute.colorError;
-			global::XMRN.Android.Common.Resource.Attribute.colorPrimary = global::FunnyMoney.Droid.Resource.Attribute.colorPrimary;
-			global::XMRN.Android.Common.Resource.Attribute.colorPrimaryDark = global::FunnyMoney.Droid.Resource.Attribute.colorPrimaryDark;
-			global::XMRN.Android.Common.Resource.Attribute.colorSwitchThumbNormal = global::FunnyMoney.Droid.Resource.Attribute.colorSwitchThumbNormal;
-			global::XMRN.Android.Common.Resource.Attribute.commitIcon = global::FunnyMoney.Droid.Resource.Attribute.commitIcon;
-			global::XMRN.Android.Common.Resource.Attribute.contentDescription = global::FunnyMoney.Droid.Resource.Attribute.contentDescription;
-			global::XMRN.Android.Common.Resource.Attribute.contentInsetEnd = global::FunnyMoney.Droid.Resource.Attribute.contentInsetEnd;
-			global::XMRN.Android.Common.Resource.Attribute.contentInsetEndWithActions = global::FunnyMoney.Droid.Resource.Attribute.contentInsetEndWithActions;
-			global::XMRN.Android.Common.Resource.Attribute.contentInsetLeft = global::FunnyMoney.Droid.Resource.Attribute.contentInsetLeft;
-			global::XMRN.Android.Common.Resource.Attribute.contentInsetRight = global::FunnyMoney.Droid.Resource.Attribute.contentInsetRight;
-			global::XMRN.Android.Common.Resource.Attribute.contentInsetStart = global::FunnyMoney.Droid.Resource.Attribute.contentInsetStart;
-			global::XMRN.Android.Common.Resource.Attribute.contentInsetStartWithNavigation = global::FunnyMoney.Droid.Resource.Attribute.contentInsetStartWithNavigation;
-			global::XMRN.Android.Common.Resource.Attribute.contentPadding = global::FunnyMoney.Droid.Resource.Attribute.contentPadding;
-			global::XMRN.Android.Common.Resource.Attribute.contentPaddingBottom = global::FunnyMoney.Droid.Resource.Attribute.contentPaddingBottom;
-			global::XMRN.Android.Common.Resource.Attribute.contentPaddingLeft = global::FunnyMoney.Droid.Resource.Attribute.contentPaddingLeft;
-			global::XMRN.Android.Common.Resource.Attribute.contentPaddingRight = global::FunnyMoney.Droid.Resource.Attribute.contentPaddingRight;
-			global::XMRN.Android.Common.Resource.Attribute.contentPaddingTop = global::FunnyMoney.Droid.Resource.Attribute.contentPaddingTop;
-			global::XMRN.Android.Common.Resource.Attribute.contentScrim = global::FunnyMoney.Droid.Resource.Attribute.contentScrim;
-			global::XMRN.Android.Common.Resource.Attribute.controlBackground = global::FunnyMoney.Droid.Resource.Attribute.controlBackground;
-			global::XMRN.Android.Common.Resource.Attribute.counterEnabled = global::FunnyMoney.Droid.Resource.Attribute.counterEnabled;
-			global::XMRN.Android.Common.Resource.Attribute.counterMaxLength = global::FunnyMoney.Droid.Resource.Attribute.counterMaxLength;
-			global::XMRN.Android.Common.Resource.Attribute.counterOverflowTextAppearance = global::FunnyMoney.Droid.Resource.Attribute.counterOverflowTextAppearance;
-			global::XMRN.Android.Common.Resource.Attribute.counterTextAppearance = global::FunnyMoney.Droid.Resource.Attribute.counterTextAppearance;
-			global::XMRN.Android.Common.Resource.Attribute.customNavigationLayout = global::FunnyMoney.Droid.Resource.Attribute.customNavigationLayout;
-			global::XMRN.Android.Common.Resource.Attribute.defaultQueryHint = global::FunnyMoney.Droid.Resource.Attribute.defaultQueryHint;
-			global::XMRN.Android.Common.Resource.Attribute.dialogPreferredPadding = global::FunnyMoney.Droid.Resource.Attribute.dialogPreferredPadding;
-			global::XMRN.Android.Common.Resource.Attribute.dialogTheme = global::FunnyMoney.Droid.Resource.Attribute.dialogTheme;
-			global::XMRN.Android.Common.Resource.Attribute.displayOptions = global::FunnyMoney.Droid.Resource.Attribute.displayOptions;
-			global::XMRN.Android.Common.Resource.Attribute.divider = global::FunnyMoney.Droid.Resource.Attribute.divider;
-			global::XMRN.Android.Common.Resource.Attribute.dividerHorizontal = global::FunnyMoney.Droid.Resource.Attribute.dividerHorizontal;
-			global::XMRN.Android.Common.Resource.Attribute.dividerPadding = global::FunnyMoney.Droid.Resource.Attribute.dividerPadding;
-			global::XMRN.Android.Common.Resource.Attribute.dividerVertical = global::FunnyMoney.Droid.Resource.Attribute.dividerVertical;
-			global::XMRN.Android.Common.Resource.Attribute.drawableSize = global::FunnyMoney.Droid.Resource.Attribute.drawableSize;
-			global::XMRN.Android.Common.Resource.Attribute.drawerArrowStyle = global::FunnyMoney.Droid.Resource.Attribute.drawerArrowStyle;
-			global::XMRN.Android.Common.Resource.Attribute.dropDownListViewStyle = global::FunnyMoney.Droid.Resource.Attribute.dropDownListViewStyle;
-			global::XMRN.Android.Common.Resource.Attribute.dropdownListPreferredItemHeight = global::FunnyMoney.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
-			global::XMRN.Android.Common.Resource.Attribute.editTextBackground = global::FunnyMoney.Droid.Resource.Attribute.editTextBackground;
-			global::XMRN.Android.Common.Resource.Attribute.editTextColor = global::FunnyMoney.Droid.Resource.Attribute.editTextColor;
-			global::XMRN.Android.Common.Resource.Attribute.editTextStyle = global::FunnyMoney.Droid.Resource.Attribute.editTextStyle;
-			global::XMRN.Android.Common.Resource.Attribute.elevation = global::FunnyMoney.Droid.Resource.Attribute.elevation;
-			global::XMRN.Android.Common.Resource.Attribute.errorEnabled = global::FunnyMoney.Droid.Resource.Attribute.errorEnabled;
-			global::XMRN.Android.Common.Resource.Attribute.errorTextAppearance = global::FunnyMoney.Droid.Resource.Attribute.errorTextAppearance;
-			global::XMRN.Android.Common.Resource.Attribute.expandActivityOverflowButtonDrawable = global::FunnyMoney.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
-			global::XMRN.Android.Common.Resource.Attribute.expanded = global::FunnyMoney.Droid.Resource.Attribute.expanded;
-			global::XMRN.Android.Common.Resource.Attribute.expandedTitleGravity = global::FunnyMoney.Droid.Resource.Attribute.expandedTitleGravity;
-			global::XMRN.Android.Common.Resource.Attribute.expandedTitleMargin = global::FunnyMoney.Droid.Resource.Attribute.expandedTitleMargin;
-			global::XMRN.Android.Common.Resource.Attribute.expandedTitleMarginBottom = global::FunnyMoney.Droid.Resource.Attribute.expandedTitleMarginBottom;
-			global::XMRN.Android.Common.Resource.Attribute.expandedTitleMarginEnd = global::FunnyMoney.Droid.Resource.Attribute.expandedTitleMarginEnd;
-			global::XMRN.Android.Common.Resource.Attribute.expandedTitleMarginStart = global::FunnyMoney.Droid.Resource.Attribute.expandedTitleMarginStart;
-			global::XMRN.Android.Common.Resource.Attribute.expandedTitleMarginTop = global::FunnyMoney.Droid.Resource.Attribute.expandedTitleMarginTop;
-			global::XMRN.Android.Common.Resource.Attribute.expandedTitleTextAppearance = global::FunnyMoney.Droid.Resource.Attribute.expandedTitleTextAppearance;
-			global::XMRN.Android.Common.Resource.Attribute.externalRouteEnabledDrawable = global::FunnyMoney.Droid.Resource.Attribute.externalRouteEnabledDrawable;
-			global::XMRN.Android.Common.Resource.Attribute.fabSize = global::FunnyMoney.Droid.Resource.Attribute.fabSize;
-			global::XMRN.Android.Common.Resource.Attribute.fastScrollEnabled = global::FunnyMoney.Droid.Resource.Attribute.fastScrollEnabled;
-			global::XMRN.Android.Common.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::FunnyMoney.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
-			global::XMRN.Android.Common.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::FunnyMoney.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
-			global::XMRN.Android.Common.Resource.Attribute.fastScrollVerticalThumbDrawable = global::FunnyMoney.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
-			global::XMRN.Android.Common.Resource.Attribute.fastScrollVerticalTrackDrawable = global::FunnyMoney.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
-			global::XMRN.Android.Common.Resource.Attribute.font = global::FunnyMoney.Droid.Resource.Attribute.font;
-			global::XMRN.Android.Common.Resource.Attribute.fontFamily = global::FunnyMoney.Droid.Resource.Attribute.fontFamily;
-			global::XMRN.Android.Common.Resource.Attribute.fontProviderAuthority = global::FunnyMoney.Droid.Resource.Attribute.fontProviderAuthority;
-			global::XMRN.Android.Common.Resource.Attribute.fontProviderCerts = global::FunnyMoney.Droid.Resource.Attribute.fontProviderCerts;
-			global::XMRN.Android.Common.Resource.Attribute.fontProviderFetchStrategy = global::FunnyMoney.Droid.Resource.Attribute.fontProviderFetchStrategy;
-			global::XMRN.Android.Common.Resource.Attribute.fontProviderFetchTimeout = global::FunnyMoney.Droid.Resource.Attribute.fontProviderFetchTimeout;
-			global::XMRN.Android.Common.Resource.Attribute.fontProviderPackage = global::FunnyMoney.Droid.Resource.Attribute.fontProviderPackage;
-			global::XMRN.Android.Common.Resource.Attribute.fontProviderQuery = global::FunnyMoney.Droid.Resource.Attribute.fontProviderQuery;
-			global::XMRN.Android.Common.Resource.Attribute.fontStyle = global::FunnyMoney.Droid.Resource.Attribute.fontStyle;
-			global::XMRN.Android.Common.Resource.Attribute.fontWeight = global::FunnyMoney.Droid.Resource.Attribute.fontWeight;
-			global::XMRN.Android.Common.Resource.Attribute.foregroundInsidePadding = global::FunnyMoney.Droid.Resource.Attribute.foregroundInsidePadding;
-			global::XMRN.Android.Common.Resource.Attribute.gapBetweenBars = global::FunnyMoney.Droid.Resource.Attribute.gapBetweenBars;
-			global::XMRN.Android.Common.Resource.Attribute.goIcon = global::FunnyMoney.Droid.Resource.Attribute.goIcon;
-			global::XMRN.Android.Common.Resource.Attribute.headerLayout = global::FunnyMoney.Droid.Resource.Attribute.headerLayout;
-			global::XMRN.Android.Common.Resource.Attribute.height = global::FunnyMoney.Droid.Resource.Attribute.height;
-			global::XMRN.Android.Common.Resource.Attribute.hideOnContentScroll = global::FunnyMoney.Droid.Resource.Attribute.hideOnContentScroll;
-			global::XMRN.Android.Common.Resource.Attribute.hintAnimationEnabled = global::FunnyMoney.Droid.Resource.Attribute.hintAnimationEnabled;
-			global::XMRN.Android.Common.Resource.Attribute.hintEnabled = global::FunnyMoney.Droid.Resource.Attribute.hintEnabled;
-			global::XMRN.Android.Common.Resource.Attribute.hintTextAppearance = global::FunnyMoney.Droid.Resource.Attribute.hintTextAppearance;
-			global::XMRN.Android.Common.Resource.Attribute.homeAsUpIndicator = global::FunnyMoney.Droid.Resource.Attribute.homeAsUpIndicator;
-			global::XMRN.Android.Common.Resource.Attribute.homeLayout = global::FunnyMoney.Droid.Resource.Attribute.homeLayout;
-			global::XMRN.Android.Common.Resource.Attribute.icon = global::FunnyMoney.Droid.Resource.Attribute.icon;
-			global::XMRN.Android.Common.Resource.Attribute.iconTint = global::FunnyMoney.Droid.Resource.Attribute.iconTint;
-			global::XMRN.Android.Common.Resource.Attribute.iconTintMode = global::FunnyMoney.Droid.Resource.Attribute.iconTintMode;
-			global::XMRN.Android.Common.Resource.Attribute.iconifiedByDefault = global::FunnyMoney.Droid.Resource.Attribute.iconifiedByDefault;
-			global::XMRN.Android.Common.Resource.Attribute.imageButtonStyle = global::FunnyMoney.Droid.Resource.Attribute.imageButtonStyle;
-			global::XMRN.Android.Common.Resource.Attribute.indeterminateProgressStyle = global::FunnyMoney.Droid.Resource.Attribute.indeterminateProgressStyle;
-			global::XMRN.Android.Common.Resource.Attribute.initialActivityCount = global::FunnyMoney.Droid.Resource.Attribute.initialActivityCount;
-			global::XMRN.Android.Common.Resource.Attribute.insetForeground = global::FunnyMoney.Droid.Resource.Attribute.insetForeground;
-			global::XMRN.Android.Common.Resource.Attribute.isLightTheme = global::FunnyMoney.Droid.Resource.Attribute.isLightTheme;
-			global::XMRN.Android.Common.Resource.Attribute.itemBackground = global::FunnyMoney.Droid.Resource.Attribute.itemBackground;
-			global::XMRN.Android.Common.Resource.Attribute.itemIconTint = global::FunnyMoney.Droid.Resource.Attribute.itemIconTint;
-			global::XMRN.Android.Common.Resource.Attribute.itemPadding = global::FunnyMoney.Droid.Resource.Attribute.itemPadding;
-			global::XMRN.Android.Common.Resource.Attribute.itemTextAppearance = global::FunnyMoney.Droid.Resource.Attribute.itemTextAppearance;
-			global::XMRN.Android.Common.Resource.Attribute.itemTextColor = global::FunnyMoney.Droid.Resource.Attribute.itemTextColor;
-			global::XMRN.Android.Common.Resource.Attribute.keylines = global::FunnyMoney.Droid.Resource.Attribute.keylines;
-			global::XMRN.Android.Common.Resource.Attribute.layout = global::FunnyMoney.Droid.Resource.Attribute.layout;
-			global::XMRN.Android.Common.Resource.Attribute.layoutManager = global::FunnyMoney.Droid.Resource.Attribute.layoutManager;
-			global::XMRN.Android.Common.Resource.Attribute.layout_anchor = global::FunnyMoney.Droid.Resource.Attribute.layout_anchor;
-			global::XMRN.Android.Common.Resource.Attribute.layout_anchorGravity = global::FunnyMoney.Droid.Resource.Attribute.layout_anchorGravity;
-			global::XMRN.Android.Common.Resource.Attribute.layout_behavior = global::FunnyMoney.Droid.Resource.Attribute.layout_behavior;
-			global::XMRN.Android.Common.Resource.Attribute.layout_collapseMode = global::FunnyMoney.Droid.Resource.Attribute.layout_collapseMode;
-			global::XMRN.Android.Common.Resource.Attribute.layout_collapseParallaxMultiplier = global::FunnyMoney.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
-			global::XMRN.Android.Common.Resource.Attribute.layout_dodgeInsetEdges = global::FunnyMoney.Droid.Resource.Attribute.layout_dodgeInsetEdges;
-			global::XMRN.Android.Common.Resource.Attribute.layout_insetEdge = global::FunnyMoney.Droid.Resource.Attribute.layout_insetEdge;
-			global::XMRN.Android.Common.Resource.Attribute.layout_keyline = global::FunnyMoney.Droid.Resource.Attribute.layout_keyline;
-			global::XMRN.Android.Common.Resource.Attribute.layout_scrollFlags = global::FunnyMoney.Droid.Resource.Attribute.layout_scrollFlags;
-			global::XMRN.Android.Common.Resource.Attribute.layout_scrollInterpolator = global::FunnyMoney.Droid.Resource.Attribute.layout_scrollInterpolator;
-			global::XMRN.Android.Common.Resource.Attribute.listChoiceBackgroundIndicator = global::FunnyMoney.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
-			global::XMRN.Android.Common.Resource.Attribute.listDividerAlertDialog = global::FunnyMoney.Droid.Resource.Attribute.listDividerAlertDialog;
-			global::XMRN.Android.Common.Resource.Attribute.listItemLayout = global::FunnyMoney.Droid.Resource.Attribute.listItemLayout;
-			global::XMRN.Android.Common.Resource.Attribute.listLayout = global::FunnyMoney.Droid.Resource.Attribute.listLayout;
-			global::XMRN.Android.Common.Resource.Attribute.listMenuViewStyle = global::FunnyMoney.Droid.Resource.Attribute.listMenuViewStyle;
-			global::XMRN.Android.Common.Resource.Attribute.listPopupWindowStyle = global::FunnyMoney.Droid.Resource.Attribute.listPopupWindowStyle;
-			global::XMRN.Android.Common.Resource.Attribute.listPreferredItemHeight = global::FunnyMoney.Droid.Resource.Attribute.listPreferredItemHeight;
-			global::XMRN.Android.Common.Resource.Attribute.listPreferredItemHeightLarge = global::FunnyMoney.Droid.Resource.Attribute.listPreferredItemHeightLarge;
-			global::XMRN.Android.Common.Resource.Attribute.listPreferredItemHeightSmall = global::FunnyMoney.Droid.Resource.Attribute.listPreferredItemHeightSmall;
-			global::XMRN.Android.Common.Resource.Attribute.listPreferredItemPaddingLeft = global::FunnyMoney.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
-			global::XMRN.Android.Common.Resource.Attribute.listPreferredItemPaddingRight = global::FunnyMoney.Droid.Resource.Attribute.listPreferredItemPaddingRight;
-			global::XMRN.Android.Common.Resource.Attribute.logo = global::FunnyMoney.Droid.Resource.Attribute.logo;
-			global::XMRN.Android.Common.Resource.Attribute.logoDescription = global::FunnyMoney.Droid.Resource.Attribute.logoDescription;
-			global::XMRN.Android.Common.Resource.Attribute.maxActionInlineWidth = global::FunnyMoney.Droid.Resource.Attribute.maxActionInlineWidth;
-			global::XMRN.Android.Common.Resource.Attribute.maxButtonHeight = global::FunnyMoney.Droid.Resource.Attribute.maxButtonHeight;
-			global::XMRN.Android.Common.Resource.Attribute.measureWithLargestChild = global::FunnyMoney.Droid.Resource.Attribute.measureWithLargestChild;
-			global::XMRN.Android.Common.Resource.Attribute.mediaRouteAudioTrackDrawable = global::FunnyMoney.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
-			global::XMRN.Android.Common.Resource.Attribute.mediaRouteButtonStyle = global::FunnyMoney.Droid.Resource.Attribute.mediaRouteButtonStyle;
-			global::XMRN.Android.Common.Resource.Attribute.mediaRouteButtonTint = global::FunnyMoney.Droid.Resource.Attribute.mediaRouteButtonTint;
-			global::XMRN.Android.Common.Resource.Attribute.mediaRouteCloseDrawable = global::FunnyMoney.Droid.Resource.Attribute.mediaRouteCloseDrawable;
-			global::XMRN.Android.Common.Resource.Attribute.mediaRouteControlPanelThemeOverlay = global::FunnyMoney.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay;
-			global::XMRN.Android.Common.Resource.Attribute.mediaRouteDefaultIconDrawable = global::FunnyMoney.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
-			global::XMRN.Android.Common.Resource.Attribute.mediaRoutePauseDrawable = global::FunnyMoney.Droid.Resource.Attribute.mediaRoutePauseDrawable;
-			global::XMRN.Android.Common.Resource.Attribute.mediaRoutePlayDrawable = global::FunnyMoney.Droid.Resource.Attribute.mediaRoutePlayDrawable;
-			global::XMRN.Android.Common.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::FunnyMoney.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
-			global::XMRN.Android.Common.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::FunnyMoney.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
-			global::XMRN.Android.Common.Resource.Attribute.mediaRouteStopDrawable = global::FunnyMoney.Droid.Resource.Attribute.mediaRouteStopDrawable;
-			global::XMRN.Android.Common.Resource.Attribute.mediaRouteTheme = global::FunnyMoney.Droid.Resource.Attribute.mediaRouteTheme;
-			global::XMRN.Android.Common.Resource.Attribute.mediaRouteTvIconDrawable = global::FunnyMoney.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
-			global::XMRN.Android.Common.Resource.Attribute.menu = global::FunnyMoney.Droid.Resource.Attribute.menu;
-			global::XMRN.Android.Common.Resource.Attribute.multiChoiceItemLayout = global::FunnyMoney.Droid.Resource.Attribute.multiChoiceItemLayout;
-			global::XMRN.Android.Common.Resource.Attribute.navigationContentDescription = global::FunnyMoney.Droid.Resource.Attribute.navigationContentDescription;
-			global::XMRN.Android.Common.Resource.Attribute.navigationIcon = global::FunnyMoney.Droid.Resource.Attribute.navigationIcon;
-			global::XMRN.Android.Common.Resource.Attribute.navigationMode = global::FunnyMoney.Droid.Resource.Attribute.navigationMode;
-			global::XMRN.Android.Common.Resource.Attribute.numericModifiers = global::FunnyMoney.Droid.Resource.Attribute.numericModifiers;
-			global::XMRN.Android.Common.Resource.Attribute.overlapAnchor = global::FunnyMoney.Droid.Resource.Attribute.overlapAnchor;
-			global::XMRN.Android.Common.Resource.Attribute.paddingBottomNoButtons = global::FunnyMoney.Droid.Resource.Attribute.paddingBottomNoButtons;
-			global::XMRN.Android.Common.Resource.Attribute.paddingEnd = global::FunnyMoney.Droid.Resource.Attribute.paddingEnd;
-			global::XMRN.Android.Common.Resource.Attribute.paddingStart = global::FunnyMoney.Droid.Resource.Attribute.paddingStart;
-			global::XMRN.Android.Common.Resource.Attribute.paddingTopNoTitle = global::FunnyMoney.Droid.Resource.Attribute.paddingTopNoTitle;
-			global::XMRN.Android.Common.Resource.Attribute.panelBackground = global::FunnyMoney.Droid.Resource.Attribute.panelBackground;
-			global::XMRN.Android.Common.Resource.Attribute.panelMenuListTheme = global::FunnyMoney.Droid.Resource.Attribute.panelMenuListTheme;
-			global::XMRN.Android.Common.Resource.Attribute.panelMenuListWidth = global::FunnyMoney.Droid.Resource.Attribute.panelMenuListWidth;
-			global::XMRN.Android.Common.Resource.Attribute.passwordToggleContentDescription = global::FunnyMoney.Droid.Resource.Attribute.passwordToggleContentDescription;
-			global::XMRN.Android.Common.Resource.Attribute.passwordToggleDrawable = global::FunnyMoney.Droid.Resource.Attribute.passwordToggleDrawable;
-			global::XMRN.Android.Common.Resource.Attribute.passwordToggleEnabled = global::FunnyMoney.Droid.Resource.Attribute.passwordToggleEnabled;
-			global::XMRN.Android.Common.Resource.Attribute.passwordToggleTint = global::FunnyMoney.Droid.Resource.Attribute.passwordToggleTint;
-			global::XMRN.Android.Common.Resource.Attribute.passwordToggleTintMode = global::FunnyMoney.Droid.Resource.Attribute.passwordToggleTintMode;
-			global::XMRN.Android.Common.Resource.Attribute.popupMenuStyle = global::FunnyMoney.Droid.Resource.Attribute.popupMenuStyle;
-			global::XMRN.Android.Common.Resource.Attribute.popupTheme = global::FunnyMoney.Droid.Resource.Attribute.popupTheme;
-			global::XMRN.Android.Common.Resource.Attribute.popupWindowStyle = global::FunnyMoney.Droid.Resource.Attribute.popupWindowStyle;
-			global::XMRN.Android.Common.Resource.Attribute.preserveIconSpacing = global::FunnyMoney.Droid.Resource.Attribute.preserveIconSpacing;
-			global::XMRN.Android.Common.Resource.Attribute.pressedTranslationZ = global::FunnyMoney.Droid.Resource.Attribute.pressedTranslationZ;
-			global::XMRN.Android.Common.Resource.Attribute.progressBarPadding = global::FunnyMoney.Droid.Resource.Attribute.progressBarPadding;
-			global::XMRN.Android.Common.Resource.Attribute.progressBarStyle = global::FunnyMoney.Droid.Resource.Attribute.progressBarStyle;
-			global::XMRN.Android.Common.Resource.Attribute.queryBackground = global::FunnyMoney.Droid.Resource.Attribute.queryBackground;
-			global::XMRN.Android.Common.Resource.Attribute.queryHint = global::FunnyMoney.Droid.Resource.Attribute.queryHint;
-			global::XMRN.Android.Common.Resource.Attribute.radioButtonStyle = global::FunnyMoney.Droid.Resource.Attribute.radioButtonStyle;
-			global::XMRN.Android.Common.Resource.Attribute.ratingBarStyle = global::FunnyMoney.Droid.Resource.Attribute.ratingBarStyle;
-			global::XMRN.Android.Common.Resource.Attribute.ratingBarStyleIndicator = global::FunnyMoney.Droid.Resource.Attribute.ratingBarStyleIndicator;
-			global::XMRN.Android.Common.Resource.Attribute.ratingBarStyleSmall = global::FunnyMoney.Droid.Resource.Attribute.ratingBarStyleSmall;
-			global::XMRN.Android.Common.Resource.Attribute.reverseLayout = global::FunnyMoney.Droid.Resource.Attribute.reverseLayout;
-			global::XMRN.Android.Common.Resource.Attribute.rippleColor = global::FunnyMoney.Droid.Resource.Attribute.rippleColor;
-			global::XMRN.Android.Common.Resource.Attribute.scrimAnimationDuration = global::FunnyMoney.Droid.Resource.Attribute.scrimAnimationDuration;
-			global::XMRN.Android.Common.Resource.Attribute.scrimVisibleHeightTrigger = global::FunnyMoney.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
-			global::XMRN.Android.Common.Resource.Attribute.searchHintIcon = global::FunnyMoney.Droid.Resource.Attribute.searchHintIcon;
-			global::XMRN.Android.Common.Resource.Attribute.searchIcon = global::FunnyMoney.Droid.Resource.Attribute.searchIcon;
-			global::XMRN.Android.Common.Resource.Attribute.searchViewStyle = global::FunnyMoney.Droid.Resource.Attribute.searchViewStyle;
-			global::XMRN.Android.Common.Resource.Attribute.seekBarStyle = global::FunnyMoney.Droid.Resource.Attribute.seekBarStyle;
-			global::XMRN.Android.Common.Resource.Attribute.selectableItemBackground = global::FunnyMoney.Droid.Resource.Attribute.selectableItemBackground;
-			global::XMRN.Android.Common.Resource.Attribute.selectableItemBackgroundBorderless = global::FunnyMoney.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
-			global::XMRN.Android.Common.Resource.Attribute.showAsAction = global::FunnyMoney.Droid.Resource.Attribute.showAsAction;
-			global::XMRN.Android.Common.Resource.Attribute.showDividers = global::FunnyMoney.Droid.Resource.Attribute.showDividers;
-			global::XMRN.Android.Common.Resource.Attribute.showText = global::FunnyMoney.Droid.Resource.Attribute.showText;
-			global::XMRN.Android.Common.Resource.Attribute.showTitle = global::FunnyMoney.Droid.Resource.Attribute.showTitle;
-			global::XMRN.Android.Common.Resource.Attribute.singleChoiceItemLayout = global::FunnyMoney.Droid.Resource.Attribute.singleChoiceItemLayout;
-			global::XMRN.Android.Common.Resource.Attribute.spanCount = global::FunnyMoney.Droid.Resource.Attribute.spanCount;
-			global::XMRN.Android.Common.Resource.Attribute.spinBars = global::FunnyMoney.Droid.Resource.Attribute.spinBars;
-			global::XMRN.Android.Common.Resource.Attribute.spinnerDropDownItemStyle = global::FunnyMoney.Droid.Resource.Attribute.spinnerDropDownItemStyle;
-			global::XMRN.Android.Common.Resource.Attribute.spinnerStyle = global::FunnyMoney.Droid.Resource.Attribute.spinnerStyle;
-			global::XMRN.Android.Common.Resource.Attribute.splitTrack = global::FunnyMoney.Droid.Resource.Attribute.splitTrack;
-			global::XMRN.Android.Common.Resource.Attribute.srcCompat = global::FunnyMoney.Droid.Resource.Attribute.srcCompat;
-			global::XMRN.Android.Common.Resource.Attribute.stackFromEnd = global::FunnyMoney.Droid.Resource.Attribute.stackFromEnd;
-			global::XMRN.Android.Common.Resource.Attribute.state_above_anchor = global::FunnyMoney.Droid.Resource.Attribute.state_above_anchor;
-			global::XMRN.Android.Common.Resource.Attribute.state_collapsed = global::FunnyMoney.Droid.Resource.Attribute.state_collapsed;
-			global::XMRN.Android.Common.Resource.Attribute.state_collapsible = global::FunnyMoney.Droid.Resource.Attribute.state_collapsible;
-			global::XMRN.Android.Common.Resource.Attribute.statusBarBackground = global::FunnyMoney.Droid.Resource.Attribute.statusBarBackground;
-			global::XMRN.Android.Common.Resource.Attribute.statusBarScrim = global::FunnyMoney.Droid.Resource.Attribute.statusBarScrim;
-			global::XMRN.Android.Common.Resource.Attribute.subMenuArrow = global::FunnyMoney.Droid.Resource.Attribute.subMenuArrow;
-			global::XMRN.Android.Common.Resource.Attribute.submitBackground = global::FunnyMoney.Droid.Resource.Attribute.submitBackground;
-			global::XMRN.Android.Common.Resource.Attribute.subtitle = global::FunnyMoney.Droid.Resource.Attribute.subtitle;
-			global::XMRN.Android.Common.Resource.Attribute.subtitleTextAppearance = global::FunnyMoney.Droid.Resource.Attribute.subtitleTextAppearance;
-			global::XMRN.Android.Common.Resource.Attribute.subtitleTextColor = global::FunnyMoney.Droid.Resource.Attribute.subtitleTextColor;
-			global::XMRN.Android.Common.Resource.Attribute.subtitleTextStyle = global::FunnyMoney.Droid.Resource.Attribute.subtitleTextStyle;
-			global::XMRN.Android.Common.Resource.Attribute.suggestionRowLayout = global::FunnyMoney.Droid.Resource.Attribute.suggestionRowLayout;
-			global::XMRN.Android.Common.Resource.Attribute.switchMinWidth = global::FunnyMoney.Droid.Resource.Attribute.switchMinWidth;
-			global::XMRN.Android.Common.Resource.Attribute.switchPadding = global::FunnyMoney.Droid.Resource.Attribute.switchPadding;
-			global::XMRN.Android.Common.Resource.Attribute.switchStyle = global::FunnyMoney.Droid.Resource.Attribute.switchStyle;
-			global::XMRN.Android.Common.Resource.Attribute.switchTextAppearance = global::FunnyMoney.Droid.Resource.Attribute.switchTextAppearance;
-			global::XMRN.Android.Common.Resource.Attribute.tabBackground = global::FunnyMoney.Droid.Resource.Attribute.tabBackground;
-			global::XMRN.Android.Common.Resource.Attribute.tabContentStart = global::FunnyMoney.Droid.Resource.Attribute.tabContentStart;
-			global::XMRN.Android.Common.Resource.Attribute.tabGravity = global::FunnyMoney.Droid.Resource.Attribute.tabGravity;
-			global::XMRN.Android.Common.Resource.Attribute.tabIndicatorColor = global::FunnyMoney.Droid.Resource.Attribute.tabIndicatorColor;
-			global::XMRN.Android.Common.Resource.Attribute.tabIndicatorHeight = global::FunnyMoney.Droid.Resource.Attribute.tabIndicatorHeight;
-			global::XMRN.Android.Common.Resource.Attribute.tabMaxWidth = global::FunnyMoney.Droid.Resource.Attribute.tabMaxWidth;
-			global::XMRN.Android.Common.Resource.Attribute.tabMinWidth = global::FunnyMoney.Droid.Resource.Attribute.tabMinWidth;
-			global::XMRN.Android.Common.Resource.Attribute.tabMode = global::FunnyMoney.Droid.Resource.Attribute.tabMode;
-			global::XMRN.Android.Common.Resource.Attribute.tabPadding = global::FunnyMoney.Droid.Resource.Attribute.tabPadding;
-			global::XMRN.Android.Common.Resource.Attribute.tabPaddingBottom = global::FunnyMoney.Droid.Resource.Attribute.tabPaddingBottom;
-			global::XMRN.Android.Common.Resource.Attribute.tabPaddingEnd = global::FunnyMoney.Droid.Resource.Attribute.tabPaddingEnd;
-			global::XMRN.Android.Common.Resource.Attribute.tabPaddingStart = global::FunnyMoney.Droid.Resource.Attribute.tabPaddingStart;
-			global::XMRN.Android.Common.Resource.Attribute.tabPaddingTop = global::FunnyMoney.Droid.Resource.Attribute.tabPaddingTop;
-			global::XMRN.Android.Common.Resource.Attribute.tabSelectedTextColor = global::FunnyMoney.Droid.Resource.Attribute.tabSelectedTextColor;
-			global::XMRN.Android.Common.Resource.Attribute.tabTextAppearance = global::FunnyMoney.Droid.Resource.Attribute.tabTextAppearance;
-			global::XMRN.Android.Common.Resource.Attribute.tabTextColor = global::FunnyMoney.Droid.Resource.Attribute.tabTextColor;
-			global::XMRN.Android.Common.Resource.Attribute.textAllCaps = global::FunnyMoney.Droid.Resource.Attribute.textAllCaps;
-			global::XMRN.Android.Common.Resource.Attribute.textAppearanceLargePopupMenu = global::FunnyMoney.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
-			global::XMRN.Android.Common.Resource.Attribute.textAppearanceListItem = global::FunnyMoney.Droid.Resource.Attribute.textAppearanceListItem;
-			global::XMRN.Android.Common.Resource.Attribute.textAppearanceListItemSecondary = global::FunnyMoney.Droid.Resource.Attribute.textAppearanceListItemSecondary;
-			global::XMRN.Android.Common.Resource.Attribute.textAppearanceListItemSmall = global::FunnyMoney.Droid.Resource.Attribute.textAppearanceListItemSmall;
-			global::XMRN.Android.Common.Resource.Attribute.textAppearancePopupMenuHeader = global::FunnyMoney.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
-			global::XMRN.Android.Common.Resource.Attribute.textAppearanceSearchResultSubtitle = global::FunnyMoney.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
-			global::XMRN.Android.Common.Resource.Attribute.textAppearanceSearchResultTitle = global::FunnyMoney.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
-			global::XMRN.Android.Common.Resource.Attribute.textAppearanceSmallPopupMenu = global::FunnyMoney.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
-			global::XMRN.Android.Common.Resource.Attribute.textColorAlertDialogListItem = global::FunnyMoney.Droid.Resource.Attribute.textColorAlertDialogListItem;
-			global::XMRN.Android.Common.Resource.Attribute.textColorError = global::FunnyMoney.Droid.Resource.Attribute.textColorError;
-			global::XMRN.Android.Common.Resource.Attribute.textColorSearchUrl = global::FunnyMoney.Droid.Resource.Attribute.textColorSearchUrl;
-			global::XMRN.Android.Common.Resource.Attribute.theme = global::FunnyMoney.Droid.Resource.Attribute.theme;
-			global::XMRN.Android.Common.Resource.Attribute.thickness = global::FunnyMoney.Droid.Resource.Attribute.thickness;
-			global::XMRN.Android.Common.Resource.Attribute.thumbTextPadding = global::FunnyMoney.Droid.Resource.Attribute.thumbTextPadding;
-			global::XMRN.Android.Common.Resource.Attribute.thumbTint = global::FunnyMoney.Droid.Resource.Attribute.thumbTint;
-			global::XMRN.Android.Common.Resource.Attribute.thumbTintMode = global::FunnyMoney.Droid.Resource.Attribute.thumbTintMode;
-			global::XMRN.Android.Common.Resource.Attribute.tickMark = global::FunnyMoney.Droid.Resource.Attribute.tickMark;
-			global::XMRN.Android.Common.Resource.Attribute.tickMarkTint = global::FunnyMoney.Droid.Resource.Attribute.tickMarkTint;
-			global::XMRN.Android.Common.Resource.Attribute.tickMarkTintMode = global::FunnyMoney.Droid.Resource.Attribute.tickMarkTintMode;
-			global::XMRN.Android.Common.Resource.Attribute.tint = global::FunnyMoney.Droid.Resource.Attribute.tint;
-			global::XMRN.Android.Common.Resource.Attribute.tintMode = global::FunnyMoney.Droid.Resource.Attribute.tintMode;
-			global::XMRN.Android.Common.Resource.Attribute.title = global::FunnyMoney.Droid.Resource.Attribute.title;
-			global::XMRN.Android.Common.Resource.Attribute.titleEnabled = global::FunnyMoney.Droid.Resource.Attribute.titleEnabled;
-			global::XMRN.Android.Common.Resource.Attribute.titleMargin = global::FunnyMoney.Droid.Resource.Attribute.titleMargin;
-			global::XMRN.Android.Common.Resource.Attribute.titleMarginBottom = global::FunnyMoney.Droid.Resource.Attribute.titleMarginBottom;
-			global::XMRN.Android.Common.Resource.Attribute.titleMarginEnd = global::FunnyMoney.Droid.Resource.Attribute.titleMarginEnd;
-			global::XMRN.Android.Common.Resource.Attribute.titleMarginStart = global::FunnyMoney.Droid.Resource.Attribute.titleMarginStart;
-			global::XMRN.Android.Common.Resource.Attribute.titleMarginTop = global::FunnyMoney.Droid.Resource.Attribute.titleMarginTop;
-			global::XMRN.Android.Common.Resource.Attribute.titleMargins = global::FunnyMoney.Droid.Resource.Attribute.titleMargins;
-			global::XMRN.Android.Common.Resource.Attribute.titleTextAppearance = global::FunnyMoney.Droid.Resource.Attribute.titleTextAppearance;
-			global::XMRN.Android.Common.Resource.Attribute.titleTextColor = global::FunnyMoney.Droid.Resource.Attribute.titleTextColor;
-			global::XMRN.Android.Common.Resource.Attribute.titleTextStyle = global::FunnyMoney.Droid.Resource.Attribute.titleTextStyle;
-			global::XMRN.Android.Common.Resource.Attribute.toolbarId = global::FunnyMoney.Droid.Resource.Attribute.toolbarId;
-			global::XMRN.Android.Common.Resource.Attribute.toolbarNavigationButtonStyle = global::FunnyMoney.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
-			global::XMRN.Android.Common.Resource.Attribute.toolbarStyle = global::FunnyMoney.Droid.Resource.Attribute.toolbarStyle;
-			global::XMRN.Android.Common.Resource.Attribute.tooltipForegroundColor = global::FunnyMoney.Droid.Resource.Attribute.tooltipForegroundColor;
-			global::XMRN.Android.Common.Resource.Attribute.tooltipFrameBackground = global::FunnyMoney.Droid.Resource.Attribute.tooltipFrameBackground;
-			global::XMRN.Android.Common.Resource.Attribute.tooltipText = global::FunnyMoney.Droid.Resource.Attribute.tooltipText;
-			global::XMRN.Android.Common.Resource.Attribute.track = global::FunnyMoney.Droid.Resource.Attribute.track;
-			global::XMRN.Android.Common.Resource.Attribute.trackTint = global::FunnyMoney.Droid.Resource.Attribute.trackTint;
-			global::XMRN.Android.Common.Resource.Attribute.trackTintMode = global::FunnyMoney.Droid.Resource.Attribute.trackTintMode;
-			global::XMRN.Android.Common.Resource.Attribute.useCompatPadding = global::FunnyMoney.Droid.Resource.Attribute.useCompatPadding;
-			global::XMRN.Android.Common.Resource.Attribute.voiceIcon = global::FunnyMoney.Droid.Resource.Attribute.voiceIcon;
-			global::XMRN.Android.Common.Resource.Attribute.windowActionBar = global::FunnyMoney.Droid.Resource.Attribute.windowActionBar;
-			global::XMRN.Android.Common.Resource.Attribute.windowActionBarOverlay = global::FunnyMoney.Droid.Resource.Attribute.windowActionBarOverlay;
-			global::XMRN.Android.Common.Resource.Attribute.windowActionModeOverlay = global::FunnyMoney.Droid.Resource.Attribute.windowActionModeOverlay;
-			global::XMRN.Android.Common.Resource.Attribute.windowFixedHeightMajor = global::FunnyMoney.Droid.Resource.Attribute.windowFixedHeightMajor;
-			global::XMRN.Android.Common.Resource.Attribute.windowFixedHeightMinor = global::FunnyMoney.Droid.Resource.Attribute.windowFixedHeightMinor;
-			global::XMRN.Android.Common.Resource.Attribute.windowFixedWidthMajor = global::FunnyMoney.Droid.Resource.Attribute.windowFixedWidthMajor;
-			global::XMRN.Android.Common.Resource.Attribute.windowFixedWidthMinor = global::FunnyMoney.Droid.Resource.Attribute.windowFixedWidthMinor;
-			global::XMRN.Android.Common.Resource.Attribute.windowMinWidthMajor = global::FunnyMoney.Droid.Resource.Attribute.windowMinWidthMajor;
-			global::XMRN.Android.Common.Resource.Attribute.windowMinWidthMinor = global::FunnyMoney.Droid.Resource.Attribute.windowMinWidthMinor;
-			global::XMRN.Android.Common.Resource.Attribute.windowNoTitle = global::FunnyMoney.Droid.Resource.Attribute.windowNoTitle;
-			global::XMRN.Android.Common.Resource.Boolean.abc_action_bar_embed_tabs = global::FunnyMoney.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
-			global::XMRN.Android.Common.Resource.Boolean.abc_allow_stacked_button_bar = global::FunnyMoney.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
-			global::XMRN.Android.Common.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::FunnyMoney.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
-			global::XMRN.Android.Common.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::FunnyMoney.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
-			global::XMRN.Android.Common.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::FunnyMoney.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
-			global::XMRN.Android.Common.Resource.Color.abc_background_cache_hint_selector_material_dark = global::FunnyMoney.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
-			global::XMRN.Android.Common.Resource.Color.abc_background_cache_hint_selector_material_light = global::FunnyMoney.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
-			global::XMRN.Android.Common.Resource.Color.abc_btn_colored_borderless_text_material = global::FunnyMoney.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
-			global::XMRN.Android.Common.Resource.Color.abc_btn_colored_text_material = global::FunnyMoney.Droid.Resource.Color.abc_btn_colored_text_material;
-			global::XMRN.Android.Common.Resource.Color.abc_color_highlight_material = global::FunnyMoney.Droid.Resource.Color.abc_color_highlight_material;
-			global::XMRN.Android.Common.Resource.Color.abc_hint_foreground_material_dark = global::FunnyMoney.Droid.Resource.Color.abc_hint_foreground_material_dark;
-			global::XMRN.Android.Common.Resource.Color.abc_hint_foreground_material_light = global::FunnyMoney.Droid.Resource.Color.abc_hint_foreground_material_light;
-			global::XMRN.Android.Common.Resource.Color.abc_input_method_navigation_guard = global::FunnyMoney.Droid.Resource.Color.abc_input_method_navigation_guard;
-			global::XMRN.Android.Common.Resource.Color.abc_primary_text_disable_only_material_dark = global::FunnyMoney.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
-			global::XMRN.Android.Common.Resource.Color.abc_primary_text_disable_only_material_light = global::FunnyMoney.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
-			global::XMRN.Android.Common.Resource.Color.abc_primary_text_material_dark = global::FunnyMoney.Droid.Resource.Color.abc_primary_text_material_dark;
-			global::XMRN.Android.Common.Resource.Color.abc_primary_text_material_light = global::FunnyMoney.Droid.Resource.Color.abc_primary_text_material_light;
-			global::XMRN.Android.Common.Resource.Color.abc_search_url_text = global::FunnyMoney.Droid.Resource.Color.abc_search_url_text;
-			global::XMRN.Android.Common.Resource.Color.abc_search_url_text_normal = global::FunnyMoney.Droid.Resource.Color.abc_search_url_text_normal;
-			global::XMRN.Android.Common.Resource.Color.abc_search_url_text_pressed = global::FunnyMoney.Droid.Resource.Color.abc_search_url_text_pressed;
-			global::XMRN.Android.Common.Resource.Color.abc_search_url_text_selected = global::FunnyMoney.Droid.Resource.Color.abc_search_url_text_selected;
-			global::XMRN.Android.Common.Resource.Color.abc_secondary_text_material_dark = global::FunnyMoney.Droid.Resource.Color.abc_secondary_text_material_dark;
-			global::XMRN.Android.Common.Resource.Color.abc_secondary_text_material_light = global::FunnyMoney.Droid.Resource.Color.abc_secondary_text_material_light;
-			global::XMRN.Android.Common.Resource.Color.abc_tint_btn_checkable = global::FunnyMoney.Droid.Resource.Color.abc_tint_btn_checkable;
-			global::XMRN.Android.Common.Resource.Color.abc_tint_default = global::FunnyMoney.Droid.Resource.Color.abc_tint_default;
-			global::XMRN.Android.Common.Resource.Color.abc_tint_edittext = global::FunnyMoney.Droid.Resource.Color.abc_tint_edittext;
-			global::XMRN.Android.Common.Resource.Color.abc_tint_seek_thumb = global::FunnyMoney.Droid.Resource.Color.abc_tint_seek_thumb;
-			global::XMRN.Android.Common.Resource.Color.abc_tint_spinner = global::FunnyMoney.Droid.Resource.Color.abc_tint_spinner;
-			global::XMRN.Android.Common.Resource.Color.abc_tint_switch_track = global::FunnyMoney.Droid.Resource.Color.abc_tint_switch_track;
-			global::XMRN.Android.Common.Resource.Color.accent_material_dark = global::FunnyMoney.Droid.Resource.Color.accent_material_dark;
-			global::XMRN.Android.Common.Resource.Color.accent_material_light = global::FunnyMoney.Droid.Resource.Color.accent_material_light;
-			global::XMRN.Android.Common.Resource.Color.background_floating_material_dark = global::FunnyMoney.Droid.Resource.Color.background_floating_material_dark;
-			global::XMRN.Android.Common.Resource.Color.background_floating_material_light = global::FunnyMoney.Droid.Resource.Color.background_floating_material_light;
-			global::XMRN.Android.Common.Resource.Color.background_material_dark = global::FunnyMoney.Droid.Resource.Color.background_material_dark;
-			global::XMRN.Android.Common.Resource.Color.background_material_light = global::FunnyMoney.Droid.Resource.Color.background_material_light;
-			global::XMRN.Android.Common.Resource.Color.bright_foreground_disabled_material_dark = global::FunnyMoney.Droid.Resource.Color.bright_foreground_disabled_material_dark;
-			global::XMRN.Android.Common.Resource.Color.bright_foreground_disabled_material_light = global::FunnyMoney.Droid.Resource.Color.bright_foreground_disabled_material_light;
-			global::XMRN.Android.Common.Resource.Color.bright_foreground_inverse_material_dark = global::FunnyMoney.Droid.Resource.Color.bright_foreground_inverse_material_dark;
-			global::XMRN.Android.Common.Resource.Color.bright_foreground_inverse_material_light = global::FunnyMoney.Droid.Resource.Color.bright_foreground_inverse_material_light;
-			global::XMRN.Android.Common.Resource.Color.bright_foreground_material_dark = global::FunnyMoney.Droid.Resource.Color.bright_foreground_material_dark;
-			global::XMRN.Android.Common.Resource.Color.bright_foreground_material_light = global::FunnyMoney.Droid.Resource.Color.bright_foreground_material_light;
-			global::XMRN.Android.Common.Resource.Color.button_material_dark = global::FunnyMoney.Droid.Resource.Color.button_material_dark;
-			global::XMRN.Android.Common.Resource.Color.button_material_light = global::FunnyMoney.Droid.Resource.Color.button_material_light;
-			global::XMRN.Android.Common.Resource.Color.cardview_dark_background = global::FunnyMoney.Droid.Resource.Color.cardview_dark_background;
-			global::XMRN.Android.Common.Resource.Color.cardview_light_background = global::FunnyMoney.Droid.Resource.Color.cardview_light_background;
-			global::XMRN.Android.Common.Resource.Color.cardview_shadow_end_color = global::FunnyMoney.Droid.Resource.Color.cardview_shadow_end_color;
-			global::XMRN.Android.Common.Resource.Color.cardview_shadow_start_color = global::FunnyMoney.Droid.Resource.Color.cardview_shadow_start_color;
-			global::XMRN.Android.Common.Resource.Color.design_bottom_navigation_shadow_color = global::FunnyMoney.Droid.Resource.Color.design_bottom_navigation_shadow_color;
-			global::XMRN.Android.Common.Resource.Color.design_error = global::FunnyMoney.Droid.Resource.Color.design_error;
-			global::XMRN.Android.Common.Resource.Color.design_fab_shadow_end_color = global::FunnyMoney.Droid.Resource.Color.design_fab_shadow_end_color;
-			global::XMRN.Android.Common.Resource.Color.design_fab_shadow_mid_color = global::FunnyMoney.Droid.Resource.Color.design_fab_shadow_mid_color;
-			global::XMRN.Android.Common.Resource.Color.design_fab_shadow_start_color = global::FunnyMoney.Droid.Resource.Color.design_fab_shadow_start_color;
-			global::XMRN.Android.Common.Resource.Color.design_fab_stroke_end_inner_color = global::FunnyMoney.Droid.Resource.Color.design_fab_stroke_end_inner_color;
-			global::XMRN.Android.Common.Resource.Color.design_fab_stroke_end_outer_color = global::FunnyMoney.Droid.Resource.Color.design_fab_stroke_end_outer_color;
-			global::XMRN.Android.Common.Resource.Color.design_fab_stroke_top_inner_color = global::FunnyMoney.Droid.Resource.Color.design_fab_stroke_top_inner_color;
-			global::XMRN.Android.Common.Resource.Color.design_fab_stroke_top_outer_color = global::FunnyMoney.Droid.Resource.Color.design_fab_stroke_top_outer_color;
-			global::XMRN.Android.Common.Resource.Color.design_snackbar_background_color = global::FunnyMoney.Droid.Resource.Color.design_snackbar_background_color;
-			global::XMRN.Android.Common.Resource.Color.design_tint_password_toggle = global::FunnyMoney.Droid.Resource.Color.design_tint_password_toggle;
-			global::XMRN.Android.Common.Resource.Color.dim_foreground_disabled_material_dark = global::FunnyMoney.Droid.Resource.Color.dim_foreground_disabled_material_dark;
-			global::XMRN.Android.Common.Resource.Color.dim_foreground_disabled_material_light = global::FunnyMoney.Droid.Resource.Color.dim_foreground_disabled_material_light;
-			global::XMRN.Android.Common.Resource.Color.dim_foreground_material_dark = global::FunnyMoney.Droid.Resource.Color.dim_foreground_material_dark;
-			global::XMRN.Android.Common.Resource.Color.dim_foreground_material_light = global::FunnyMoney.Droid.Resource.Color.dim_foreground_material_light;
-			global::XMRN.Android.Common.Resource.Color.error_color_material = global::FunnyMoney.Droid.Resource.Color.error_color_material;
-			global::XMRN.Android.Common.Resource.Color.foreground_material_dark = global::FunnyMoney.Droid.Resource.Color.foreground_material_dark;
-			global::XMRN.Android.Common.Resource.Color.foreground_material_light = global::FunnyMoney.Droid.Resource.Color.foreground_material_light;
-			global::XMRN.Android.Common.Resource.Color.highlighted_text_material_dark = global::FunnyMoney.Droid.Resource.Color.highlighted_text_material_dark;
-			global::XMRN.Android.Common.Resource.Color.highlighted_text_material_light = global::FunnyMoney.Droid.Resource.Color.highlighted_text_material_light;
-			global::XMRN.Android.Common.Resource.Color.material_blue_grey_800 = global::FunnyMoney.Droid.Resource.Color.material_blue_grey_800;
-			global::XMRN.Android.Common.Resource.Color.material_blue_grey_900 = global::FunnyMoney.Droid.Resource.Color.material_blue_grey_900;
-			global::XMRN.Android.Common.Resource.Color.material_blue_grey_950 = global::FunnyMoney.Droid.Resource.Color.material_blue_grey_950;
-			global::XMRN.Android.Common.Resource.Color.material_deep_teal_200 = global::FunnyMoney.Droid.Resource.Color.material_deep_teal_200;
-			global::XMRN.Android.Common.Resource.Color.material_deep_teal_500 = global::FunnyMoney.Droid.Resource.Color.material_deep_teal_500;
-			global::XMRN.Android.Common.Resource.Color.material_grey_100 = global::FunnyMoney.Droid.Resource.Color.material_grey_100;
-			global::XMRN.Android.Common.Resource.Color.material_grey_300 = global::FunnyMoney.Droid.Resource.Color.material_grey_300;
-			global::XMRN.Android.Common.Resource.Color.material_grey_50 = global::FunnyMoney.Droid.Resource.Color.material_grey_50;
-			global::XMRN.Android.Common.Resource.Color.material_grey_600 = global::FunnyMoney.Droid.Resource.Color.material_grey_600;
-			global::XMRN.Android.Common.Resource.Color.material_grey_800 = global::FunnyMoney.Droid.Resource.Color.material_grey_800;
-			global::XMRN.Android.Common.Resource.Color.material_grey_850 = global::FunnyMoney.Droid.Resource.Color.material_grey_850;
-			global::XMRN.Android.Common.Resource.Color.material_grey_900 = global::FunnyMoney.Droid.Resource.Color.material_grey_900;
-			global::XMRN.Android.Common.Resource.Color.notification_action_color_filter = global::FunnyMoney.Droid.Resource.Color.notification_action_color_filter;
-			global::XMRN.Android.Common.Resource.Color.notification_icon_bg_color = global::FunnyMoney.Droid.Resource.Color.notification_icon_bg_color;
-			global::XMRN.Android.Common.Resource.Color.notification_material_background_media_default_color = global::FunnyMoney.Droid.Resource.Color.notification_material_background_media_default_color;
-			global::XMRN.Android.Common.Resource.Color.primary_dark_material_dark = global::FunnyMoney.Droid.Resource.Color.primary_dark_material_dark;
-			global::XMRN.Android.Common.Resource.Color.primary_dark_material_light = global::FunnyMoney.Droid.Resource.Color.primary_dark_material_light;
-			global::XMRN.Android.Common.Resource.Color.primary_material_dark = global::FunnyMoney.Droid.Resource.Color.primary_material_dark;
-			global::XMRN.Android.Common.Resource.Color.primary_material_light = global::FunnyMoney.Droid.Resource.Color.primary_material_light;
-			global::XMRN.Android.Common.Resource.Color.primary_text_default_material_dark = global::FunnyMoney.Droid.Resource.Color.primary_text_default_material_dark;
-			global::XMRN.Android.Common.Resource.Color.primary_text_default_material_light = global::FunnyMoney.Droid.Resource.Color.primary_text_default_material_light;
-			global::XMRN.Android.Common.Resource.Color.primary_text_disabled_material_dark = global::FunnyMoney.Droid.Resource.Color.primary_text_disabled_material_dark;
-			global::XMRN.Android.Common.Resource.Color.primary_text_disabled_material_light = global::FunnyMoney.Droid.Resource.Color.primary_text_disabled_material_light;
-			global::XMRN.Android.Common.Resource.Color.ripple_material_dark = global::FunnyMoney.Droid.Resource.Color.ripple_material_dark;
-			global::XMRN.Android.Common.Resource.Color.ripple_material_light = global::FunnyMoney.Droid.Resource.Color.ripple_material_light;
-			global::XMRN.Android.Common.Resource.Color.secondary_text_default_material_dark = global::FunnyMoney.Droid.Resource.Color.secondary_text_default_material_dark;
-			global::XMRN.Android.Common.Resource.Color.secondary_text_default_material_light = global::FunnyMoney.Droid.Resource.Color.secondary_text_default_material_light;
-			global::XMRN.Android.Common.Resource.Color.secondary_text_disabled_material_dark = global::FunnyMoney.Droid.Resource.Color.secondary_text_disabled_material_dark;
-			global::XMRN.Android.Common.Resource.Color.secondary_text_disabled_material_light = global::FunnyMoney.Droid.Resource.Color.secondary_text_disabled_material_light;
-			global::XMRN.Android.Common.Resource.Color.switch_thumb_disabled_material_dark = global::FunnyMoney.Droid.Resource.Color.switch_thumb_disabled_material_dark;
-			global::XMRN.Android.Common.Resource.Color.switch_thumb_disabled_material_light = global::FunnyMoney.Droid.Resource.Color.switch_thumb_disabled_material_light;
-			global::XMRN.Android.Common.Resource.Color.switch_thumb_material_dark = global::FunnyMoney.Droid.Resource.Color.switch_thumb_material_dark;
-			global::XMRN.Android.Common.Resource.Color.switch_thumb_material_light = global::FunnyMoney.Droid.Resource.Color.switch_thumb_material_light;
-			global::XMRN.Android.Common.Resource.Color.switch_thumb_normal_material_dark = global::FunnyMoney.Droid.Resource.Color.switch_thumb_normal_material_dark;
-			global::XMRN.Android.Common.Resource.Color.switch_thumb_normal_material_light = global::FunnyMoney.Droid.Resource.Color.switch_thumb_normal_material_light;
-			global::XMRN.Android.Common.Resource.Color.tooltip_background_dark = global::FunnyMoney.Droid.Resource.Color.tooltip_background_dark;
-			global::XMRN.Android.Common.Resource.Color.tooltip_background_light = global::FunnyMoney.Droid.Resource.Color.tooltip_background_light;
-			global::XMRN.Android.Common.Resource.Dimension.abc_action_bar_content_inset_material = global::FunnyMoney.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::FunnyMoney.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
-			global::XMRN.Android.Common.Resource.Dimension.abc_action_bar_default_height_material = global::FunnyMoney.Droid.Resource.Dimension.abc_action_bar_default_height_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_action_bar_default_padding_end_material = global::FunnyMoney.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_action_bar_default_padding_start_material = global::FunnyMoney.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_action_bar_elevation_material = global::FunnyMoney.Droid.Resource.Dimension.abc_action_bar_elevation_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::FunnyMoney.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::FunnyMoney.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::FunnyMoney.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_action_bar_progress_bar_size = global::FunnyMoney.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
-			global::XMRN.Android.Common.Resource.Dimension.abc_action_bar_stacked_max_height = global::FunnyMoney.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
-			global::XMRN.Android.Common.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::FunnyMoney.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
-			global::XMRN.Android.Common.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::FunnyMoney.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::FunnyMoney.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_action_button_min_height_material = global::FunnyMoney.Droid.Resource.Dimension.abc_action_button_min_height_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_action_button_min_width_material = global::FunnyMoney.Droid.Resource.Dimension.abc_action_button_min_width_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_action_button_min_width_overflow_material = global::FunnyMoney.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_alert_dialog_button_bar_height = global::FunnyMoney.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
-			global::XMRN.Android.Common.Resource.Dimension.abc_button_inset_horizontal_material = global::FunnyMoney.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_button_inset_vertical_material = global::FunnyMoney.Droid.Resource.Dimension.abc_button_inset_vertical_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_button_padding_horizontal_material = global::FunnyMoney.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_button_padding_vertical_material = global::FunnyMoney.Droid.Resource.Dimension.abc_button_padding_vertical_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::FunnyMoney.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
-			global::XMRN.Android.Common.Resource.Dimension.abc_config_prefDialogWidth = global::FunnyMoney.Droid.Resource.Dimension.abc_config_prefDialogWidth;
-			global::XMRN.Android.Common.Resource.Dimension.abc_control_corner_material = global::FunnyMoney.Droid.Resource.Dimension.abc_control_corner_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_control_inset_material = global::FunnyMoney.Droid.Resource.Dimension.abc_control_inset_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_control_padding_material = global::FunnyMoney.Droid.Resource.Dimension.abc_control_padding_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_dialog_fixed_height_major = global::FunnyMoney.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
-			global::XMRN.Android.Common.Resource.Dimension.abc_dialog_fixed_height_minor = global::FunnyMoney.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
-			global::XMRN.Android.Common.Resource.Dimension.abc_dialog_fixed_width_major = global::FunnyMoney.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
-			global::XMRN.Android.Common.Resource.Dimension.abc_dialog_fixed_width_minor = global::FunnyMoney.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
-			global::XMRN.Android.Common.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::FunnyMoney.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
-			global::XMRN.Android.Common.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::FunnyMoney.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
-			global::XMRN.Android.Common.Resource.Dimension.abc_dialog_min_width_major = global::FunnyMoney.Droid.Resource.Dimension.abc_dialog_min_width_major;
-			global::XMRN.Android.Common.Resource.Dimension.abc_dialog_min_width_minor = global::FunnyMoney.Droid.Resource.Dimension.abc_dialog_min_width_minor;
-			global::XMRN.Android.Common.Resource.Dimension.abc_dialog_padding_material = global::FunnyMoney.Droid.Resource.Dimension.abc_dialog_padding_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_dialog_padding_top_material = global::FunnyMoney.Droid.Resource.Dimension.abc_dialog_padding_top_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_dialog_title_divider_material = global::FunnyMoney.Droid.Resource.Dimension.abc_dialog_title_divider_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_disabled_alpha_material_dark = global::FunnyMoney.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
-			global::XMRN.Android.Common.Resource.Dimension.abc_disabled_alpha_material_light = global::FunnyMoney.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
-			global::XMRN.Android.Common.Resource.Dimension.abc_dropdownitem_icon_width = global::FunnyMoney.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
-			global::XMRN.Android.Common.Resource.Dimension.abc_dropdownitem_text_padding_left = global::FunnyMoney.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
-			global::XMRN.Android.Common.Resource.Dimension.abc_dropdownitem_text_padding_right = global::FunnyMoney.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
-			global::XMRN.Android.Common.Resource.Dimension.abc_edit_text_inset_bottom_material = global::FunnyMoney.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::FunnyMoney.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_edit_text_inset_top_material = global::FunnyMoney.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_floating_window_z = global::FunnyMoney.Droid.Resource.Dimension.abc_floating_window_z;
-			global::XMRN.Android.Common.Resource.Dimension.abc_list_item_padding_horizontal_material = global::FunnyMoney.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_panel_menu_list_width = global::FunnyMoney.Droid.Resource.Dimension.abc_panel_menu_list_width;
-			global::XMRN.Android.Common.Resource.Dimension.abc_progress_bar_height_material = global::FunnyMoney.Droid.Resource.Dimension.abc_progress_bar_height_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_search_view_preferred_height = global::FunnyMoney.Droid.Resource.Dimension.abc_search_view_preferred_height;
-			global::XMRN.Android.Common.Resource.Dimension.abc_search_view_preferred_width = global::FunnyMoney.Droid.Resource.Dimension.abc_search_view_preferred_width;
-			global::XMRN.Android.Common.Resource.Dimension.abc_seekbar_track_background_height_material = global::FunnyMoney.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_seekbar_track_progress_height_material = global::FunnyMoney.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_select_dialog_padding_start_material = global::FunnyMoney.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_switch_padding = global::FunnyMoney.Droid.Resource.Dimension.abc_switch_padding;
-			global::XMRN.Android.Common.Resource.Dimension.abc_text_size_body_1_material = global::FunnyMoney.Droid.Resource.Dimension.abc_text_size_body_1_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_text_size_body_2_material = global::FunnyMoney.Droid.Resource.Dimension.abc_text_size_body_2_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_text_size_button_material = global::FunnyMoney.Droid.Resource.Dimension.abc_text_size_button_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_text_size_caption_material = global::FunnyMoney.Droid.Resource.Dimension.abc_text_size_caption_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_text_size_display_1_material = global::FunnyMoney.Droid.Resource.Dimension.abc_text_size_display_1_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_text_size_display_2_material = global::FunnyMoney.Droid.Resource.Dimension.abc_text_size_display_2_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_text_size_display_3_material = global::FunnyMoney.Droid.Resource.Dimension.abc_text_size_display_3_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_text_size_display_4_material = global::FunnyMoney.Droid.Resource.Dimension.abc_text_size_display_4_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_text_size_headline_material = global::FunnyMoney.Droid.Resource.Dimension.abc_text_size_headline_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_text_size_large_material = global::FunnyMoney.Droid.Resource.Dimension.abc_text_size_large_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_text_size_medium_material = global::FunnyMoney.Droid.Resource.Dimension.abc_text_size_medium_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_text_size_menu_header_material = global::FunnyMoney.Droid.Resource.Dimension.abc_text_size_menu_header_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_text_size_menu_material = global::FunnyMoney.Droid.Resource.Dimension.abc_text_size_menu_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_text_size_small_material = global::FunnyMoney.Droid.Resource.Dimension.abc_text_size_small_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_text_size_subhead_material = global::FunnyMoney.Droid.Resource.Dimension.abc_text_size_subhead_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::FunnyMoney.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
-			global::XMRN.Android.Common.Resource.Dimension.abc_text_size_title_material = global::FunnyMoney.Droid.Resource.Dimension.abc_text_size_title_material;
-			global::XMRN.Android.Common.Resource.Dimension.abc_text_size_title_material_toolbar = global::FunnyMoney.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::XMRN.Android.Common.Resource.Dimension.cardview_compat_inset_shadow = global::FunnyMoney.Droid.Resource.Dimension.cardview_compat_inset_shadow;
-			global::XMRN.Android.Common.Resource.Dimension.cardview_default_elevation = global::FunnyMoney.Droid.Resource.Dimension.cardview_default_elevation;
-			global::XMRN.Android.Common.Resource.Dimension.cardview_default_radius = global::FunnyMoney.Droid.Resource.Dimension.cardview_default_radius;
-			global::XMRN.Android.Common.Resource.Dimension.compat_button_inset_horizontal_material = global::FunnyMoney.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
-			global::XMRN.Android.Common.Resource.Dimension.compat_button_inset_vertical_material = global::FunnyMoney.Droid.Resource.Dimension.compat_button_inset_vertical_material;
-			global::XMRN.Android.Common.Resource.Dimension.compat_button_padding_horizontal_material = global::FunnyMoney.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
-			global::XMRN.Android.Common.Resource.Dimension.compat_button_padding_vertical_material = global::FunnyMoney.Droid.Resource.Dimension.compat_button_padding_vertical_material;
-			global::XMRN.Android.Common.Resource.Dimension.compat_control_corner_material = global::FunnyMoney.Droid.Resource.Dimension.compat_control_corner_material;
-			global::XMRN.Android.Common.Resource.Dimension.design_appbar_elevation = global::FunnyMoney.Droid.Resource.Dimension.design_appbar_elevation;
-			global::XMRN.Android.Common.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::FunnyMoney.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
-			global::XMRN.Android.Common.Resource.Dimension.design_bottom_navigation_active_text_size = global::FunnyMoney.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
-			global::XMRN.Android.Common.Resource.Dimension.design_bottom_navigation_elevation = global::FunnyMoney.Droid.Resource.Dimension.design_bottom_navigation_elevation;
-			global::XMRN.Android.Common.Resource.Dimension.design_bottom_navigation_height = global::FunnyMoney.Droid.Resource.Dimension.design_bottom_navigation_height;
-			global::XMRN.Android.Common.Resource.Dimension.design_bottom_navigation_item_max_width = global::FunnyMoney.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
-			global::XMRN.Android.Common.Resource.Dimension.design_bottom_navigation_item_min_width = global::FunnyMoney.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
-			global::XMRN.Android.Common.Resource.Dimension.design_bottom_navigation_margin = global::FunnyMoney.Droid.Resource.Dimension.design_bottom_navigation_margin;
-			global::XMRN.Android.Common.Resource.Dimension.design_bottom_navigation_shadow_height = global::FunnyMoney.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
-			global::XMRN.Android.Common.Resource.Dimension.design_bottom_navigation_text_size = global::FunnyMoney.Droid.Resource.Dimension.design_bottom_navigation_text_size;
-			global::XMRN.Android.Common.Resource.Dimension.design_bottom_sheet_modal_elevation = global::FunnyMoney.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
-			global::XMRN.Android.Common.Resource.Dimension.design_bottom_sheet_peek_height_min = global::FunnyMoney.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
-			global::XMRN.Android.Common.Resource.Dimension.design_fab_border_width = global::FunnyMoney.Droid.Resource.Dimension.design_fab_border_width;
-			global::XMRN.Android.Common.Resource.Dimension.design_fab_elevation = global::FunnyMoney.Droid.Resource.Dimension.design_fab_elevation;
-			global::XMRN.Android.Common.Resource.Dimension.design_fab_image_size = global::FunnyMoney.Droid.Resource.Dimension.design_fab_image_size;
-			global::XMRN.Android.Common.Resource.Dimension.design_fab_size_mini = global::FunnyMoney.Droid.Resource.Dimension.design_fab_size_mini;
-			global::XMRN.Android.Common.Resource.Dimension.design_fab_size_normal = global::FunnyMoney.Droid.Resource.Dimension.design_fab_size_normal;
-			global::XMRN.Android.Common.Resource.Dimension.design_fab_translation_z_pressed = global::FunnyMoney.Droid.Resource.Dimension.design_fab_translation_z_pressed;
-			global::XMRN.Android.Common.Resource.Dimension.design_navigation_elevation = global::FunnyMoney.Droid.Resource.Dimension.design_navigation_elevation;
-			global::XMRN.Android.Common.Resource.Dimension.design_navigation_icon_padding = global::FunnyMoney.Droid.Resource.Dimension.design_navigation_icon_padding;
-			global::XMRN.Android.Common.Resource.Dimension.design_navigation_icon_size = global::FunnyMoney.Droid.Resource.Dimension.design_navigation_icon_size;
-			global::XMRN.Android.Common.Resource.Dimension.design_navigation_max_width = global::FunnyMoney.Droid.Resource.Dimension.design_navigation_max_width;
-			global::XMRN.Android.Common.Resource.Dimension.design_navigation_padding_bottom = global::FunnyMoney.Droid.Resource.Dimension.design_navigation_padding_bottom;
-			global::XMRN.Android.Common.Resource.Dimension.design_navigation_separator_vertical_padding = global::FunnyMoney.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
-			global::XMRN.Android.Common.Resource.Dimension.design_snackbar_action_inline_max_width = global::FunnyMoney.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
-			global::XMRN.Android.Common.Resource.Dimension.design_snackbar_background_corner_radius = global::FunnyMoney.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
-			global::XMRN.Android.Common.Resource.Dimension.design_snackbar_elevation = global::FunnyMoney.Droid.Resource.Dimension.design_snackbar_elevation;
-			global::XMRN.Android.Common.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::FunnyMoney.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
-			global::XMRN.Android.Common.Resource.Dimension.design_snackbar_max_width = global::FunnyMoney.Droid.Resource.Dimension.design_snackbar_max_width;
-			global::XMRN.Android.Common.Resource.Dimension.design_snackbar_min_width = global::FunnyMoney.Droid.Resource.Dimension.design_snackbar_min_width;
-			global::XMRN.Android.Common.Resource.Dimension.design_snackbar_padding_horizontal = global::FunnyMoney.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
-			global::XMRN.Android.Common.Resource.Dimension.design_snackbar_padding_vertical = global::FunnyMoney.Droid.Resource.Dimension.design_snackbar_padding_vertical;
-			global::XMRN.Android.Common.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::FunnyMoney.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
-			global::XMRN.Android.Common.Resource.Dimension.design_snackbar_text_size = global::FunnyMoney.Droid.Resource.Dimension.design_snackbar_text_size;
-			global::XMRN.Android.Common.Resource.Dimension.design_tab_max_width = global::FunnyMoney.Droid.Resource.Dimension.design_tab_max_width;
-			global::XMRN.Android.Common.Resource.Dimension.design_tab_scrollable_min_width = global::FunnyMoney.Droid.Resource.Dimension.design_tab_scrollable_min_width;
-			global::XMRN.Android.Common.Resource.Dimension.design_tab_text_size = global::FunnyMoney.Droid.Resource.Dimension.design_tab_text_size;
-			global::XMRN.Android.Common.Resource.Dimension.design_tab_text_size_2line = global::FunnyMoney.Droid.Resource.Dimension.design_tab_text_size_2line;
-			global::XMRN.Android.Common.Resource.Dimension.disabled_alpha_material_dark = global::FunnyMoney.Droid.Resource.Dimension.disabled_alpha_material_dark;
-			global::XMRN.Android.Common.Resource.Dimension.disabled_alpha_material_light = global::FunnyMoney.Droid.Resource.Dimension.disabled_alpha_material_light;
-			global::XMRN.Android.Common.Resource.Dimension.fastscroll_default_thickness = global::FunnyMoney.Droid.Resource.Dimension.fastscroll_default_thickness;
-			global::XMRN.Android.Common.Resource.Dimension.fastscroll_margin = global::FunnyMoney.Droid.Resource.Dimension.fastscroll_margin;
-			global::XMRN.Android.Common.Resource.Dimension.fastscroll_minimum_range = global::FunnyMoney.Droid.Resource.Dimension.fastscroll_minimum_range;
-			global::XMRN.Android.Common.Resource.Dimension.highlight_alpha_material_colored = global::FunnyMoney.Droid.Resource.Dimension.highlight_alpha_material_colored;
-			global::XMRN.Android.Common.Resource.Dimension.highlight_alpha_material_dark = global::FunnyMoney.Droid.Resource.Dimension.highlight_alpha_material_dark;
-			global::XMRN.Android.Common.Resource.Dimension.highlight_alpha_material_light = global::FunnyMoney.Droid.Resource.Dimension.highlight_alpha_material_light;
-			global::XMRN.Android.Common.Resource.Dimension.hint_alpha_material_dark = global::FunnyMoney.Droid.Resource.Dimension.hint_alpha_material_dark;
-			global::XMRN.Android.Common.Resource.Dimension.hint_alpha_material_light = global::FunnyMoney.Droid.Resource.Dimension.hint_alpha_material_light;
-			global::XMRN.Android.Common.Resource.Dimension.hint_pressed_alpha_material_dark = global::FunnyMoney.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
-			global::XMRN.Android.Common.Resource.Dimension.hint_pressed_alpha_material_light = global::FunnyMoney.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
-			global::XMRN.Android.Common.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::FunnyMoney.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
-			global::XMRN.Android.Common.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::FunnyMoney.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
-			global::XMRN.Android.Common.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::FunnyMoney.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
-			global::XMRN.Android.Common.Resource.Dimension.mr_controller_volume_group_list_item_height = global::FunnyMoney.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
-			global::XMRN.Android.Common.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::FunnyMoney.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
-			global::XMRN.Android.Common.Resource.Dimension.mr_controller_volume_group_list_max_height = global::FunnyMoney.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
-			global::XMRN.Android.Common.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::FunnyMoney.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
-			global::XMRN.Android.Common.Resource.Dimension.mr_dialog_fixed_width_major = global::FunnyMoney.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
-			global::XMRN.Android.Common.Resource.Dimension.mr_dialog_fixed_width_minor = global::FunnyMoney.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
-			global::XMRN.Android.Common.Resource.Dimension.notification_action_icon_size = global::FunnyMoney.Droid.Resource.Dimension.notification_action_icon_size;
-			global::XMRN.Android.Common.Resource.Dimension.notification_action_text_size = global::FunnyMoney.Droid.Resource.Dimension.notification_action_text_size;
-			global::XMRN.Android.Common.Resource.Dimension.notification_big_circle_margin = global::FunnyMoney.Droid.Resource.Dimension.notification_big_circle_margin;
-			global::XMRN.Android.Common.Resource.Dimension.notification_content_margin_start = global::FunnyMoney.Droid.Resource.Dimension.notification_content_margin_start;
-			global::XMRN.Android.Common.Resource.Dimension.notification_large_icon_height = global::FunnyMoney.Droid.Resource.Dimension.notification_large_icon_height;
-			global::XMRN.Android.Common.Resource.Dimension.notification_large_icon_width = global::FunnyMoney.Droid.Resource.Dimension.notification_large_icon_width;
-			global::XMRN.Android.Common.Resource.Dimension.notification_main_column_padding_top = global::FunnyMoney.Droid.Resource.Dimension.notification_main_column_padding_top;
-			global::XMRN.Android.Common.Resource.Dimension.notification_media_narrow_margin = global::FunnyMoney.Droid.Resource.Dimension.notification_media_narrow_margin;
-			global::XMRN.Android.Common.Resource.Dimension.notification_right_icon_size = global::FunnyMoney.Droid.Resource.Dimension.notification_right_icon_size;
-			global::XMRN.Android.Common.Resource.Dimension.notification_right_side_padding_top = global::FunnyMoney.Droid.Resource.Dimension.notification_right_side_padding_top;
-			global::XMRN.Android.Common.Resource.Dimension.notification_small_icon_background_padding = global::FunnyMoney.Droid.Resource.Dimension.notification_small_icon_background_padding;
-			global::XMRN.Android.Common.Resource.Dimension.notification_small_icon_size_as_large = global::FunnyMoney.Droid.Resource.Dimension.notification_small_icon_size_as_large;
-			global::XMRN.Android.Common.Resource.Dimension.notification_subtext_size = global::FunnyMoney.Droid.Resource.Dimension.notification_subtext_size;
-			global::XMRN.Android.Common.Resource.Dimension.notification_top_pad = global::FunnyMoney.Droid.Resource.Dimension.notification_top_pad;
-			global::XMRN.Android.Common.Resource.Dimension.notification_top_pad_large_text = global::FunnyMoney.Droid.Resource.Dimension.notification_top_pad_large_text;
-			global::XMRN.Android.Common.Resource.Dimension.tooltip_corner_radius = global::FunnyMoney.Droid.Resource.Dimension.tooltip_corner_radius;
-			global::XMRN.Android.Common.Resource.Dimension.tooltip_horizontal_padding = global::FunnyMoney.Droid.Resource.Dimension.tooltip_horizontal_padding;
-			global::XMRN.Android.Common.Resource.Dimension.tooltip_margin = global::FunnyMoney.Droid.Resource.Dimension.tooltip_margin;
-			global::XMRN.Android.Common.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::FunnyMoney.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
-			global::XMRN.Android.Common.Resource.Dimension.tooltip_precise_anchor_threshold = global::FunnyMoney.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
-			global::XMRN.Android.Common.Resource.Dimension.tooltip_vertical_padding = global::FunnyMoney.Droid.Resource.Dimension.tooltip_vertical_padding;
-			global::XMRN.Android.Common.Resource.Dimension.tooltip_y_offset_non_touch = global::FunnyMoney.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
-			global::XMRN.Android.Common.Resource.Dimension.tooltip_y_offset_touch = global::FunnyMoney.Droid.Resource.Dimension.tooltip_y_offset_touch;
-			global::XMRN.Android.Common.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::FunnyMoney.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
-			global::XMRN.Android.Common.Resource.Drawable.abc_action_bar_item_background_material = global::FunnyMoney.Droid.Resource.Drawable.abc_action_bar_item_background_material;
-			global::XMRN.Android.Common.Resource.Drawable.abc_btn_borderless_material = global::FunnyMoney.Droid.Resource.Drawable.abc_btn_borderless_material;
-			global::XMRN.Android.Common.Resource.Drawable.abc_btn_check_material = global::FunnyMoney.Droid.Resource.Drawable.abc_btn_check_material;
-			global::XMRN.Android.Common.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::FunnyMoney.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
-			global::XMRN.Android.Common.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::FunnyMoney.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
-			global::XMRN.Android.Common.Resource.Drawable.abc_btn_colored_material = global::FunnyMoney.Droid.Resource.Drawable.abc_btn_colored_material;
-			global::XMRN.Android.Common.Resource.Drawable.abc_btn_default_mtrl_shape = global::FunnyMoney.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
-			global::XMRN.Android.Common.Resource.Drawable.abc_btn_radio_material = global::FunnyMoney.Droid.Resource.Drawable.abc_btn_radio_material;
-			global::XMRN.Android.Common.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::FunnyMoney.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
-			global::XMRN.Android.Common.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::FunnyMoney.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
-			global::XMRN.Android.Common.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::FunnyMoney.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
-			global::XMRN.Android.Common.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::FunnyMoney.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
-			global::XMRN.Android.Common.Resource.Drawable.abc_cab_background_internal_bg = global::FunnyMoney.Droid.Resource.Drawable.abc_cab_background_internal_bg;
-			global::XMRN.Android.Common.Resource.Drawable.abc_cab_background_top_material = global::FunnyMoney.Droid.Resource.Drawable.abc_cab_background_top_material;
-			global::XMRN.Android.Common.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::FunnyMoney.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
-			global::XMRN.Android.Common.Resource.Drawable.abc_control_background_material = global::FunnyMoney.Droid.Resource.Drawable.abc_control_background_material;
-			global::XMRN.Android.Common.Resource.Drawable.abc_dialog_material_background = global::FunnyMoney.Droid.Resource.Drawable.abc_dialog_material_background;
-			global::XMRN.Android.Common.Resource.Drawable.abc_edit_text_material = global::FunnyMoney.Droid.Resource.Drawable.abc_edit_text_material;
-			global::XMRN.Android.Common.Resource.Drawable.abc_ic_ab_back_material = global::FunnyMoney.Droid.Resource.Drawable.abc_ic_ab_back_material;
-			global::XMRN.Android.Common.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::FunnyMoney.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
-			global::XMRN.Android.Common.Resource.Drawable.abc_ic_clear_material = global::FunnyMoney.Droid.Resource.Drawable.abc_ic_clear_material;
-			global::XMRN.Android.Common.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::FunnyMoney.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
-			global::XMRN.Android.Common.Resource.Drawable.abc_ic_go_search_api_material = global::FunnyMoney.Droid.Resource.Drawable.abc_ic_go_search_api_material;
-			global::XMRN.Android.Common.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::FunnyMoney.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
-			global::XMRN.Android.Common.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::FunnyMoney.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
-			global::XMRN.Android.Common.Resource.Drawable.abc_ic_menu_overflow_material = global::FunnyMoney.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
-			global::XMRN.Android.Common.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::FunnyMoney.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
-			global::XMRN.Android.Common.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::FunnyMoney.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
-			global::XMRN.Android.Common.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::FunnyMoney.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
-			global::XMRN.Android.Common.Resource.Drawable.abc_ic_search_api_material = global::FunnyMoney.Droid.Resource.Drawable.abc_ic_search_api_material;
-			global::XMRN.Android.Common.Resource.Drawable.abc_ic_star_black_16dp = global::FunnyMoney.Droid.Resource.Drawable.abc_ic_star_black_16dp;
-			global::XMRN.Android.Common.Resource.Drawable.abc_ic_star_black_36dp = global::FunnyMoney.Droid.Resource.Drawable.abc_ic_star_black_36dp;
-			global::XMRN.Android.Common.Resource.Drawable.abc_ic_star_black_48dp = global::FunnyMoney.Droid.Resource.Drawable.abc_ic_star_black_48dp;
-			global::XMRN.Android.Common.Resource.Drawable.abc_ic_star_half_black_16dp = global::FunnyMoney.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
-			global::XMRN.Android.Common.Resource.Drawable.abc_ic_star_half_black_36dp = global::FunnyMoney.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
-			global::XMRN.Android.Common.Resource.Drawable.abc_ic_star_half_black_48dp = global::FunnyMoney.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
-			global::XMRN.Android.Common.Resource.Drawable.abc_ic_voice_search_api_material = global::FunnyMoney.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
-			global::XMRN.Android.Common.Resource.Drawable.abc_item_background_holo_dark = global::FunnyMoney.Droid.Resource.Drawable.abc_item_background_holo_dark;
-			global::XMRN.Android.Common.Resource.Drawable.abc_item_background_holo_light = global::FunnyMoney.Droid.Resource.Drawable.abc_item_background_holo_light;
-			global::XMRN.Android.Common.Resource.Drawable.abc_list_divider_mtrl_alpha = global::FunnyMoney.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
-			global::XMRN.Android.Common.Resource.Drawable.abc_list_focused_holo = global::FunnyMoney.Droid.Resource.Drawable.abc_list_focused_holo;
-			global::XMRN.Android.Common.Resource.Drawable.abc_list_longpressed_holo = global::FunnyMoney.Droid.Resource.Drawable.abc_list_longpressed_holo;
-			global::XMRN.Android.Common.Resource.Drawable.abc_list_pressed_holo_dark = global::FunnyMoney.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
-			global::XMRN.Android.Common.Resource.Drawable.abc_list_pressed_holo_light = global::FunnyMoney.Droid.Resource.Drawable.abc_list_pressed_holo_light;
-			global::XMRN.Android.Common.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::FunnyMoney.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
-			global::XMRN.Android.Common.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::FunnyMoney.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
-			global::XMRN.Android.Common.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::FunnyMoney.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
-			global::XMRN.Android.Common.Resource.Drawable.abc_list_selector_disabled_holo_light = global::FunnyMoney.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
-			global::XMRN.Android.Common.Resource.Drawable.abc_list_selector_holo_dark = global::FunnyMoney.Droid.Resource.Drawable.abc_list_selector_holo_dark;
-			global::XMRN.Android.Common.Resource.Drawable.abc_list_selector_holo_light = global::FunnyMoney.Droid.Resource.Drawable.abc_list_selector_holo_light;
-			global::XMRN.Android.Common.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::FunnyMoney.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
-			global::XMRN.Android.Common.Resource.Drawable.abc_popup_background_mtrl_mult = global::FunnyMoney.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
-			global::XMRN.Android.Common.Resource.Drawable.abc_ratingbar_indicator_material = global::FunnyMoney.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
-			global::XMRN.Android.Common.Resource.Drawable.abc_ratingbar_material = global::FunnyMoney.Droid.Resource.Drawable.abc_ratingbar_material;
-			global::XMRN.Android.Common.Resource.Drawable.abc_ratingbar_small_material = global::FunnyMoney.Droid.Resource.Drawable.abc_ratingbar_small_material;
-			global::XMRN.Android.Common.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::FunnyMoney.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
-			global::XMRN.Android.Common.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::FunnyMoney.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
-			global::XMRN.Android.Common.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::FunnyMoney.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
-			global::XMRN.Android.Common.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::FunnyMoney.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
-			global::XMRN.Android.Common.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::FunnyMoney.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
-			global::XMRN.Android.Common.Resource.Drawable.abc_seekbar_thumb_material = global::FunnyMoney.Droid.Resource.Drawable.abc_seekbar_thumb_material;
-			global::XMRN.Android.Common.Resource.Drawable.abc_seekbar_tick_mark_material = global::FunnyMoney.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
-			global::XMRN.Android.Common.Resource.Drawable.abc_seekbar_track_material = global::FunnyMoney.Droid.Resource.Drawable.abc_seekbar_track_material;
-			global::XMRN.Android.Common.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::FunnyMoney.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
-			global::XMRN.Android.Common.Resource.Drawable.abc_spinner_textfield_background_material = global::FunnyMoney.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
-			global::XMRN.Android.Common.Resource.Drawable.abc_switch_thumb_material = global::FunnyMoney.Droid.Resource.Drawable.abc_switch_thumb_material;
-			global::XMRN.Android.Common.Resource.Drawable.abc_switch_track_mtrl_alpha = global::FunnyMoney.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
-			global::XMRN.Android.Common.Resource.Drawable.abc_tab_indicator_material = global::FunnyMoney.Droid.Resource.Drawable.abc_tab_indicator_material;
-			global::XMRN.Android.Common.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::FunnyMoney.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
-			global::XMRN.Android.Common.Resource.Drawable.abc_text_cursor_material = global::FunnyMoney.Droid.Resource.Drawable.abc_text_cursor_material;
-			global::XMRN.Android.Common.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::FunnyMoney.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
-			global::XMRN.Android.Common.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::FunnyMoney.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
-			global::XMRN.Android.Common.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::FunnyMoney.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
-			global::XMRN.Android.Common.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::FunnyMoney.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
-			global::XMRN.Android.Common.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::FunnyMoney.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
-			global::XMRN.Android.Common.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::FunnyMoney.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
-			global::XMRN.Android.Common.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::FunnyMoney.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
-			global::XMRN.Android.Common.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::FunnyMoney.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
-			global::XMRN.Android.Common.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::FunnyMoney.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
-			global::XMRN.Android.Common.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::FunnyMoney.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
-			global::XMRN.Android.Common.Resource.Drawable.abc_textfield_search_material = global::FunnyMoney.Droid.Resource.Drawable.abc_textfield_search_material;
-			global::XMRN.Android.Common.Resource.Drawable.abc_vector_test = global::FunnyMoney.Droid.Resource.Drawable.abc_vector_test;
-			global::XMRN.Android.Common.Resource.Drawable.avd_hide_password = global::FunnyMoney.Droid.Resource.Drawable.avd_hide_password;
-			global::XMRN.Android.Common.Resource.Drawable.avd_hide_password_1 = global::FunnyMoney.Droid.Resource.Drawable.avd_hide_password_1;
-			global::XMRN.Android.Common.Resource.Drawable.avd_hide_password_2 = global::FunnyMoney.Droid.Resource.Drawable.avd_hide_password_2;
-			global::XMRN.Android.Common.Resource.Drawable.avd_hide_password_3 = global::FunnyMoney.Droid.Resource.Drawable.avd_hide_password_3;
-			global::XMRN.Android.Common.Resource.Drawable.avd_show_password = global::FunnyMoney.Droid.Resource.Drawable.avd_show_password;
-			global::XMRN.Android.Common.Resource.Drawable.avd_show_password_1 = global::FunnyMoney.Droid.Resource.Drawable.avd_show_password_1;
-			global::XMRN.Android.Common.Resource.Drawable.avd_show_password_2 = global::FunnyMoney.Droid.Resource.Drawable.avd_show_password_2;
-			global::XMRN.Android.Common.Resource.Drawable.avd_show_password_3 = global::FunnyMoney.Droid.Resource.Drawable.avd_show_password_3;
-			global::XMRN.Android.Common.Resource.Drawable.design_bottom_navigation_item_background = global::FunnyMoney.Droid.Resource.Drawable.design_bottom_navigation_item_background;
-			global::XMRN.Android.Common.Resource.Drawable.design_fab_background = global::FunnyMoney.Droid.Resource.Drawable.design_fab_background;
-			global::XMRN.Android.Common.Resource.Drawable.design_ic_visibility = global::FunnyMoney.Droid.Resource.Drawable.design_ic_visibility;
-			global::XMRN.Android.Common.Resource.Drawable.design_ic_visibility_off = global::FunnyMoney.Droid.Resource.Drawable.design_ic_visibility_off;
-			global::XMRN.Android.Common.Resource.Drawable.design_password_eye = global::FunnyMoney.Droid.Resource.Drawable.design_password_eye;
-			global::XMRN.Android.Common.Resource.Drawable.design_snackbar_background = global::FunnyMoney.Droid.Resource.Drawable.design_snackbar_background;
-			global::XMRN.Android.Common.Resource.Drawable.ic_audiotrack_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_audiotrack_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_audiotrack_light = global::FunnyMoney.Droid.Resource.Drawable.ic_audiotrack_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_dialog_close_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_dialog_close_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_dialog_close_light = global::FunnyMoney.Droid.Resource.Drawable.ic_dialog_close_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_group_collapse_00 = global::FunnyMoney.Droid.Resource.Drawable.ic_group_collapse_00;
-			global::XMRN.Android.Common.Resource.Drawable.ic_group_collapse_01 = global::FunnyMoney.Droid.Resource.Drawable.ic_group_collapse_01;
-			global::XMRN.Android.Common.Resource.Drawable.ic_group_collapse_02 = global::FunnyMoney.Droid.Resource.Drawable.ic_group_collapse_02;
-			global::XMRN.Android.Common.Resource.Drawable.ic_group_collapse_03 = global::FunnyMoney.Droid.Resource.Drawable.ic_group_collapse_03;
-			global::XMRN.Android.Common.Resource.Drawable.ic_group_collapse_04 = global::FunnyMoney.Droid.Resource.Drawable.ic_group_collapse_04;
-			global::XMRN.Android.Common.Resource.Drawable.ic_group_collapse_05 = global::FunnyMoney.Droid.Resource.Drawable.ic_group_collapse_05;
-			global::XMRN.Android.Common.Resource.Drawable.ic_group_collapse_06 = global::FunnyMoney.Droid.Resource.Drawable.ic_group_collapse_06;
-			global::XMRN.Android.Common.Resource.Drawable.ic_group_collapse_07 = global::FunnyMoney.Droid.Resource.Drawable.ic_group_collapse_07;
-			global::XMRN.Android.Common.Resource.Drawable.ic_group_collapse_08 = global::FunnyMoney.Droid.Resource.Drawable.ic_group_collapse_08;
-			global::XMRN.Android.Common.Resource.Drawable.ic_group_collapse_09 = global::FunnyMoney.Droid.Resource.Drawable.ic_group_collapse_09;
-			global::XMRN.Android.Common.Resource.Drawable.ic_group_collapse_10 = global::FunnyMoney.Droid.Resource.Drawable.ic_group_collapse_10;
-			global::XMRN.Android.Common.Resource.Drawable.ic_group_collapse_11 = global::FunnyMoney.Droid.Resource.Drawable.ic_group_collapse_11;
-			global::XMRN.Android.Common.Resource.Drawable.ic_group_collapse_12 = global::FunnyMoney.Droid.Resource.Drawable.ic_group_collapse_12;
-			global::XMRN.Android.Common.Resource.Drawable.ic_group_collapse_13 = global::FunnyMoney.Droid.Resource.Drawable.ic_group_collapse_13;
-			global::XMRN.Android.Common.Resource.Drawable.ic_group_collapse_14 = global::FunnyMoney.Droid.Resource.Drawable.ic_group_collapse_14;
-			global::XMRN.Android.Common.Resource.Drawable.ic_group_collapse_15 = global::FunnyMoney.Droid.Resource.Drawable.ic_group_collapse_15;
-			global::XMRN.Android.Common.Resource.Drawable.ic_group_expand_00 = global::FunnyMoney.Droid.Resource.Drawable.ic_group_expand_00;
-			global::XMRN.Android.Common.Resource.Drawable.ic_group_expand_01 = global::FunnyMoney.Droid.Resource.Drawable.ic_group_expand_01;
-			global::XMRN.Android.Common.Resource.Drawable.ic_group_expand_02 = global::FunnyMoney.Droid.Resource.Drawable.ic_group_expand_02;
-			global::XMRN.Android.Common.Resource.Drawable.ic_group_expand_03 = global::FunnyMoney.Droid.Resource.Drawable.ic_group_expand_03;
-			global::XMRN.Android.Common.Resource.Drawable.ic_group_expand_04 = global::FunnyMoney.Droid.Resource.Drawable.ic_group_expand_04;
-			global::XMRN.Android.Common.Resource.Drawable.ic_group_expand_05 = global::FunnyMoney.Droid.Resource.Drawable.ic_group_expand_05;
-			global::XMRN.Android.Common.Resource.Drawable.ic_group_expand_06 = global::FunnyMoney.Droid.Resource.Drawable.ic_group_expand_06;
-			global::XMRN.Android.Common.Resource.Drawable.ic_group_expand_07 = global::FunnyMoney.Droid.Resource.Drawable.ic_group_expand_07;
-			global::XMRN.Android.Common.Resource.Drawable.ic_group_expand_08 = global::FunnyMoney.Droid.Resource.Drawable.ic_group_expand_08;
-			global::XMRN.Android.Common.Resource.Drawable.ic_group_expand_09 = global::FunnyMoney.Droid.Resource.Drawable.ic_group_expand_09;
-			global::XMRN.Android.Common.Resource.Drawable.ic_group_expand_10 = global::FunnyMoney.Droid.Resource.Drawable.ic_group_expand_10;
-			global::XMRN.Android.Common.Resource.Drawable.ic_group_expand_11 = global::FunnyMoney.Droid.Resource.Drawable.ic_group_expand_11;
-			global::XMRN.Android.Common.Resource.Drawable.ic_group_expand_12 = global::FunnyMoney.Droid.Resource.Drawable.ic_group_expand_12;
-			global::XMRN.Android.Common.Resource.Drawable.ic_group_expand_13 = global::FunnyMoney.Droid.Resource.Drawable.ic_group_expand_13;
-			global::XMRN.Android.Common.Resource.Drawable.ic_group_expand_14 = global::FunnyMoney.Droid.Resource.Drawable.ic_group_expand_14;
-			global::XMRN.Android.Common.Resource.Drawable.ic_group_expand_15 = global::FunnyMoney.Droid.Resource.Drawable.ic_group_expand_15;
-			global::XMRN.Android.Common.Resource.Drawable.ic_media_pause_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_media_pause_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_media_pause_light = global::FunnyMoney.Droid.Resource.Drawable.ic_media_pause_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_media_play_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_media_play_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_media_play_light = global::FunnyMoney.Droid.Resource.Drawable.ic_media_play_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_media_stop_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_media_stop_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_media_stop_light = global::FunnyMoney.Droid.Resource.Drawable.ic_media_stop_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_00_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_00_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_00_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_00_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_01_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_01_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_01_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_01_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_02_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_02_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_02_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_02_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_03_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_03_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_03_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_03_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_04_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_04_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_04_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_04_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_05_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_05_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_05_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_05_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_06_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_06_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_06_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_06_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_07_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_07_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_07_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_07_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_08_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_08_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_08_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_08_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_09_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_09_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_09_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_09_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_10_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_10_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_10_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_10_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_11_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_11_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_11_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_11_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_12_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_12_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_12_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_12_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_13_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_13_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_13_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_13_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_14_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_14_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_14_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_14_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_15_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_15_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_15_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_15_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_16_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_16_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_16_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_16_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_17_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_17_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_17_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_17_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_18_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_18_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_18_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_18_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_19_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_19_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_19_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_19_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_20_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_20_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_20_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_20_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_21_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_21_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_21_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_21_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_22_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_22_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_22_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_22_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_23_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_23_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_23_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_23_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_24_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_24_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_24_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_24_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_25_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_25_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_25_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_25_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_26_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_26_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_26_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_26_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_27_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_27_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_27_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_27_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_28_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_28_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_28_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_28_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_29_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_29_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_29_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_29_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_30_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_30_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connected_30_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connected_30_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_00_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_00_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_00_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_01_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_01_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_01_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_02_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_02_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_02_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_03_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_03_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_03_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_04_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_04_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_04_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_05_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_05_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_05_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_06_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_06_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_06_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_07_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_07_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_07_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_08_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_08_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_08_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_09_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_09_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_09_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_10_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_10_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_10_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_11_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_11_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_11_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_12_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_12_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_12_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_13_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_13_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_13_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_14_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_14_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_14_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_15_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_15_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_15_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_16_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_16_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_16_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_17_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_17_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_17_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_18_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_18_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_18_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_19_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_19_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_19_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_20_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_20_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_20_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_21_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_21_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_21_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_22_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_22_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_22_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_23_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_23_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_23_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_23_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_24_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_24_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_24_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_24_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_25_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_25_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_25_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_25_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_26_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_26_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_26_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_26_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_27_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_27_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_27_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_27_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_28_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_28_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_28_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_28_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_29_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_29_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_29_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_29_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_30_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_30_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_connecting_30_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_connecting_30_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_disabled_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_disabled_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_disabled_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_disabled_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_disconnected_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_disconnected_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_disconnected_light = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_disconnected_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_mr_button_grey = global::FunnyMoney.Droid.Resource.Drawable.ic_mr_button_grey;
-			global::XMRN.Android.Common.Resource.Drawable.ic_vol_type_speaker_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_vol_type_speaker_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_vol_type_speaker_group_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_vol_type_speaker_group_light = global::FunnyMoney.Droid.Resource.Drawable.ic_vol_type_speaker_group_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_vol_type_speaker_light = global::FunnyMoney.Droid.Resource.Drawable.ic_vol_type_speaker_light;
-			global::XMRN.Android.Common.Resource.Drawable.ic_vol_type_tv_dark = global::FunnyMoney.Droid.Resource.Drawable.ic_vol_type_tv_dark;
-			global::XMRN.Android.Common.Resource.Drawable.ic_vol_type_tv_light = global::FunnyMoney.Droid.Resource.Drawable.ic_vol_type_tv_light;
-			global::XMRN.Android.Common.Resource.Drawable.mr_button_connected_dark = global::FunnyMoney.Droid.Resource.Drawable.mr_button_connected_dark;
-			global::XMRN.Android.Common.Resource.Drawable.mr_button_connected_light = global::FunnyMoney.Droid.Resource.Drawable.mr_button_connected_light;
-			global::XMRN.Android.Common.Resource.Drawable.mr_button_connecting_dark = global::FunnyMoney.Droid.Resource.Drawable.mr_button_connecting_dark;
-			global::XMRN.Android.Common.Resource.Drawable.mr_button_connecting_light = global::FunnyMoney.Droid.Resource.Drawable.mr_button_connecting_light;
-			global::XMRN.Android.Common.Resource.Drawable.mr_button_dark = global::FunnyMoney.Droid.Resource.Drawable.mr_button_dark;
-			global::XMRN.Android.Common.Resource.Drawable.mr_button_light = global::FunnyMoney.Droid.Resource.Drawable.mr_button_light;
-			global::XMRN.Android.Common.Resource.Drawable.mr_dialog_close_dark = global::FunnyMoney.Droid.Resource.Drawable.mr_dialog_close_dark;
-			global::XMRN.Android.Common.Resource.Drawable.mr_dialog_close_light = global::FunnyMoney.Droid.Resource.Drawable.mr_dialog_close_light;
-			global::XMRN.Android.Common.Resource.Drawable.mr_dialog_material_background_dark = global::FunnyMoney.Droid.Resource.Drawable.mr_dialog_material_background_dark;
-			global::XMRN.Android.Common.Resource.Drawable.mr_dialog_material_background_light = global::FunnyMoney.Droid.Resource.Drawable.mr_dialog_material_background_light;
-			global::XMRN.Android.Common.Resource.Drawable.mr_group_collapse = global::FunnyMoney.Droid.Resource.Drawable.mr_group_collapse;
-			global::XMRN.Android.Common.Resource.Drawable.mr_group_expand = global::FunnyMoney.Droid.Resource.Drawable.mr_group_expand;
-			global::XMRN.Android.Common.Resource.Drawable.mr_media_pause_dark = global::FunnyMoney.Droid.Resource.Drawable.mr_media_pause_dark;
-			global::XMRN.Android.Common.Resource.Drawable.mr_media_pause_light = global::FunnyMoney.Droid.Resource.Drawable.mr_media_pause_light;
-			global::XMRN.Android.Common.Resource.Drawable.mr_media_play_dark = global::FunnyMoney.Droid.Resource.Drawable.mr_media_play_dark;
-			global::XMRN.Android.Common.Resource.Drawable.mr_media_play_light = global::FunnyMoney.Droid.Resource.Drawable.mr_media_play_light;
-			global::XMRN.Android.Common.Resource.Drawable.mr_media_stop_dark = global::FunnyMoney.Droid.Resource.Drawable.mr_media_stop_dark;
-			global::XMRN.Android.Common.Resource.Drawable.mr_media_stop_light = global::FunnyMoney.Droid.Resource.Drawable.mr_media_stop_light;
-			global::XMRN.Android.Common.Resource.Drawable.mr_vol_type_audiotrack_dark = global::FunnyMoney.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark;
-			global::XMRN.Android.Common.Resource.Drawable.mr_vol_type_audiotrack_light = global::FunnyMoney.Droid.Resource.Drawable.mr_vol_type_audiotrack_light;
-			global::XMRN.Android.Common.Resource.Drawable.navigation_empty_icon = global::FunnyMoney.Droid.Resource.Drawable.navigation_empty_icon;
-			global::XMRN.Android.Common.Resource.Drawable.notification_action_background = global::FunnyMoney.Droid.Resource.Drawable.notification_action_background;
-			global::XMRN.Android.Common.Resource.Drawable.notification_bg = global::FunnyMoney.Droid.Resource.Drawable.notification_bg;
-			global::XMRN.Android.Common.Resource.Drawable.notification_bg_low = global::FunnyMoney.Droid.Resource.Drawable.notification_bg_low;
-			global::XMRN.Android.Common.Resource.Drawable.notification_bg_low_normal = global::FunnyMoney.Droid.Resource.Drawable.notification_bg_low_normal;
-			global::XMRN.Android.Common.Resource.Drawable.notification_bg_low_pressed = global::FunnyMoney.Droid.Resource.Drawable.notification_bg_low_pressed;
-			global::XMRN.Android.Common.Resource.Drawable.notification_bg_normal = global::FunnyMoney.Droid.Resource.Drawable.notification_bg_normal;
-			global::XMRN.Android.Common.Resource.Drawable.notification_bg_normal_pressed = global::FunnyMoney.Droid.Resource.Drawable.notification_bg_normal_pressed;
-			global::XMRN.Android.Common.Resource.Drawable.notification_icon_background = global::FunnyMoney.Droid.Resource.Drawable.notification_icon_background;
-			global::XMRN.Android.Common.Resource.Drawable.notification_template_icon_bg = global::FunnyMoney.Droid.Resource.Drawable.notification_template_icon_bg;
-			global::XMRN.Android.Common.Resource.Drawable.notification_template_icon_low_bg = global::FunnyMoney.Droid.Resource.Drawable.notification_template_icon_low_bg;
-			global::XMRN.Android.Common.Resource.Drawable.notification_tile_bg = global::FunnyMoney.Droid.Resource.Drawable.notification_tile_bg;
-			global::XMRN.Android.Common.Resource.Drawable.notify_panel_notification_icon_bg = global::FunnyMoney.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
-			global::XMRN.Android.Common.Resource.Drawable.tooltip_frame_dark = global::FunnyMoney.Droid.Resource.Drawable.tooltip_frame_dark;
-			global::XMRN.Android.Common.Resource.Drawable.tooltip_frame_light = global::FunnyMoney.Droid.Resource.Drawable.tooltip_frame_light;
-			global::XMRN.Android.Common.Resource.Id.ALT = global::FunnyMoney.Droid.Resource.Id.ALT;
-			global::XMRN.Android.Common.Resource.Id.CTRL = global::FunnyMoney.Droid.Resource.Id.CTRL;
-			global::XMRN.Android.Common.Resource.Id.FUNCTION = global::FunnyMoney.Droid.Resource.Id.FUNCTION;
-			global::XMRN.Android.Common.Resource.Id.META = global::FunnyMoney.Droid.Resource.Id.META;
-			global::XMRN.Android.Common.Resource.Id.SHIFT = global::FunnyMoney.Droid.Resource.Id.SHIFT;
-			global::XMRN.Android.Common.Resource.Id.SYM = global::FunnyMoney.Droid.Resource.Id.SYM;
-			global::XMRN.Android.Common.Resource.Id.action0 = global::FunnyMoney.Droid.Resource.Id.action0;
-			global::XMRN.Android.Common.Resource.Id.action_bar = global::FunnyMoney.Droid.Resource.Id.action_bar;
-			global::XMRN.Android.Common.Resource.Id.action_bar_activity_content = global::FunnyMoney.Droid.Resource.Id.action_bar_activity_content;
-			global::XMRN.Android.Common.Resource.Id.action_bar_container = global::FunnyMoney.Droid.Resource.Id.action_bar_container;
-			global::XMRN.Android.Common.Resource.Id.action_bar_root = global::FunnyMoney.Droid.Resource.Id.action_bar_root;
-			global::XMRN.Android.Common.Resource.Id.action_bar_spinner = global::FunnyMoney.Droid.Resource.Id.action_bar_spinner;
-			global::XMRN.Android.Common.Resource.Id.action_bar_subtitle = global::FunnyMoney.Droid.Resource.Id.action_bar_subtitle;
-			global::XMRN.Android.Common.Resource.Id.action_bar_title = global::FunnyMoney.Droid.Resource.Id.action_bar_title;
-			global::XMRN.Android.Common.Resource.Id.action_container = global::FunnyMoney.Droid.Resource.Id.action_container;
-			global::XMRN.Android.Common.Resource.Id.action_context_bar = global::FunnyMoney.Droid.Resource.Id.action_context_bar;
-			global::XMRN.Android.Common.Resource.Id.action_divider = global::FunnyMoney.Droid.Resource.Id.action_divider;
-			global::XMRN.Android.Common.Resource.Id.action_image = global::FunnyMoney.Droid.Resource.Id.action_image;
-			global::XMRN.Android.Common.Resource.Id.action_menu_divider = global::FunnyMoney.Droid.Resource.Id.action_menu_divider;
-			global::XMRN.Android.Common.Resource.Id.action_menu_presenter = global::FunnyMoney.Droid.Resource.Id.action_menu_presenter;
-			global::XMRN.Android.Common.Resource.Id.action_mode_bar = global::FunnyMoney.Droid.Resource.Id.action_mode_bar;
-			global::XMRN.Android.Common.Resource.Id.action_mode_bar_stub = global::FunnyMoney.Droid.Resource.Id.action_mode_bar_stub;
-			global::XMRN.Android.Common.Resource.Id.action_mode_close_button = global::FunnyMoney.Droid.Resource.Id.action_mode_close_button;
-			global::XMRN.Android.Common.Resource.Id.action_text = global::FunnyMoney.Droid.Resource.Id.action_text;
-			global::XMRN.Android.Common.Resource.Id.actions = global::FunnyMoney.Droid.Resource.Id.actions;
-			global::XMRN.Android.Common.Resource.Id.activity_chooser_view_content = global::FunnyMoney.Droid.Resource.Id.activity_chooser_view_content;
-			global::XMRN.Android.Common.Resource.Id.add = global::FunnyMoney.Droid.Resource.Id.add;
-			global::XMRN.Android.Common.Resource.Id.alertTitle = global::FunnyMoney.Droid.Resource.Id.alertTitle;
-			global::XMRN.Android.Common.Resource.Id.all = global::FunnyMoney.Droid.Resource.Id.all;
-			global::XMRN.Android.Common.Resource.Id.always = global::FunnyMoney.Droid.Resource.Id.always;
-			global::XMRN.Android.Common.Resource.Id.async = global::FunnyMoney.Droid.Resource.Id.async;
-			global::XMRN.Android.Common.Resource.Id.auto = global::FunnyMoney.Droid.Resource.Id.auto;
-			global::XMRN.Android.Common.Resource.Id.beginning = global::FunnyMoney.Droid.Resource.Id.beginning;
-			global::XMRN.Android.Common.Resource.Id.blocking = global::FunnyMoney.Droid.Resource.Id.blocking;
-			global::XMRN.Android.Common.Resource.Id.bottom = global::FunnyMoney.Droid.Resource.Id.bottom;
-			global::XMRN.Android.Common.Resource.Id.buttonPanel = global::FunnyMoney.Droid.Resource.Id.buttonPanel;
-			global::XMRN.Android.Common.Resource.Id.cancel_action = global::FunnyMoney.Droid.Resource.Id.cancel_action;
-			global::XMRN.Android.Common.Resource.Id.center = global::FunnyMoney.Droid.Resource.Id.center;
-			global::XMRN.Android.Common.Resource.Id.center_horizontal = global::FunnyMoney.Droid.Resource.Id.center_horizontal;
-			global::XMRN.Android.Common.Resource.Id.center_vertical = global::FunnyMoney.Droid.Resource.Id.center_vertical;
-			global::XMRN.Android.Common.Resource.Id.checkbox = global::FunnyMoney.Droid.Resource.Id.checkbox;
-			global::XMRN.Android.Common.Resource.Id.chronometer = global::FunnyMoney.Droid.Resource.Id.chronometer;
-			global::XMRN.Android.Common.Resource.Id.clip_horizontal = global::FunnyMoney.Droid.Resource.Id.clip_horizontal;
-			global::XMRN.Android.Common.Resource.Id.clip_vertical = global::FunnyMoney.Droid.Resource.Id.clip_vertical;
-			global::XMRN.Android.Common.Resource.Id.collapseActionView = global::FunnyMoney.Droid.Resource.Id.collapseActionView;
-			global::XMRN.Android.Common.Resource.Id.container = global::FunnyMoney.Droid.Resource.Id.container;
-			global::XMRN.Android.Common.Resource.Id.contentPanel = global::FunnyMoney.Droid.Resource.Id.contentPanel;
-			global::XMRN.Android.Common.Resource.Id.coordinator = global::FunnyMoney.Droid.Resource.Id.coordinator;
-			global::XMRN.Android.Common.Resource.Id.custom = global::FunnyMoney.Droid.Resource.Id.custom;
-			global::XMRN.Android.Common.Resource.Id.customPanel = global::FunnyMoney.Droid.Resource.Id.customPanel;
-			global::XMRN.Android.Common.Resource.Id.decor_content_parent = global::FunnyMoney.Droid.Resource.Id.decor_content_parent;
-			global::XMRN.Android.Common.Resource.Id.default_activity_button = global::FunnyMoney.Droid.Resource.Id.default_activity_button;
-			global::XMRN.Android.Common.Resource.Id.design_bottom_sheet = global::FunnyMoney.Droid.Resource.Id.design_bottom_sheet;
-			global::XMRN.Android.Common.Resource.Id.design_menu_item_action_area = global::FunnyMoney.Droid.Resource.Id.design_menu_item_action_area;
-			global::XMRN.Android.Common.Resource.Id.design_menu_item_action_area_stub = global::FunnyMoney.Droid.Resource.Id.design_menu_item_action_area_stub;
-			global::XMRN.Android.Common.Resource.Id.design_menu_item_text = global::FunnyMoney.Droid.Resource.Id.design_menu_item_text;
-			global::XMRN.Android.Common.Resource.Id.design_navigation_view = global::FunnyMoney.Droid.Resource.Id.design_navigation_view;
-			global::XMRN.Android.Common.Resource.Id.disableHome = global::FunnyMoney.Droid.Resource.Id.disableHome;
-			global::XMRN.Android.Common.Resource.Id.edit_query = global::FunnyMoney.Droid.Resource.Id.edit_query;
-			global::XMRN.Android.Common.Resource.Id.end = global::FunnyMoney.Droid.Resource.Id.end;
-			global::XMRN.Android.Common.Resource.Id.end_padder = global::FunnyMoney.Droid.Resource.Id.end_padder;
-			global::XMRN.Android.Common.Resource.Id.enterAlways = global::FunnyMoney.Droid.Resource.Id.enterAlways;
-			global::XMRN.Android.Common.Resource.Id.enterAlwaysCollapsed = global::FunnyMoney.Droid.Resource.Id.enterAlwaysCollapsed;
-			global::XMRN.Android.Common.Resource.Id.exitUntilCollapsed = global::FunnyMoney.Droid.Resource.Id.exitUntilCollapsed;
-			global::XMRN.Android.Common.Resource.Id.expand_activities_button = global::FunnyMoney.Droid.Resource.Id.expand_activities_button;
-			global::XMRN.Android.Common.Resource.Id.expanded_menu = global::FunnyMoney.Droid.Resource.Id.expanded_menu;
-			global::XMRN.Android.Common.Resource.Id.fill = global::FunnyMoney.Droid.Resource.Id.fill;
-			global::XMRN.Android.Common.Resource.Id.fill_horizontal = global::FunnyMoney.Droid.Resource.Id.fill_horizontal;
-			global::XMRN.Android.Common.Resource.Id.fill_vertical = global::FunnyMoney.Droid.Resource.Id.fill_vertical;
-			global::XMRN.Android.Common.Resource.Id.@fixed = global::FunnyMoney.Droid.Resource.Id.@fixed;
-			global::XMRN.Android.Common.Resource.Id.forever = global::FunnyMoney.Droid.Resource.Id.forever;
-			global::XMRN.Android.Common.Resource.Id.ghost_view = global::FunnyMoney.Droid.Resource.Id.ghost_view;
-			global::XMRN.Android.Common.Resource.Id.home = global::FunnyMoney.Droid.Resource.Id.home;
-			global::XMRN.Android.Common.Resource.Id.homeAsUp = global::FunnyMoney.Droid.Resource.Id.homeAsUp;
-			global::XMRN.Android.Common.Resource.Id.icon = global::FunnyMoney.Droid.Resource.Id.icon;
-			global::XMRN.Android.Common.Resource.Id.icon_group = global::FunnyMoney.Droid.Resource.Id.icon_group;
-			global::XMRN.Android.Common.Resource.Id.ifRoom = global::FunnyMoney.Droid.Resource.Id.ifRoom;
-			global::XMRN.Android.Common.Resource.Id.image = global::FunnyMoney.Droid.Resource.Id.image;
-			global::XMRN.Android.Common.Resource.Id.info = global::FunnyMoney.Droid.Resource.Id.info;
-			global::XMRN.Android.Common.Resource.Id.italic = global::FunnyMoney.Droid.Resource.Id.italic;
-			global::XMRN.Android.Common.Resource.Id.item_touch_helper_previous_elevation = global::FunnyMoney.Droid.Resource.Id.item_touch_helper_previous_elevation;
-			global::XMRN.Android.Common.Resource.Id.largeLabel = global::FunnyMoney.Droid.Resource.Id.largeLabel;
-			global::XMRN.Android.Common.Resource.Id.left = global::FunnyMoney.Droid.Resource.Id.left;
-			global::XMRN.Android.Common.Resource.Id.line1 = global::FunnyMoney.Droid.Resource.Id.line1;
-			global::XMRN.Android.Common.Resource.Id.line3 = global::FunnyMoney.Droid.Resource.Id.line3;
-			global::XMRN.Android.Common.Resource.Id.listMode = global::FunnyMoney.Droid.Resource.Id.listMode;
-			global::XMRN.Android.Common.Resource.Id.list_item = global::FunnyMoney.Droid.Resource.Id.list_item;
-			global::XMRN.Android.Common.Resource.Id.masked = global::FunnyMoney.Droid.Resource.Id.masked;
-			global::XMRN.Android.Common.Resource.Id.media_actions = global::FunnyMoney.Droid.Resource.Id.media_actions;
-			global::XMRN.Android.Common.Resource.Id.message = global::FunnyMoney.Droid.Resource.Id.message;
-			global::XMRN.Android.Common.Resource.Id.middle = global::FunnyMoney.Droid.Resource.Id.middle;
-			global::XMRN.Android.Common.Resource.Id.mini = global::FunnyMoney.Droid.Resource.Id.mini;
-			global::XMRN.Android.Common.Resource.Id.mr_art = global::FunnyMoney.Droid.Resource.Id.mr_art;
-			global::XMRN.Android.Common.Resource.Id.mr_chooser_list = global::FunnyMoney.Droid.Resource.Id.mr_chooser_list;
-			global::XMRN.Android.Common.Resource.Id.mr_chooser_route_desc = global::FunnyMoney.Droid.Resource.Id.mr_chooser_route_desc;
-			global::XMRN.Android.Common.Resource.Id.mr_chooser_route_icon = global::FunnyMoney.Droid.Resource.Id.mr_chooser_route_icon;
-			global::XMRN.Android.Common.Resource.Id.mr_chooser_route_name = global::FunnyMoney.Droid.Resource.Id.mr_chooser_route_name;
-			global::XMRN.Android.Common.Resource.Id.mr_chooser_title = global::FunnyMoney.Droid.Resource.Id.mr_chooser_title;
-			global::XMRN.Android.Common.Resource.Id.mr_close = global::FunnyMoney.Droid.Resource.Id.mr_close;
-			global::XMRN.Android.Common.Resource.Id.mr_control_divider = global::FunnyMoney.Droid.Resource.Id.mr_control_divider;
-			global::XMRN.Android.Common.Resource.Id.mr_control_playback_ctrl = global::FunnyMoney.Droid.Resource.Id.mr_control_playback_ctrl;
-			global::XMRN.Android.Common.Resource.Id.mr_control_subtitle = global::FunnyMoney.Droid.Resource.Id.mr_control_subtitle;
-			global::XMRN.Android.Common.Resource.Id.mr_control_title = global::FunnyMoney.Droid.Resource.Id.mr_control_title;
-			global::XMRN.Android.Common.Resource.Id.mr_control_title_container = global::FunnyMoney.Droid.Resource.Id.mr_control_title_container;
-			global::XMRN.Android.Common.Resource.Id.mr_custom_control = global::FunnyMoney.Droid.Resource.Id.mr_custom_control;
-			global::XMRN.Android.Common.Resource.Id.mr_default_control = global::FunnyMoney.Droid.Resource.Id.mr_default_control;
-			global::XMRN.Android.Common.Resource.Id.mr_dialog_area = global::FunnyMoney.Droid.Resource.Id.mr_dialog_area;
-			global::XMRN.Android.Common.Resource.Id.mr_expandable_area = global::FunnyMoney.Droid.Resource.Id.mr_expandable_area;
-			global::XMRN.Android.Common.Resource.Id.mr_group_expand_collapse = global::FunnyMoney.Droid.Resource.Id.mr_group_expand_collapse;
-			global::XMRN.Android.Common.Resource.Id.mr_media_main_control = global::FunnyMoney.Droid.Resource.Id.mr_media_main_control;
-			global::XMRN.Android.Common.Resource.Id.mr_name = global::FunnyMoney.Droid.Resource.Id.mr_name;
-			global::XMRN.Android.Common.Resource.Id.mr_playback_control = global::FunnyMoney.Droid.Resource.Id.mr_playback_control;
-			global::XMRN.Android.Common.Resource.Id.mr_title_bar = global::FunnyMoney.Droid.Resource.Id.mr_title_bar;
-			global::XMRN.Android.Common.Resource.Id.mr_volume_control = global::FunnyMoney.Droid.Resource.Id.mr_volume_control;
-			global::XMRN.Android.Common.Resource.Id.mr_volume_group_list = global::FunnyMoney.Droid.Resource.Id.mr_volume_group_list;
-			global::XMRN.Android.Common.Resource.Id.mr_volume_item_icon = global::FunnyMoney.Droid.Resource.Id.mr_volume_item_icon;
-			global::XMRN.Android.Common.Resource.Id.mr_volume_slider = global::FunnyMoney.Droid.Resource.Id.mr_volume_slider;
-			global::XMRN.Android.Common.Resource.Id.multiply = global::FunnyMoney.Droid.Resource.Id.multiply;
-			global::XMRN.Android.Common.Resource.Id.navigation_header_container = global::FunnyMoney.Droid.Resource.Id.navigation_header_container;
-			global::XMRN.Android.Common.Resource.Id.never = global::FunnyMoney.Droid.Resource.Id.never;
-			global::XMRN.Android.Common.Resource.Id.none = global::FunnyMoney.Droid.Resource.Id.none;
-			global::XMRN.Android.Common.Resource.Id.normal = global::FunnyMoney.Droid.Resource.Id.normal;
-			global::XMRN.Android.Common.Resource.Id.notification_background = global::FunnyMoney.Droid.Resource.Id.notification_background;
-			global::XMRN.Android.Common.Resource.Id.notification_main_column = global::FunnyMoney.Droid.Resource.Id.notification_main_column;
-			global::XMRN.Android.Common.Resource.Id.notification_main_column_container = global::FunnyMoney.Droid.Resource.Id.notification_main_column_container;
-			global::XMRN.Android.Common.Resource.Id.parallax = global::FunnyMoney.Droid.Resource.Id.parallax;
-			global::XMRN.Android.Common.Resource.Id.parentPanel = global::FunnyMoney.Droid.Resource.Id.parentPanel;
-			global::XMRN.Android.Common.Resource.Id.parent_matrix = global::FunnyMoney.Droid.Resource.Id.parent_matrix;
-			global::XMRN.Android.Common.Resource.Id.pin = global::FunnyMoney.Droid.Resource.Id.pin;
-			global::XMRN.Android.Common.Resource.Id.progress_circular = global::FunnyMoney.Droid.Resource.Id.progress_circular;
-			global::XMRN.Android.Common.Resource.Id.progress_horizontal = global::FunnyMoney.Droid.Resource.Id.progress_horizontal;
-			global::XMRN.Android.Common.Resource.Id.radio = global::FunnyMoney.Droid.Resource.Id.radio;
-			global::XMRN.Android.Common.Resource.Id.right = global::FunnyMoney.Droid.Resource.Id.right;
-			global::XMRN.Android.Common.Resource.Id.right_icon = global::FunnyMoney.Droid.Resource.Id.right_icon;
-			global::XMRN.Android.Common.Resource.Id.right_side = global::FunnyMoney.Droid.Resource.Id.right_side;
-			global::XMRN.Android.Common.Resource.Id.save_image_matrix = global::FunnyMoney.Droid.Resource.Id.save_image_matrix;
-			global::XMRN.Android.Common.Resource.Id.save_non_transition_alpha = global::FunnyMoney.Droid.Resource.Id.save_non_transition_alpha;
-			global::XMRN.Android.Common.Resource.Id.save_scale_type = global::FunnyMoney.Droid.Resource.Id.save_scale_type;
-			global::XMRN.Android.Common.Resource.Id.screen = global::FunnyMoney.Droid.Resource.Id.screen;
-			global::XMRN.Android.Common.Resource.Id.scroll = global::FunnyMoney.Droid.Resource.Id.scroll;
-			global::XMRN.Android.Common.Resource.Id.scrollIndicatorDown = global::FunnyMoney.Droid.Resource.Id.scrollIndicatorDown;
-			global::XMRN.Android.Common.Resource.Id.scrollIndicatorUp = global::FunnyMoney.Droid.Resource.Id.scrollIndicatorUp;
-			global::XMRN.Android.Common.Resource.Id.scrollView = global::FunnyMoney.Droid.Resource.Id.scrollView;
-			global::XMRN.Android.Common.Resource.Id.scrollable = global::FunnyMoney.Droid.Resource.Id.scrollable;
-			global::XMRN.Android.Common.Resource.Id.search_badge = global::FunnyMoney.Droid.Resource.Id.search_badge;
-			global::XMRN.Android.Common.Resource.Id.search_bar = global::FunnyMoney.Droid.Resource.Id.search_bar;
-			global::XMRN.Android.Common.Resource.Id.search_button = global::FunnyMoney.Droid.Resource.Id.search_button;
-			global::XMRN.Android.Common.Resource.Id.search_close_btn = global::FunnyMoney.Droid.Resource.Id.search_close_btn;
-			global::XMRN.Android.Common.Resource.Id.search_edit_frame = global::FunnyMoney.Droid.Resource.Id.search_edit_frame;
-			global::XMRN.Android.Common.Resource.Id.search_go_btn = global::FunnyMoney.Droid.Resource.Id.search_go_btn;
-			global::XMRN.Android.Common.Resource.Id.search_mag_icon = global::FunnyMoney.Droid.Resource.Id.search_mag_icon;
-			global::XMRN.Android.Common.Resource.Id.search_plate = global::FunnyMoney.Droid.Resource.Id.search_plate;
-			global::XMRN.Android.Common.Resource.Id.search_src_text = global::FunnyMoney.Droid.Resource.Id.search_src_text;
-			global::XMRN.Android.Common.Resource.Id.search_voice_btn = global::FunnyMoney.Droid.Resource.Id.search_voice_btn;
-			global::XMRN.Android.Common.Resource.Id.select_dialog_listview = global::FunnyMoney.Droid.Resource.Id.select_dialog_listview;
-			global::XMRN.Android.Common.Resource.Id.shortcut = global::FunnyMoney.Droid.Resource.Id.shortcut;
-			global::XMRN.Android.Common.Resource.Id.showCustom = global::FunnyMoney.Droid.Resource.Id.showCustom;
-			global::XMRN.Android.Common.Resource.Id.showHome = global::FunnyMoney.Droid.Resource.Id.showHome;
-			global::XMRN.Android.Common.Resource.Id.showTitle = global::FunnyMoney.Droid.Resource.Id.showTitle;
-			global::XMRN.Android.Common.Resource.Id.smallLabel = global::FunnyMoney.Droid.Resource.Id.smallLabel;
-			global::XMRN.Android.Common.Resource.Id.snackbar_action = global::FunnyMoney.Droid.Resource.Id.snackbar_action;
-			global::XMRN.Android.Common.Resource.Id.snackbar_text = global::FunnyMoney.Droid.Resource.Id.snackbar_text;
-			global::XMRN.Android.Common.Resource.Id.snap = global::FunnyMoney.Droid.Resource.Id.snap;
-			global::XMRN.Android.Common.Resource.Id.spacer = global::FunnyMoney.Droid.Resource.Id.spacer;
-			global::XMRN.Android.Common.Resource.Id.split_action_bar = global::FunnyMoney.Droid.Resource.Id.split_action_bar;
-			global::XMRN.Android.Common.Resource.Id.src_atop = global::FunnyMoney.Droid.Resource.Id.src_atop;
-			global::XMRN.Android.Common.Resource.Id.src_in = global::FunnyMoney.Droid.Resource.Id.src_in;
-			global::XMRN.Android.Common.Resource.Id.src_over = global::FunnyMoney.Droid.Resource.Id.src_over;
-			global::XMRN.Android.Common.Resource.Id.start = global::FunnyMoney.Droid.Resource.Id.start;
-			global::XMRN.Android.Common.Resource.Id.status_bar_latest_event_content = global::FunnyMoney.Droid.Resource.Id.status_bar_latest_event_content;
-			global::XMRN.Android.Common.Resource.Id.submenuarrow = global::FunnyMoney.Droid.Resource.Id.submenuarrow;
-			global::XMRN.Android.Common.Resource.Id.submit_area = global::FunnyMoney.Droid.Resource.Id.submit_area;
-			global::XMRN.Android.Common.Resource.Id.tabMode = global::FunnyMoney.Droid.Resource.Id.tabMode;
-			global::XMRN.Android.Common.Resource.Id.tag_transition_group = global::FunnyMoney.Droid.Resource.Id.tag_transition_group;
-			global::XMRN.Android.Common.Resource.Id.text = global::FunnyMoney.Droid.Resource.Id.text;
-			global::XMRN.Android.Common.Resource.Id.text2 = global::FunnyMoney.Droid.Resource.Id.text2;
-			global::XMRN.Android.Common.Resource.Id.textSpacerNoButtons = global::FunnyMoney.Droid.Resource.Id.textSpacerNoButtons;
-			global::XMRN.Android.Common.Resource.Id.textSpacerNoTitle = global::FunnyMoney.Droid.Resource.Id.textSpacerNoTitle;
-			global::XMRN.Android.Common.Resource.Id.text_input_password_toggle = global::FunnyMoney.Droid.Resource.Id.text_input_password_toggle;
-			global::XMRN.Android.Common.Resource.Id.textinput_counter = global::FunnyMoney.Droid.Resource.Id.textinput_counter;
-			global::XMRN.Android.Common.Resource.Id.textinput_error = global::FunnyMoney.Droid.Resource.Id.textinput_error;
-			global::XMRN.Android.Common.Resource.Id.time = global::FunnyMoney.Droid.Resource.Id.time;
-			global::XMRN.Android.Common.Resource.Id.title = global::FunnyMoney.Droid.Resource.Id.title;
-			global::XMRN.Android.Common.Resource.Id.titleDividerNoCustom = global::FunnyMoney.Droid.Resource.Id.titleDividerNoCustom;
-			global::XMRN.Android.Common.Resource.Id.title_template = global::FunnyMoney.Droid.Resource.Id.title_template;
-			global::XMRN.Android.Common.Resource.Id.top = global::FunnyMoney.Droid.Resource.Id.top;
-			global::XMRN.Android.Common.Resource.Id.topPanel = global::FunnyMoney.Droid.Resource.Id.topPanel;
-			global::XMRN.Android.Common.Resource.Id.touch_outside = global::FunnyMoney.Droid.Resource.Id.touch_outside;
-			global::XMRN.Android.Common.Resource.Id.transition_current_scene = global::FunnyMoney.Droid.Resource.Id.transition_current_scene;
-			global::XMRN.Android.Common.Resource.Id.transition_layout_save = global::FunnyMoney.Droid.Resource.Id.transition_layout_save;
-			global::XMRN.Android.Common.Resource.Id.transition_position = global::FunnyMoney.Droid.Resource.Id.transition_position;
-			global::XMRN.Android.Common.Resource.Id.transition_scene_layoutid_cache = global::FunnyMoney.Droid.Resource.Id.transition_scene_layoutid_cache;
-			global::XMRN.Android.Common.Resource.Id.transition_transform = global::FunnyMoney.Droid.Resource.Id.transition_transform;
-			global::XMRN.Android.Common.Resource.Id.uniform = global::FunnyMoney.Droid.Resource.Id.uniform;
-			global::XMRN.Android.Common.Resource.Id.up = global::FunnyMoney.Droid.Resource.Id.up;
-			global::XMRN.Android.Common.Resource.Id.useLogo = global::FunnyMoney.Droid.Resource.Id.useLogo;
-			global::XMRN.Android.Common.Resource.Id.view_offset_helper = global::FunnyMoney.Droid.Resource.Id.view_offset_helper;
-			global::XMRN.Android.Common.Resource.Id.visible = global::FunnyMoney.Droid.Resource.Id.visible;
-			global::XMRN.Android.Common.Resource.Id.volume_item_container = global::FunnyMoney.Droid.Resource.Id.volume_item_container;
-			global::XMRN.Android.Common.Resource.Id.withText = global::FunnyMoney.Droid.Resource.Id.withText;
-			global::XMRN.Android.Common.Resource.Id.wrap_content = global::FunnyMoney.Droid.Resource.Id.wrap_content;
-			global::XMRN.Android.Common.Resource.Integer.abc_config_activityDefaultDur = global::FunnyMoney.Droid.Resource.Integer.abc_config_activityDefaultDur;
-			global::XMRN.Android.Common.Resource.Integer.abc_config_activityShortDur = global::FunnyMoney.Droid.Resource.Integer.abc_config_activityShortDur;
-			global::XMRN.Android.Common.Resource.Integer.app_bar_elevation_anim_duration = global::FunnyMoney.Droid.Resource.Integer.app_bar_elevation_anim_duration;
-			global::XMRN.Android.Common.Resource.Integer.bottom_sheet_slide_duration = global::FunnyMoney.Droid.Resource.Integer.bottom_sheet_slide_duration;
-			global::XMRN.Android.Common.Resource.Integer.cancel_button_image_alpha = global::FunnyMoney.Droid.Resource.Integer.cancel_button_image_alpha;
-			global::XMRN.Android.Common.Resource.Integer.config_tooltipAnimTime = global::FunnyMoney.Droid.Resource.Integer.config_tooltipAnimTime;
-			global::XMRN.Android.Common.Resource.Integer.design_snackbar_text_max_lines = global::FunnyMoney.Droid.Resource.Integer.design_snackbar_text_max_lines;
-			global::XMRN.Android.Common.Resource.Integer.hide_password_duration = global::FunnyMoney.Droid.Resource.Integer.hide_password_duration;
-			global::XMRN.Android.Common.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::FunnyMoney.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
-			global::XMRN.Android.Common.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::FunnyMoney.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
-			global::XMRN.Android.Common.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::FunnyMoney.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
-			global::XMRN.Android.Common.Resource.Integer.show_password_duration = global::FunnyMoney.Droid.Resource.Integer.show_password_duration;
-			global::XMRN.Android.Common.Resource.Integer.status_bar_notification_info_maxnum = global::FunnyMoney.Droid.Resource.Integer.status_bar_notification_info_maxnum;
-			global::XMRN.Android.Common.Resource.Interpolator.mr_fast_out_slow_in = global::FunnyMoney.Droid.Resource.Interpolator.mr_fast_out_slow_in;
-			global::XMRN.Android.Common.Resource.Interpolator.mr_linear_out_slow_in = global::FunnyMoney.Droid.Resource.Interpolator.mr_linear_out_slow_in;
-			global::XMRN.Android.Common.Resource.Layout.abc_action_bar_title_item = global::FunnyMoney.Droid.Resource.Layout.abc_action_bar_title_item;
-			global::XMRN.Android.Common.Resource.Layout.abc_action_bar_up_container = global::FunnyMoney.Droid.Resource.Layout.abc_action_bar_up_container;
-			global::XMRN.Android.Common.Resource.Layout.abc_action_menu_item_layout = global::FunnyMoney.Droid.Resource.Layout.abc_action_menu_item_layout;
-			global::XMRN.Android.Common.Resource.Layout.abc_action_menu_layout = global::FunnyMoney.Droid.Resource.Layout.abc_action_menu_layout;
-			global::XMRN.Android.Common.Resource.Layout.abc_action_mode_bar = global::FunnyMoney.Droid.Resource.Layout.abc_action_mode_bar;
-			global::XMRN.Android.Common.Resource.Layout.abc_action_mode_close_item_material = global::FunnyMoney.Droid.Resource.Layout.abc_action_mode_close_item_material;
-			global::XMRN.Android.Common.Resource.Layout.abc_activity_chooser_view = global::FunnyMoney.Droid.Resource.Layout.abc_activity_chooser_view;
-			global::XMRN.Android.Common.Resource.Layout.abc_activity_chooser_view_list_item = global::FunnyMoney.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
-			global::XMRN.Android.Common.Resource.Layout.abc_alert_dialog_button_bar_material = global::FunnyMoney.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
-			global::XMRN.Android.Common.Resource.Layout.abc_alert_dialog_material = global::FunnyMoney.Droid.Resource.Layout.abc_alert_dialog_material;
-			global::XMRN.Android.Common.Resource.Layout.abc_alert_dialog_title_material = global::FunnyMoney.Droid.Resource.Layout.abc_alert_dialog_title_material;
-			global::XMRN.Android.Common.Resource.Layout.abc_dialog_title_material = global::FunnyMoney.Droid.Resource.Layout.abc_dialog_title_material;
-			global::XMRN.Android.Common.Resource.Layout.abc_expanded_menu_layout = global::FunnyMoney.Droid.Resource.Layout.abc_expanded_menu_layout;
-			global::XMRN.Android.Common.Resource.Layout.abc_list_menu_item_checkbox = global::FunnyMoney.Droid.Resource.Layout.abc_list_menu_item_checkbox;
-			global::XMRN.Android.Common.Resource.Layout.abc_list_menu_item_icon = global::FunnyMoney.Droid.Resource.Layout.abc_list_menu_item_icon;
-			global::XMRN.Android.Common.Resource.Layout.abc_list_menu_item_layout = global::FunnyMoney.Droid.Resource.Layout.abc_list_menu_item_layout;
-			global::XMRN.Android.Common.Resource.Layout.abc_list_menu_item_radio = global::FunnyMoney.Droid.Resource.Layout.abc_list_menu_item_radio;
-			global::XMRN.Android.Common.Resource.Layout.abc_popup_menu_header_item_layout = global::FunnyMoney.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
-			global::XMRN.Android.Common.Resource.Layout.abc_popup_menu_item_layout = global::FunnyMoney.Droid.Resource.Layout.abc_popup_menu_item_layout;
-			global::XMRN.Android.Common.Resource.Layout.abc_screen_content_include = global::FunnyMoney.Droid.Resource.Layout.abc_screen_content_include;
-			global::XMRN.Android.Common.Resource.Layout.abc_screen_simple = global::FunnyMoney.Droid.Resource.Layout.abc_screen_simple;
-			global::XMRN.Android.Common.Resource.Layout.abc_screen_simple_overlay_action_mode = global::FunnyMoney.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
-			global::XMRN.Android.Common.Resource.Layout.abc_screen_toolbar = global::FunnyMoney.Droid.Resource.Layout.abc_screen_toolbar;
-			global::XMRN.Android.Common.Resource.Layout.abc_search_dropdown_item_icons_2line = global::FunnyMoney.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
-			global::XMRN.Android.Common.Resource.Layout.abc_search_view = global::FunnyMoney.Droid.Resource.Layout.abc_search_view;
-			global::XMRN.Android.Common.Resource.Layout.abc_select_dialog_material = global::FunnyMoney.Droid.Resource.Layout.abc_select_dialog_material;
-			global::XMRN.Android.Common.Resource.Layout.design_bottom_navigation_item = global::FunnyMoney.Droid.Resource.Layout.design_bottom_navigation_item;
-			global::XMRN.Android.Common.Resource.Layout.design_bottom_sheet_dialog = global::FunnyMoney.Droid.Resource.Layout.design_bottom_sheet_dialog;
-			global::XMRN.Android.Common.Resource.Layout.design_layout_snackbar = global::FunnyMoney.Droid.Resource.Layout.design_layout_snackbar;
-			global::XMRN.Android.Common.Resource.Layout.design_layout_snackbar_include = global::FunnyMoney.Droid.Resource.Layout.design_layout_snackbar_include;
-			global::XMRN.Android.Common.Resource.Layout.design_layout_tab_icon = global::FunnyMoney.Droid.Resource.Layout.design_layout_tab_icon;
-			global::XMRN.Android.Common.Resource.Layout.design_layout_tab_text = global::FunnyMoney.Droid.Resource.Layout.design_layout_tab_text;
-			global::XMRN.Android.Common.Resource.Layout.design_menu_item_action_area = global::FunnyMoney.Droid.Resource.Layout.design_menu_item_action_area;
-			global::XMRN.Android.Common.Resource.Layout.design_navigation_item = global::FunnyMoney.Droid.Resource.Layout.design_navigation_item;
-			global::XMRN.Android.Common.Resource.Layout.design_navigation_item_header = global::FunnyMoney.Droid.Resource.Layout.design_navigation_item_header;
-			global::XMRN.Android.Common.Resource.Layout.design_navigation_item_separator = global::FunnyMoney.Droid.Resource.Layout.design_navigation_item_separator;
-			global::XMRN.Android.Common.Resource.Layout.design_navigation_item_subheader = global::FunnyMoney.Droid.Resource.Layout.design_navigation_item_subheader;
-			global::XMRN.Android.Common.Resource.Layout.design_navigation_menu = global::FunnyMoney.Droid.Resource.Layout.design_navigation_menu;
-			global::XMRN.Android.Common.Resource.Layout.design_navigation_menu_item = global::FunnyMoney.Droid.Resource.Layout.design_navigation_menu_item;
-			global::XMRN.Android.Common.Resource.Layout.design_text_input_password_icon = global::FunnyMoney.Droid.Resource.Layout.design_text_input_password_icon;
-			global::XMRN.Android.Common.Resource.Layout.mr_chooser_dialog = global::FunnyMoney.Droid.Resource.Layout.mr_chooser_dialog;
-			global::XMRN.Android.Common.Resource.Layout.mr_chooser_list_item = global::FunnyMoney.Droid.Resource.Layout.mr_chooser_list_item;
-			global::XMRN.Android.Common.Resource.Layout.mr_controller_material_dialog_b = global::FunnyMoney.Droid.Resource.Layout.mr_controller_material_dialog_b;
-			global::XMRN.Android.Common.Resource.Layout.mr_controller_volume_item = global::FunnyMoney.Droid.Resource.Layout.mr_controller_volume_item;
-			global::XMRN.Android.Common.Resource.Layout.mr_playback_control = global::FunnyMoney.Droid.Resource.Layout.mr_playback_control;
-			global::XMRN.Android.Common.Resource.Layout.mr_volume_control = global::FunnyMoney.Droid.Resource.Layout.mr_volume_control;
-			global::XMRN.Android.Common.Resource.Layout.notification_action = global::FunnyMoney.Droid.Resource.Layout.notification_action;
-			global::XMRN.Android.Common.Resource.Layout.notification_action_tombstone = global::FunnyMoney.Droid.Resource.Layout.notification_action_tombstone;
-			global::XMRN.Android.Common.Resource.Layout.notification_media_action = global::FunnyMoney.Droid.Resource.Layout.notification_media_action;
-			global::XMRN.Android.Common.Resource.Layout.notification_media_cancel_action = global::FunnyMoney.Droid.Resource.Layout.notification_media_cancel_action;
-			global::XMRN.Android.Common.Resource.Layout.notification_template_big_media = global::FunnyMoney.Droid.Resource.Layout.notification_template_big_media;
-			global::XMRN.Android.Common.Resource.Layout.notification_template_big_media_custom = global::FunnyMoney.Droid.Resource.Layout.notification_template_big_media_custom;
-			global::XMRN.Android.Common.Resource.Layout.notification_template_big_media_narrow = global::FunnyMoney.Droid.Resource.Layout.notification_template_big_media_narrow;
-			global::XMRN.Android.Common.Resource.Layout.notification_template_big_media_narrow_custom = global::FunnyMoney.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
-			global::XMRN.Android.Common.Resource.Layout.notification_template_custom_big = global::FunnyMoney.Droid.Resource.Layout.notification_template_custom_big;
-			global::XMRN.Android.Common.Resource.Layout.notification_template_icon_group = global::FunnyMoney.Droid.Resource.Layout.notification_template_icon_group;
-			global::XMRN.Android.Common.Resource.Layout.notification_template_lines_media = global::FunnyMoney.Droid.Resource.Layout.notification_template_lines_media;
-			global::XMRN.Android.Common.Resource.Layout.notification_template_media = global::FunnyMoney.Droid.Resource.Layout.notification_template_media;
-			global::XMRN.Android.Common.Resource.Layout.notification_template_media_custom = global::FunnyMoney.Droid.Resource.Layout.notification_template_media_custom;
-			global::XMRN.Android.Common.Resource.Layout.notification_template_part_chronometer = global::FunnyMoney.Droid.Resource.Layout.notification_template_part_chronometer;
-			global::XMRN.Android.Common.Resource.Layout.notification_template_part_time = global::FunnyMoney.Droid.Resource.Layout.notification_template_part_time;
-			global::XMRN.Android.Common.Resource.Layout.select_dialog_item_material = global::FunnyMoney.Droid.Resource.Layout.select_dialog_item_material;
-			global::XMRN.Android.Common.Resource.Layout.select_dialog_multichoice_material = global::FunnyMoney.Droid.Resource.Layout.select_dialog_multichoice_material;
-			global::XMRN.Android.Common.Resource.Layout.select_dialog_singlechoice_material = global::FunnyMoney.Droid.Resource.Layout.select_dialog_singlechoice_material;
-			global::XMRN.Android.Common.Resource.Layout.support_simple_spinner_dropdown_item = global::FunnyMoney.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
-			global::XMRN.Android.Common.Resource.Layout.tooltip = global::FunnyMoney.Droid.Resource.Layout.tooltip;
-			global::XMRN.Android.Common.Resource.String.abc_action_bar_home_description = global::FunnyMoney.Droid.Resource.String.abc_action_bar_home_description;
-			global::XMRN.Android.Common.Resource.String.abc_action_bar_up_description = global::FunnyMoney.Droid.Resource.String.abc_action_bar_up_description;
-			global::XMRN.Android.Common.Resource.String.abc_action_menu_overflow_description = global::FunnyMoney.Droid.Resource.String.abc_action_menu_overflow_description;
-			global::XMRN.Android.Common.Resource.String.abc_action_mode_done = global::FunnyMoney.Droid.Resource.String.abc_action_mode_done;
-			global::XMRN.Android.Common.Resource.String.abc_activity_chooser_view_see_all = global::FunnyMoney.Droid.Resource.String.abc_activity_chooser_view_see_all;
-			global::XMRN.Android.Common.Resource.String.abc_activitychooserview_choose_application = global::FunnyMoney.Droid.Resource.String.abc_activitychooserview_choose_application;
-			global::XMRN.Android.Common.Resource.String.abc_capital_off = global::FunnyMoney.Droid.Resource.String.abc_capital_off;
-			global::XMRN.Android.Common.Resource.String.abc_capital_on = global::FunnyMoney.Droid.Resource.String.abc_capital_on;
-			global::XMRN.Android.Common.Resource.String.abc_font_family_body_1_material = global::FunnyMoney.Droid.Resource.String.abc_font_family_body_1_material;
-			global::XMRN.Android.Common.Resource.String.abc_font_family_body_2_material = global::FunnyMoney.Droid.Resource.String.abc_font_family_body_2_material;
-			global::XMRN.Android.Common.Resource.String.abc_font_family_button_material = global::FunnyMoney.Droid.Resource.String.abc_font_family_button_material;
-			global::XMRN.Android.Common.Resource.String.abc_font_family_caption_material = global::FunnyMoney.Droid.Resource.String.abc_font_family_caption_material;
-			global::XMRN.Android.Common.Resource.String.abc_font_family_display_1_material = global::FunnyMoney.Droid.Resource.String.abc_font_family_display_1_material;
-			global::XMRN.Android.Common.Resource.String.abc_font_family_display_2_material = global::FunnyMoney.Droid.Resource.String.abc_font_family_display_2_material;
-			global::XMRN.Android.Common.Resource.String.abc_font_family_display_3_material = global::FunnyMoney.Droid.Resource.String.abc_font_family_display_3_material;
-			global::XMRN.Android.Common.Resource.String.abc_font_family_display_4_material = global::FunnyMoney.Droid.Resource.String.abc_font_family_display_4_material;
-			global::XMRN.Android.Common.Resource.String.abc_font_family_headline_material = global::FunnyMoney.Droid.Resource.String.abc_font_family_headline_material;
-			global::XMRN.Android.Common.Resource.String.abc_font_family_menu_material = global::FunnyMoney.Droid.Resource.String.abc_font_family_menu_material;
-			global::XMRN.Android.Common.Resource.String.abc_font_family_subhead_material = global::FunnyMoney.Droid.Resource.String.abc_font_family_subhead_material;
-			global::XMRN.Android.Common.Resource.String.abc_font_family_title_material = global::FunnyMoney.Droid.Resource.String.abc_font_family_title_material;
-			global::XMRN.Android.Common.Resource.String.abc_search_hint = global::FunnyMoney.Droid.Resource.String.abc_search_hint;
-			global::XMRN.Android.Common.Resource.String.abc_searchview_description_clear = global::FunnyMoney.Droid.Resource.String.abc_searchview_description_clear;
-			global::XMRN.Android.Common.Resource.String.abc_searchview_description_query = global::FunnyMoney.Droid.Resource.String.abc_searchview_description_query;
-			global::XMRN.Android.Common.Resource.String.abc_searchview_description_search = global::FunnyMoney.Droid.Resource.String.abc_searchview_description_search;
-			global::XMRN.Android.Common.Resource.String.abc_searchview_description_submit = global::FunnyMoney.Droid.Resource.String.abc_searchview_description_submit;
-			global::XMRN.Android.Common.Resource.String.abc_searchview_description_voice = global::FunnyMoney.Droid.Resource.String.abc_searchview_description_voice;
-			global::XMRN.Android.Common.Resource.String.abc_shareactionprovider_share_with = global::FunnyMoney.Droid.Resource.String.abc_shareactionprovider_share_with;
-			global::XMRN.Android.Common.Resource.String.abc_shareactionprovider_share_with_application = global::FunnyMoney.Droid.Resource.String.abc_shareactionprovider_share_with_application;
-			global::XMRN.Android.Common.Resource.String.abc_toolbar_collapse_description = global::FunnyMoney.Droid.Resource.String.abc_toolbar_collapse_description;
-			global::XMRN.Android.Common.Resource.String.app_name = global::FunnyMoney.Droid.Resource.String.app_name;
-			global::XMRN.Android.Common.Resource.String.appbar_scrolling_view_behavior = global::FunnyMoney.Droid.Resource.String.appbar_scrolling_view_behavior;
-			global::XMRN.Android.Common.Resource.String.bottom_sheet_behavior = global::FunnyMoney.Droid.Resource.String.bottom_sheet_behavior;
-			global::XMRN.Android.Common.Resource.String.character_counter_pattern = global::FunnyMoney.Droid.Resource.String.character_counter_pattern;
-			global::XMRN.Android.Common.Resource.String.hello = global::FunnyMoney.Droid.Resource.String.hello;
-			global::XMRN.Android.Common.Resource.String.mr_button_content_description = global::FunnyMoney.Droid.Resource.String.mr_button_content_description;
-			global::XMRN.Android.Common.Resource.String.mr_cast_button_connected = global::FunnyMoney.Droid.Resource.String.mr_cast_button_connected;
-			global::XMRN.Android.Common.Resource.String.mr_cast_button_connecting = global::FunnyMoney.Droid.Resource.String.mr_cast_button_connecting;
-			global::XMRN.Android.Common.Resource.String.mr_cast_button_disconnected = global::FunnyMoney.Droid.Resource.String.mr_cast_button_disconnected;
-			global::XMRN.Android.Common.Resource.String.mr_chooser_searching = global::FunnyMoney.Droid.Resource.String.mr_chooser_searching;
-			global::XMRN.Android.Common.Resource.String.mr_chooser_title = global::FunnyMoney.Droid.Resource.String.mr_chooser_title;
-			global::XMRN.Android.Common.Resource.String.mr_controller_album_art = global::FunnyMoney.Droid.Resource.String.mr_controller_album_art;
-			global::XMRN.Android.Common.Resource.String.mr_controller_casting_screen = global::FunnyMoney.Droid.Resource.String.mr_controller_casting_screen;
-			global::XMRN.Android.Common.Resource.String.mr_controller_close_description = global::FunnyMoney.Droid.Resource.String.mr_controller_close_description;
-			global::XMRN.Android.Common.Resource.String.mr_controller_collapse_group = global::FunnyMoney.Droid.Resource.String.mr_controller_collapse_group;
-			global::XMRN.Android.Common.Resource.String.mr_controller_disconnect = global::FunnyMoney.Droid.Resource.String.mr_controller_disconnect;
-			global::XMRN.Android.Common.Resource.String.mr_controller_expand_group = global::FunnyMoney.Droid.Resource.String.mr_controller_expand_group;
-			global::XMRN.Android.Common.Resource.String.mr_controller_no_info_available = global::FunnyMoney.Droid.Resource.String.mr_controller_no_info_available;
-			global::XMRN.Android.Common.Resource.String.mr_controller_no_media_selected = global::FunnyMoney.Droid.Resource.String.mr_controller_no_media_selected;
-			global::XMRN.Android.Common.Resource.String.mr_controller_pause = global::FunnyMoney.Droid.Resource.String.mr_controller_pause;
-			global::XMRN.Android.Common.Resource.String.mr_controller_play = global::FunnyMoney.Droid.Resource.String.mr_controller_play;
-			global::XMRN.Android.Common.Resource.String.mr_controller_stop = global::FunnyMoney.Droid.Resource.String.mr_controller_stop;
-			global::XMRN.Android.Common.Resource.String.mr_controller_stop_casting = global::FunnyMoney.Droid.Resource.String.mr_controller_stop_casting;
-			global::XMRN.Android.Common.Resource.String.mr_controller_volume_slider = global::FunnyMoney.Droid.Resource.String.mr_controller_volume_slider;
-			global::XMRN.Android.Common.Resource.String.mr_system_route_name = global::FunnyMoney.Droid.Resource.String.mr_system_route_name;
-			global::XMRN.Android.Common.Resource.String.mr_user_route_category_name = global::FunnyMoney.Droid.Resource.String.mr_user_route_category_name;
-			global::XMRN.Android.Common.Resource.String.password_toggle_content_description = global::FunnyMoney.Droid.Resource.String.password_toggle_content_description;
-			global::XMRN.Android.Common.Resource.String.path_password_eye = global::FunnyMoney.Droid.Resource.String.path_password_eye;
-			global::XMRN.Android.Common.Resource.String.path_password_eye_mask_strike_through = global::FunnyMoney.Droid.Resource.String.path_password_eye_mask_strike_through;
-			global::XMRN.Android.Common.Resource.String.path_password_eye_mask_visible = global::FunnyMoney.Droid.Resource.String.path_password_eye_mask_visible;
-			global::XMRN.Android.Common.Resource.String.path_password_strike_through = global::FunnyMoney.Droid.Resource.String.path_password_strike_through;
-			global::XMRN.Android.Common.Resource.String.search_menu_title = global::FunnyMoney.Droid.Resource.String.search_menu_title;
-			global::XMRN.Android.Common.Resource.String.status_bar_notification_info_overflow = global::FunnyMoney.Droid.Resource.String.status_bar_notification_info_overflow;
-			global::XMRN.Android.Common.Resource.Style.AlertDialog_AppCompat = global::FunnyMoney.Droid.Resource.Style.AlertDialog_AppCompat;
-			global::XMRN.Android.Common.Resource.Style.AlertDialog_AppCompat_Light = global::FunnyMoney.Droid.Resource.Style.AlertDialog_AppCompat_Light;
-			global::XMRN.Android.Common.Resource.Style.Animation_AppCompat_Dialog = global::FunnyMoney.Droid.Resource.Style.Animation_AppCompat_Dialog;
-			global::XMRN.Android.Common.Resource.Style.Animation_AppCompat_DropDownUp = global::FunnyMoney.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
-			global::XMRN.Android.Common.Resource.Style.Animation_AppCompat_Tooltip = global::FunnyMoney.Droid.Resource.Style.Animation_AppCompat_Tooltip;
-			global::XMRN.Android.Common.Resource.Style.Animation_Design_BottomSheetDialog = global::FunnyMoney.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
-			global::XMRN.Android.Common.Resource.Style.Base_AlertDialog_AppCompat = global::FunnyMoney.Droid.Resource.Style.Base_AlertDialog_AppCompat;
-			global::XMRN.Android.Common.Resource.Style.Base_AlertDialog_AppCompat_Light = global::FunnyMoney.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
-			global::XMRN.Android.Common.Resource.Style.Base_Animation_AppCompat_Dialog = global::FunnyMoney.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
-			global::XMRN.Android.Common.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::FunnyMoney.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
-			global::XMRN.Android.Common.Resource.Style.Base_Animation_AppCompat_Tooltip = global::FunnyMoney.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
-			global::XMRN.Android.Common.Resource.Style.Base_CardView = global::FunnyMoney.Droid.Resource.Style.Base_CardView;
-			global::XMRN.Android.Common.Resource.Style.Base_DialogWindowTitle_AppCompat = global::FunnyMoney.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
-			global::XMRN.Android.Common.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::FunnyMoney.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_Button = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_Large = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_Small = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_Title = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::XMRN.Android.Common.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::FunnyMoney.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::XMRN.Android.Common.Resource.Style.Base_Theme_AppCompat = global::FunnyMoney.Droid.Resource.Style.Base_Theme_AppCompat;
-			global::XMRN.Android.Common.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::FunnyMoney.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
-			global::XMRN.Android.Common.Resource.Style.Base_Theme_AppCompat_Dialog = global::FunnyMoney.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
-			global::XMRN.Android.Common.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::FunnyMoney.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
-			global::XMRN.Android.Common.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::FunnyMoney.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
-			global::XMRN.Android.Common.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::FunnyMoney.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
-			global::XMRN.Android.Common.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::FunnyMoney.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
-			global::XMRN.Android.Common.Resource.Style.Base_Theme_AppCompat_Light = global::FunnyMoney.Droid.Resource.Style.Base_Theme_AppCompat_Light;
-			global::XMRN.Android.Common.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::FunnyMoney.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
-			global::XMRN.Android.Common.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::FunnyMoney.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
-			global::XMRN.Android.Common.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::FunnyMoney.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
-			global::XMRN.Android.Common.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::FunnyMoney.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
-			global::XMRN.Android.Common.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::FunnyMoney.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
-			global::XMRN.Android.Common.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::FunnyMoney.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
-			global::XMRN.Android.Common.Resource.Style.Base_ThemeOverlay_AppCompat = global::FunnyMoney.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
-			global::XMRN.Android.Common.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::FunnyMoney.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
-			global::XMRN.Android.Common.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::FunnyMoney.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
-			global::XMRN.Android.Common.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::FunnyMoney.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::XMRN.Android.Common.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::FunnyMoney.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
-			global::XMRN.Android.Common.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::FunnyMoney.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
-			global::XMRN.Android.Common.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::FunnyMoney.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
-			global::XMRN.Android.Common.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::FunnyMoney.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
-			global::XMRN.Android.Common.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::FunnyMoney.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
-			global::XMRN.Android.Common.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog = global::FunnyMoney.Droid.Resource.Style.Base_V11_ThemeOverlay_AppCompat_Dialog;
-			global::XMRN.Android.Common.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::FunnyMoney.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
-			global::XMRN.Android.Common.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::FunnyMoney.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
-			global::XMRN.Android.Common.Resource.Style.Base_V14_Widget_Design_AppBarLayout = global::FunnyMoney.Droid.Resource.Style.Base_V14_Widget_Design_AppBarLayout;
-			global::XMRN.Android.Common.Resource.Style.Base_V21_Theme_AppCompat = global::FunnyMoney.Droid.Resource.Style.Base_V21_Theme_AppCompat;
-			global::XMRN.Android.Common.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::FunnyMoney.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
-			global::XMRN.Android.Common.Resource.Style.Base_V21_Theme_AppCompat_Light = global::FunnyMoney.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
-			global::XMRN.Android.Common.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::FunnyMoney.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
-			global::XMRN.Android.Common.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::FunnyMoney.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
-			global::XMRN.Android.Common.Resource.Style.Base_V21_Widget_Design_AppBarLayout = global::FunnyMoney.Droid.Resource.Style.Base_V21_Widget_Design_AppBarLayout;
-			global::XMRN.Android.Common.Resource.Style.Base_V22_Theme_AppCompat = global::FunnyMoney.Droid.Resource.Style.Base_V22_Theme_AppCompat;
-			global::XMRN.Android.Common.Resource.Style.Base_V22_Theme_AppCompat_Light = global::FunnyMoney.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
-			global::XMRN.Android.Common.Resource.Style.Base_V23_Theme_AppCompat = global::FunnyMoney.Droid.Resource.Style.Base_V23_Theme_AppCompat;
-			global::XMRN.Android.Common.Resource.Style.Base_V23_Theme_AppCompat_Light = global::FunnyMoney.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
-			global::XMRN.Android.Common.Resource.Style.Base_V26_Theme_AppCompat = global::FunnyMoney.Droid.Resource.Style.Base_V26_Theme_AppCompat;
-			global::XMRN.Android.Common.Resource.Style.Base_V26_Theme_AppCompat_Light = global::FunnyMoney.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
-			global::XMRN.Android.Common.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::FunnyMoney.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
-			global::XMRN.Android.Common.Resource.Style.Base_V26_Widget_Design_AppBarLayout = global::FunnyMoney.Droid.Resource.Style.Base_V26_Widget_Design_AppBarLayout;
-			global::XMRN.Android.Common.Resource.Style.Base_V7_Theme_AppCompat = global::FunnyMoney.Droid.Resource.Style.Base_V7_Theme_AppCompat;
-			global::XMRN.Android.Common.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::FunnyMoney.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
-			global::XMRN.Android.Common.Resource.Style.Base_V7_Theme_AppCompat_Light = global::FunnyMoney.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
-			global::XMRN.Android.Common.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::FunnyMoney.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
-			global::XMRN.Android.Common.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::FunnyMoney.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
-			global::XMRN.Android.Common.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::FunnyMoney.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
-			global::XMRN.Android.Common.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::FunnyMoney.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
-			global::XMRN.Android.Common.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::FunnyMoney.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_ActionBar = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_ActionButton = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_ActionMode = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_Button = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_Button;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_Button_Small = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_EditText = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_ImageButton = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_ListView = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_RatingBar = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_SearchView = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_SeekBar = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_Spinner = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_Toolbar = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::FunnyMoney.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_Design_AppBarLayout = global::FunnyMoney.Droid.Resource.Style.Base_Widget_Design_AppBarLayout;
-			global::XMRN.Android.Common.Resource.Style.Base_Widget_Design_TabLayout = global::FunnyMoney.Droid.Resource.Style.Base_Widget_Design_TabLayout;
-			global::XMRN.Android.Common.Resource.Style.CardView = global::FunnyMoney.Droid.Resource.Style.CardView;
-			global::XMRN.Android.Common.Resource.Style.CardView_Dark = global::FunnyMoney.Droid.Resource.Style.CardView_Dark;
-			global::XMRN.Android.Common.Resource.Style.CardView_Light = global::FunnyMoney.Droid.Resource.Style.CardView_Light;
-			global::XMRN.Android.Common.Resource.Style.Platform_AppCompat = global::FunnyMoney.Droid.Resource.Style.Platform_AppCompat;
-			global::XMRN.Android.Common.Resource.Style.Platform_AppCompat_Light = global::FunnyMoney.Droid.Resource.Style.Platform_AppCompat_Light;
-			global::XMRN.Android.Common.Resource.Style.Platform_ThemeOverlay_AppCompat = global::FunnyMoney.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
-			global::XMRN.Android.Common.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::FunnyMoney.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
-			global::XMRN.Android.Common.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::FunnyMoney.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
-			global::XMRN.Android.Common.Resource.Style.Platform_V11_AppCompat = global::FunnyMoney.Droid.Resource.Style.Platform_V11_AppCompat;
-			global::XMRN.Android.Common.Resource.Style.Platform_V11_AppCompat_Light = global::FunnyMoney.Droid.Resource.Style.Platform_V11_AppCompat_Light;
-			global::XMRN.Android.Common.Resource.Style.Platform_V14_AppCompat = global::FunnyMoney.Droid.Resource.Style.Platform_V14_AppCompat;
-			global::XMRN.Android.Common.Resource.Style.Platform_V14_AppCompat_Light = global::FunnyMoney.Droid.Resource.Style.Platform_V14_AppCompat_Light;
-			global::XMRN.Android.Common.Resource.Style.Platform_V21_AppCompat = global::FunnyMoney.Droid.Resource.Style.Platform_V21_AppCompat;
-			global::XMRN.Android.Common.Resource.Style.Platform_V21_AppCompat_Light = global::FunnyMoney.Droid.Resource.Style.Platform_V21_AppCompat_Light;
-			global::XMRN.Android.Common.Resource.Style.Platform_V25_AppCompat = global::FunnyMoney.Droid.Resource.Style.Platform_V25_AppCompat;
-			global::XMRN.Android.Common.Resource.Style.Platform_V25_AppCompat_Light = global::FunnyMoney.Droid.Resource.Style.Platform_V25_AppCompat_Light;
-			global::XMRN.Android.Common.Resource.Style.Platform_Widget_AppCompat_Spinner = global::FunnyMoney.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
-			global::XMRN.Android.Common.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::FunnyMoney.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
-			global::XMRN.Android.Common.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::FunnyMoney.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
-			global::XMRN.Android.Common.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::FunnyMoney.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
-			global::XMRN.Android.Common.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::FunnyMoney.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
-			global::XMRN.Android.Common.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::FunnyMoney.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
-			global::XMRN.Android.Common.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::FunnyMoney.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
-			global::XMRN.Android.Common.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::FunnyMoney.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
-			global::XMRN.Android.Common.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::FunnyMoney.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
-			global::XMRN.Android.Common.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::FunnyMoney.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
-			global::XMRN.Android.Common.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::FunnyMoney.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
-			global::XMRN.Android.Common.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::FunnyMoney.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
-			global::XMRN.Android.Common.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::FunnyMoney.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
-			global::XMRN.Android.Common.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::FunnyMoney.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
-			global::XMRN.Android.Common.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::FunnyMoney.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Body1 = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Body2 = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Button = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Button;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Caption = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Display1 = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Display2 = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Display3 = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Display4 = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Headline = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Inverse = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Large = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Large;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Medium = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Menu = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Small = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Small;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Subhead = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Title = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Title;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Tooltip = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::FunnyMoney.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_Compat_Notification = global::FunnyMoney.Droid.Resource.Style.TextAppearance_Compat_Notification;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_Compat_Notification_Info = global::FunnyMoney.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::FunnyMoney.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::FunnyMoney.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::FunnyMoney.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_Compat_Notification_Media = global::FunnyMoney.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_Compat_Notification_Time = global::FunnyMoney.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::FunnyMoney.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_Compat_Notification_Title = global::FunnyMoney.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::FunnyMoney.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::FunnyMoney.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_Design_Counter = global::FunnyMoney.Droid.Resource.Style.TextAppearance_Design_Counter;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_Design_Counter_Overflow = global::FunnyMoney.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_Design_Error = global::FunnyMoney.Droid.Resource.Style.TextAppearance_Design_Error;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_Design_Hint = global::FunnyMoney.Droid.Resource.Style.TextAppearance_Design_Hint;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_Design_Snackbar_Message = global::FunnyMoney.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_Design_Tab = global::FunnyMoney.Droid.Resource.Style.TextAppearance_Design_Tab;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::FunnyMoney.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::FunnyMoney.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_MediaRouter_Title = global::FunnyMoney.Droid.Resource.Style.TextAppearance_MediaRouter_Title;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::FunnyMoney.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::FunnyMoney.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::XMRN.Android.Common.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::FunnyMoney.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::XMRN.Android.Common.Resource.Style.Theme_AppCompat = global::FunnyMoney.Droid.Resource.Style.Theme_AppCompat;
-			global::XMRN.Android.Common.Resource.Style.Theme_AppCompat_CompactMenu = global::FunnyMoney.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
-			global::XMRN.Android.Common.Resource.Style.Theme_AppCompat_DayNight = global::FunnyMoney.Droid.Resource.Style.Theme_AppCompat_DayNight;
-			global::XMRN.Android.Common.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::FunnyMoney.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
-			global::XMRN.Android.Common.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::FunnyMoney.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
-			global::XMRN.Android.Common.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::FunnyMoney.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
-			global::XMRN.Android.Common.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::FunnyMoney.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
-			global::XMRN.Android.Common.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::FunnyMoney.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
-			global::XMRN.Android.Common.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::FunnyMoney.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
-			global::XMRN.Android.Common.Resource.Style.Theme_AppCompat_Dialog = global::FunnyMoney.Droid.Resource.Style.Theme_AppCompat_Dialog;
-			global::XMRN.Android.Common.Resource.Style.Theme_AppCompat_Dialog_Alert = global::FunnyMoney.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
-			global::XMRN.Android.Common.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::FunnyMoney.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
-			global::XMRN.Android.Common.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::FunnyMoney.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
-			global::XMRN.Android.Common.Resource.Style.Theme_AppCompat_Light = global::FunnyMoney.Droid.Resource.Style.Theme_AppCompat_Light;
-			global::XMRN.Android.Common.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::FunnyMoney.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
-			global::XMRN.Android.Common.Resource.Style.Theme_AppCompat_Light_Dialog = global::FunnyMoney.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
-			global::XMRN.Android.Common.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::FunnyMoney.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
-			global::XMRN.Android.Common.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::FunnyMoney.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
-			global::XMRN.Android.Common.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::FunnyMoney.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
-			global::XMRN.Android.Common.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::FunnyMoney.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
-			global::XMRN.Android.Common.Resource.Style.Theme_AppCompat_NoActionBar = global::FunnyMoney.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
-			global::XMRN.Android.Common.Resource.Style.Theme_Design = global::FunnyMoney.Droid.Resource.Style.Theme_Design;
-			global::XMRN.Android.Common.Resource.Style.Theme_Design_BottomSheetDialog = global::FunnyMoney.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
-			global::XMRN.Android.Common.Resource.Style.Theme_Design_Light = global::FunnyMoney.Droid.Resource.Style.Theme_Design_Light;
-			global::XMRN.Android.Common.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::FunnyMoney.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
-			global::XMRN.Android.Common.Resource.Style.Theme_Design_Light_NoActionBar = global::FunnyMoney.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
-			global::XMRN.Android.Common.Resource.Style.Theme_Design_NoActionBar = global::FunnyMoney.Droid.Resource.Style.Theme_Design_NoActionBar;
-			global::XMRN.Android.Common.Resource.Style.Theme_MediaRouter = global::FunnyMoney.Droid.Resource.Style.Theme_MediaRouter;
-			global::XMRN.Android.Common.Resource.Style.Theme_MediaRouter_Light = global::FunnyMoney.Droid.Resource.Style.Theme_MediaRouter_Light;
-			global::XMRN.Android.Common.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::FunnyMoney.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
-			global::XMRN.Android.Common.Resource.Style.Theme_MediaRouter_LightControlPanel = global::FunnyMoney.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
-			global::XMRN.Android.Common.Resource.Style.ThemeOverlay_AppCompat = global::FunnyMoney.Droid.Resource.Style.ThemeOverlay_AppCompat;
-			global::XMRN.Android.Common.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::FunnyMoney.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
-			global::XMRN.Android.Common.Resource.Style.ThemeOverlay_AppCompat_Dark = global::FunnyMoney.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
-			global::XMRN.Android.Common.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::FunnyMoney.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::XMRN.Android.Common.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::FunnyMoney.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
-			global::XMRN.Android.Common.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::FunnyMoney.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
-			global::XMRN.Android.Common.Resource.Style.ThemeOverlay_AppCompat_Light = global::FunnyMoney.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
-			global::XMRN.Android.Common.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::FunnyMoney.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark;
-			global::XMRN.Android.Common.Resource.Style.ThemeOverlay_MediaRouter_Light = global::FunnyMoney.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_ActionBar = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_ActionBar;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_ActionButton = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_ActionButton;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_ActionMode = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_ActionMode;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_ActivityChooserView = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_Button = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_Button;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_Button_Borderless = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_Button_Colored = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_Button_Small = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_Button_Small;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_ButtonBar = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_EditText = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_EditText;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_ImageButton = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_ImageButton;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_Light_ActionBar = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_Light_ActionButton = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_Light_SearchView = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_ListMenuView = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_ListPopupWindow = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_ListView = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_ListView;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_ListView_DropDown = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_ListView_Menu = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_PopupMenu = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_PopupWindow = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_ProgressBar = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_RatingBar = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_RatingBar;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_RatingBar_Small = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_SearchView = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_SearchView;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_SeekBar = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_SeekBar;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_Spinner = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_Spinner;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_Toolbar = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_Toolbar;
-			global::XMRN.Android.Common.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::FunnyMoney.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
-			global::XMRN.Android.Common.Resource.Style.Widget_Compat_NotificationActionContainer = global::FunnyMoney.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
-			global::XMRN.Android.Common.Resource.Style.Widget_Compat_NotificationActionText = global::FunnyMoney.Droid.Resource.Style.Widget_Compat_NotificationActionText;
-			global::XMRN.Android.Common.Resource.Style.Widget_Design_AppBarLayout = global::FunnyMoney.Droid.Resource.Style.Widget_Design_AppBarLayout;
-			global::XMRN.Android.Common.Resource.Style.Widget_Design_BottomNavigationView = global::FunnyMoney.Droid.Resource.Style.Widget_Design_BottomNavigationView;
-			global::XMRN.Android.Common.Resource.Style.Widget_Design_BottomSheet_Modal = global::FunnyMoney.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
-			global::XMRN.Android.Common.Resource.Style.Widget_Design_CollapsingToolbar = global::FunnyMoney.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
-			global::XMRN.Android.Common.Resource.Style.Widget_Design_CoordinatorLayout = global::FunnyMoney.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
-			global::XMRN.Android.Common.Resource.Style.Widget_Design_FloatingActionButton = global::FunnyMoney.Droid.Resource.Style.Widget_Design_FloatingActionButton;
-			global::XMRN.Android.Common.Resource.Style.Widget_Design_NavigationView = global::FunnyMoney.Droid.Resource.Style.Widget_Design_NavigationView;
-			global::XMRN.Android.Common.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::FunnyMoney.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
-			global::XMRN.Android.Common.Resource.Style.Widget_Design_Snackbar = global::FunnyMoney.Droid.Resource.Style.Widget_Design_Snackbar;
-			global::XMRN.Android.Common.Resource.Style.Widget_Design_TabLayout = global::FunnyMoney.Droid.Resource.Style.Widget_Design_TabLayout;
-			global::XMRN.Android.Common.Resource.Style.Widget_Design_TextInputLayout = global::FunnyMoney.Droid.Resource.Style.Widget_Design_TextInputLayout;
-			global::XMRN.Android.Common.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::FunnyMoney.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
-			global::XMRN.Android.Common.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::FunnyMoney.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
-			global::XMRN.Android.Common.Resource.Styleable.ActionBar = global::FunnyMoney.Droid.Resource.Styleable.ActionBar;
-			global::XMRN.Android.Common.Resource.Styleable.ActionBar_background = global::FunnyMoney.Droid.Resource.Styleable.ActionBar_background;
-			global::XMRN.Android.Common.Resource.Styleable.ActionBar_backgroundSplit = global::FunnyMoney.Droid.Resource.Styleable.ActionBar_backgroundSplit;
-			global::XMRN.Android.Common.Resource.Styleable.ActionBar_backgroundStacked = global::FunnyMoney.Droid.Resource.Styleable.ActionBar_backgroundStacked;
-			global::XMRN.Android.Common.Resource.Styleable.ActionBar_contentInsetEnd = global::FunnyMoney.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
-			global::XMRN.Android.Common.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::FunnyMoney.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
-			global::XMRN.Android.Common.Resource.Styleable.ActionBar_contentInsetLeft = global::FunnyMoney.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
-			global::XMRN.Android.Common.Resource.Styleable.ActionBar_contentInsetRight = global::FunnyMoney.Droid.Resource.Styleable.ActionBar_contentInsetRight;
-			global::XMRN.Android.Common.Resource.Styleable.ActionBar_contentInsetStart = global::FunnyMoney.Droid.Resource.Styleable.ActionBar_contentInsetStart;
-			global::XMRN.Android.Common.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::FunnyMoney.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
-			global::XMRN.Android.Common.Resource.Styleable.ActionBar_customNavigationLayout = global::FunnyMoney.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
-			global::XMRN.Android.Common.Resource.Styleable.ActionBar_displayOptions = global::FunnyMoney.Droid.Resource.Styleable.ActionBar_displayOptions;
-			global::XMRN.Android.Common.Resource.Styleable.ActionBar_divider = global::FunnyMoney.Droid.Resource.Styleable.ActionBar_divider;
-			global::XMRN.Android.Common.Resource.Styleable.ActionBar_elevation = global::FunnyMoney.Droid.Resource.Styleable.ActionBar_elevation;
-			global::XMRN.Android.Common.Resource.Styleable.ActionBar_height = global::FunnyMoney.Droid.Resource.Styleable.ActionBar_height;
-			global::XMRN.Android.Common.Resource.Styleable.ActionBar_hideOnContentScroll = global::FunnyMoney.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
-			global::XMRN.Android.Common.Resource.Styleable.ActionBar_homeAsUpIndicator = global::FunnyMoney.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
-			global::XMRN.Android.Common.Resource.Styleable.ActionBar_homeLayout = global::FunnyMoney.Droid.Resource.Styleable.ActionBar_homeLayout;
-			global::XMRN.Android.Common.Resource.Styleable.ActionBar_icon = global::FunnyMoney.Droid.Resource.Styleable.ActionBar_icon;
-			global::XMRN.Android.Common.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::FunnyMoney.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
-			global::XMRN.Android.Common.Resource.Styleable.ActionBar_itemPadding = global::FunnyMoney.Droid.Resource.Styleable.ActionBar_itemPadding;
-			global::XMRN.Android.Common.Resource.Styleable.ActionBar_logo = global::FunnyMoney.Droid.Resource.Styleable.ActionBar_logo;
-			global::XMRN.Android.Common.Resource.Styleable.ActionBar_navigationMode = global::FunnyMoney.Droid.Resource.Styleable.ActionBar_navigationMode;
-			global::XMRN.Android.Common.Resource.Styleable.ActionBar_popupTheme = global::FunnyMoney.Droid.Resource.Styleable.ActionBar_popupTheme;
-			global::XMRN.Android.Common.Resource.Styleable.ActionBar_progressBarPadding = global::FunnyMoney.Droid.Resource.Styleable.ActionBar_progressBarPadding;
-			global::XMRN.Android.Common.Resource.Styleable.ActionBar_progressBarStyle = global::FunnyMoney.Droid.Resource.Styleable.ActionBar_progressBarStyle;
-			global::XMRN.Android.Common.Resource.Styleable.ActionBar_subtitle = global::FunnyMoney.Droid.Resource.Styleable.ActionBar_subtitle;
-			global::XMRN.Android.Common.Resource.Styleable.ActionBar_subtitleTextStyle = global::FunnyMoney.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
-			global::XMRN.Android.Common.Resource.Styleable.ActionBar_title = global::FunnyMoney.Droid.Resource.Styleable.ActionBar_title;
-			global::XMRN.Android.Common.Resource.Styleable.ActionBar_titleTextStyle = global::FunnyMoney.Droid.Resource.Styleable.ActionBar_titleTextStyle;
-			global::XMRN.Android.Common.Resource.Styleable.ActionBarLayout = global::FunnyMoney.Droid.Resource.Styleable.ActionBarLayout;
-			global::XMRN.Android.Common.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::FunnyMoney.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
-			global::XMRN.Android.Common.Resource.Styleable.ActionMenuItemView = global::FunnyMoney.Droid.Resource.Styleable.ActionMenuItemView;
-			global::XMRN.Android.Common.Resource.Styleable.ActionMenuItemView_android_minWidth = global::FunnyMoney.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
-			global::XMRN.Android.Common.Resource.Styleable.ActionMenuView = global::FunnyMoney.Droid.Resource.Styleable.ActionMenuView;
-			global::XMRN.Android.Common.Resource.Styleable.ActionMode = global::FunnyMoney.Droid.Resource.Styleable.ActionMode;
-			global::XMRN.Android.Common.Resource.Styleable.ActionMode_background = global::FunnyMoney.Droid.Resource.Styleable.ActionMode_background;
-			global::XMRN.Android.Common.Resource.Styleable.ActionMode_backgroundSplit = global::FunnyMoney.Droid.Resource.Styleable.ActionMode_backgroundSplit;
-			global::XMRN.Android.Common.Resource.Styleable.ActionMode_closeItemLayout = global::FunnyMoney.Droid.Resource.Styleable.ActionMode_closeItemLayout;
-			global::XMRN.Android.Common.Resource.Styleable.ActionMode_height = global::FunnyMoney.Droid.Resource.Styleable.ActionMode_height;
-			global::XMRN.Android.Common.Resource.Styleable.ActionMode_subtitleTextStyle = global::FunnyMoney.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
-			global::XMRN.Android.Common.Resource.Styleable.ActionMode_titleTextStyle = global::FunnyMoney.Droid.Resource.Styleable.ActionMode_titleTextStyle;
-			global::XMRN.Android.Common.Resource.Styleable.ActivityChooserView = global::FunnyMoney.Droid.Resource.Styleable.ActivityChooserView;
-			global::XMRN.Android.Common.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::FunnyMoney.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
-			global::XMRN.Android.Common.Resource.Styleable.ActivityChooserView_initialActivityCount = global::FunnyMoney.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
-			global::XMRN.Android.Common.Resource.Styleable.AlertDialog = global::FunnyMoney.Droid.Resource.Styleable.AlertDialog;
-			global::XMRN.Android.Common.Resource.Styleable.AlertDialog_android_layout = global::FunnyMoney.Droid.Resource.Styleable.AlertDialog_android_layout;
-			global::XMRN.Android.Common.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::FunnyMoney.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
-			global::XMRN.Android.Common.Resource.Styleable.AlertDialog_listItemLayout = global::FunnyMoney.Droid.Resource.Styleable.AlertDialog_listItemLayout;
-			global::XMRN.Android.Common.Resource.Styleable.AlertDialog_listLayout = global::FunnyMoney.Droid.Resource.Styleable.AlertDialog_listLayout;
-			global::XMRN.Android.Common.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::FunnyMoney.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
-			global::XMRN.Android.Common.Resource.Styleable.AlertDialog_showTitle = global::FunnyMoney.Droid.Resource.Styleable.AlertDialog_showTitle;
-			global::XMRN.Android.Common.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::FunnyMoney.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
-			global::XMRN.Android.Common.Resource.Styleable.AppBarLayout = global::FunnyMoney.Droid.Resource.Styleable.AppBarLayout;
-			global::XMRN.Android.Common.Resource.Styleable.AppBarLayout_android_background = global::FunnyMoney.Droid.Resource.Styleable.AppBarLayout_android_background;
-			global::XMRN.Android.Common.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::FunnyMoney.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
-			global::XMRN.Android.Common.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::FunnyMoney.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
-			global::XMRN.Android.Common.Resource.Styleable.AppBarLayout_elevation = global::FunnyMoney.Droid.Resource.Styleable.AppBarLayout_elevation;
-			global::XMRN.Android.Common.Resource.Styleable.AppBarLayout_expanded = global::FunnyMoney.Droid.Resource.Styleable.AppBarLayout_expanded;
-			global::XMRN.Android.Common.Resource.Styleable.AppBarLayoutStates = global::FunnyMoney.Droid.Resource.Styleable.AppBarLayoutStates;
-			global::XMRN.Android.Common.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::FunnyMoney.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
-			global::XMRN.Android.Common.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::FunnyMoney.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
-			global::XMRN.Android.Common.Resource.Styleable.AppBarLayout_Layout = global::FunnyMoney.Droid.Resource.Styleable.AppBarLayout_Layout;
-			global::XMRN.Android.Common.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::FunnyMoney.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
-			global::XMRN.Android.Common.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::FunnyMoney.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatImageView = global::FunnyMoney.Droid.Resource.Styleable.AppCompatImageView;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatImageView_android_src = global::FunnyMoney.Droid.Resource.Styleable.AppCompatImageView_android_src;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatImageView_srcCompat = global::FunnyMoney.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatImageView_tint = global::FunnyMoney.Droid.Resource.Styleable.AppCompatImageView_tint;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatImageView_tintMode = global::FunnyMoney.Droid.Resource.Styleable.AppCompatImageView_tintMode;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatSeekBar = global::FunnyMoney.Droid.Resource.Styleable.AppCompatSeekBar;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatSeekBar_android_thumb = global::FunnyMoney.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatSeekBar_tickMark = global::FunnyMoney.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::FunnyMoney.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::FunnyMoney.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTextHelper = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTextHelper;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTextView = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTextView;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTextView_android_textAppearance = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTextView_fontFamily = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTextView_textAllCaps = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_actionBarDivider = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_actionBarSize = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_actionBarStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_actionBarTheme = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_actionModeBackground = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_actionModeStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_buttonStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_checkboxStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_colorAccent = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_colorControlActivated = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_colorControlNormal = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_colorError = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_colorError;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_colorPrimary = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_controlBackground = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_dialogTheme = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_dividerVertical = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_editTextBackground = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_editTextColor = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_editTextStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_panelBackground = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_searchViewStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_seekBarStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_spinnerStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_switchStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_toolbarStyle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_windowActionBar = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
-			global::XMRN.Android.Common.Resource.Styleable.AppCompatTheme_windowNoTitle = global::FunnyMoney.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
-			global::XMRN.Android.Common.Resource.Styleable.BottomNavigationView = global::FunnyMoney.Droid.Resource.Styleable.BottomNavigationView;
-			global::XMRN.Android.Common.Resource.Styleable.BottomNavigationView_elevation = global::FunnyMoney.Droid.Resource.Styleable.BottomNavigationView_elevation;
-			global::XMRN.Android.Common.Resource.Styleable.BottomNavigationView_itemBackground = global::FunnyMoney.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
-			global::XMRN.Android.Common.Resource.Styleable.BottomNavigationView_itemIconTint = global::FunnyMoney.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
-			global::XMRN.Android.Common.Resource.Styleable.BottomNavigationView_itemTextColor = global::FunnyMoney.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
-			global::XMRN.Android.Common.Resource.Styleable.BottomNavigationView_menu = global::FunnyMoney.Droid.Resource.Styleable.BottomNavigationView_menu;
-			global::XMRN.Android.Common.Resource.Styleable.BottomSheetBehavior_Layout = global::FunnyMoney.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
-			global::XMRN.Android.Common.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::FunnyMoney.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
-			global::XMRN.Android.Common.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::FunnyMoney.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
-			global::XMRN.Android.Common.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::FunnyMoney.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
-			global::XMRN.Android.Common.Resource.Styleable.ButtonBarLayout = global::FunnyMoney.Droid.Resource.Styleable.ButtonBarLayout;
-			global::XMRN.Android.Common.Resource.Styleable.ButtonBarLayout_allowStacking = global::FunnyMoney.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
-			global::XMRN.Android.Common.Resource.Styleable.CardView = global::FunnyMoney.Droid.Resource.Styleable.CardView;
-			global::XMRN.Android.Common.Resource.Styleable.CardView_android_minHeight = global::FunnyMoney.Droid.Resource.Styleable.CardView_android_minHeight;
-			global::XMRN.Android.Common.Resource.Styleable.CardView_android_minWidth = global::FunnyMoney.Droid.Resource.Styleable.CardView_android_minWidth;
-			global::XMRN.Android.Common.Resource.Styleable.CardView_cardBackgroundColor = global::FunnyMoney.Droid.Resource.Styleable.CardView_cardBackgroundColor;
-			global::XMRN.Android.Common.Resource.Styleable.CardView_cardCornerRadius = global::FunnyMoney.Droid.Resource.Styleable.CardView_cardCornerRadius;
-			global::XMRN.Android.Common.Resource.Styleable.CardView_cardElevation = global::FunnyMoney.Droid.Resource.Styleable.CardView_cardElevation;
-			global::XMRN.Android.Common.Resource.Styleable.CardView_cardMaxElevation = global::FunnyMoney.Droid.Resource.Styleable.CardView_cardMaxElevation;
-			global::XMRN.Android.Common.Resource.Styleable.CardView_cardPreventCornerOverlap = global::FunnyMoney.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
-			global::XMRN.Android.Common.Resource.Styleable.CardView_cardUseCompatPadding = global::FunnyMoney.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
-			global::XMRN.Android.Common.Resource.Styleable.CardView_contentPadding = global::FunnyMoney.Droid.Resource.Styleable.CardView_contentPadding;
-			global::XMRN.Android.Common.Resource.Styleable.CardView_contentPaddingBottom = global::FunnyMoney.Droid.Resource.Styleable.CardView_contentPaddingBottom;
-			global::XMRN.Android.Common.Resource.Styleable.CardView_contentPaddingLeft = global::FunnyMoney.Droid.Resource.Styleable.CardView_contentPaddingLeft;
-			global::XMRN.Android.Common.Resource.Styleable.CardView_contentPaddingRight = global::FunnyMoney.Droid.Resource.Styleable.CardView_contentPaddingRight;
-			global::XMRN.Android.Common.Resource.Styleable.CardView_contentPaddingTop = global::FunnyMoney.Droid.Resource.Styleable.CardView_contentPaddingTop;
-			global::XMRN.Android.Common.Resource.Styleable.CollapsingToolbarLayout = global::FunnyMoney.Droid.Resource.Styleable.CollapsingToolbarLayout;
-			global::XMRN.Android.Common.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::FunnyMoney.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
-			global::XMRN.Android.Common.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::FunnyMoney.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
-			global::XMRN.Android.Common.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::FunnyMoney.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
-			global::XMRN.Android.Common.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::FunnyMoney.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
-			global::XMRN.Android.Common.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::FunnyMoney.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
-			global::XMRN.Android.Common.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::FunnyMoney.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
-			global::XMRN.Android.Common.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::FunnyMoney.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
-			global::XMRN.Android.Common.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::FunnyMoney.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
-			global::XMRN.Android.Common.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::FunnyMoney.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
-			global::XMRN.Android.Common.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::FunnyMoney.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
-			global::XMRN.Android.Common.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::FunnyMoney.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
-			global::XMRN.Android.Common.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::FunnyMoney.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
-			global::XMRN.Android.Common.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::FunnyMoney.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
-			global::XMRN.Android.Common.Resource.Styleable.CollapsingToolbarLayout_title = global::FunnyMoney.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
-			global::XMRN.Android.Common.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::FunnyMoney.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
-			global::XMRN.Android.Common.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::FunnyMoney.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
-			global::XMRN.Android.Common.Resource.Styleable.CollapsingToolbarLayout_Layout = global::FunnyMoney.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
-			global::XMRN.Android.Common.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::FunnyMoney.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
-			global::XMRN.Android.Common.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::FunnyMoney.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
-			global::XMRN.Android.Common.Resource.Styleable.ColorStateListItem = global::FunnyMoney.Droid.Resource.Styleable.ColorStateListItem;
-			global::XMRN.Android.Common.Resource.Styleable.ColorStateListItem_alpha = global::FunnyMoney.Droid.Resource.Styleable.ColorStateListItem_alpha;
-			global::XMRN.Android.Common.Resource.Styleable.ColorStateListItem_android_alpha = global::FunnyMoney.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
-			global::XMRN.Android.Common.Resource.Styleable.ColorStateListItem_android_color = global::FunnyMoney.Droid.Resource.Styleable.ColorStateListItem_android_color;
-			global::XMRN.Android.Common.Resource.Styleable.CompoundButton = global::FunnyMoney.Droid.Resource.Styleable.CompoundButton;
-			global::XMRN.Android.Common.Resource.Styleable.CompoundButton_android_button = global::FunnyMoney.Droid.Resource.Styleable.CompoundButton_android_button;
-			global::XMRN.Android.Common.Resource.Styleable.CompoundButton_buttonTint = global::FunnyMoney.Droid.Resource.Styleable.CompoundButton_buttonTint;
-			global::XMRN.Android.Common.Resource.Styleable.CompoundButton_buttonTintMode = global::FunnyMoney.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
-			global::XMRN.Android.Common.Resource.Styleable.CoordinatorLayout = global::FunnyMoney.Droid.Resource.Styleable.CoordinatorLayout;
-			global::XMRN.Android.Common.Resource.Styleable.CoordinatorLayout_keylines = global::FunnyMoney.Droid.Resource.Styleable.CoordinatorLayout_keylines;
-			global::XMRN.Android.Common.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::FunnyMoney.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
-			global::XMRN.Android.Common.Resource.Styleable.CoordinatorLayout_Layout = global::FunnyMoney.Droid.Resource.Styleable.CoordinatorLayout_Layout;
-			global::XMRN.Android.Common.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::FunnyMoney.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
-			global::XMRN.Android.Common.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::FunnyMoney.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
-			global::XMRN.Android.Common.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::FunnyMoney.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
-			global::XMRN.Android.Common.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::FunnyMoney.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
-			global::XMRN.Android.Common.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::FunnyMoney.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
-			global::XMRN.Android.Common.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::FunnyMoney.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
-			global::XMRN.Android.Common.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::FunnyMoney.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
-			global::XMRN.Android.Common.Resource.Styleable.DesignTheme = global::FunnyMoney.Droid.Resource.Styleable.DesignTheme;
-			global::XMRN.Android.Common.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::FunnyMoney.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
-			global::XMRN.Android.Common.Resource.Styleable.DesignTheme_bottomSheetStyle = global::FunnyMoney.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
-			global::XMRN.Android.Common.Resource.Styleable.DesignTheme_textColorError = global::FunnyMoney.Droid.Resource.Styleable.DesignTheme_textColorError;
-			global::XMRN.Android.Common.Resource.Styleable.DrawerArrowToggle = global::FunnyMoney.Droid.Resource.Styleable.DrawerArrowToggle;
-			global::XMRN.Android.Common.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::FunnyMoney.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
-			global::XMRN.Android.Common.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::FunnyMoney.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
-			global::XMRN.Android.Common.Resource.Styleable.DrawerArrowToggle_barLength = global::FunnyMoney.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
-			global::XMRN.Android.Common.Resource.Styleable.DrawerArrowToggle_color = global::FunnyMoney.Droid.Resource.Styleable.DrawerArrowToggle_color;
-			global::XMRN.Android.Common.Resource.Styleable.DrawerArrowToggle_drawableSize = global::FunnyMoney.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
-			global::XMRN.Android.Common.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::FunnyMoney.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
-			global::XMRN.Android.Common.Resource.Styleable.DrawerArrowToggle_spinBars = global::FunnyMoney.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
-			global::XMRN.Android.Common.Resource.Styleable.DrawerArrowToggle_thickness = global::FunnyMoney.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
-			global::XMRN.Android.Common.Resource.Styleable.FloatingActionButton = global::FunnyMoney.Droid.Resource.Styleable.FloatingActionButton;
-			global::XMRN.Android.Common.Resource.Styleable.FloatingActionButton_backgroundTint = global::FunnyMoney.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
-			global::XMRN.Android.Common.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::FunnyMoney.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
-			global::XMRN.Android.Common.Resource.Styleable.FloatingActionButton_borderWidth = global::FunnyMoney.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
-			global::XMRN.Android.Common.Resource.Styleable.FloatingActionButton_elevation = global::FunnyMoney.Droid.Resource.Styleable.FloatingActionButton_elevation;
-			global::XMRN.Android.Common.Resource.Styleable.FloatingActionButton_fabSize = global::FunnyMoney.Droid.Resource.Styleable.FloatingActionButton_fabSize;
-			global::XMRN.Android.Common.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::FunnyMoney.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
-			global::XMRN.Android.Common.Resource.Styleable.FloatingActionButton_rippleColor = global::FunnyMoney.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
-			global::XMRN.Android.Common.Resource.Styleable.FloatingActionButton_useCompatPadding = global::FunnyMoney.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
-			global::XMRN.Android.Common.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::FunnyMoney.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
-			global::XMRN.Android.Common.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::FunnyMoney.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
-			global::XMRN.Android.Common.Resource.Styleable.FontFamily = global::FunnyMoney.Droid.Resource.Styleable.FontFamily;
-			global::XMRN.Android.Common.Resource.Styleable.FontFamily_fontProviderAuthority = global::FunnyMoney.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
-			global::XMRN.Android.Common.Resource.Styleable.FontFamily_fontProviderCerts = global::FunnyMoney.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
-			global::XMRN.Android.Common.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::FunnyMoney.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
-			global::XMRN.Android.Common.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::FunnyMoney.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
-			global::XMRN.Android.Common.Resource.Styleable.FontFamily_fontProviderPackage = global::FunnyMoney.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
-			global::XMRN.Android.Common.Resource.Styleable.FontFamily_fontProviderQuery = global::FunnyMoney.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
-			global::XMRN.Android.Common.Resource.Styleable.FontFamilyFont = global::FunnyMoney.Droid.Resource.Styleable.FontFamilyFont;
-			global::XMRN.Android.Common.Resource.Styleable.FontFamilyFont_android_font = global::FunnyMoney.Droid.Resource.Styleable.FontFamilyFont_android_font;
-			global::XMRN.Android.Common.Resource.Styleable.FontFamilyFont_android_fontStyle = global::FunnyMoney.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
-			global::XMRN.Android.Common.Resource.Styleable.FontFamilyFont_android_fontWeight = global::FunnyMoney.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
-			global::XMRN.Android.Common.Resource.Styleable.FontFamilyFont_font = global::FunnyMoney.Droid.Resource.Styleable.FontFamilyFont_font;
-			global::XMRN.Android.Common.Resource.Styleable.FontFamilyFont_fontStyle = global::FunnyMoney.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
-			global::XMRN.Android.Common.Resource.Styleable.FontFamilyFont_fontWeight = global::FunnyMoney.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
-			global::XMRN.Android.Common.Resource.Styleable.ForegroundLinearLayout = global::FunnyMoney.Droid.Resource.Styleable.ForegroundLinearLayout;
-			global::XMRN.Android.Common.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::FunnyMoney.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
-			global::XMRN.Android.Common.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::FunnyMoney.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
-			global::XMRN.Android.Common.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::FunnyMoney.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
-			global::XMRN.Android.Common.Resource.Styleable.LinearLayoutCompat = global::FunnyMoney.Droid.Resource.Styleable.LinearLayoutCompat;
-			global::XMRN.Android.Common.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::FunnyMoney.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
-			global::XMRN.Android.Common.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::FunnyMoney.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
-			global::XMRN.Android.Common.Resource.Styleable.LinearLayoutCompat_android_gravity = global::FunnyMoney.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
-			global::XMRN.Android.Common.Resource.Styleable.LinearLayoutCompat_android_orientation = global::FunnyMoney.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
-			global::XMRN.Android.Common.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::FunnyMoney.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
-			global::XMRN.Android.Common.Resource.Styleable.LinearLayoutCompat_divider = global::FunnyMoney.Droid.Resource.Styleable.LinearLayoutCompat_divider;
-			global::XMRN.Android.Common.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::FunnyMoney.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
-			global::XMRN.Android.Common.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::FunnyMoney.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
-			global::XMRN.Android.Common.Resource.Styleable.LinearLayoutCompat_showDividers = global::FunnyMoney.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
-			global::XMRN.Android.Common.Resource.Styleable.LinearLayoutCompat_Layout = global::FunnyMoney.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
-			global::XMRN.Android.Common.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::FunnyMoney.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
-			global::XMRN.Android.Common.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::FunnyMoney.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
-			global::XMRN.Android.Common.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::FunnyMoney.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
-			global::XMRN.Android.Common.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::FunnyMoney.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
-			global::XMRN.Android.Common.Resource.Styleable.ListPopupWindow = global::FunnyMoney.Droid.Resource.Styleable.ListPopupWindow;
-			global::XMRN.Android.Common.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::FunnyMoney.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
-			global::XMRN.Android.Common.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::FunnyMoney.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
-			global::XMRN.Android.Common.Resource.Styleable.MediaRouteButton = global::FunnyMoney.Droid.Resource.Styleable.MediaRouteButton;
-			global::XMRN.Android.Common.Resource.Styleable.MediaRouteButton_android_minHeight = global::FunnyMoney.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
-			global::XMRN.Android.Common.Resource.Styleable.MediaRouteButton_android_minWidth = global::FunnyMoney.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
-			global::XMRN.Android.Common.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::FunnyMoney.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
-			global::XMRN.Android.Common.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint = global::FunnyMoney.Droid.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint;
-			global::XMRN.Android.Common.Resource.Styleable.MenuGroup = global::FunnyMoney.Droid.Resource.Styleable.MenuGroup;
-			global::XMRN.Android.Common.Resource.Styleable.MenuGroup_android_checkableBehavior = global::FunnyMoney.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
-			global::XMRN.Android.Common.Resource.Styleable.MenuGroup_android_enabled = global::FunnyMoney.Droid.Resource.Styleable.MenuGroup_android_enabled;
-			global::XMRN.Android.Common.Resource.Styleable.MenuGroup_android_id = global::FunnyMoney.Droid.Resource.Styleable.MenuGroup_android_id;
-			global::XMRN.Android.Common.Resource.Styleable.MenuGroup_android_menuCategory = global::FunnyMoney.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
-			global::XMRN.Android.Common.Resource.Styleable.MenuGroup_android_orderInCategory = global::FunnyMoney.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
-			global::XMRN.Android.Common.Resource.Styleable.MenuGroup_android_visible = global::FunnyMoney.Droid.Resource.Styleable.MenuGroup_android_visible;
-			global::XMRN.Android.Common.Resource.Styleable.MenuItem = global::FunnyMoney.Droid.Resource.Styleable.MenuItem;
-			global::XMRN.Android.Common.Resource.Styleable.MenuItem_actionLayout = global::FunnyMoney.Droid.Resource.Styleable.MenuItem_actionLayout;
-			global::XMRN.Android.Common.Resource.Styleable.MenuItem_actionProviderClass = global::FunnyMoney.Droid.Resource.Styleable.MenuItem_actionProviderClass;
-			global::XMRN.Android.Common.Resource.Styleable.MenuItem_actionViewClass = global::FunnyMoney.Droid.Resource.Styleable.MenuItem_actionViewClass;
-			global::XMRN.Android.Common.Resource.Styleable.MenuItem_alphabeticModifiers = global::FunnyMoney.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
-			global::XMRN.Android.Common.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::FunnyMoney.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
-			global::XMRN.Android.Common.Resource.Styleable.MenuItem_android_checkable = global::FunnyMoney.Droid.Resource.Styleable.MenuItem_android_checkable;
-			global::XMRN.Android.Common.Resource.Styleable.MenuItem_android_checked = global::FunnyMoney.Droid.Resource.Styleable.MenuItem_android_checked;
-			global::XMRN.Android.Common.Resource.Styleable.MenuItem_android_enabled = global::FunnyMoney.Droid.Resource.Styleable.MenuItem_android_enabled;
-			global::XMRN.Android.Common.Resource.Styleable.MenuItem_android_icon = global::FunnyMoney.Droid.Resource.Styleable.MenuItem_android_icon;
-			global::XMRN.Android.Common.Resource.Styleable.MenuItem_android_id = global::FunnyMoney.Droid.Resource.Styleable.MenuItem_android_id;
-			global::XMRN.Android.Common.Resource.Styleable.MenuItem_android_menuCategory = global::FunnyMoney.Droid.Resource.Styleable.MenuItem_android_menuCategory;
-			global::XMRN.Android.Common.Resource.Styleable.MenuItem_android_numericShortcut = global::FunnyMoney.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
-			global::XMRN.Android.Common.Resource.Styleable.MenuItem_android_onClick = global::FunnyMoney.Droid.Resource.Styleable.MenuItem_android_onClick;
-			global::XMRN.Android.Common.Resource.Styleable.MenuItem_android_orderInCategory = global::FunnyMoney.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
-			global::XMRN.Android.Common.Resource.Styleable.MenuItem_android_title = global::FunnyMoney.Droid.Resource.Styleable.MenuItem_android_title;
-			global::XMRN.Android.Common.Resource.Styleable.MenuItem_android_titleCondensed = global::FunnyMoney.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
-			global::XMRN.Android.Common.Resource.Styleable.MenuItem_android_visible = global::FunnyMoney.Droid.Resource.Styleable.MenuItem_android_visible;
-			global::XMRN.Android.Common.Resource.Styleable.MenuItem_contentDescription = global::FunnyMoney.Droid.Resource.Styleable.MenuItem_contentDescription;
-			global::XMRN.Android.Common.Resource.Styleable.MenuItem_iconTint = global::FunnyMoney.Droid.Resource.Styleable.MenuItem_iconTint;
-			global::XMRN.Android.Common.Resource.Styleable.MenuItem_iconTintMode = global::FunnyMoney.Droid.Resource.Styleable.MenuItem_iconTintMode;
-			global::XMRN.Android.Common.Resource.Styleable.MenuItem_numericModifiers = global::FunnyMoney.Droid.Resource.Styleable.MenuItem_numericModifiers;
-			global::XMRN.Android.Common.Resource.Styleable.MenuItem_showAsAction = global::FunnyMoney.Droid.Resource.Styleable.MenuItem_showAsAction;
-			global::XMRN.Android.Common.Resource.Styleable.MenuItem_tooltipText = global::FunnyMoney.Droid.Resource.Styleable.MenuItem_tooltipText;
-			global::XMRN.Android.Common.Resource.Styleable.MenuView = global::FunnyMoney.Droid.Resource.Styleable.MenuView;
-			global::XMRN.Android.Common.Resource.Styleable.MenuView_android_headerBackground = global::FunnyMoney.Droid.Resource.Styleable.MenuView_android_headerBackground;
-			global::XMRN.Android.Common.Resource.Styleable.MenuView_android_horizontalDivider = global::FunnyMoney.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
-			global::XMRN.Android.Common.Resource.Styleable.MenuView_android_itemBackground = global::FunnyMoney.Droid.Resource.Styleable.MenuView_android_itemBackground;
-			global::XMRN.Android.Common.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::FunnyMoney.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
-			global::XMRN.Android.Common.Resource.Styleable.MenuView_android_itemTextAppearance = global::FunnyMoney.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
-			global::XMRN.Android.Common.Resource.Styleable.MenuView_android_verticalDivider = global::FunnyMoney.Droid.Resource.Styleable.MenuView_android_verticalDivider;
-			global::XMRN.Android.Common.Resource.Styleable.MenuView_android_windowAnimationStyle = global::FunnyMoney.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
-			global::XMRN.Android.Common.Resource.Styleable.MenuView_preserveIconSpacing = global::FunnyMoney.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
-			global::XMRN.Android.Common.Resource.Styleable.MenuView_subMenuArrow = global::FunnyMoney.Droid.Resource.Styleable.MenuView_subMenuArrow;
-			global::XMRN.Android.Common.Resource.Styleable.NavigationView = global::FunnyMoney.Droid.Resource.Styleable.NavigationView;
-			global::XMRN.Android.Common.Resource.Styleable.NavigationView_android_background = global::FunnyMoney.Droid.Resource.Styleable.NavigationView_android_background;
-			global::XMRN.Android.Common.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::FunnyMoney.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
-			global::XMRN.Android.Common.Resource.Styleable.NavigationView_android_maxWidth = global::FunnyMoney.Droid.Resource.Styleable.NavigationView_android_maxWidth;
-			global::XMRN.Android.Common.Resource.Styleable.NavigationView_elevation = global::FunnyMoney.Droid.Resource.Styleable.NavigationView_elevation;
-			global::XMRN.Android.Common.Resource.Styleable.NavigationView_headerLayout = global::FunnyMoney.Droid.Resource.Styleable.NavigationView_headerLayout;
-			global::XMRN.Android.Common.Resource.Styleable.NavigationView_itemBackground = global::FunnyMoney.Droid.Resource.Styleable.NavigationView_itemBackground;
-			global::XMRN.Android.Common.Resource.Styleable.NavigationView_itemIconTint = global::FunnyMoney.Droid.Resource.Styleable.NavigationView_itemIconTint;
-			global::XMRN.Android.Common.Resource.Styleable.NavigationView_itemTextAppearance = global::FunnyMoney.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
-			global::XMRN.Android.Common.Resource.Styleable.NavigationView_itemTextColor = global::FunnyMoney.Droid.Resource.Styleable.NavigationView_itemTextColor;
-			global::XMRN.Android.Common.Resource.Styleable.NavigationView_menu = global::FunnyMoney.Droid.Resource.Styleable.NavigationView_menu;
-			global::XMRN.Android.Common.Resource.Styleable.PopupWindow = global::FunnyMoney.Droid.Resource.Styleable.PopupWindow;
-			global::XMRN.Android.Common.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::FunnyMoney.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
-			global::XMRN.Android.Common.Resource.Styleable.PopupWindow_android_popupBackground = global::FunnyMoney.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
-			global::XMRN.Android.Common.Resource.Styleable.PopupWindow_overlapAnchor = global::FunnyMoney.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
-			global::XMRN.Android.Common.Resource.Styleable.PopupWindowBackgroundState = global::FunnyMoney.Droid.Resource.Styleable.PopupWindowBackgroundState;
-			global::XMRN.Android.Common.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::FunnyMoney.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
-			global::XMRN.Android.Common.Resource.Styleable.RecycleListView = global::FunnyMoney.Droid.Resource.Styleable.RecycleListView;
-			global::XMRN.Android.Common.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::FunnyMoney.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
-			global::XMRN.Android.Common.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::FunnyMoney.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
-			global::XMRN.Android.Common.Resource.Styleable.RecyclerView = global::FunnyMoney.Droid.Resource.Styleable.RecyclerView;
-			global::XMRN.Android.Common.Resource.Styleable.RecyclerView_android_descendantFocusability = global::FunnyMoney.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
-			global::XMRN.Android.Common.Resource.Styleable.RecyclerView_android_orientation = global::FunnyMoney.Droid.Resource.Styleable.RecyclerView_android_orientation;
-			global::XMRN.Android.Common.Resource.Styleable.RecyclerView_fastScrollEnabled = global::FunnyMoney.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
-			global::XMRN.Android.Common.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::FunnyMoney.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
-			global::XMRN.Android.Common.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::FunnyMoney.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
-			global::XMRN.Android.Common.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::FunnyMoney.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
-			global::XMRN.Android.Common.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::FunnyMoney.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
-			global::XMRN.Android.Common.Resource.Styleable.RecyclerView_layoutManager = global::FunnyMoney.Droid.Resource.Styleable.RecyclerView_layoutManager;
-			global::XMRN.Android.Common.Resource.Styleable.RecyclerView_reverseLayout = global::FunnyMoney.Droid.Resource.Styleable.RecyclerView_reverseLayout;
-			global::XMRN.Android.Common.Resource.Styleable.RecyclerView_spanCount = global::FunnyMoney.Droid.Resource.Styleable.RecyclerView_spanCount;
-			global::XMRN.Android.Common.Resource.Styleable.RecyclerView_stackFromEnd = global::FunnyMoney.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
-			global::XMRN.Android.Common.Resource.Styleable.ScrimInsetsFrameLayout = global::FunnyMoney.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
-			global::XMRN.Android.Common.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::FunnyMoney.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
-			global::XMRN.Android.Common.Resource.Styleable.ScrollingViewBehavior_Layout = global::FunnyMoney.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
-			global::XMRN.Android.Common.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::FunnyMoney.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
-			global::XMRN.Android.Common.Resource.Styleable.SearchView = global::FunnyMoney.Droid.Resource.Styleable.SearchView;
-			global::XMRN.Android.Common.Resource.Styleable.SearchView_android_focusable = global::FunnyMoney.Droid.Resource.Styleable.SearchView_android_focusable;
-			global::XMRN.Android.Common.Resource.Styleable.SearchView_android_imeOptions = global::FunnyMoney.Droid.Resource.Styleable.SearchView_android_imeOptions;
-			global::XMRN.Android.Common.Resource.Styleable.SearchView_android_inputType = global::FunnyMoney.Droid.Resource.Styleable.SearchView_android_inputType;
-			global::XMRN.Android.Common.Resource.Styleable.SearchView_android_maxWidth = global::FunnyMoney.Droid.Resource.Styleable.SearchView_android_maxWidth;
-			global::XMRN.Android.Common.Resource.Styleable.SearchView_closeIcon = global::FunnyMoney.Droid.Resource.Styleable.SearchView_closeIcon;
-			global::XMRN.Android.Common.Resource.Styleable.SearchView_commitIcon = global::FunnyMoney.Droid.Resource.Styleable.SearchView_commitIcon;
-			global::XMRN.Android.Common.Resource.Styleable.SearchView_defaultQueryHint = global::FunnyMoney.Droid.Resource.Styleable.SearchView_defaultQueryHint;
-			global::XMRN.Android.Common.Resource.Styleable.SearchView_goIcon = global::FunnyMoney.Droid.Resource.Styleable.SearchView_goIcon;
-			global::XMRN.Android.Common.Resource.Styleable.SearchView_iconifiedByDefault = global::FunnyMoney.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
-			global::XMRN.Android.Common.Resource.Styleable.SearchView_layout = global::FunnyMoney.Droid.Resource.Styleable.SearchView_layout;
-			global::XMRN.Android.Common.Resource.Styleable.SearchView_queryBackground = global::FunnyMoney.Droid.Resource.Styleable.SearchView_queryBackground;
-			global::XMRN.Android.Common.Resource.Styleable.SearchView_queryHint = global::FunnyMoney.Droid.Resource.Styleable.SearchView_queryHint;
-			global::XMRN.Android.Common.Resource.Styleable.SearchView_searchHintIcon = global::FunnyMoney.Droid.Resource.Styleable.SearchView_searchHintIcon;
-			global::XMRN.Android.Common.Resource.Styleable.SearchView_searchIcon = global::FunnyMoney.Droid.Resource.Styleable.SearchView_searchIcon;
-			global::XMRN.Android.Common.Resource.Styleable.SearchView_submitBackground = global::FunnyMoney.Droid.Resource.Styleable.SearchView_submitBackground;
-			global::XMRN.Android.Common.Resource.Styleable.SearchView_suggestionRowLayout = global::FunnyMoney.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
-			global::XMRN.Android.Common.Resource.Styleable.SearchView_voiceIcon = global::FunnyMoney.Droid.Resource.Styleable.SearchView_voiceIcon;
-			global::XMRN.Android.Common.Resource.Styleable.SnackbarLayout = global::FunnyMoney.Droid.Resource.Styleable.SnackbarLayout;
-			global::XMRN.Android.Common.Resource.Styleable.SnackbarLayout_android_maxWidth = global::FunnyMoney.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
-			global::XMRN.Android.Common.Resource.Styleable.SnackbarLayout_elevation = global::FunnyMoney.Droid.Resource.Styleable.SnackbarLayout_elevation;
-			global::XMRN.Android.Common.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::FunnyMoney.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
-			global::XMRN.Android.Common.Resource.Styleable.Spinner = global::FunnyMoney.Droid.Resource.Styleable.Spinner;
-			global::XMRN.Android.Common.Resource.Styleable.Spinner_android_dropDownWidth = global::FunnyMoney.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
-			global::XMRN.Android.Common.Resource.Styleable.Spinner_android_entries = global::FunnyMoney.Droid.Resource.Styleable.Spinner_android_entries;
-			global::XMRN.Android.Common.Resource.Styleable.Spinner_android_popupBackground = global::FunnyMoney.Droid.Resource.Styleable.Spinner_android_popupBackground;
-			global::XMRN.Android.Common.Resource.Styleable.Spinner_android_prompt = global::FunnyMoney.Droid.Resource.Styleable.Spinner_android_prompt;
-			global::XMRN.Android.Common.Resource.Styleable.Spinner_popupTheme = global::FunnyMoney.Droid.Resource.Styleable.Spinner_popupTheme;
-			global::XMRN.Android.Common.Resource.Styleable.SwitchCompat = global::FunnyMoney.Droid.Resource.Styleable.SwitchCompat;
-			global::XMRN.Android.Common.Resource.Styleable.SwitchCompat_android_textOff = global::FunnyMoney.Droid.Resource.Styleable.SwitchCompat_android_textOff;
-			global::XMRN.Android.Common.Resource.Styleable.SwitchCompat_android_textOn = global::FunnyMoney.Droid.Resource.Styleable.SwitchCompat_android_textOn;
-			global::XMRN.Android.Common.Resource.Styleable.SwitchCompat_android_thumb = global::FunnyMoney.Droid.Resource.Styleable.SwitchCompat_android_thumb;
-			global::XMRN.Android.Common.Resource.Styleable.SwitchCompat_showText = global::FunnyMoney.Droid.Resource.Styleable.SwitchCompat_showText;
-			global::XMRN.Android.Common.Resource.Styleable.SwitchCompat_splitTrack = global::FunnyMoney.Droid.Resource.Styleable.SwitchCompat_splitTrack;
-			global::XMRN.Android.Common.Resource.Styleable.SwitchCompat_switchMinWidth = global::FunnyMoney.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
-			global::XMRN.Android.Common.Resource.Styleable.SwitchCompat_switchPadding = global::FunnyMoney.Droid.Resource.Styleable.SwitchCompat_switchPadding;
-			global::XMRN.Android.Common.Resource.Styleable.SwitchCompat_switchTextAppearance = global::FunnyMoney.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
-			global::XMRN.Android.Common.Resource.Styleable.SwitchCompat_thumbTextPadding = global::FunnyMoney.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
-			global::XMRN.Android.Common.Resource.Styleable.SwitchCompat_thumbTint = global::FunnyMoney.Droid.Resource.Styleable.SwitchCompat_thumbTint;
-			global::XMRN.Android.Common.Resource.Styleable.SwitchCompat_thumbTintMode = global::FunnyMoney.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
-			global::XMRN.Android.Common.Resource.Styleable.SwitchCompat_track = global::FunnyMoney.Droid.Resource.Styleable.SwitchCompat_track;
-			global::XMRN.Android.Common.Resource.Styleable.SwitchCompat_trackTint = global::FunnyMoney.Droid.Resource.Styleable.SwitchCompat_trackTint;
-			global::XMRN.Android.Common.Resource.Styleable.SwitchCompat_trackTintMode = global::FunnyMoney.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
-			global::XMRN.Android.Common.Resource.Styleable.TabItem = global::FunnyMoney.Droid.Resource.Styleable.TabItem;
-			global::XMRN.Android.Common.Resource.Styleable.TabItem_android_icon = global::FunnyMoney.Droid.Resource.Styleable.TabItem_android_icon;
-			global::XMRN.Android.Common.Resource.Styleable.TabItem_android_layout = global::FunnyMoney.Droid.Resource.Styleable.TabItem_android_layout;
-			global::XMRN.Android.Common.Resource.Styleable.TabItem_android_text = global::FunnyMoney.Droid.Resource.Styleable.TabItem_android_text;
-			global::XMRN.Android.Common.Resource.Styleable.TabLayout = global::FunnyMoney.Droid.Resource.Styleable.TabLayout;
-			global::XMRN.Android.Common.Resource.Styleable.TabLayout_tabBackground = global::FunnyMoney.Droid.Resource.Styleable.TabLayout_tabBackground;
-			global::XMRN.Android.Common.Resource.Styleable.TabLayout_tabContentStart = global::FunnyMoney.Droid.Resource.Styleable.TabLayout_tabContentStart;
-			global::XMRN.Android.Common.Resource.Styleable.TabLayout_tabGravity = global::FunnyMoney.Droid.Resource.Styleable.TabLayout_tabGravity;
-			global::XMRN.Android.Common.Resource.Styleable.TabLayout_tabIndicatorColor = global::FunnyMoney.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
-			global::XMRN.Android.Common.Resource.Styleable.TabLayout_tabIndicatorHeight = global::FunnyMoney.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
-			global::XMRN.Android.Common.Resource.Styleable.TabLayout_tabMaxWidth = global::FunnyMoney.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
-			global::XMRN.Android.Common.Resource.Styleable.TabLayout_tabMinWidth = global::FunnyMoney.Droid.Resource.Styleable.TabLayout_tabMinWidth;
-			global::XMRN.Android.Common.Resource.Styleable.TabLayout_tabMode = global::FunnyMoney.Droid.Resource.Styleable.TabLayout_tabMode;
-			global::XMRN.Android.Common.Resource.Styleable.TabLayout_tabPadding = global::FunnyMoney.Droid.Resource.Styleable.TabLayout_tabPadding;
-			global::XMRN.Android.Common.Resource.Styleable.TabLayout_tabPaddingBottom = global::FunnyMoney.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
-			global::XMRN.Android.Common.Resource.Styleable.TabLayout_tabPaddingEnd = global::FunnyMoney.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
-			global::XMRN.Android.Common.Resource.Styleable.TabLayout_tabPaddingStart = global::FunnyMoney.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
-			global::XMRN.Android.Common.Resource.Styleable.TabLayout_tabPaddingTop = global::FunnyMoney.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
-			global::XMRN.Android.Common.Resource.Styleable.TabLayout_tabSelectedTextColor = global::FunnyMoney.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
-			global::XMRN.Android.Common.Resource.Styleable.TabLayout_tabTextAppearance = global::FunnyMoney.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
-			global::XMRN.Android.Common.Resource.Styleable.TabLayout_tabTextColor = global::FunnyMoney.Droid.Resource.Styleable.TabLayout_tabTextColor;
-			global::XMRN.Android.Common.Resource.Styleable.TextAppearance = global::FunnyMoney.Droid.Resource.Styleable.TextAppearance;
-			global::XMRN.Android.Common.Resource.Styleable.TextAppearance_android_fontFamily = global::FunnyMoney.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
-			global::XMRN.Android.Common.Resource.Styleable.TextAppearance_android_shadowColor = global::FunnyMoney.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
-			global::XMRN.Android.Common.Resource.Styleable.TextAppearance_android_shadowDx = global::FunnyMoney.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
-			global::XMRN.Android.Common.Resource.Styleable.TextAppearance_android_shadowDy = global::FunnyMoney.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
-			global::XMRN.Android.Common.Resource.Styleable.TextAppearance_android_shadowRadius = global::FunnyMoney.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
-			global::XMRN.Android.Common.Resource.Styleable.TextAppearance_android_textColor = global::FunnyMoney.Droid.Resource.Styleable.TextAppearance_android_textColor;
-			global::XMRN.Android.Common.Resource.Styleable.TextAppearance_android_textColorHint = global::FunnyMoney.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
-			global::XMRN.Android.Common.Resource.Styleable.TextAppearance_android_textColorLink = global::FunnyMoney.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
-			global::XMRN.Android.Common.Resource.Styleable.TextAppearance_android_textSize = global::FunnyMoney.Droid.Resource.Styleable.TextAppearance_android_textSize;
-			global::XMRN.Android.Common.Resource.Styleable.TextAppearance_android_textStyle = global::FunnyMoney.Droid.Resource.Styleable.TextAppearance_android_textStyle;
-			global::XMRN.Android.Common.Resource.Styleable.TextAppearance_android_typeface = global::FunnyMoney.Droid.Resource.Styleable.TextAppearance_android_typeface;
-			global::XMRN.Android.Common.Resource.Styleable.TextAppearance_fontFamily = global::FunnyMoney.Droid.Resource.Styleable.TextAppearance_fontFamily;
-			global::XMRN.Android.Common.Resource.Styleable.TextAppearance_textAllCaps = global::FunnyMoney.Droid.Resource.Styleable.TextAppearance_textAllCaps;
-			global::XMRN.Android.Common.Resource.Styleable.TextInputLayout = global::FunnyMoney.Droid.Resource.Styleable.TextInputLayout;
-			global::XMRN.Android.Common.Resource.Styleable.TextInputLayout_android_hint = global::FunnyMoney.Droid.Resource.Styleable.TextInputLayout_android_hint;
-			global::XMRN.Android.Common.Resource.Styleable.TextInputLayout_android_textColorHint = global::FunnyMoney.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
-			global::XMRN.Android.Common.Resource.Styleable.TextInputLayout_counterEnabled = global::FunnyMoney.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
-			global::XMRN.Android.Common.Resource.Styleable.TextInputLayout_counterMaxLength = global::FunnyMoney.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
-			global::XMRN.Android.Common.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::FunnyMoney.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
-			global::XMRN.Android.Common.Resource.Styleable.TextInputLayout_counterTextAppearance = global::FunnyMoney.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
-			global::XMRN.Android.Common.Resource.Styleable.TextInputLayout_errorEnabled = global::FunnyMoney.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
-			global::XMRN.Android.Common.Resource.Styleable.TextInputLayout_errorTextAppearance = global::FunnyMoney.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
-			global::XMRN.Android.Common.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::FunnyMoney.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
-			global::XMRN.Android.Common.Resource.Styleable.TextInputLayout_hintEnabled = global::FunnyMoney.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
-			global::XMRN.Android.Common.Resource.Styleable.TextInputLayout_hintTextAppearance = global::FunnyMoney.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
-			global::XMRN.Android.Common.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::FunnyMoney.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
-			global::XMRN.Android.Common.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::FunnyMoney.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
-			global::XMRN.Android.Common.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::FunnyMoney.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
-			global::XMRN.Android.Common.Resource.Styleable.TextInputLayout_passwordToggleTint = global::FunnyMoney.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
-			global::XMRN.Android.Common.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::FunnyMoney.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
-			global::XMRN.Android.Common.Resource.Styleable.Toolbar = global::FunnyMoney.Droid.Resource.Styleable.Toolbar;
-			global::XMRN.Android.Common.Resource.Styleable.Toolbar_android_gravity = global::FunnyMoney.Droid.Resource.Styleable.Toolbar_android_gravity;
-			global::XMRN.Android.Common.Resource.Styleable.Toolbar_android_minHeight = global::FunnyMoney.Droid.Resource.Styleable.Toolbar_android_minHeight;
-			global::XMRN.Android.Common.Resource.Styleable.Toolbar_buttonGravity = global::FunnyMoney.Droid.Resource.Styleable.Toolbar_buttonGravity;
-			global::XMRN.Android.Common.Resource.Styleable.Toolbar_collapseContentDescription = global::FunnyMoney.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
-			global::XMRN.Android.Common.Resource.Styleable.Toolbar_collapseIcon = global::FunnyMoney.Droid.Resource.Styleable.Toolbar_collapseIcon;
-			global::XMRN.Android.Common.Resource.Styleable.Toolbar_contentInsetEnd = global::FunnyMoney.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
-			global::XMRN.Android.Common.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::FunnyMoney.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
-			global::XMRN.Android.Common.Resource.Styleable.Toolbar_contentInsetLeft = global::FunnyMoney.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
-			global::XMRN.Android.Common.Resource.Styleable.Toolbar_contentInsetRight = global::FunnyMoney.Droid.Resource.Styleable.Toolbar_contentInsetRight;
-			global::XMRN.Android.Common.Resource.Styleable.Toolbar_contentInsetStart = global::FunnyMoney.Droid.Resource.Styleable.Toolbar_contentInsetStart;
-			global::XMRN.Android.Common.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::FunnyMoney.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
-			global::XMRN.Android.Common.Resource.Styleable.Toolbar_logo = global::FunnyMoney.Droid.Resource.Styleable.Toolbar_logo;
-			global::XMRN.Android.Common.Resource.Styleable.Toolbar_logoDescription = global::FunnyMoney.Droid.Resource.Styleable.Toolbar_logoDescription;
-			global::XMRN.Android.Common.Resource.Styleable.Toolbar_maxButtonHeight = global::FunnyMoney.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
-			global::XMRN.Android.Common.Resource.Styleable.Toolbar_navigationContentDescription = global::FunnyMoney.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
-			global::XMRN.Android.Common.Resource.Styleable.Toolbar_navigationIcon = global::FunnyMoney.Droid.Resource.Styleable.Toolbar_navigationIcon;
-			global::XMRN.Android.Common.Resource.Styleable.Toolbar_popupTheme = global::FunnyMoney.Droid.Resource.Styleable.Toolbar_popupTheme;
-			global::XMRN.Android.Common.Resource.Styleable.Toolbar_subtitle = global::FunnyMoney.Droid.Resource.Styleable.Toolbar_subtitle;
-			global::XMRN.Android.Common.Resource.Styleable.Toolbar_subtitleTextAppearance = global::FunnyMoney.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
-			global::XMRN.Android.Common.Resource.Styleable.Toolbar_subtitleTextColor = global::FunnyMoney.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
-			global::XMRN.Android.Common.Resource.Styleable.Toolbar_title = global::FunnyMoney.Droid.Resource.Styleable.Toolbar_title;
-			global::XMRN.Android.Common.Resource.Styleable.Toolbar_titleMargin = global::FunnyMoney.Droid.Resource.Styleable.Toolbar_titleMargin;
-			global::XMRN.Android.Common.Resource.Styleable.Toolbar_titleMarginBottom = global::FunnyMoney.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
-			global::XMRN.Android.Common.Resource.Styleable.Toolbar_titleMarginEnd = global::FunnyMoney.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
-			global::XMRN.Android.Common.Resource.Styleable.Toolbar_titleMarginStart = global::FunnyMoney.Droid.Resource.Styleable.Toolbar_titleMarginStart;
-			global::XMRN.Android.Common.Resource.Styleable.Toolbar_titleMarginTop = global::FunnyMoney.Droid.Resource.Styleable.Toolbar_titleMarginTop;
-			global::XMRN.Android.Common.Resource.Styleable.Toolbar_titleMargins = global::FunnyMoney.Droid.Resource.Styleable.Toolbar_titleMargins;
-			global::XMRN.Android.Common.Resource.Styleable.Toolbar_titleTextAppearance = global::FunnyMoney.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
-			global::XMRN.Android.Common.Resource.Styleable.Toolbar_titleTextColor = global::FunnyMoney.Droid.Resource.Styleable.Toolbar_titleTextColor;
-			global::XMRN.Android.Common.Resource.Styleable.View = global::FunnyMoney.Droid.Resource.Styleable.View;
-			global::XMRN.Android.Common.Resource.Styleable.View_android_focusable = global::FunnyMoney.Droid.Resource.Styleable.View_android_focusable;
-			global::XMRN.Android.Common.Resource.Styleable.View_android_theme = global::FunnyMoney.Droid.Resource.Styleable.View_android_theme;
-			global::XMRN.Android.Common.Resource.Styleable.View_paddingEnd = global::FunnyMoney.Droid.Resource.Styleable.View_paddingEnd;
-			global::XMRN.Android.Common.Resource.Styleable.View_paddingStart = global::FunnyMoney.Droid.Resource.Styleable.View_paddingStart;
-			global::XMRN.Android.Common.Resource.Styleable.View_theme = global::FunnyMoney.Droid.Resource.Styleable.View_theme;
-			global::XMRN.Android.Common.Resource.Styleable.ViewBackgroundHelper = global::FunnyMoney.Droid.Resource.Styleable.ViewBackgroundHelper;
-			global::XMRN.Android.Common.Resource.Styleable.ViewBackgroundHelper_android_background = global::FunnyMoney.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
-			global::XMRN.Android.Common.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::FunnyMoney.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
-			global::XMRN.Android.Common.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::FunnyMoney.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
-			global::XMRN.Android.Common.Resource.Styleable.ViewStubCompat = global::FunnyMoney.Droid.Resource.Styleable.ViewStubCompat;
-			global::XMRN.Android.Common.Resource.Styleable.ViewStubCompat_android_id = global::FunnyMoney.Droid.Resource.Styleable.ViewStubCompat_android_id;
-			global::XMRN.Android.Common.Resource.Styleable.ViewStubCompat_android_inflatedId = global::FunnyMoney.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
-			global::XMRN.Android.Common.Resource.Styleable.ViewStubCompat_android_layout = global::FunnyMoney.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 		}
 		
 		public partial class Animation
@@ -3851,497 +1585,497 @@ namespace FunnyMoney.Droid
 		public partial class Dimension
 		{
 			
-			// aapt resource value: 0x7f09001b
-			public const int abc_action_bar_content_inset_material = 2131296283;
+			// aapt resource value: 0x7f08001b
+			public const int abc_action_bar_content_inset_material = 2131230747;
 			
-			// aapt resource value: 0x7f09001c
-			public const int abc_action_bar_content_inset_with_nav = 2131296284;
+			// aapt resource value: 0x7f08001c
+			public const int abc_action_bar_content_inset_with_nav = 2131230748;
 			
-			// aapt resource value: 0x7f090010
-			public const int abc_action_bar_default_height_material = 2131296272;
+			// aapt resource value: 0x7f080010
+			public const int abc_action_bar_default_height_material = 2131230736;
 			
-			// aapt resource value: 0x7f09001d
-			public const int abc_action_bar_default_padding_end_material = 2131296285;
+			// aapt resource value: 0x7f08001d
+			public const int abc_action_bar_default_padding_end_material = 2131230749;
 			
-			// aapt resource value: 0x7f09001e
-			public const int abc_action_bar_default_padding_start_material = 2131296286;
+			// aapt resource value: 0x7f08001e
+			public const int abc_action_bar_default_padding_start_material = 2131230750;
 			
-			// aapt resource value: 0x7f090020
-			public const int abc_action_bar_elevation_material = 2131296288;
+			// aapt resource value: 0x7f080020
+			public const int abc_action_bar_elevation_material = 2131230752;
 			
-			// aapt resource value: 0x7f090021
-			public const int abc_action_bar_icon_vertical_padding_material = 2131296289;
+			// aapt resource value: 0x7f080021
+			public const int abc_action_bar_icon_vertical_padding_material = 2131230753;
 			
-			// aapt resource value: 0x7f090022
-			public const int abc_action_bar_overflow_padding_end_material = 2131296290;
+			// aapt resource value: 0x7f080022
+			public const int abc_action_bar_overflow_padding_end_material = 2131230754;
 			
-			// aapt resource value: 0x7f090023
-			public const int abc_action_bar_overflow_padding_start_material = 2131296291;
+			// aapt resource value: 0x7f080023
+			public const int abc_action_bar_overflow_padding_start_material = 2131230755;
 			
-			// aapt resource value: 0x7f090011
-			public const int abc_action_bar_progress_bar_size = 2131296273;
+			// aapt resource value: 0x7f080011
+			public const int abc_action_bar_progress_bar_size = 2131230737;
 			
-			// aapt resource value: 0x7f090024
-			public const int abc_action_bar_stacked_max_height = 2131296292;
+			// aapt resource value: 0x7f080024
+			public const int abc_action_bar_stacked_max_height = 2131230756;
 			
-			// aapt resource value: 0x7f090025
-			public const int abc_action_bar_stacked_tab_max_width = 2131296293;
+			// aapt resource value: 0x7f080025
+			public const int abc_action_bar_stacked_tab_max_width = 2131230757;
 			
-			// aapt resource value: 0x7f090026
-			public const int abc_action_bar_subtitle_bottom_margin_material = 2131296294;
+			// aapt resource value: 0x7f080026
+			public const int abc_action_bar_subtitle_bottom_margin_material = 2131230758;
 			
-			// aapt resource value: 0x7f090027
-			public const int abc_action_bar_subtitle_top_margin_material = 2131296295;
+			// aapt resource value: 0x7f080027
+			public const int abc_action_bar_subtitle_top_margin_material = 2131230759;
 			
-			// aapt resource value: 0x7f090028
-			public const int abc_action_button_min_height_material = 2131296296;
+			// aapt resource value: 0x7f080028
+			public const int abc_action_button_min_height_material = 2131230760;
 			
-			// aapt resource value: 0x7f090029
-			public const int abc_action_button_min_width_material = 2131296297;
+			// aapt resource value: 0x7f080029
+			public const int abc_action_button_min_width_material = 2131230761;
 			
-			// aapt resource value: 0x7f09002a
-			public const int abc_action_button_min_width_overflow_material = 2131296298;
+			// aapt resource value: 0x7f08002a
+			public const int abc_action_button_min_width_overflow_material = 2131230762;
 			
-			// aapt resource value: 0x7f09000f
-			public const int abc_alert_dialog_button_bar_height = 2131296271;
+			// aapt resource value: 0x7f08000f
+			public const int abc_alert_dialog_button_bar_height = 2131230735;
 			
-			// aapt resource value: 0x7f09002b
-			public const int abc_button_inset_horizontal_material = 2131296299;
+			// aapt resource value: 0x7f08002b
+			public const int abc_button_inset_horizontal_material = 2131230763;
 			
-			// aapt resource value: 0x7f09002c
-			public const int abc_button_inset_vertical_material = 2131296300;
+			// aapt resource value: 0x7f08002c
+			public const int abc_button_inset_vertical_material = 2131230764;
 			
-			// aapt resource value: 0x7f09002d
-			public const int abc_button_padding_horizontal_material = 2131296301;
+			// aapt resource value: 0x7f08002d
+			public const int abc_button_padding_horizontal_material = 2131230765;
 			
-			// aapt resource value: 0x7f09002e
-			public const int abc_button_padding_vertical_material = 2131296302;
+			// aapt resource value: 0x7f08002e
+			public const int abc_button_padding_vertical_material = 2131230766;
 			
-			// aapt resource value: 0x7f09002f
-			public const int abc_cascading_menus_min_smallest_width = 2131296303;
+			// aapt resource value: 0x7f08002f
+			public const int abc_cascading_menus_min_smallest_width = 2131230767;
 			
-			// aapt resource value: 0x7f090014
-			public const int abc_config_prefDialogWidth = 2131296276;
+			// aapt resource value: 0x7f080014
+			public const int abc_config_prefDialogWidth = 2131230740;
 			
-			// aapt resource value: 0x7f090030
-			public const int abc_control_corner_material = 2131296304;
+			// aapt resource value: 0x7f080030
+			public const int abc_control_corner_material = 2131230768;
 			
-			// aapt resource value: 0x7f090031
-			public const int abc_control_inset_material = 2131296305;
+			// aapt resource value: 0x7f080031
+			public const int abc_control_inset_material = 2131230769;
 			
-			// aapt resource value: 0x7f090032
-			public const int abc_control_padding_material = 2131296306;
+			// aapt resource value: 0x7f080032
+			public const int abc_control_padding_material = 2131230770;
 			
-			// aapt resource value: 0x7f090015
-			public const int abc_dialog_fixed_height_major = 2131296277;
+			// aapt resource value: 0x7f080015
+			public const int abc_dialog_fixed_height_major = 2131230741;
 			
-			// aapt resource value: 0x7f090016
-			public const int abc_dialog_fixed_height_minor = 2131296278;
+			// aapt resource value: 0x7f080016
+			public const int abc_dialog_fixed_height_minor = 2131230742;
 			
-			// aapt resource value: 0x7f090017
-			public const int abc_dialog_fixed_width_major = 2131296279;
+			// aapt resource value: 0x7f080017
+			public const int abc_dialog_fixed_width_major = 2131230743;
 			
-			// aapt resource value: 0x7f090018
-			public const int abc_dialog_fixed_width_minor = 2131296280;
+			// aapt resource value: 0x7f080018
+			public const int abc_dialog_fixed_width_minor = 2131230744;
 			
-			// aapt resource value: 0x7f090033
-			public const int abc_dialog_list_padding_bottom_no_buttons = 2131296307;
+			// aapt resource value: 0x7f080033
+			public const int abc_dialog_list_padding_bottom_no_buttons = 2131230771;
 			
-			// aapt resource value: 0x7f090034
-			public const int abc_dialog_list_padding_top_no_title = 2131296308;
+			// aapt resource value: 0x7f080034
+			public const int abc_dialog_list_padding_top_no_title = 2131230772;
 			
-			// aapt resource value: 0x7f090019
-			public const int abc_dialog_min_width_major = 2131296281;
+			// aapt resource value: 0x7f080019
+			public const int abc_dialog_min_width_major = 2131230745;
 			
-			// aapt resource value: 0x7f09001a
-			public const int abc_dialog_min_width_minor = 2131296282;
+			// aapt resource value: 0x7f08001a
+			public const int abc_dialog_min_width_minor = 2131230746;
 			
-			// aapt resource value: 0x7f090035
-			public const int abc_dialog_padding_material = 2131296309;
+			// aapt resource value: 0x7f080035
+			public const int abc_dialog_padding_material = 2131230773;
 			
-			// aapt resource value: 0x7f090036
-			public const int abc_dialog_padding_top_material = 2131296310;
+			// aapt resource value: 0x7f080036
+			public const int abc_dialog_padding_top_material = 2131230774;
 			
-			// aapt resource value: 0x7f090037
-			public const int abc_dialog_title_divider_material = 2131296311;
+			// aapt resource value: 0x7f080037
+			public const int abc_dialog_title_divider_material = 2131230775;
 			
-			// aapt resource value: 0x7f090038
-			public const int abc_disabled_alpha_material_dark = 2131296312;
+			// aapt resource value: 0x7f080038
+			public const int abc_disabled_alpha_material_dark = 2131230776;
 			
-			// aapt resource value: 0x7f090039
-			public const int abc_disabled_alpha_material_light = 2131296313;
+			// aapt resource value: 0x7f080039
+			public const int abc_disabled_alpha_material_light = 2131230777;
 			
-			// aapt resource value: 0x7f09003a
-			public const int abc_dropdownitem_icon_width = 2131296314;
+			// aapt resource value: 0x7f08003a
+			public const int abc_dropdownitem_icon_width = 2131230778;
 			
-			// aapt resource value: 0x7f09003b
-			public const int abc_dropdownitem_text_padding_left = 2131296315;
+			// aapt resource value: 0x7f08003b
+			public const int abc_dropdownitem_text_padding_left = 2131230779;
 			
-			// aapt resource value: 0x7f09003c
-			public const int abc_dropdownitem_text_padding_right = 2131296316;
+			// aapt resource value: 0x7f08003c
+			public const int abc_dropdownitem_text_padding_right = 2131230780;
 			
-			// aapt resource value: 0x7f09003d
-			public const int abc_edit_text_inset_bottom_material = 2131296317;
+			// aapt resource value: 0x7f08003d
+			public const int abc_edit_text_inset_bottom_material = 2131230781;
 			
-			// aapt resource value: 0x7f09003e
-			public const int abc_edit_text_inset_horizontal_material = 2131296318;
+			// aapt resource value: 0x7f08003e
+			public const int abc_edit_text_inset_horizontal_material = 2131230782;
 			
-			// aapt resource value: 0x7f09003f
-			public const int abc_edit_text_inset_top_material = 2131296319;
+			// aapt resource value: 0x7f08003f
+			public const int abc_edit_text_inset_top_material = 2131230783;
 			
-			// aapt resource value: 0x7f090040
-			public const int abc_floating_window_z = 2131296320;
+			// aapt resource value: 0x7f080040
+			public const int abc_floating_window_z = 2131230784;
 			
-			// aapt resource value: 0x7f090041
-			public const int abc_list_item_padding_horizontal_material = 2131296321;
+			// aapt resource value: 0x7f080041
+			public const int abc_list_item_padding_horizontal_material = 2131230785;
 			
-			// aapt resource value: 0x7f090042
-			public const int abc_panel_menu_list_width = 2131296322;
+			// aapt resource value: 0x7f080042
+			public const int abc_panel_menu_list_width = 2131230786;
 			
-			// aapt resource value: 0x7f090043
-			public const int abc_progress_bar_height_material = 2131296323;
+			// aapt resource value: 0x7f080043
+			public const int abc_progress_bar_height_material = 2131230787;
 			
-			// aapt resource value: 0x7f090044
-			public const int abc_search_view_preferred_height = 2131296324;
+			// aapt resource value: 0x7f080044
+			public const int abc_search_view_preferred_height = 2131230788;
 			
-			// aapt resource value: 0x7f090045
-			public const int abc_search_view_preferred_width = 2131296325;
+			// aapt resource value: 0x7f080045
+			public const int abc_search_view_preferred_width = 2131230789;
 			
-			// aapt resource value: 0x7f090046
-			public const int abc_seekbar_track_background_height_material = 2131296326;
+			// aapt resource value: 0x7f080046
+			public const int abc_seekbar_track_background_height_material = 2131230790;
 			
-			// aapt resource value: 0x7f090047
-			public const int abc_seekbar_track_progress_height_material = 2131296327;
+			// aapt resource value: 0x7f080047
+			public const int abc_seekbar_track_progress_height_material = 2131230791;
 			
-			// aapt resource value: 0x7f090048
-			public const int abc_select_dialog_padding_start_material = 2131296328;
+			// aapt resource value: 0x7f080048
+			public const int abc_select_dialog_padding_start_material = 2131230792;
 			
-			// aapt resource value: 0x7f09001f
-			public const int abc_switch_padding = 2131296287;
+			// aapt resource value: 0x7f08001f
+			public const int abc_switch_padding = 2131230751;
 			
-			// aapt resource value: 0x7f090049
-			public const int abc_text_size_body_1_material = 2131296329;
+			// aapt resource value: 0x7f080049
+			public const int abc_text_size_body_1_material = 2131230793;
 			
-			// aapt resource value: 0x7f09004a
-			public const int abc_text_size_body_2_material = 2131296330;
+			// aapt resource value: 0x7f08004a
+			public const int abc_text_size_body_2_material = 2131230794;
 			
-			// aapt resource value: 0x7f09004b
-			public const int abc_text_size_button_material = 2131296331;
+			// aapt resource value: 0x7f08004b
+			public const int abc_text_size_button_material = 2131230795;
 			
-			// aapt resource value: 0x7f09004c
-			public const int abc_text_size_caption_material = 2131296332;
+			// aapt resource value: 0x7f08004c
+			public const int abc_text_size_caption_material = 2131230796;
 			
-			// aapt resource value: 0x7f09004d
-			public const int abc_text_size_display_1_material = 2131296333;
+			// aapt resource value: 0x7f08004d
+			public const int abc_text_size_display_1_material = 2131230797;
 			
-			// aapt resource value: 0x7f09004e
-			public const int abc_text_size_display_2_material = 2131296334;
+			// aapt resource value: 0x7f08004e
+			public const int abc_text_size_display_2_material = 2131230798;
 			
-			// aapt resource value: 0x7f09004f
-			public const int abc_text_size_display_3_material = 2131296335;
+			// aapt resource value: 0x7f08004f
+			public const int abc_text_size_display_3_material = 2131230799;
 			
-			// aapt resource value: 0x7f090050
-			public const int abc_text_size_display_4_material = 2131296336;
+			// aapt resource value: 0x7f080050
+			public const int abc_text_size_display_4_material = 2131230800;
 			
-			// aapt resource value: 0x7f090051
-			public const int abc_text_size_headline_material = 2131296337;
+			// aapt resource value: 0x7f080051
+			public const int abc_text_size_headline_material = 2131230801;
 			
-			// aapt resource value: 0x7f090052
-			public const int abc_text_size_large_material = 2131296338;
+			// aapt resource value: 0x7f080052
+			public const int abc_text_size_large_material = 2131230802;
 			
-			// aapt resource value: 0x7f090053
-			public const int abc_text_size_medium_material = 2131296339;
+			// aapt resource value: 0x7f080053
+			public const int abc_text_size_medium_material = 2131230803;
 			
-			// aapt resource value: 0x7f090054
-			public const int abc_text_size_menu_header_material = 2131296340;
+			// aapt resource value: 0x7f080054
+			public const int abc_text_size_menu_header_material = 2131230804;
 			
-			// aapt resource value: 0x7f090055
-			public const int abc_text_size_menu_material = 2131296341;
+			// aapt resource value: 0x7f080055
+			public const int abc_text_size_menu_material = 2131230805;
 			
-			// aapt resource value: 0x7f090056
-			public const int abc_text_size_small_material = 2131296342;
+			// aapt resource value: 0x7f080056
+			public const int abc_text_size_small_material = 2131230806;
 			
-			// aapt resource value: 0x7f090057
-			public const int abc_text_size_subhead_material = 2131296343;
+			// aapt resource value: 0x7f080057
+			public const int abc_text_size_subhead_material = 2131230807;
 			
-			// aapt resource value: 0x7f090012
-			public const int abc_text_size_subtitle_material_toolbar = 2131296274;
+			// aapt resource value: 0x7f080012
+			public const int abc_text_size_subtitle_material_toolbar = 2131230738;
 			
-			// aapt resource value: 0x7f090058
-			public const int abc_text_size_title_material = 2131296344;
+			// aapt resource value: 0x7f080058
+			public const int abc_text_size_title_material = 2131230808;
 			
-			// aapt resource value: 0x7f090013
-			public const int abc_text_size_title_material_toolbar = 2131296275;
+			// aapt resource value: 0x7f080013
+			public const int abc_text_size_title_material_toolbar = 2131230739;
 			
-			// aapt resource value: 0x7f09000c
-			public const int cardview_compat_inset_shadow = 2131296268;
+			// aapt resource value: 0x7f08000c
+			public const int cardview_compat_inset_shadow = 2131230732;
 			
-			// aapt resource value: 0x7f09000d
-			public const int cardview_default_elevation = 2131296269;
+			// aapt resource value: 0x7f08000d
+			public const int cardview_default_elevation = 2131230733;
 			
-			// aapt resource value: 0x7f09000e
-			public const int cardview_default_radius = 2131296270;
+			// aapt resource value: 0x7f08000e
+			public const int cardview_default_radius = 2131230734;
 			
-			// aapt resource value: 0x7f090094
-			public const int compat_button_inset_horizontal_material = 2131296404;
+			// aapt resource value: 0x7f080094
+			public const int compat_button_inset_horizontal_material = 2131230868;
 			
-			// aapt resource value: 0x7f090095
-			public const int compat_button_inset_vertical_material = 2131296405;
+			// aapt resource value: 0x7f080095
+			public const int compat_button_inset_vertical_material = 2131230869;
 			
-			// aapt resource value: 0x7f090096
-			public const int compat_button_padding_horizontal_material = 2131296406;
+			// aapt resource value: 0x7f080096
+			public const int compat_button_padding_horizontal_material = 2131230870;
 			
-			// aapt resource value: 0x7f090097
-			public const int compat_button_padding_vertical_material = 2131296407;
+			// aapt resource value: 0x7f080097
+			public const int compat_button_padding_vertical_material = 2131230871;
 			
-			// aapt resource value: 0x7f090098
-			public const int compat_control_corner_material = 2131296408;
+			// aapt resource value: 0x7f080098
+			public const int compat_control_corner_material = 2131230872;
 			
-			// aapt resource value: 0x7f090072
-			public const int design_appbar_elevation = 2131296370;
+			// aapt resource value: 0x7f080072
+			public const int design_appbar_elevation = 2131230834;
 			
-			// aapt resource value: 0x7f090073
-			public const int design_bottom_navigation_active_item_max_width = 2131296371;
+			// aapt resource value: 0x7f080073
+			public const int design_bottom_navigation_active_item_max_width = 2131230835;
 			
-			// aapt resource value: 0x7f090074
-			public const int design_bottom_navigation_active_text_size = 2131296372;
+			// aapt resource value: 0x7f080074
+			public const int design_bottom_navigation_active_text_size = 2131230836;
 			
-			// aapt resource value: 0x7f090075
-			public const int design_bottom_navigation_elevation = 2131296373;
+			// aapt resource value: 0x7f080075
+			public const int design_bottom_navigation_elevation = 2131230837;
 			
-			// aapt resource value: 0x7f090076
-			public const int design_bottom_navigation_height = 2131296374;
+			// aapt resource value: 0x7f080076
+			public const int design_bottom_navigation_height = 2131230838;
 			
-			// aapt resource value: 0x7f090077
-			public const int design_bottom_navigation_item_max_width = 2131296375;
+			// aapt resource value: 0x7f080077
+			public const int design_bottom_navigation_item_max_width = 2131230839;
 			
-			// aapt resource value: 0x7f090078
-			public const int design_bottom_navigation_item_min_width = 2131296376;
+			// aapt resource value: 0x7f080078
+			public const int design_bottom_navigation_item_min_width = 2131230840;
 			
-			// aapt resource value: 0x7f090079
-			public const int design_bottom_navigation_margin = 2131296377;
+			// aapt resource value: 0x7f080079
+			public const int design_bottom_navigation_margin = 2131230841;
 			
-			// aapt resource value: 0x7f09007a
-			public const int design_bottom_navigation_shadow_height = 2131296378;
+			// aapt resource value: 0x7f08007a
+			public const int design_bottom_navigation_shadow_height = 2131230842;
 			
-			// aapt resource value: 0x7f09007b
-			public const int design_bottom_navigation_text_size = 2131296379;
+			// aapt resource value: 0x7f08007b
+			public const int design_bottom_navigation_text_size = 2131230843;
 			
-			// aapt resource value: 0x7f09007c
-			public const int design_bottom_sheet_modal_elevation = 2131296380;
+			// aapt resource value: 0x7f08007c
+			public const int design_bottom_sheet_modal_elevation = 2131230844;
 			
-			// aapt resource value: 0x7f09007d
-			public const int design_bottom_sheet_peek_height_min = 2131296381;
+			// aapt resource value: 0x7f08007d
+			public const int design_bottom_sheet_peek_height_min = 2131230845;
 			
-			// aapt resource value: 0x7f09007e
-			public const int design_fab_border_width = 2131296382;
+			// aapt resource value: 0x7f08007e
+			public const int design_fab_border_width = 2131230846;
 			
-			// aapt resource value: 0x7f09007f
-			public const int design_fab_elevation = 2131296383;
+			// aapt resource value: 0x7f08007f
+			public const int design_fab_elevation = 2131230847;
 			
-			// aapt resource value: 0x7f090080
-			public const int design_fab_image_size = 2131296384;
+			// aapt resource value: 0x7f080080
+			public const int design_fab_image_size = 2131230848;
 			
-			// aapt resource value: 0x7f090081
-			public const int design_fab_size_mini = 2131296385;
+			// aapt resource value: 0x7f080081
+			public const int design_fab_size_mini = 2131230849;
 			
-			// aapt resource value: 0x7f090082
-			public const int design_fab_size_normal = 2131296386;
+			// aapt resource value: 0x7f080082
+			public const int design_fab_size_normal = 2131230850;
 			
-			// aapt resource value: 0x7f090083
-			public const int design_fab_translation_z_pressed = 2131296387;
+			// aapt resource value: 0x7f080083
+			public const int design_fab_translation_z_pressed = 2131230851;
 			
-			// aapt resource value: 0x7f090084
-			public const int design_navigation_elevation = 2131296388;
+			// aapt resource value: 0x7f080084
+			public const int design_navigation_elevation = 2131230852;
 			
-			// aapt resource value: 0x7f090085
-			public const int design_navigation_icon_padding = 2131296389;
+			// aapt resource value: 0x7f080085
+			public const int design_navigation_icon_padding = 2131230853;
 			
-			// aapt resource value: 0x7f090086
-			public const int design_navigation_icon_size = 2131296390;
+			// aapt resource value: 0x7f080086
+			public const int design_navigation_icon_size = 2131230854;
 			
-			// aapt resource value: 0x7f09006a
-			public const int design_navigation_max_width = 2131296362;
+			// aapt resource value: 0x7f08006a
+			public const int design_navigation_max_width = 2131230826;
 			
-			// aapt resource value: 0x7f090087
-			public const int design_navigation_padding_bottom = 2131296391;
+			// aapt resource value: 0x7f080087
+			public const int design_navigation_padding_bottom = 2131230855;
 			
-			// aapt resource value: 0x7f090088
-			public const int design_navigation_separator_vertical_padding = 2131296392;
+			// aapt resource value: 0x7f080088
+			public const int design_navigation_separator_vertical_padding = 2131230856;
 			
-			// aapt resource value: 0x7f09006b
-			public const int design_snackbar_action_inline_max_width = 2131296363;
+			// aapt resource value: 0x7f08006b
+			public const int design_snackbar_action_inline_max_width = 2131230827;
 			
-			// aapt resource value: 0x7f09006c
-			public const int design_snackbar_background_corner_radius = 2131296364;
+			// aapt resource value: 0x7f08006c
+			public const int design_snackbar_background_corner_radius = 2131230828;
 			
-			// aapt resource value: 0x7f090089
-			public const int design_snackbar_elevation = 2131296393;
+			// aapt resource value: 0x7f080089
+			public const int design_snackbar_elevation = 2131230857;
 			
-			// aapt resource value: 0x7f09006d
-			public const int design_snackbar_extra_spacing_horizontal = 2131296365;
+			// aapt resource value: 0x7f08006d
+			public const int design_snackbar_extra_spacing_horizontal = 2131230829;
 			
-			// aapt resource value: 0x7f09006e
-			public const int design_snackbar_max_width = 2131296366;
+			// aapt resource value: 0x7f08006e
+			public const int design_snackbar_max_width = 2131230830;
 			
-			// aapt resource value: 0x7f09006f
-			public const int design_snackbar_min_width = 2131296367;
+			// aapt resource value: 0x7f08006f
+			public const int design_snackbar_min_width = 2131230831;
 			
-			// aapt resource value: 0x7f09008a
-			public const int design_snackbar_padding_horizontal = 2131296394;
+			// aapt resource value: 0x7f08008a
+			public const int design_snackbar_padding_horizontal = 2131230858;
 			
-			// aapt resource value: 0x7f09008b
-			public const int design_snackbar_padding_vertical = 2131296395;
+			// aapt resource value: 0x7f08008b
+			public const int design_snackbar_padding_vertical = 2131230859;
 			
-			// aapt resource value: 0x7f090070
-			public const int design_snackbar_padding_vertical_2lines = 2131296368;
+			// aapt resource value: 0x7f080070
+			public const int design_snackbar_padding_vertical_2lines = 2131230832;
 			
-			// aapt resource value: 0x7f09008c
-			public const int design_snackbar_text_size = 2131296396;
+			// aapt resource value: 0x7f08008c
+			public const int design_snackbar_text_size = 2131230860;
 			
-			// aapt resource value: 0x7f09008d
-			public const int design_tab_max_width = 2131296397;
+			// aapt resource value: 0x7f08008d
+			public const int design_tab_max_width = 2131230861;
 			
-			// aapt resource value: 0x7f090071
-			public const int design_tab_scrollable_min_width = 2131296369;
+			// aapt resource value: 0x7f080071
+			public const int design_tab_scrollable_min_width = 2131230833;
 			
-			// aapt resource value: 0x7f09008e
-			public const int design_tab_text_size = 2131296398;
+			// aapt resource value: 0x7f08008e
+			public const int design_tab_text_size = 2131230862;
 			
-			// aapt resource value: 0x7f09008f
-			public const int design_tab_text_size_2line = 2131296399;
+			// aapt resource value: 0x7f08008f
+			public const int design_tab_text_size_2line = 2131230863;
 			
-			// aapt resource value: 0x7f090059
-			public const int disabled_alpha_material_dark = 2131296345;
+			// aapt resource value: 0x7f080059
+			public const int disabled_alpha_material_dark = 2131230809;
 			
-			// aapt resource value: 0x7f09005a
-			public const int disabled_alpha_material_light = 2131296346;
+			// aapt resource value: 0x7f08005a
+			public const int disabled_alpha_material_light = 2131230810;
 			
-			// aapt resource value: 0x7f090000
-			public const int fastscroll_default_thickness = 2131296256;
+			// aapt resource value: 0x7f080000
+			public const int fastscroll_default_thickness = 2131230720;
 			
-			// aapt resource value: 0x7f090001
-			public const int fastscroll_margin = 2131296257;
+			// aapt resource value: 0x7f080001
+			public const int fastscroll_margin = 2131230721;
 			
-			// aapt resource value: 0x7f090002
-			public const int fastscroll_minimum_range = 2131296258;
+			// aapt resource value: 0x7f080002
+			public const int fastscroll_minimum_range = 2131230722;
 			
-			// aapt resource value: 0x7f09005b
-			public const int highlight_alpha_material_colored = 2131296347;
+			// aapt resource value: 0x7f08005b
+			public const int highlight_alpha_material_colored = 2131230811;
 			
-			// aapt resource value: 0x7f09005c
-			public const int highlight_alpha_material_dark = 2131296348;
+			// aapt resource value: 0x7f08005c
+			public const int highlight_alpha_material_dark = 2131230812;
 			
-			// aapt resource value: 0x7f09005d
-			public const int highlight_alpha_material_light = 2131296349;
+			// aapt resource value: 0x7f08005d
+			public const int highlight_alpha_material_light = 2131230813;
 			
-			// aapt resource value: 0x7f09005e
-			public const int hint_alpha_material_dark = 2131296350;
+			// aapt resource value: 0x7f08005e
+			public const int hint_alpha_material_dark = 2131230814;
 			
-			// aapt resource value: 0x7f09005f
-			public const int hint_alpha_material_light = 2131296351;
+			// aapt resource value: 0x7f08005f
+			public const int hint_alpha_material_light = 2131230815;
 			
-			// aapt resource value: 0x7f090060
-			public const int hint_pressed_alpha_material_dark = 2131296352;
+			// aapt resource value: 0x7f080060
+			public const int hint_pressed_alpha_material_dark = 2131230816;
 			
-			// aapt resource value: 0x7f090061
-			public const int hint_pressed_alpha_material_light = 2131296353;
+			// aapt resource value: 0x7f080061
+			public const int hint_pressed_alpha_material_light = 2131230817;
 			
-			// aapt resource value: 0x7f090003
-			public const int item_touch_helper_max_drag_scroll_per_frame = 2131296259;
+			// aapt resource value: 0x7f080003
+			public const int item_touch_helper_max_drag_scroll_per_frame = 2131230723;
 			
-			// aapt resource value: 0x7f090004
-			public const int item_touch_helper_swipe_escape_max_velocity = 2131296260;
+			// aapt resource value: 0x7f080004
+			public const int item_touch_helper_swipe_escape_max_velocity = 2131230724;
 			
-			// aapt resource value: 0x7f090005
-			public const int item_touch_helper_swipe_escape_velocity = 2131296261;
+			// aapt resource value: 0x7f080005
+			public const int item_touch_helper_swipe_escape_velocity = 2131230725;
 			
-			// aapt resource value: 0x7f090006
-			public const int mr_controller_volume_group_list_item_height = 2131296262;
+			// aapt resource value: 0x7f080006
+			public const int mr_controller_volume_group_list_item_height = 2131230726;
 			
-			// aapt resource value: 0x7f090007
-			public const int mr_controller_volume_group_list_item_icon_size = 2131296263;
+			// aapt resource value: 0x7f080007
+			public const int mr_controller_volume_group_list_item_icon_size = 2131230727;
 			
-			// aapt resource value: 0x7f090008
-			public const int mr_controller_volume_group_list_max_height = 2131296264;
+			// aapt resource value: 0x7f080008
+			public const int mr_controller_volume_group_list_max_height = 2131230728;
 			
-			// aapt resource value: 0x7f09000b
-			public const int mr_controller_volume_group_list_padding_top = 2131296267;
+			// aapt resource value: 0x7f08000b
+			public const int mr_controller_volume_group_list_padding_top = 2131230731;
 			
-			// aapt resource value: 0x7f090009
-			public const int mr_dialog_fixed_width_major = 2131296265;
+			// aapt resource value: 0x7f080009
+			public const int mr_dialog_fixed_width_major = 2131230729;
 			
-			// aapt resource value: 0x7f09000a
-			public const int mr_dialog_fixed_width_minor = 2131296266;
+			// aapt resource value: 0x7f08000a
+			public const int mr_dialog_fixed_width_minor = 2131230730;
 			
-			// aapt resource value: 0x7f090099
-			public const int notification_action_icon_size = 2131296409;
+			// aapt resource value: 0x7f080099
+			public const int notification_action_icon_size = 2131230873;
 			
-			// aapt resource value: 0x7f09009a
-			public const int notification_action_text_size = 2131296410;
+			// aapt resource value: 0x7f08009a
+			public const int notification_action_text_size = 2131230874;
 			
-			// aapt resource value: 0x7f09009b
-			public const int notification_big_circle_margin = 2131296411;
+			// aapt resource value: 0x7f08009b
+			public const int notification_big_circle_margin = 2131230875;
 			
-			// aapt resource value: 0x7f090091
-			public const int notification_content_margin_start = 2131296401;
+			// aapt resource value: 0x7f080091
+			public const int notification_content_margin_start = 2131230865;
 			
-			// aapt resource value: 0x7f09009c
-			public const int notification_large_icon_height = 2131296412;
+			// aapt resource value: 0x7f08009c
+			public const int notification_large_icon_height = 2131230876;
 			
-			// aapt resource value: 0x7f09009d
-			public const int notification_large_icon_width = 2131296413;
+			// aapt resource value: 0x7f08009d
+			public const int notification_large_icon_width = 2131230877;
 			
-			// aapt resource value: 0x7f090092
-			public const int notification_main_column_padding_top = 2131296402;
+			// aapt resource value: 0x7f080092
+			public const int notification_main_column_padding_top = 2131230866;
 			
-			// aapt resource value: 0x7f090093
-			public const int notification_media_narrow_margin = 2131296403;
+			// aapt resource value: 0x7f080093
+			public const int notification_media_narrow_margin = 2131230867;
 			
-			// aapt resource value: 0x7f09009e
-			public const int notification_right_icon_size = 2131296414;
+			// aapt resource value: 0x7f08009e
+			public const int notification_right_icon_size = 2131230878;
 			
-			// aapt resource value: 0x7f090090
-			public const int notification_right_side_padding_top = 2131296400;
+			// aapt resource value: 0x7f080090
+			public const int notification_right_side_padding_top = 2131230864;
 			
-			// aapt resource value: 0x7f09009f
-			public const int notification_small_icon_background_padding = 2131296415;
+			// aapt resource value: 0x7f08009f
+			public const int notification_small_icon_background_padding = 2131230879;
 			
-			// aapt resource value: 0x7f0900a0
-			public const int notification_small_icon_size_as_large = 2131296416;
+			// aapt resource value: 0x7f0800a0
+			public const int notification_small_icon_size_as_large = 2131230880;
 			
-			// aapt resource value: 0x7f0900a1
-			public const int notification_subtext_size = 2131296417;
+			// aapt resource value: 0x7f0800a1
+			public const int notification_subtext_size = 2131230881;
 			
-			// aapt resource value: 0x7f0900a2
-			public const int notification_top_pad = 2131296418;
+			// aapt resource value: 0x7f0800a2
+			public const int notification_top_pad = 2131230882;
 			
-			// aapt resource value: 0x7f0900a3
-			public const int notification_top_pad_large_text = 2131296419;
+			// aapt resource value: 0x7f0800a3
+			public const int notification_top_pad_large_text = 2131230883;
 			
-			// aapt resource value: 0x7f090062
-			public const int tooltip_corner_radius = 2131296354;
+			// aapt resource value: 0x7f080062
+			public const int tooltip_corner_radius = 2131230818;
 			
-			// aapt resource value: 0x7f090063
-			public const int tooltip_horizontal_padding = 2131296355;
+			// aapt resource value: 0x7f080063
+			public const int tooltip_horizontal_padding = 2131230819;
 			
-			// aapt resource value: 0x7f090064
-			public const int tooltip_margin = 2131296356;
+			// aapt resource value: 0x7f080064
+			public const int tooltip_margin = 2131230820;
 			
-			// aapt resource value: 0x7f090065
-			public const int tooltip_precise_anchor_extra_offset = 2131296357;
+			// aapt resource value: 0x7f080065
+			public const int tooltip_precise_anchor_extra_offset = 2131230821;
 			
-			// aapt resource value: 0x7f090066
-			public const int tooltip_precise_anchor_threshold = 2131296358;
+			// aapt resource value: 0x7f080066
+			public const int tooltip_precise_anchor_threshold = 2131230822;
 			
-			// aapt resource value: 0x7f090067
-			public const int tooltip_vertical_padding = 2131296359;
+			// aapt resource value: 0x7f080067
+			public const int tooltip_vertical_padding = 2131230823;
 			
-			// aapt resource value: 0x7f090068
-			public const int tooltip_y_offset_non_touch = 2131296360;
+			// aapt resource value: 0x7f080068
+			public const int tooltip_y_offset_non_touch = 2131230824;
 			
-			// aapt resource value: 0x7f090069
-			public const int tooltip_y_offset_touch = 2131296361;
+			// aapt resource value: 0x7f080069
+			public const int tooltip_y_offset_touch = 2131230825;
 			
 			static Dimension()
 			{
@@ -5296,614 +3030,614 @@ namespace FunnyMoney.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0a0032
-			public const int ALT = 2131361842;
+			// aapt resource value: 0x7f090032
+			public const int ALT = 2131296306;
 			
-			// aapt resource value: 0x7f0a0033
-			public const int CTRL = 2131361843;
+			// aapt resource value: 0x7f090033
+			public const int CTRL = 2131296307;
 			
-			// aapt resource value: 0x7f0a0034
-			public const int FUNCTION = 2131361844;
+			// aapt resource value: 0x7f090034
+			public const int FUNCTION = 2131296308;
 			
-			// aapt resource value: 0x7f0a0035
-			public const int META = 2131361845;
+			// aapt resource value: 0x7f090035
+			public const int META = 2131296309;
 			
-			// aapt resource value: 0x7f0a0036
-			public const int SHIFT = 2131361846;
+			// aapt resource value: 0x7f090036
+			public const int SHIFT = 2131296310;
 			
-			// aapt resource value: 0x7f0a0037
-			public const int SYM = 2131361847;
+			// aapt resource value: 0x7f090037
+			public const int SYM = 2131296311;
 			
-			// aapt resource value: 0x7f0a00b6
-			public const int action0 = 2131361974;
+			// aapt resource value: 0x7f0900b6
+			public const int action0 = 2131296438;
 			
-			// aapt resource value: 0x7f0a007c
-			public const int action_bar = 2131361916;
+			// aapt resource value: 0x7f09007c
+			public const int action_bar = 2131296380;
 			
-			// aapt resource value: 0x7f0a0001
-			public const int action_bar_activity_content = 2131361793;
+			// aapt resource value: 0x7f090001
+			public const int action_bar_activity_content = 2131296257;
 			
-			// aapt resource value: 0x7f0a007b
-			public const int action_bar_container = 2131361915;
+			// aapt resource value: 0x7f09007b
+			public const int action_bar_container = 2131296379;
 			
-			// aapt resource value: 0x7f0a0077
-			public const int action_bar_root = 2131361911;
+			// aapt resource value: 0x7f090077
+			public const int action_bar_root = 2131296375;
 			
-			// aapt resource value: 0x7f0a0002
-			public const int action_bar_spinner = 2131361794;
+			// aapt resource value: 0x7f090002
+			public const int action_bar_spinner = 2131296258;
 			
-			// aapt resource value: 0x7f0a005b
-			public const int action_bar_subtitle = 2131361883;
+			// aapt resource value: 0x7f09005b
+			public const int action_bar_subtitle = 2131296347;
 			
-			// aapt resource value: 0x7f0a005a
-			public const int action_bar_title = 2131361882;
+			// aapt resource value: 0x7f09005a
+			public const int action_bar_title = 2131296346;
 			
-			// aapt resource value: 0x7f0a00b3
-			public const int action_container = 2131361971;
+			// aapt resource value: 0x7f0900b3
+			public const int action_container = 2131296435;
 			
-			// aapt resource value: 0x7f0a007d
-			public const int action_context_bar = 2131361917;
+			// aapt resource value: 0x7f09007d
+			public const int action_context_bar = 2131296381;
 			
-			// aapt resource value: 0x7f0a00ba
-			public const int action_divider = 2131361978;
+			// aapt resource value: 0x7f0900ba
+			public const int action_divider = 2131296442;
 			
-			// aapt resource value: 0x7f0a00b4
-			public const int action_image = 2131361972;
+			// aapt resource value: 0x7f0900b4
+			public const int action_image = 2131296436;
 			
-			// aapt resource value: 0x7f0a0003
-			public const int action_menu_divider = 2131361795;
+			// aapt resource value: 0x7f090003
+			public const int action_menu_divider = 2131296259;
 			
-			// aapt resource value: 0x7f0a0004
-			public const int action_menu_presenter = 2131361796;
+			// aapt resource value: 0x7f090004
+			public const int action_menu_presenter = 2131296260;
 			
-			// aapt resource value: 0x7f0a0079
-			public const int action_mode_bar = 2131361913;
+			// aapt resource value: 0x7f090079
+			public const int action_mode_bar = 2131296377;
 			
-			// aapt resource value: 0x7f0a0078
-			public const int action_mode_bar_stub = 2131361912;
+			// aapt resource value: 0x7f090078
+			public const int action_mode_bar_stub = 2131296376;
 			
-			// aapt resource value: 0x7f0a005c
-			public const int action_mode_close_button = 2131361884;
+			// aapt resource value: 0x7f09005c
+			public const int action_mode_close_button = 2131296348;
 			
-			// aapt resource value: 0x7f0a00b5
-			public const int action_text = 2131361973;
+			// aapt resource value: 0x7f0900b5
+			public const int action_text = 2131296437;
 			
-			// aapt resource value: 0x7f0a00c3
-			public const int actions = 2131361987;
+			// aapt resource value: 0x7f0900c3
+			public const int actions = 2131296451;
 			
-			// aapt resource value: 0x7f0a005d
-			public const int activity_chooser_view_content = 2131361885;
+			// aapt resource value: 0x7f09005d
+			public const int activity_chooser_view_content = 2131296349;
 			
-			// aapt resource value: 0x7f0a0027
-			public const int add = 2131361831;
+			// aapt resource value: 0x7f090027
+			public const int add = 2131296295;
 			
-			// aapt resource value: 0x7f0a0070
-			public const int alertTitle = 2131361904;
+			// aapt resource value: 0x7f090070
+			public const int alertTitle = 2131296368;
 			
-			// aapt resource value: 0x7f0a0052
-			public const int all = 2131361874;
+			// aapt resource value: 0x7f090052
+			public const int all = 2131296338;
 			
-			// aapt resource value: 0x7f0a0038
-			public const int always = 2131361848;
+			// aapt resource value: 0x7f090038
+			public const int always = 2131296312;
 			
-			// aapt resource value: 0x7f0a0056
-			public const int async = 2131361878;
+			// aapt resource value: 0x7f090056
+			public const int async = 2131296342;
 			
-			// aapt resource value: 0x7f0a0044
-			public const int auto = 2131361860;
+			// aapt resource value: 0x7f090044
+			public const int auto = 2131296324;
 			
-			// aapt resource value: 0x7f0a002f
-			public const int beginning = 2131361839;
+			// aapt resource value: 0x7f09002f
+			public const int beginning = 2131296303;
 			
-			// aapt resource value: 0x7f0a0057
-			public const int blocking = 2131361879;
+			// aapt resource value: 0x7f090057
+			public const int blocking = 2131296343;
 			
-			// aapt resource value: 0x7f0a003d
-			public const int bottom = 2131361853;
+			// aapt resource value: 0x7f09003d
+			public const int bottom = 2131296317;
 			
-			// aapt resource value: 0x7f0a0063
-			public const int buttonPanel = 2131361891;
+			// aapt resource value: 0x7f090063
+			public const int buttonPanel = 2131296355;
 			
-			// aapt resource value: 0x7f0a00b7
-			public const int cancel_action = 2131361975;
+			// aapt resource value: 0x7f0900b7
+			public const int cancel_action = 2131296439;
 			
-			// aapt resource value: 0x7f0a0045
-			public const int center = 2131361861;
+			// aapt resource value: 0x7f090045
+			public const int center = 2131296325;
 			
-			// aapt resource value: 0x7f0a0046
-			public const int center_horizontal = 2131361862;
+			// aapt resource value: 0x7f090046
+			public const int center_horizontal = 2131296326;
 			
-			// aapt resource value: 0x7f0a0047
-			public const int center_vertical = 2131361863;
+			// aapt resource value: 0x7f090047
+			public const int center_vertical = 2131296327;
 			
-			// aapt resource value: 0x7f0a0073
-			public const int checkbox = 2131361907;
+			// aapt resource value: 0x7f090073
+			public const int checkbox = 2131296371;
 			
-			// aapt resource value: 0x7f0a00bf
-			public const int chronometer = 2131361983;
+			// aapt resource value: 0x7f0900bf
+			public const int chronometer = 2131296447;
 			
-			// aapt resource value: 0x7f0a004e
-			public const int clip_horizontal = 2131361870;
+			// aapt resource value: 0x7f09004e
+			public const int clip_horizontal = 2131296334;
 			
-			// aapt resource value: 0x7f0a004f
-			public const int clip_vertical = 2131361871;
+			// aapt resource value: 0x7f09004f
+			public const int clip_vertical = 2131296335;
 			
-			// aapt resource value: 0x7f0a0039
-			public const int collapseActionView = 2131361849;
+			// aapt resource value: 0x7f090039
+			public const int collapseActionView = 2131296313;
 			
-			// aapt resource value: 0x7f0a008d
-			public const int container = 2131361933;
+			// aapt resource value: 0x7f09008d
+			public const int container = 2131296397;
 			
-			// aapt resource value: 0x7f0a0066
-			public const int contentPanel = 2131361894;
+			// aapt resource value: 0x7f090066
+			public const int contentPanel = 2131296358;
 			
-			// aapt resource value: 0x7f0a008e
-			public const int coordinator = 2131361934;
+			// aapt resource value: 0x7f09008e
+			public const int coordinator = 2131296398;
 			
-			// aapt resource value: 0x7f0a006d
-			public const int custom = 2131361901;
+			// aapt resource value: 0x7f09006d
+			public const int custom = 2131296365;
 			
-			// aapt resource value: 0x7f0a006c
-			public const int customPanel = 2131361900;
+			// aapt resource value: 0x7f09006c
+			public const int customPanel = 2131296364;
 			
-			// aapt resource value: 0x7f0a007a
-			public const int decor_content_parent = 2131361914;
+			// aapt resource value: 0x7f09007a
+			public const int decor_content_parent = 2131296378;
 			
-			// aapt resource value: 0x7f0a0060
-			public const int default_activity_button = 2131361888;
+			// aapt resource value: 0x7f090060
+			public const int default_activity_button = 2131296352;
 			
-			// aapt resource value: 0x7f0a0090
-			public const int design_bottom_sheet = 2131361936;
+			// aapt resource value: 0x7f090090
+			public const int design_bottom_sheet = 2131296400;
 			
-			// aapt resource value: 0x7f0a0097
-			public const int design_menu_item_action_area = 2131361943;
+			// aapt resource value: 0x7f090097
+			public const int design_menu_item_action_area = 2131296407;
 			
-			// aapt resource value: 0x7f0a0096
-			public const int design_menu_item_action_area_stub = 2131361942;
+			// aapt resource value: 0x7f090096
+			public const int design_menu_item_action_area_stub = 2131296406;
 			
-			// aapt resource value: 0x7f0a0095
-			public const int design_menu_item_text = 2131361941;
+			// aapt resource value: 0x7f090095
+			public const int design_menu_item_text = 2131296405;
 			
-			// aapt resource value: 0x7f0a0094
-			public const int design_navigation_view = 2131361940;
+			// aapt resource value: 0x7f090094
+			public const int design_navigation_view = 2131296404;
 			
-			// aapt resource value: 0x7f0a0020
-			public const int disableHome = 2131361824;
+			// aapt resource value: 0x7f090020
+			public const int disableHome = 2131296288;
 			
-			// aapt resource value: 0x7f0a007e
-			public const int edit_query = 2131361918;
+			// aapt resource value: 0x7f09007e
+			public const int edit_query = 2131296382;
 			
-			// aapt resource value: 0x7f0a0030
-			public const int end = 2131361840;
+			// aapt resource value: 0x7f090030
+			public const int end = 2131296304;
 			
-			// aapt resource value: 0x7f0a00c5
-			public const int end_padder = 2131361989;
+			// aapt resource value: 0x7f0900c5
+			public const int end_padder = 2131296453;
 			
-			// aapt resource value: 0x7f0a003f
-			public const int enterAlways = 2131361855;
+			// aapt resource value: 0x7f09003f
+			public const int enterAlways = 2131296319;
 			
-			// aapt resource value: 0x7f0a0040
-			public const int enterAlwaysCollapsed = 2131361856;
+			// aapt resource value: 0x7f090040
+			public const int enterAlwaysCollapsed = 2131296320;
 			
-			// aapt resource value: 0x7f0a0041
-			public const int exitUntilCollapsed = 2131361857;
+			// aapt resource value: 0x7f090041
+			public const int exitUntilCollapsed = 2131296321;
 			
-			// aapt resource value: 0x7f0a005e
-			public const int expand_activities_button = 2131361886;
+			// aapt resource value: 0x7f09005e
+			public const int expand_activities_button = 2131296350;
 			
-			// aapt resource value: 0x7f0a0072
-			public const int expanded_menu = 2131361906;
+			// aapt resource value: 0x7f090072
+			public const int expanded_menu = 2131296370;
 			
-			// aapt resource value: 0x7f0a0050
-			public const int fill = 2131361872;
+			// aapt resource value: 0x7f090050
+			public const int fill = 2131296336;
 			
-			// aapt resource value: 0x7f0a0051
-			public const int fill_horizontal = 2131361873;
+			// aapt resource value: 0x7f090051
+			public const int fill_horizontal = 2131296337;
 			
-			// aapt resource value: 0x7f0a0048
-			public const int fill_vertical = 2131361864;
+			// aapt resource value: 0x7f090048
+			public const int fill_vertical = 2131296328;
 			
-			// aapt resource value: 0x7f0a0054
-			public const int @fixed = 2131361876;
+			// aapt resource value: 0x7f090054
+			public const int @fixed = 2131296340;
 			
-			// aapt resource value: 0x7f0a0058
-			public const int forever = 2131361880;
+			// aapt resource value: 0x7f090058
+			public const int forever = 2131296344;
 			
-			// aapt resource value: 0x7f0a000a
-			public const int ghost_view = 2131361802;
+			// aapt resource value: 0x7f09000a
+			public const int ghost_view = 2131296266;
 			
-			// aapt resource value: 0x7f0a0005
-			public const int home = 2131361797;
+			// aapt resource value: 0x7f090005
+			public const int home = 2131296261;
 			
-			// aapt resource value: 0x7f0a0021
-			public const int homeAsUp = 2131361825;
+			// aapt resource value: 0x7f090021
+			public const int homeAsUp = 2131296289;
 			
-			// aapt resource value: 0x7f0a0062
-			public const int icon = 2131361890;
+			// aapt resource value: 0x7f090062
+			public const int icon = 2131296354;
 			
-			// aapt resource value: 0x7f0a00c4
-			public const int icon_group = 2131361988;
+			// aapt resource value: 0x7f0900c4
+			public const int icon_group = 2131296452;
 			
-			// aapt resource value: 0x7f0a003a
-			public const int ifRoom = 2131361850;
+			// aapt resource value: 0x7f09003a
+			public const int ifRoom = 2131296314;
 			
-			// aapt resource value: 0x7f0a005f
-			public const int image = 2131361887;
+			// aapt resource value: 0x7f09005f
+			public const int image = 2131296351;
 			
-			// aapt resource value: 0x7f0a00c0
-			public const int info = 2131361984;
+			// aapt resource value: 0x7f0900c0
+			public const int info = 2131296448;
 			
-			// aapt resource value: 0x7f0a0059
-			public const int italic = 2131361881;
+			// aapt resource value: 0x7f090059
+			public const int italic = 2131296345;
 			
-			// aapt resource value: 0x7f0a0000
-			public const int item_touch_helper_previous_elevation = 2131361792;
+			// aapt resource value: 0x7f090000
+			public const int item_touch_helper_previous_elevation = 2131296256;
 			
-			// aapt resource value: 0x7f0a008c
-			public const int largeLabel = 2131361932;
+			// aapt resource value: 0x7f09008c
+			public const int largeLabel = 2131296396;
 			
-			// aapt resource value: 0x7f0a0049
-			public const int left = 2131361865;
+			// aapt resource value: 0x7f090049
+			public const int left = 2131296329;
 			
-			// aapt resource value: 0x7f0a0017
-			public const int line1 = 2131361815;
+			// aapt resource value: 0x7f090017
+			public const int line1 = 2131296279;
 			
-			// aapt resource value: 0x7f0a0018
-			public const int line3 = 2131361816;
+			// aapt resource value: 0x7f090018
+			public const int line3 = 2131296280;
 			
-			// aapt resource value: 0x7f0a001d
-			public const int listMode = 2131361821;
+			// aapt resource value: 0x7f09001d
+			public const int listMode = 2131296285;
 			
-			// aapt resource value: 0x7f0a0061
-			public const int list_item = 2131361889;
+			// aapt resource value: 0x7f090061
+			public const int list_item = 2131296353;
 			
-			// aapt resource value: 0x7f0a00ca
-			public const int masked = 2131361994;
+			// aapt resource value: 0x7f0900ca
+			public const int masked = 2131296458;
 			
-			// aapt resource value: 0x7f0a00b9
-			public const int media_actions = 2131361977;
+			// aapt resource value: 0x7f0900b9
+			public const int media_actions = 2131296441;
 			
-			// aapt resource value: 0x7f0a00c8
-			public const int message = 2131361992;
+			// aapt resource value: 0x7f0900c8
+			public const int message = 2131296456;
 			
-			// aapt resource value: 0x7f0a0031
-			public const int middle = 2131361841;
+			// aapt resource value: 0x7f090031
+			public const int middle = 2131296305;
 			
-			// aapt resource value: 0x7f0a0053
-			public const int mini = 2131361875;
+			// aapt resource value: 0x7f090053
+			public const int mini = 2131296339;
 			
-			// aapt resource value: 0x7f0a00a5
-			public const int mr_art = 2131361957;
+			// aapt resource value: 0x7f0900a5
+			public const int mr_art = 2131296421;
 			
-			// aapt resource value: 0x7f0a009a
-			public const int mr_chooser_list = 2131361946;
+			// aapt resource value: 0x7f09009a
+			public const int mr_chooser_list = 2131296410;
 			
-			// aapt resource value: 0x7f0a009d
-			public const int mr_chooser_route_desc = 2131361949;
+			// aapt resource value: 0x7f09009d
+			public const int mr_chooser_route_desc = 2131296413;
 			
-			// aapt resource value: 0x7f0a009b
-			public const int mr_chooser_route_icon = 2131361947;
+			// aapt resource value: 0x7f09009b
+			public const int mr_chooser_route_icon = 2131296411;
 			
-			// aapt resource value: 0x7f0a009c
-			public const int mr_chooser_route_name = 2131361948;
+			// aapt resource value: 0x7f09009c
+			public const int mr_chooser_route_name = 2131296412;
 			
-			// aapt resource value: 0x7f0a0099
-			public const int mr_chooser_title = 2131361945;
+			// aapt resource value: 0x7f090099
+			public const int mr_chooser_title = 2131296409;
 			
-			// aapt resource value: 0x7f0a00a2
-			public const int mr_close = 2131361954;
+			// aapt resource value: 0x7f0900a2
+			public const int mr_close = 2131296418;
 			
-			// aapt resource value: 0x7f0a00a8
-			public const int mr_control_divider = 2131361960;
+			// aapt resource value: 0x7f0900a8
+			public const int mr_control_divider = 2131296424;
 			
-			// aapt resource value: 0x7f0a00ae
-			public const int mr_control_playback_ctrl = 2131361966;
+			// aapt resource value: 0x7f0900ae
+			public const int mr_control_playback_ctrl = 2131296430;
 			
-			// aapt resource value: 0x7f0a00b1
-			public const int mr_control_subtitle = 2131361969;
+			// aapt resource value: 0x7f0900b1
+			public const int mr_control_subtitle = 2131296433;
 			
-			// aapt resource value: 0x7f0a00b0
-			public const int mr_control_title = 2131361968;
+			// aapt resource value: 0x7f0900b0
+			public const int mr_control_title = 2131296432;
 			
-			// aapt resource value: 0x7f0a00af
-			public const int mr_control_title_container = 2131361967;
+			// aapt resource value: 0x7f0900af
+			public const int mr_control_title_container = 2131296431;
 			
-			// aapt resource value: 0x7f0a00a3
-			public const int mr_custom_control = 2131361955;
+			// aapt resource value: 0x7f0900a3
+			public const int mr_custom_control = 2131296419;
 			
-			// aapt resource value: 0x7f0a00a4
-			public const int mr_default_control = 2131361956;
+			// aapt resource value: 0x7f0900a4
+			public const int mr_default_control = 2131296420;
 			
-			// aapt resource value: 0x7f0a009f
-			public const int mr_dialog_area = 2131361951;
+			// aapt resource value: 0x7f09009f
+			public const int mr_dialog_area = 2131296415;
 			
-			// aapt resource value: 0x7f0a009e
-			public const int mr_expandable_area = 2131361950;
+			// aapt resource value: 0x7f09009e
+			public const int mr_expandable_area = 2131296414;
 			
-			// aapt resource value: 0x7f0a00b2
-			public const int mr_group_expand_collapse = 2131361970;
+			// aapt resource value: 0x7f0900b2
+			public const int mr_group_expand_collapse = 2131296434;
 			
-			// aapt resource value: 0x7f0a00a6
-			public const int mr_media_main_control = 2131361958;
+			// aapt resource value: 0x7f0900a6
+			public const int mr_media_main_control = 2131296422;
 			
-			// aapt resource value: 0x7f0a00a1
-			public const int mr_name = 2131361953;
+			// aapt resource value: 0x7f0900a1
+			public const int mr_name = 2131296417;
 			
-			// aapt resource value: 0x7f0a00a7
-			public const int mr_playback_control = 2131361959;
+			// aapt resource value: 0x7f0900a7
+			public const int mr_playback_control = 2131296423;
 			
-			// aapt resource value: 0x7f0a00a0
-			public const int mr_title_bar = 2131361952;
+			// aapt resource value: 0x7f0900a0
+			public const int mr_title_bar = 2131296416;
 			
-			// aapt resource value: 0x7f0a00a9
-			public const int mr_volume_control = 2131361961;
+			// aapt resource value: 0x7f0900a9
+			public const int mr_volume_control = 2131296425;
 			
-			// aapt resource value: 0x7f0a00aa
-			public const int mr_volume_group_list = 2131361962;
+			// aapt resource value: 0x7f0900aa
+			public const int mr_volume_group_list = 2131296426;
 			
-			// aapt resource value: 0x7f0a00ac
-			public const int mr_volume_item_icon = 2131361964;
+			// aapt resource value: 0x7f0900ac
+			public const int mr_volume_item_icon = 2131296428;
 			
-			// aapt resource value: 0x7f0a00ad
-			public const int mr_volume_slider = 2131361965;
+			// aapt resource value: 0x7f0900ad
+			public const int mr_volume_slider = 2131296429;
 			
-			// aapt resource value: 0x7f0a0028
-			public const int multiply = 2131361832;
+			// aapt resource value: 0x7f090028
+			public const int multiply = 2131296296;
 			
-			// aapt resource value: 0x7f0a0093
-			public const int navigation_header_container = 2131361939;
+			// aapt resource value: 0x7f090093
+			public const int navigation_header_container = 2131296403;
 			
-			// aapt resource value: 0x7f0a003b
-			public const int never = 2131361851;
+			// aapt resource value: 0x7f09003b
+			public const int never = 2131296315;
 			
-			// aapt resource value: 0x7f0a0022
-			public const int none = 2131361826;
+			// aapt resource value: 0x7f090022
+			public const int none = 2131296290;
 			
-			// aapt resource value: 0x7f0a001e
-			public const int normal = 2131361822;
+			// aapt resource value: 0x7f09001e
+			public const int normal = 2131296286;
 			
-			// aapt resource value: 0x7f0a00c2
-			public const int notification_background = 2131361986;
+			// aapt resource value: 0x7f0900c2
+			public const int notification_background = 2131296450;
 			
-			// aapt resource value: 0x7f0a00bc
-			public const int notification_main_column = 2131361980;
+			// aapt resource value: 0x7f0900bc
+			public const int notification_main_column = 2131296444;
 			
-			// aapt resource value: 0x7f0a00bb
-			public const int notification_main_column_container = 2131361979;
+			// aapt resource value: 0x7f0900bb
+			public const int notification_main_column_container = 2131296443;
 			
-			// aapt resource value: 0x7f0a004c
-			public const int parallax = 2131361868;
+			// aapt resource value: 0x7f09004c
+			public const int parallax = 2131296332;
 			
-			// aapt resource value: 0x7f0a0065
-			public const int parentPanel = 2131361893;
+			// aapt resource value: 0x7f090065
+			public const int parentPanel = 2131296357;
 			
-			// aapt resource value: 0x7f0a000b
-			public const int parent_matrix = 2131361803;
+			// aapt resource value: 0x7f09000b
+			public const int parent_matrix = 2131296267;
 			
-			// aapt resource value: 0x7f0a004d
-			public const int pin = 2131361869;
+			// aapt resource value: 0x7f09004d
+			public const int pin = 2131296333;
 			
-			// aapt resource value: 0x7f0a0006
-			public const int progress_circular = 2131361798;
+			// aapt resource value: 0x7f090006
+			public const int progress_circular = 2131296262;
 			
-			// aapt resource value: 0x7f0a0007
-			public const int progress_horizontal = 2131361799;
+			// aapt resource value: 0x7f090007
+			public const int progress_horizontal = 2131296263;
 			
-			// aapt resource value: 0x7f0a0075
-			public const int radio = 2131361909;
+			// aapt resource value: 0x7f090075
+			public const int radio = 2131296373;
 			
-			// aapt resource value: 0x7f0a004a
-			public const int right = 2131361866;
+			// aapt resource value: 0x7f09004a
+			public const int right = 2131296330;
 			
-			// aapt resource value: 0x7f0a00c1
-			public const int right_icon = 2131361985;
+			// aapt resource value: 0x7f0900c1
+			public const int right_icon = 2131296449;
 			
-			// aapt resource value: 0x7f0a00bd
-			public const int right_side = 2131361981;
+			// aapt resource value: 0x7f0900bd
+			public const int right_side = 2131296445;
 			
-			// aapt resource value: 0x7f0a000c
-			public const int save_image_matrix = 2131361804;
+			// aapt resource value: 0x7f09000c
+			public const int save_image_matrix = 2131296268;
 			
-			// aapt resource value: 0x7f0a000d
-			public const int save_non_transition_alpha = 2131361805;
+			// aapt resource value: 0x7f09000d
+			public const int save_non_transition_alpha = 2131296269;
 			
-			// aapt resource value: 0x7f0a000e
-			public const int save_scale_type = 2131361806;
+			// aapt resource value: 0x7f09000e
+			public const int save_scale_type = 2131296270;
 			
-			// aapt resource value: 0x7f0a0029
-			public const int screen = 2131361833;
+			// aapt resource value: 0x7f090029
+			public const int screen = 2131296297;
 			
-			// aapt resource value: 0x7f0a0042
-			public const int scroll = 2131361858;
+			// aapt resource value: 0x7f090042
+			public const int scroll = 2131296322;
 			
-			// aapt resource value: 0x7f0a006b
-			public const int scrollIndicatorDown = 2131361899;
+			// aapt resource value: 0x7f09006b
+			public const int scrollIndicatorDown = 2131296363;
 			
-			// aapt resource value: 0x7f0a0067
-			public const int scrollIndicatorUp = 2131361895;
+			// aapt resource value: 0x7f090067
+			public const int scrollIndicatorUp = 2131296359;
 			
-			// aapt resource value: 0x7f0a0068
-			public const int scrollView = 2131361896;
+			// aapt resource value: 0x7f090068
+			public const int scrollView = 2131296360;
 			
-			// aapt resource value: 0x7f0a0055
-			public const int scrollable = 2131361877;
+			// aapt resource value: 0x7f090055
+			public const int scrollable = 2131296341;
 			
-			// aapt resource value: 0x7f0a0080
-			public const int search_badge = 2131361920;
+			// aapt resource value: 0x7f090080
+			public const int search_badge = 2131296384;
 			
-			// aapt resource value: 0x7f0a007f
-			public const int search_bar = 2131361919;
+			// aapt resource value: 0x7f09007f
+			public const int search_bar = 2131296383;
 			
-			// aapt resource value: 0x7f0a0081
-			public const int search_button = 2131361921;
+			// aapt resource value: 0x7f090081
+			public const int search_button = 2131296385;
 			
-			// aapt resource value: 0x7f0a0086
-			public const int search_close_btn = 2131361926;
+			// aapt resource value: 0x7f090086
+			public const int search_close_btn = 2131296390;
 			
-			// aapt resource value: 0x7f0a0082
-			public const int search_edit_frame = 2131361922;
+			// aapt resource value: 0x7f090082
+			public const int search_edit_frame = 2131296386;
 			
-			// aapt resource value: 0x7f0a0088
-			public const int search_go_btn = 2131361928;
+			// aapt resource value: 0x7f090088
+			public const int search_go_btn = 2131296392;
 			
-			// aapt resource value: 0x7f0a0083
-			public const int search_mag_icon = 2131361923;
+			// aapt resource value: 0x7f090083
+			public const int search_mag_icon = 2131296387;
 			
-			// aapt resource value: 0x7f0a0084
-			public const int search_plate = 2131361924;
+			// aapt resource value: 0x7f090084
+			public const int search_plate = 2131296388;
 			
-			// aapt resource value: 0x7f0a0085
-			public const int search_src_text = 2131361925;
+			// aapt resource value: 0x7f090085
+			public const int search_src_text = 2131296389;
 			
-			// aapt resource value: 0x7f0a0089
-			public const int search_voice_btn = 2131361929;
+			// aapt resource value: 0x7f090089
+			public const int search_voice_btn = 2131296393;
 			
-			// aapt resource value: 0x7f0a008a
-			public const int select_dialog_listview = 2131361930;
+			// aapt resource value: 0x7f09008a
+			public const int select_dialog_listview = 2131296394;
 			
-			// aapt resource value: 0x7f0a0074
-			public const int shortcut = 2131361908;
+			// aapt resource value: 0x7f090074
+			public const int shortcut = 2131296372;
 			
-			// aapt resource value: 0x7f0a0023
-			public const int showCustom = 2131361827;
+			// aapt resource value: 0x7f090023
+			public const int showCustom = 2131296291;
 			
-			// aapt resource value: 0x7f0a0024
-			public const int showHome = 2131361828;
+			// aapt resource value: 0x7f090024
+			public const int showHome = 2131296292;
 			
-			// aapt resource value: 0x7f0a0025
-			public const int showTitle = 2131361829;
+			// aapt resource value: 0x7f090025
+			public const int showTitle = 2131296293;
 			
-			// aapt resource value: 0x7f0a00c6
-			public const int sliding_tabs = 2131361990;
+			// aapt resource value: 0x7f0900c6
+			public const int sliding_tabs = 2131296454;
 			
-			// aapt resource value: 0x7f0a008b
-			public const int smallLabel = 2131361931;
+			// aapt resource value: 0x7f09008b
+			public const int smallLabel = 2131296395;
 			
-			// aapt resource value: 0x7f0a0092
-			public const int snackbar_action = 2131361938;
+			// aapt resource value: 0x7f090092
+			public const int snackbar_action = 2131296402;
 			
-			// aapt resource value: 0x7f0a0091
-			public const int snackbar_text = 2131361937;
+			// aapt resource value: 0x7f090091
+			public const int snackbar_text = 2131296401;
 			
-			// aapt resource value: 0x7f0a0043
-			public const int snap = 2131361859;
+			// aapt resource value: 0x7f090043
+			public const int snap = 2131296323;
 			
-			// aapt resource value: 0x7f0a0064
-			public const int spacer = 2131361892;
+			// aapt resource value: 0x7f090064
+			public const int spacer = 2131296356;
 			
-			// aapt resource value: 0x7f0a0008
-			public const int split_action_bar = 2131361800;
+			// aapt resource value: 0x7f090008
+			public const int split_action_bar = 2131296264;
 			
-			// aapt resource value: 0x7f0a002a
-			public const int src_atop = 2131361834;
+			// aapt resource value: 0x7f09002a
+			public const int src_atop = 2131296298;
 			
-			// aapt resource value: 0x7f0a002b
-			public const int src_in = 2131361835;
+			// aapt resource value: 0x7f09002b
+			public const int src_in = 2131296299;
 			
-			// aapt resource value: 0x7f0a002c
-			public const int src_over = 2131361836;
+			// aapt resource value: 0x7f09002c
+			public const int src_over = 2131296300;
 			
-			// aapt resource value: 0x7f0a004b
-			public const int start = 2131361867;
+			// aapt resource value: 0x7f09004b
+			public const int start = 2131296331;
 			
-			// aapt resource value: 0x7f0a00b8
-			public const int status_bar_latest_event_content = 2131361976;
+			// aapt resource value: 0x7f0900b8
+			public const int status_bar_latest_event_content = 2131296440;
 			
-			// aapt resource value: 0x7f0a0076
-			public const int submenuarrow = 2131361910;
+			// aapt resource value: 0x7f090076
+			public const int submenuarrow = 2131296374;
 			
-			// aapt resource value: 0x7f0a0087
-			public const int submit_area = 2131361927;
+			// aapt resource value: 0x7f090087
+			public const int submit_area = 2131296391;
 			
-			// aapt resource value: 0x7f0a001f
-			public const int tabMode = 2131361823;
+			// aapt resource value: 0x7f09001f
+			public const int tabMode = 2131296287;
 			
-			// aapt resource value: 0x7f0a0019
-			public const int tag_transition_group = 2131361817;
+			// aapt resource value: 0x7f090019
+			public const int tag_transition_group = 2131296281;
 			
-			// aapt resource value: 0x7f0a001a
-			public const int text = 2131361818;
+			// aapt resource value: 0x7f09001a
+			public const int text = 2131296282;
 			
-			// aapt resource value: 0x7f0a001b
-			public const int text2 = 2131361819;
+			// aapt resource value: 0x7f09001b
+			public const int text2 = 2131296283;
 			
-			// aapt resource value: 0x7f0a006a
-			public const int textSpacerNoButtons = 2131361898;
+			// aapt resource value: 0x7f09006a
+			public const int textSpacerNoButtons = 2131296362;
 			
-			// aapt resource value: 0x7f0a0069
-			public const int textSpacerNoTitle = 2131361897;
+			// aapt resource value: 0x7f090069
+			public const int textSpacerNoTitle = 2131296361;
 			
-			// aapt resource value: 0x7f0a0098
-			public const int text_input_password_toggle = 2131361944;
+			// aapt resource value: 0x7f090098
+			public const int text_input_password_toggle = 2131296408;
 			
-			// aapt resource value: 0x7f0a0014
-			public const int textinput_counter = 2131361812;
+			// aapt resource value: 0x7f090014
+			public const int textinput_counter = 2131296276;
 			
-			// aapt resource value: 0x7f0a0015
-			public const int textinput_error = 2131361813;
+			// aapt resource value: 0x7f090015
+			public const int textinput_error = 2131296277;
 			
-			// aapt resource value: 0x7f0a00be
-			public const int time = 2131361982;
+			// aapt resource value: 0x7f0900be
+			public const int time = 2131296446;
 			
-			// aapt resource value: 0x7f0a001c
-			public const int title = 2131361820;
+			// aapt resource value: 0x7f09001c
+			public const int title = 2131296284;
 			
-			// aapt resource value: 0x7f0a0071
-			public const int titleDividerNoCustom = 2131361905;
+			// aapt resource value: 0x7f090071
+			public const int titleDividerNoCustom = 2131296369;
 			
-			// aapt resource value: 0x7f0a006f
-			public const int title_template = 2131361903;
+			// aapt resource value: 0x7f09006f
+			public const int title_template = 2131296367;
 			
-			// aapt resource value: 0x7f0a00c7
-			public const int toolbar = 2131361991;
+			// aapt resource value: 0x7f0900c7
+			public const int toolbar = 2131296455;
 			
-			// aapt resource value: 0x7f0a003e
-			public const int top = 2131361854;
+			// aapt resource value: 0x7f09003e
+			public const int top = 2131296318;
 			
-			// aapt resource value: 0x7f0a006e
-			public const int topPanel = 2131361902;
+			// aapt resource value: 0x7f09006e
+			public const int topPanel = 2131296366;
 			
-			// aapt resource value: 0x7f0a008f
-			public const int touch_outside = 2131361935;
+			// aapt resource value: 0x7f09008f
+			public const int touch_outside = 2131296399;
 			
-			// aapt resource value: 0x7f0a000f
-			public const int transition_current_scene = 2131361807;
+			// aapt resource value: 0x7f09000f
+			public const int transition_current_scene = 2131296271;
 			
-			// aapt resource value: 0x7f0a0010
-			public const int transition_layout_save = 2131361808;
+			// aapt resource value: 0x7f090010
+			public const int transition_layout_save = 2131296272;
 			
-			// aapt resource value: 0x7f0a0011
-			public const int transition_position = 2131361809;
+			// aapt resource value: 0x7f090011
+			public const int transition_position = 2131296273;
 			
-			// aapt resource value: 0x7f0a0012
-			public const int transition_scene_layoutid_cache = 2131361810;
+			// aapt resource value: 0x7f090012
+			public const int transition_scene_layoutid_cache = 2131296274;
 			
-			// aapt resource value: 0x7f0a0013
-			public const int transition_transform = 2131361811;
+			// aapt resource value: 0x7f090013
+			public const int transition_transform = 2131296275;
 			
-			// aapt resource value: 0x7f0a002d
-			public const int uniform = 2131361837;
+			// aapt resource value: 0x7f09002d
+			public const int uniform = 2131296301;
 			
-			// aapt resource value: 0x7f0a0009
-			public const int up = 2131361801;
+			// aapt resource value: 0x7f090009
+			public const int up = 2131296265;
 			
-			// aapt resource value: 0x7f0a0026
-			public const int useLogo = 2131361830;
+			// aapt resource value: 0x7f090026
+			public const int useLogo = 2131296294;
 			
-			// aapt resource value: 0x7f0a0016
-			public const int view_offset_helper = 2131361814;
+			// aapt resource value: 0x7f090016
+			public const int view_offset_helper = 2131296278;
 			
-			// aapt resource value: 0x7f0a00c9
-			public const int visible = 2131361993;
+			// aapt resource value: 0x7f0900c9
+			public const int visible = 2131296457;
 			
-			// aapt resource value: 0x7f0a00ab
-			public const int volume_item_container = 2131361963;
+			// aapt resource value: 0x7f0900ab
+			public const int volume_item_container = 2131296427;
 			
-			// aapt resource value: 0x7f0a003c
-			public const int withText = 2131361852;
+			// aapt resource value: 0x7f09003c
+			public const int withText = 2131296316;
 			
-			// aapt resource value: 0x7f0a002e
-			public const int wrap_content = 2131361838;
+			// aapt resource value: 0x7f09002e
+			public const int wrap_content = 2131296302;
 			
 			static Id()
 			{
@@ -6228,191 +3962,185 @@ namespace FunnyMoney.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f080017
-			public const int abc_action_bar_home_description = 2131230743;
+			// aapt resource value: 0x7f0a0015
+			public const int abc_action_bar_home_description = 2131361813;
 			
-			// aapt resource value: 0x7f080018
-			public const int abc_action_bar_up_description = 2131230744;
+			// aapt resource value: 0x7f0a0016
+			public const int abc_action_bar_up_description = 2131361814;
 			
-			// aapt resource value: 0x7f080019
-			public const int abc_action_menu_overflow_description = 2131230745;
+			// aapt resource value: 0x7f0a0017
+			public const int abc_action_menu_overflow_description = 2131361815;
 			
-			// aapt resource value: 0x7f08001a
-			public const int abc_action_mode_done = 2131230746;
+			// aapt resource value: 0x7f0a0018
+			public const int abc_action_mode_done = 2131361816;
 			
-			// aapt resource value: 0x7f08001b
-			public const int abc_activity_chooser_view_see_all = 2131230747;
+			// aapt resource value: 0x7f0a0019
+			public const int abc_activity_chooser_view_see_all = 2131361817;
 			
-			// aapt resource value: 0x7f08001c
-			public const int abc_activitychooserview_choose_application = 2131230748;
+			// aapt resource value: 0x7f0a001a
+			public const int abc_activitychooserview_choose_application = 2131361818;
 			
-			// aapt resource value: 0x7f08001d
-			public const int abc_capital_off = 2131230749;
+			// aapt resource value: 0x7f0a001b
+			public const int abc_capital_off = 2131361819;
 			
-			// aapt resource value: 0x7f08001e
-			public const int abc_capital_on = 2131230750;
+			// aapt resource value: 0x7f0a001c
+			public const int abc_capital_on = 2131361820;
 			
-			// aapt resource value: 0x7f080029
-			public const int abc_font_family_body_1_material = 2131230761;
+			// aapt resource value: 0x7f0a0027
+			public const int abc_font_family_body_1_material = 2131361831;
 			
-			// aapt resource value: 0x7f08002a
-			public const int abc_font_family_body_2_material = 2131230762;
+			// aapt resource value: 0x7f0a0028
+			public const int abc_font_family_body_2_material = 2131361832;
 			
-			// aapt resource value: 0x7f08002b
-			public const int abc_font_family_button_material = 2131230763;
+			// aapt resource value: 0x7f0a0029
+			public const int abc_font_family_button_material = 2131361833;
 			
-			// aapt resource value: 0x7f08002c
-			public const int abc_font_family_caption_material = 2131230764;
+			// aapt resource value: 0x7f0a002a
+			public const int abc_font_family_caption_material = 2131361834;
 			
-			// aapt resource value: 0x7f08002d
-			public const int abc_font_family_display_1_material = 2131230765;
+			// aapt resource value: 0x7f0a002b
+			public const int abc_font_family_display_1_material = 2131361835;
 			
-			// aapt resource value: 0x7f08002e
-			public const int abc_font_family_display_2_material = 2131230766;
+			// aapt resource value: 0x7f0a002c
+			public const int abc_font_family_display_2_material = 2131361836;
 			
-			// aapt resource value: 0x7f08002f
-			public const int abc_font_family_display_3_material = 2131230767;
+			// aapt resource value: 0x7f0a002d
+			public const int abc_font_family_display_3_material = 2131361837;
 			
-			// aapt resource value: 0x7f080030
-			public const int abc_font_family_display_4_material = 2131230768;
+			// aapt resource value: 0x7f0a002e
+			public const int abc_font_family_display_4_material = 2131361838;
 			
-			// aapt resource value: 0x7f080031
-			public const int abc_font_family_headline_material = 2131230769;
+			// aapt resource value: 0x7f0a002f
+			public const int abc_font_family_headline_material = 2131361839;
 			
-			// aapt resource value: 0x7f080032
-			public const int abc_font_family_menu_material = 2131230770;
+			// aapt resource value: 0x7f0a0030
+			public const int abc_font_family_menu_material = 2131361840;
 			
-			// aapt resource value: 0x7f080033
-			public const int abc_font_family_subhead_material = 2131230771;
+			// aapt resource value: 0x7f0a0031
+			public const int abc_font_family_subhead_material = 2131361841;
 			
-			// aapt resource value: 0x7f080034
-			public const int abc_font_family_title_material = 2131230772;
+			// aapt resource value: 0x7f0a0032
+			public const int abc_font_family_title_material = 2131361842;
 			
-			// aapt resource value: 0x7f08001f
-			public const int abc_search_hint = 2131230751;
+			// aapt resource value: 0x7f0a001d
+			public const int abc_search_hint = 2131361821;
 			
-			// aapt resource value: 0x7f080020
-			public const int abc_searchview_description_clear = 2131230752;
+			// aapt resource value: 0x7f0a001e
+			public const int abc_searchview_description_clear = 2131361822;
 			
-			// aapt resource value: 0x7f080021
-			public const int abc_searchview_description_query = 2131230753;
+			// aapt resource value: 0x7f0a001f
+			public const int abc_searchview_description_query = 2131361823;
 			
-			// aapt resource value: 0x7f080022
-			public const int abc_searchview_description_search = 2131230754;
+			// aapt resource value: 0x7f0a0020
+			public const int abc_searchview_description_search = 2131361824;
 			
-			// aapt resource value: 0x7f080023
-			public const int abc_searchview_description_submit = 2131230755;
+			// aapt resource value: 0x7f0a0021
+			public const int abc_searchview_description_submit = 2131361825;
 			
-			// aapt resource value: 0x7f080024
-			public const int abc_searchview_description_voice = 2131230756;
+			// aapt resource value: 0x7f0a0022
+			public const int abc_searchview_description_voice = 2131361826;
 			
-			// aapt resource value: 0x7f080025
-			public const int abc_shareactionprovider_share_with = 2131230757;
+			// aapt resource value: 0x7f0a0023
+			public const int abc_shareactionprovider_share_with = 2131361827;
 			
-			// aapt resource value: 0x7f080026
-			public const int abc_shareactionprovider_share_with_application = 2131230758;
+			// aapt resource value: 0x7f0a0024
+			public const int abc_shareactionprovider_share_with_application = 2131361828;
 			
-			// aapt resource value: 0x7f080027
-			public const int abc_toolbar_collapse_description = 2131230759;
+			// aapt resource value: 0x7f0a0025
+			public const int abc_toolbar_collapse_description = 2131361829;
 			
-			// aapt resource value: 0x7f080001
-			public const int app_name = 2131230721;
+			// aapt resource value: 0x7f0a0033
+			public const int appbar_scrolling_view_behavior = 2131361843;
 			
-			// aapt resource value: 0x7f080035
-			public const int appbar_scrolling_view_behavior = 2131230773;
+			// aapt resource value: 0x7f0a0034
+			public const int bottom_sheet_behavior = 2131361844;
 			
-			// aapt resource value: 0x7f080036
-			public const int bottom_sheet_behavior = 2131230774;
+			// aapt resource value: 0x7f0a0035
+			public const int character_counter_pattern = 2131361845;
 			
-			// aapt resource value: 0x7f080037
-			public const int character_counter_pattern = 2131230775;
+			// aapt resource value: 0x7f0a0000
+			public const int mr_button_content_description = 2131361792;
 			
-			// aapt resource value: 0x7f080000
-			public const int hello = 2131230720;
+			// aapt resource value: 0x7f0a0001
+			public const int mr_cast_button_connected = 2131361793;
 			
-			// aapt resource value: 0x7f080002
-			public const int mr_button_content_description = 2131230722;
+			// aapt resource value: 0x7f0a0002
+			public const int mr_cast_button_connecting = 2131361794;
 			
-			// aapt resource value: 0x7f080003
-			public const int mr_cast_button_connected = 2131230723;
+			// aapt resource value: 0x7f0a0003
+			public const int mr_cast_button_disconnected = 2131361795;
 			
-			// aapt resource value: 0x7f080004
-			public const int mr_cast_button_connecting = 2131230724;
+			// aapt resource value: 0x7f0a0004
+			public const int mr_chooser_searching = 2131361796;
 			
-			// aapt resource value: 0x7f080005
-			public const int mr_cast_button_disconnected = 2131230725;
+			// aapt resource value: 0x7f0a0005
+			public const int mr_chooser_title = 2131361797;
 			
-			// aapt resource value: 0x7f080006
-			public const int mr_chooser_searching = 2131230726;
+			// aapt resource value: 0x7f0a0006
+			public const int mr_controller_album_art = 2131361798;
 			
-			// aapt resource value: 0x7f080007
-			public const int mr_chooser_title = 2131230727;
+			// aapt resource value: 0x7f0a0007
+			public const int mr_controller_casting_screen = 2131361799;
 			
-			// aapt resource value: 0x7f080008
-			public const int mr_controller_album_art = 2131230728;
+			// aapt resource value: 0x7f0a0008
+			public const int mr_controller_close_description = 2131361800;
 			
-			// aapt resource value: 0x7f080009
-			public const int mr_controller_casting_screen = 2131230729;
+			// aapt resource value: 0x7f0a0009
+			public const int mr_controller_collapse_group = 2131361801;
 			
-			// aapt resource value: 0x7f08000a
-			public const int mr_controller_close_description = 2131230730;
+			// aapt resource value: 0x7f0a000a
+			public const int mr_controller_disconnect = 2131361802;
 			
-			// aapt resource value: 0x7f08000b
-			public const int mr_controller_collapse_group = 2131230731;
+			// aapt resource value: 0x7f0a000b
+			public const int mr_controller_expand_group = 2131361803;
 			
-			// aapt resource value: 0x7f08000c
-			public const int mr_controller_disconnect = 2131230732;
+			// aapt resource value: 0x7f0a000c
+			public const int mr_controller_no_info_available = 2131361804;
 			
-			// aapt resource value: 0x7f08000d
-			public const int mr_controller_expand_group = 2131230733;
+			// aapt resource value: 0x7f0a000d
+			public const int mr_controller_no_media_selected = 2131361805;
 			
-			// aapt resource value: 0x7f08000e
-			public const int mr_controller_no_info_available = 2131230734;
+			// aapt resource value: 0x7f0a000e
+			public const int mr_controller_pause = 2131361806;
 			
-			// aapt resource value: 0x7f08000f
-			public const int mr_controller_no_media_selected = 2131230735;
+			// aapt resource value: 0x7f0a000f
+			public const int mr_controller_play = 2131361807;
 			
-			// aapt resource value: 0x7f080010
-			public const int mr_controller_pause = 2131230736;
+			// aapt resource value: 0x7f0a0010
+			public const int mr_controller_stop = 2131361808;
 			
-			// aapt resource value: 0x7f080011
-			public const int mr_controller_play = 2131230737;
+			// aapt resource value: 0x7f0a0011
+			public const int mr_controller_stop_casting = 2131361809;
 			
-			// aapt resource value: 0x7f080012
-			public const int mr_controller_stop = 2131230738;
+			// aapt resource value: 0x7f0a0012
+			public const int mr_controller_volume_slider = 2131361810;
 			
-			// aapt resource value: 0x7f080013
-			public const int mr_controller_stop_casting = 2131230739;
+			// aapt resource value: 0x7f0a0013
+			public const int mr_system_route_name = 2131361811;
 			
-			// aapt resource value: 0x7f080014
-			public const int mr_controller_volume_slider = 2131230740;
+			// aapt resource value: 0x7f0a0014
+			public const int mr_user_route_category_name = 2131361812;
 			
-			// aapt resource value: 0x7f080015
-			public const int mr_system_route_name = 2131230741;
+			// aapt resource value: 0x7f0a0036
+			public const int password_toggle_content_description = 2131361846;
 			
-			// aapt resource value: 0x7f080016
-			public const int mr_user_route_category_name = 2131230742;
+			// aapt resource value: 0x7f0a0037
+			public const int path_password_eye = 2131361847;
 			
-			// aapt resource value: 0x7f080038
-			public const int password_toggle_content_description = 2131230776;
+			// aapt resource value: 0x7f0a0038
+			public const int path_password_eye_mask_strike_through = 2131361848;
 			
-			// aapt resource value: 0x7f080039
-			public const int path_password_eye = 2131230777;
+			// aapt resource value: 0x7f0a0039
+			public const int path_password_eye_mask_visible = 2131361849;
 			
-			// aapt resource value: 0x7f08003a
-			public const int path_password_eye_mask_strike_through = 2131230778;
+			// aapt resource value: 0x7f0a003a
+			public const int path_password_strike_through = 2131361850;
 			
-			// aapt resource value: 0x7f08003b
-			public const int path_password_eye_mask_visible = 2131230779;
+			// aapt resource value: 0x7f0a0026
+			public const int search_menu_title = 2131361830;
 			
-			// aapt resource value: 0x7f08003c
-			public const int path_password_strike_through = 2131230780;
-			
-			// aapt resource value: 0x7f080028
-			public const int search_menu_title = 2131230760;
-			
-			// aapt resource value: 0x7f08003d
-			public const int status_bar_notification_info_overflow = 2131230781;
+			// aapt resource value: 0x7f0a003b
+			public const int status_bar_notification_info_overflow = 2131361851;
 			
 			static String()
 			{
