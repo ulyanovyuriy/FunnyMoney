@@ -19,14 +19,27 @@ namespace XMRN.Android.Common.Security
     {
         private IPermissiableActivity _activity;
 
-        public PermissionsContext(IPermissiableActivity activity)
+        private int _requestCode;
+
+        private Action _action;
+
+        private string[] _permissions;
+
+        public PermissionsContext(
+            IPermissiableActivity activity
+            , int requestCode)
         {
             _activity = activity ?? throw new ArgumentNullException(nameof(activity));
+            _requestCode = requestCode;
+
+            _activity.RequestPermissionResult += _activity_RequestPermissionResult;
         }
 
         public Activity Activity => _activity.Activity;
 
         public Context Context => Activity;
+
+        public int RequestCode => _requestCode;
 
         public void Execute<T>(Action action
             , params string[] permissions)
@@ -69,6 +82,24 @@ namespace XMRN.Android.Common.Security
             ActivityCompat.re
 
             return default(T);
+        }
+
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing)
+            {
+                _activity.RequestPermissionResult -= _activity_RequestPermissionResult;
+            }
+
+            base.Dispose(disposing);
+        }
+
+        private void _activity_RequestPermissionResult(object sender, RequestPermissionResultEventArgs e)
+        {
+            if (e.RequestCode == RequestCode)
+            {
+
+            }
         }
     }
 }

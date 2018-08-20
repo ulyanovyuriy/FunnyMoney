@@ -21,11 +21,6 @@ namespace XMRN.Common.Threading
         private TContext _saved;
 
         /// <summary>
-        /// Флаг очистки
-        /// </summary>
-        private bool _disposed;
-
-        /// <summary>
         /// Конструктор
         /// </summary>
         protected BaseContextScope()
@@ -65,16 +60,28 @@ namespace XMRN.Common.Threading
             Current = _saved;
         }
 
-        /// <summary>
-        /// Очистка
-        /// </summary>
+        #region IDisposable Support
+        private bool disposedValue = false; // To detect redundant calls
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (!disposedValue)
+            {
+                if (disposing)
+                {
+                    PopScope();
+                }
+
+                disposedValue = true;
+            }
+        }
+
         public void Dispose()
         {
-            if (_disposed) return;
-
-            PopScope();
-
-            _disposed = true;
+            Dispose(true);
         }
+        #endregion
+
+
     }
 }
