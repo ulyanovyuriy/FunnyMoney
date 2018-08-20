@@ -16,12 +16,12 @@ namespace XMRN.Android.Common.Security
     {
         private TaskCompletionSource<bool> _completion = new TaskCompletionSource<bool>();
 
-        private string _permission;
-
         public PermissionObject(string permission)
         {
-            _permission = permission ?? throw new ArgumentNullException(nameof(permission));
+            Permission = permission ?? throw new ArgumentNullException(nameof(permission));
         }
+
+        public string Permission { get; }
 
         public TaskCompletionSource<bool> Completion
         {
@@ -31,8 +31,6 @@ namespace XMRN.Android.Common.Security
                 return _completion;
             }
         }
-
-        public string Permission => _permission;
 
         public bool Check(TimeSpan timeOut)
         {

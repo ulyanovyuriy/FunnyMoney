@@ -40,29 +40,16 @@ namespace XMRN.Android.Common.Security
             if (permissions.None())
                 return true;
 
-            var current = new Dictionary<string, PermissionObject>();
-            foreach (var permission in permissions)
-            {
-                PermissionObject po;
-                lock (_cache)
-                {
-                    if (_cache.TryGetValue(permission, out po) == false)
-                    {
-                        po = new PermissionObject(permission);
-                        _cache.Add(permission, po);
-                    }
-                }
-                current.Add(permission, po);
-            }
+            var permissionObjects = GetPermissions(permissions);
 
             List<string> requestPermission = new List<string>();
             foreach (var permission in permissions)
             {
-                var po = current[permission];
+                var po = permissionObjects[permission];
                 if (ContextCompat.CheckSelfPermission(Context, permission)
                     == global::Android.Content.PM.Permission.Granted)
                 {
-                    po.Completion.SetResult(true);
+                    po.Completion.TrySetResult(true);
                 }
                 else
                 {
@@ -70,54 +57,13 @@ namespace XMRN.Android.Common.Security
                 }
             }
 
-            if (requestPermission.None())
+            if (requestPermission.Any())
             {
-                var all = await Task.WhenAll(current.Select(x => x.Value.Completion.Task));
-                return all.All(f => f);
-            }
-        }
-
-        public void Execute<T>(Action action
-            , params string[] permissions)
-        {
-            if (action == null) throw new ArgumentNullException(nameof(action));
-            if (permissions == null) throw new ArgumentNullException(nameof(permissions));
-
-            if (permissions.None())
-            {
-                action();
-                return;
+                ActivityCompat.RequestPermissions(Activity, requestPermission.ToArray(), RequestCode);
             }
 
-            List<string> requestPermission = new List<string>();
-            foreach (var permission in permissions)
-                if (ContextCompat.CheckSelfPermission(Context, permission)
-                    != global::Android.Content.PM.Permission.Granted)
-                    requestPermission.Add(permission);
-
-            if (requestPermission.None())
-            {
-                action();
-                return;
-            }
-
-            var rp = requestPermission
-                .Select(p => new
-                {
-                    Permission = p,
-                    ShouldShowRequestPermissionRationale = ActivityCompat.ShouldShowRequestPermissionRationale(Activity, p)
-                })
-                .Where(p => p.ShouldShowRequestPermissionRationale)
-                .ToArray();
-
-            if (rp.Any())
-            {
-                throw new NotSupportedException(string.Join(";", rp.Select(p => p.ToString()).ToArray()));
-            }
-
-            ActivityCompat.re
-
-            return default(T);
+            var all = await Task.WhenAll(permissionObjects.Select(x => x.Value.Completion.Task));
+            return all.All(f => f);
         }
 
         protected override void Dispose(bool disposing)
@@ -132,10 +78,39 @@ namespace XMRN.Android.Common.Security
 
         private void _activity_RequestPermissionResult(object sender, RequestPermissionResultEventArgs e)
         {
-            if (e.RequestCode == RequestCode)
+            if (e.RequestCode == RequestCode
+                && e.Permissions.Any())
             {
-                e.
+                var permissionObjects = GetPermissions(e.Permissions);
+
+                foreach (var permission in e.Permissions)
+                {
+                    var po = permissionObjects[permission];
+                    var granted = e.IsGranted(permission);
+                    po.Completion.TrySetResult(granted);
+                }
             }
+        }
+
+        private Dictionary<string, PermissionObject> GetPermissions(string[] permissions)
+        {
+            if (permissions == null) throw new ArgumentNullException(nameof(permissions));
+
+            var permissionObjects = new Dictionary<string, PermissionObject>();
+            foreach (var permission in permissions)
+            {
+                PermissionObject po;
+                lock (_cache)
+                {
+                    if (_cache.TryGetValue(permission, out po) == false)
+                    {
+                        po = new PermissionObject(permission);
+                        _cache.Add(permission, po);
+                    }
+                }
+                permissionObjects.Add(permission, po);
+            }
+            return permissionObjects;
         }
     }
 }

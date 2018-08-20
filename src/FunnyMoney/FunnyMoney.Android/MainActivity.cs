@@ -17,12 +17,18 @@ namespace FunnyMoney.Droid
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
         , IPermissiableActivity
     {
+        public PermissionsContext PermissionsContext;
+
         public Activity Activity => this;
 
         public event EventHandler<RequestPermissionResultEventArgs> RequestPermissionResult;
 
         protected override void OnCreate(Bundle bundle)
         {
+            if (PermissionsContext != null)
+                PermissionsContext.Dispose();
+            PermissionsContext = new PermissionsContext(this, 1);
+
             TabLayoutResource = Resource.Layout.Tabbar;
             ToolbarResource = Resource.Layout.Toolbar;
 
@@ -30,9 +36,9 @@ namespace FunnyMoney.Droid
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
 
-            Test();
-
             LoadApplication(new App());
+
+            Test();
         }
 
         public override void OnRequestPermissionsResult(int requestCode
@@ -53,6 +59,7 @@ namespace FunnyMoney.Droid
 
         private void Test()
         {
+            //if(PermissionsContext.CheckPermissions(M))
             var q = new CursorQuery();
             q.Uri = CursorUri.SMS_INBOX;
             q.Fields = new CursorField[]
