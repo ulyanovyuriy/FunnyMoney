@@ -1,45 +1,81 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Android.App;
+﻿using Android.App;
 using Android.Content;
-using Android.OS;
-using Android.Runtime;
 using Android.Support.V4.App;
 using Android.Support.V4.Content;
-using Android.Views;
-using Android.Widget;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using XMRN.Common.Threading;
 
 namespace XMRN.Android.Common.Security
 {
     public class PermissionsContext : BaseContextScope<PermissionsContext>
     {
-        private IPermissiableActivity _activity;
-
-        private int _requestCode;
-
-        private Action _action;
-
-        private string[] _permissions;
+        private readonly Dictionary<string, PermissionObject> _cache
+            = new Dictionary<string, PermissionObject>();
 
         public PermissionsContext(
             IPermissiableActivity activity
             , int requestCode)
         {
-            _activity = activity ?? throw new ArgumentNullException(nameof(activity));
-            _requestCode = requestCode;
+            PermissiableActivity = activity ?? throw new ArgumentNullException(nameof(activity));
+            RequestCode = requestCode;
 
-            _activity.RequestPermissionResult += _activity_RequestPermissionResult;
+            PermissiableActivity.RequestPermissionResult += _activity_RequestPermissionResult;
         }
 
-        public Activity Activity => _activity.Activity;
+        public IPermissiableActivity PermissiableActivity { get; }
+
+        public int RequestCode { get; }
+
+        public Activity Activity => PermissiableActivity.Activity;
 
         public Context Context => Activity;
 
-        public int RequestCode => _requestCode;
+        public async Task<bool> CheckPermissions(params string[] permissions)
+        {
+            if (permissions == null) throw new ArgumentNullException(nameof(permissions));
+
+            if (permissions.None())
+                return true;
+
+            var current = new Dictionary<string, PermissionObject>();
+            foreach (var permission in permissions)
+            {
+                PermissionObject po;
+                lock (_cache)
+                {
+                    if (_cache.TryGetValue(permission, out po) == false)
+                    {
+                        po = new PermissionObject(permission);
+                        _cache.Add(permission, po);
+                    }
+                }
+                current.Add(permission, po);
+            }
+
+            List<string> requestPermission = new List<string>();
+            foreach (var permission in permissions)
+            {
+                var po = current[permission];
+                if (ContextCompat.CheckSelfPermission(Context, permission)
+                    == global::Android.Content.PM.Permission.Granted)
+                {
+                    po.Completion.SetResult(true);
+                }
+                else
+                {
+                    requestPermission.Add(permission);
+                }
+            }
+
+            if (requestPermission.None())
+            {
+                var all = await Task.WhenAll(current.Select(x => x.Value.Completion.Task));
+                return all.All(f => f);
+            }
+        }
 
         public void Execute<T>(Action action
             , params string[] permissions)
@@ -88,7 +124,7 @@ namespace XMRN.Android.Common.Security
         {
             if (disposing)
             {
-                _activity.RequestPermissionResult -= _activity_RequestPermissionResult;
+                PermissiableActivity.RequestPermissionResult -= _activity_RequestPermissionResult;
             }
 
             base.Dispose(disposing);
@@ -98,7 +134,7 @@ namespace XMRN.Android.Common.Security
         {
             if (e.RequestCode == RequestCode)
             {
-
+                e.
             }
         }
     }

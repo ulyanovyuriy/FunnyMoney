@@ -55,6 +55,7 @@
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Security\IPermissiableActivity.cs" />
+    <Compile Include="Security\PermissionObject.cs" />
     <Compile Include="Security\PermissionsContext.cs" />
     <Compile Include="Security\RequestPermissionResultEventArgs.cs" />
   </ItemGroup>
