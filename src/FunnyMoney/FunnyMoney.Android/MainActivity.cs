@@ -12,6 +12,9 @@ using XMRN.Common.Data;
 using XMRN.Android.Common.Security;
 using Android;
 using System.Data;
+using System.IO;
+using System.Text;
+using Android.Support.V4.App;
 
 namespace FunnyMoney.Droid
 {
@@ -46,21 +49,37 @@ namespace FunnyMoney.Droid
         {
             if (PermissionsContext.CheckPermissions(Manifest.Permission.ReadSms).Result)
             {
-                using (var e = new CursorExecutor(this.ContentResolver))
-                {
-                    var q = new CursorQuery();
-                    q.Uri = CursorUri.SMS_INBOX;
-                    q.Fields = new CursorField[]
-                    {
-                        new CursorField(){ Name = "_id"}
-                    };
+                var tt = ContentResolver.Query(CursorUri.SMS_INBOX, null, null, null, null, null);
 
-                    using (var r = new CursorDataReader(e, q))
+                if (tt.MoveToFirst())
+                {
+                    var columns = tt.GetColumnNames();
+                    var dt = new DataTable("t");
+
+                    foreach (var c in columns)
+                        dt.Columns.Add(c);
+
+                    do
                     {
-                        var dt = new DataTable();
-                        dt.Load(r);
+                        var r = dt.NewRow();
+                        for (int i = 0; i < tt.ColumnCount; i++)
+                        {
+                            r[i] = tt.GetString(i);
+                        }
+
+                        dt.Rows.Add(r);
+                    }
+                    while (tt.MoveToNext());
+
+
+                    using (var ms = new MemoryStream())
+                    {
+                        dt.WriteXml(ms, XmlWriteMode.WriteSchema);
+
+                        var txt = Encoding.UTF8.GetString(ms.ToArray());
                     }
                 }
+                tt.Dispose();
             }
         }
 
