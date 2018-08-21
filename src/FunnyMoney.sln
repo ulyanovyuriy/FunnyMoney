@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunnyMoney", "FunnyMoney\Fu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMRN.Android.Common", "XMRN.Android.Common\XMRN.Android.Common.csproj", "{235500A0-3849-43C3-B24D-616F69CA9063}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMRN.Common", "XMRN.Common\XMRN.Common.csproj", "{B7CE64C7-310E-4B69-A964-591547C701D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XMRN.Common", "XMRN.Common\XMRN.Common.csproj", "{B7CE64C7-310E-4B69-A964-591547C701D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMRN.Common.Tests", "XMRN.Common.Tests\XMRN.Common.Tests.csproj", "{C6460284-EC1E-4FB2-8686-CAEED663F7BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{B7CE64C7-310E-4B69-A964-591547C701D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7CE64C7-310E-4B69-A964-591547C701D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7CE64C7-310E-4B69-A964-591547C701D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6460284-EC1E-4FB2-8686-CAEED663F7BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6460284-EC1E-4FB2-8686-CAEED663F7BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6460284-EC1E-4FB2-8686-CAEED663F7BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6460284-EC1E-4FB2-8686-CAEED663F7BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

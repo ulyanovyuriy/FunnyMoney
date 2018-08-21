@@ -11,6 +11,7 @@ using Android.OS;
 using Android.Runtime;
 using Android.Views;
 using Android.Widget;
+using XMRN.Common.Data;
 
 namespace XMRN.Android.Common.Cursor
 {
@@ -123,6 +124,21 @@ namespace XMRN.Android.Common.Cursor
             Cursor.Close();
         }
 
+        public DataTable GetSchemaTable()
+        {
+            var b = new DataTableBuilder();
+            for (int i = 0; i < FieldCount; i++)
+                b.AddColumn(c =>
+                     c.SetName(GetName(i))
+                     .SetType(GetFieldType(i)));
+
+            var t = b.Build();
+            var r = t.CreateDataReader();
+            var schemaTable = r.GetSchemaTable();
+
+            return schemaTable;
+        }
+
         public CursorField GetField(int i)
         {
             var field = Query.Fields[i];
@@ -134,14 +150,45 @@ namespace XMRN.Android.Common.Cursor
             return GetField(GetOrdinal(name));
         }
 
-        public object GetValue(int i)
+        public Type GetFieldType(int i)
+        {
+            var f = GetField(i);
+            if (f.Type == CursorFieldType.Object)
+                return typeof(object);
+            else if (f.Type == CursorFieldType.Blob)
+                return typeof(byte[]);
+            else throw new NotSupportedException(f.Type.ToString());
+        }
+
+        public string GetName(int i)
         {
             var field = GetField(i);
-            if (field.Type == CursorFieldType.Object)
+            return field.Name;
+        }
+
+        public int GetOrdinal(string name)
+        {
+            var index = Array.FindIndex(Query.Fields, f => f.Name == name);
+            if (index < 0) throw new IndexOutOfRangeException(name);
+            return index;
+        }
+
+        public object GetValue(int i)
+        {
+            var f = GetField(i);
+            if (f.Type == CursorFieldType.Object)
                 return GetString(i);
-            else if (field.Type == CursorFieldType.Blob)
+            else if (f.Type == CursorFieldType.Blob)
                 return GetBlob(i);
-            else throw new NotSupportedException();
+            else throw new NotSupportedException(f.Type.ToString());
+        }
+
+        public int GetValues(object[] values)
+        {
+            for (int i = 0; i < FieldCount; i++)
+                values[i] = GetValue(i);
+
+            return FieldCount;
         }
 
         public object GetValue(string name)
@@ -199,11 +246,6 @@ namespace XMRN.Android.Common.Cursor
             throw new NotImplementedException();
         }
 
-        public Type GetFieldType(int i)
-        {
-            throw new NotImplementedException();
-        }
-
         public float GetFloat(int i)
         {
             throw new NotImplementedException();
@@ -229,27 +271,7 @@ namespace XMRN.Android.Common.Cursor
             throw new NotImplementedException();
         }
 
-        public string GetName(int i)
-        {
-            throw new NotImplementedException();
-        }
 
-        public int GetOrdinal(string name)
-        {
-            throw new NotImplementedException();
-        }
-
-        public DataTable GetSchemaTable()
-        {
-            throw new NotImplementedException();
-        }
-
-
-
-        public int GetValues(object[] values)
-        {
-            throw new NotImplementedException();
-        }
 
         public bool IsDBNull(int i)
         {
