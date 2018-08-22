@@ -16,7 +16,7 @@ namespace XMRN.Common.Security.Cryptography
 
             using (var cs = new CryptoStream(output, crypto, CryptoStreamMode.Write))
             {
-                buffer = buffer ?? new byte[64 * 1024];
+                buffer = buffer ?? new byte[Defaults.FileBufferSize];
                 int rc;
                 while ((rc = input.Read(buffer, 0, buffer.Length)) > 0)
                 {

@@ -7,7 +7,7 @@ namespace XMRN.Common.Compression
 {
     public partial class CompressionContext : BaseContextScope<CompressionContext>
     {
-        private byte[] _buffer = new byte[64 * 1024];
+        private byte[] _buffer = new byte[Defaults.FileBufferSize];
 
         protected override void Dispose(bool disposing)
         {

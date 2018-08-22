@@ -7,7 +7,7 @@ namespace XMRN.Common.Security.Cryptography
 {
     public partial class CryptoContext : BaseContextScope<CryptoContext>
     {
-        private byte[] _buffer = new byte[64 * 1024];
+        private byte[] _buffer = new byte[Defaults.FileBufferSize];
 
         protected override void Dispose(bool disposing)
         {
