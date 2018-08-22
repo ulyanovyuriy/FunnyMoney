@@ -9,13 +9,14 @@ namespace XMRN.Common.Security.Cryptography
     {
         public static void Transform(this ICryptoTransform crypto
             , Stream input
-            , Stream output)
+            , Stream output
+            , byte[] buffer = null)
         {
             if (input == null) throw new ArgumentNullException(nameof(input));
 
             using (var cs = new CryptoStream(output, crypto, CryptoStreamMode.Write))
             {
-                var buffer = new byte[64 * 1024];
+                buffer = buffer ?? new byte[64 * 1024];
                 int rc;
                 while ((rc = input.Read(buffer, 0, buffer.Length)) > 0)
                 {
@@ -26,12 +27,13 @@ namespace XMRN.Common.Security.Cryptography
         }
 
         public static byte[] Transform(this ICryptoTransform crypto
-            , byte[] data)
+            , byte[] data
+            , byte[] buffer = null)
         {
             using (var input = new MemoryStream(data))
             using (var output = new MemoryStream())
             {
-                crypto.Transform(input, output);
+                crypto.Transform(input, output, buffer);
                 var result = output.ToArray();
                 return result;
             }
@@ -39,12 +41,13 @@ namespace XMRN.Common.Security.Cryptography
 
         public static string Transform(this ICryptoTransform crypto
             , string data
-            , Encoding encoding = null)
+            , Encoding encoding = null
+            , byte[] buffer = null)
         {
             if (data == null) throw new ArgumentNullException(nameof(data));
 
             encoding = encoding ?? Defaults.Encoding;
-            var resultData = crypto.Transform(encoding.GetBytes(data));
+            var resultData = crypto.Transform(encoding.GetBytes(data), buffer);
             var result = encoding.GetString(resultData);
 
             return result;

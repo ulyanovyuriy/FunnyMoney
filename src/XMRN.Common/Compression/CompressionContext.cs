@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Text;
 using XMRN.Common.Threading;
 
-namespace XMRN.Common.Security.Cryptography
+namespace XMRN.Common.Compression
 {
-    public partial class CryptoContext : BaseContextScope<CryptoContext>
+    public partial class CompressionContext : BaseContextScope<CompressionContext>
     {
         private byte[] _buffer = new byte[64 * 1024];
 

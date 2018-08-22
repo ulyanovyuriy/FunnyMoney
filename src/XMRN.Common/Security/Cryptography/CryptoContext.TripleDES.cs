@@ -20,7 +20,7 @@ namespace XMRN.Common.Security.Cryptography
         {
             using (var transform = TripleDES.CreateEncryptor(key, vector))
             {
-                var result = transform.Transform(data);
+                var result = transform.Transform(data, _buffer);
                 return result;
             }
         }
@@ -32,7 +32,7 @@ namespace XMRN.Common.Security.Cryptography
         {
             using (var transform = TripleDES.CreateEncryptor(key, vector))
             {
-                var result = transform.Transform(data, encoding);
+                var result = transform.Transform(data, encoding, _buffer);
                 return result;
             }
         }
@@ -44,7 +44,7 @@ namespace XMRN.Common.Security.Cryptography
         {
             using (var transform = TripleDES.CreateDecryptor(key, vector))
             {
-                var result = transform.Transform(data);
+                var result = transform.Transform(data, _buffer);
                 return result;
             }
         }
@@ -56,7 +56,7 @@ namespace XMRN.Common.Security.Cryptography
         {
             using (var transform = TripleDES.CreateDecryptor(key, vector))
             {
-                var result = transform.Transform(data, encoding);
+                var result = transform.Transform(data, encoding, _buffer);
                 return result;
             }
         }

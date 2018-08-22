@@ -68,6 +68,29 @@ namespace XMRN.Common.Threading
         }
 
         /// <summary>
+        /// Исполнение в контексте
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="exec"></param>
+        /// <returns></returns>
+        public static void UseContextIfNotExists(Action<TContext> exec)
+        {
+            TContext context = Current;
+            bool newContext = context == null;
+            if (newContext)
+                context = new TContext();
+            try
+            {
+                exec(context);
+            }
+            finally
+            {
+                if (newContext)
+                    context.Dispose();
+            }
+        }
+
+        /// <summary>
         /// Положить окружение
         /// </summary>
         private void PushScope()
