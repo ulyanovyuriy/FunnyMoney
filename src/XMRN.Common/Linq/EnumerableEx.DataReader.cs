@@ -11,7 +11,7 @@ namespace System.Linq
         {
             if (items == null) throw new ArgumentNullException(nameof(items));
 
-            return DataReader();
+            return new ItemDataReader<T>(items);
         }
     }
 }
