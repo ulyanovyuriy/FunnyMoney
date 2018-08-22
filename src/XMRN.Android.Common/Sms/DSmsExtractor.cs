@@ -1,20 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using XMRN.Common.Data;
 using XMRN.Phone.Sms;
+using XMRN.Common.System;
 
 namespace XMRN.Android.Common.Sms
 {
     public class DSmsExtractor : SmsExtractor
     {
-        private Func<IDataReader> _readerFactory;
-
         public DSmsExtractor(Func<IDataReader> readerFactory)
         {
-            _readerFactory = readerFactory ?? throw new ArgumentNullException(nameof(readerFactory));
+            ReaderFactory = readerFactory ?? throw new ArgumentNullException(nameof(readerFactory));
         }
 
-        public Func<IDataReader> ReaderFactory => _readerFactory;
+        public Func<IDataReader> ReaderFactory { get; }
 
         public override IEnumerable<SmsMessage> Extract()
         {
@@ -24,7 +24,11 @@ namespace XMRN.Android.Common.Sms
                 while (reader.Read())
                 {
                     var msg = new SmsMessage();
-                    //msg.Id = int.Parse(reader["_id"]);
+                    msg.Id = reader.GetString("_id").ParseToInt32();
+                    msg.Address = reader.GetString("address");
+                    msg.Body = reader.GetString("body");
+                    msg.Date = reader.GetString("date").ParseToDouble().AsMilliseconds().FromUnix();
+                    msg.SentDate = reader.GetString("date_sent").ParseToDouble().AsMilliseconds().FromUnix();
 
                     yield return msg;
                 }

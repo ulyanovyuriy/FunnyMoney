@@ -4,6 +4,7 @@ using System.Data.SqlClient;
 using System.IO;
 using System.Security.Cryptography;
 using System.Text;
+using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using XMRN.Common.Compression;
 using XMRN.Common.IO;
@@ -46,6 +47,11 @@ namespace XMRN.Common.Tests
             var sb = new StringBuilder();
             IOContext.ExportToCsv(r, sb, true);
             var text = sb.ToString();
+
+            var e = new XMRN.Android.Common.Sms.DSmsExtractor(() => dt.CreateDataReader());
+            var msgs = e.Extract()
+                .Where(m => m.Address == "900")
+                .ToArray();
         }
     }
 }
