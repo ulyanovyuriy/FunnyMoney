@@ -8,7 +8,7 @@ namespace XMRN.Common.Threading
     /// </summary>
     /// <typeparam name="TContext"></typeparam>
     public abstract class BaseContextScope<TContext> : IDisposable
-        where TContext : BaseContextScope<TContext>
+        where TContext : BaseContextScope<TContext>, new()
     {
         /// <summary>
         /// текущее окружение
@@ -40,6 +40,30 @@ namespace XMRN.Common.Threading
             private set
             {
                 _current.Value = value;
+            }
+        }
+
+        /// <summary>
+        /// Исполнение в контексте
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="exec"></param>
+        /// <returns></returns>
+        public static T UseContextIfNotExists<T>(Func<TContext, T> exec)
+        {
+            TContext context = Current;
+            bool newContext = context == null;
+            if (newContext)
+                context = new TContext();
+            try
+            {
+                var result = exec(context);
+                return result;
+            }
+            finally
+            {
+                if (newContext)
+                    context.Dispose();
             }
         }
 
@@ -81,7 +105,5 @@ namespace XMRN.Common.Threading
             Dispose(true);
         }
         #endregion
-
-
     }
 }
