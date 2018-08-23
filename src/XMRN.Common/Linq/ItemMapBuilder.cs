@@ -10,24 +10,49 @@ namespace XMRN.Common.Linq
     /// Построитель списка соответствий для преобразования в IDataReader
     /// </summary>
     /// <typeparam name="T"></typeparam>
-    public class DataReaderMapBuilder<T>
+    public class ItemMapBuilder<T>
     {
         /// <summary>
         /// список соответствий
         /// </summary>
-        private Dictionary<string, MemberInfo> _maps = new Dictionary<string, MemberInfo>();
+        private List<ItemMap> _maps = new List<ItemMap>();
 
         /// <summary>
         /// Добавить член
         /// </summary>
-        /// <param name="key"></param>
+        /// <param name="name"></param>
         /// <param name="member"></param>
         /// <returns></returns>
-        public DataReaderMapBuilder<T> AddMember(string key, MemberInfo member)
+        public ItemMapBuilder<T> AddMember(string name, MemberInfo member)
         {
-            if (key == null) throw new ArgumentNullException("key");
-            if (member == null) throw new ArgumentNullException("member");
-            _maps.Add(key, member);
+            var map = new ItemMap(name, member);
+            _maps.Add(map);
+            return this;
+        }
+
+        /// <summary>
+        /// Добавить свойство
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="property"></param>
+        /// <returns></returns>
+        public ItemMapBuilder<T> AddProperty(string name, PropertyInfo property)
+        {
+            var map = new ItemMap(name, property);
+            _maps.Add(map);
+            return this;
+        }
+
+        /// <summary>
+        /// Добавить поле
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="field"></param>
+        /// <returns></returns>
+        public ItemMapBuilder<T> AddField(string name, FieldInfo field)
+        {
+            var map = new ItemMap(name, field);
+            _maps.Add(map);
             return this;
         }
 
@@ -36,7 +61,7 @@ namespace XMRN.Common.Linq
         /// </summary>
         /// <param name="member"></param>
         /// <returns></returns>
-        public DataReaderMapBuilder<T> AddMember(MemberInfo member)
+        public ItemMapBuilder<T> AddMember(MemberInfo member)
         {
             if (member == null) throw new ArgumentNullException("member");
             return AddMember(member.Name, member);
@@ -45,16 +70,16 @@ namespace XMRN.Common.Linq
         /// <summary>
         /// Добавить член
         /// </summary>
-        /// <param name="key"></param>
+        /// <param name="name"></param>
         /// <param name="expression"></param>
         /// <returns></returns>
-        public DataReaderMapBuilder<T> AddMember(string key, Expression<Func<T, object>> expression)
+        public ItemMapBuilder<T> AddMember(string name, Expression<Func<T, object>> expression)
         {
             if (expression == null) throw new ArgumentNullException("expression");
             var member = expression.GetMember();
             if (member == null) throw new NullReferenceException("member");
 
-            return AddMember(key, member);
+            return AddMember(name, member);
         }
 
         /// <summary>
@@ -62,35 +87,22 @@ namespace XMRN.Common.Linq
         /// </summary>
         /// <param name="expression"></param>
         /// <returns></returns>
-        public DataReaderMapBuilder<T> AddMember(Expression<Func<T, object>> expression)
+        public ItemMapBuilder<T> AddMember(Expression<Func<T, object>> expression)
         {
             if (expression == null) throw new ArgumentNullException("expression");
             var member = expression.GetMember();
-            if (member == null) throw new NullReferenceException("member");
-
             return AddMember(member);
         }
 
         /// <summary>
         /// Добавить свойство
         /// </summary>
-        /// <param name="key"></param>
-        /// <param name="prop"></param>
+        /// <param name="name"></param>
+        /// <param name="propertyName"></param>
         /// <returns></returns>
-        public DataReaderMapBuilder<T> AddProperty(string key, PropertyInfo prop)
+        public ItemMapBuilder<T> AddProperty(string name, string propertyName)
         {
-            return AddMember(key, prop);
-        }
-
-        /// <summary>
-        /// Добавить свойство
-        /// </summary>
-        /// <param name="key"></param>
-        /// <param name="propName"></param>
-        /// <returns></returns>
-        public DataReaderMapBuilder<T> AddProperty(string key, string propName)
-        {
-            return AddProperty(key, typeof(T).GetProperty(propName));
+            return AddProperty(name, typeof(T).GetProperty(propertyName));
         }
 
         /// <summary>
@@ -98,7 +110,7 @@ namespace XMRN.Common.Linq
         /// </summary>
         /// <param name="name"></param>
         /// <returns></returns>
-        public DataReaderMapBuilder<T> AddProperty(string name)
+        public ItemMapBuilder<T> AddProperty(string name)
         {
             return AddProperty(name, name);
         }
@@ -106,23 +118,12 @@ namespace XMRN.Common.Linq
         /// <summary>
         /// Добавить поле
         /// </summary>
-        /// <param name="key"></param>
-        /// <param name="field"></param>
-        /// <returns></returns>
-        public DataReaderMapBuilder<T> AddField(string key, FieldInfo field)
-        {
-            return AddMember(key, field);
-        }
-
-        /// <summary>
-        /// Добавить поле
-        /// </summary>
-        /// <param name="key"></param>
+        /// <param name="name"></param>
         /// <param name="fieldName"></param>
         /// <returns></returns>
-        public DataReaderMapBuilder<T> AddField(string key, string fieldName)
+        public ItemMapBuilder<T> AddField(string name, string fieldName)
         {
-            return AddField(key, typeof(T).GetField(fieldName));
+            return AddField(name, typeof(T).GetField(fieldName));
         }
 
         /// <summary>
@@ -130,7 +131,7 @@ namespace XMRN.Common.Linq
         /// </summary>
         /// <param name="name"></param>
         /// <returns></returns>
-        public DataReaderMapBuilder<T> AddField(string name)
+        public ItemMapBuilder<T> AddField(string name)
         {
             return AddField(name, name);
         }
@@ -139,7 +140,7 @@ namespace XMRN.Common.Linq
         /// Добавить все свойства
         /// </summary>
         /// <returns></returns>
-        public DataReaderMapBuilder<T> AddAllProperties()
+        public ItemMapBuilder<T> AddAllProperties()
         {
             typeof(T).GetProperties()
                 .ToList()
@@ -152,7 +153,7 @@ namespace XMRN.Common.Linq
         /// Добавить все поля
         /// </summary>
         /// <returns></returns>
-        public DataReaderMapBuilder<T> AddAllFields()
+        public ItemMapBuilder<T> AddAllFields()
         {
             typeof(T).GetFields()
                 .ToList()
@@ -165,7 +166,7 @@ namespace XMRN.Common.Linq
         /// Добавить все члены
         /// </summary>
         /// <returns></returns>
-        public DataReaderMapBuilder<T> AddAllMembers()
+        public ItemMapBuilder<T> AddAllMembers()
         {
             AddAllProperties();
             AddAllFields();
@@ -177,9 +178,9 @@ namespace XMRN.Common.Linq
         /// Построить
         /// </summary>
         /// <returns></returns>
-        public Dictionary<string, MemberInfo> Build()
+        public ItemMap[] Build()
         {
-            return _maps;
+            return _maps.ToArray();
         }
     }
 }

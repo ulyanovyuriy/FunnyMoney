@@ -10,21 +10,25 @@ namespace XMRN.Common.Linq
     {
         private IEnumerator<T> _iterator;
 
-        private IDictionary<string, MemberInfo> _map;
+        private Dictionary<int, IItemMap> _map;
+
+        private Dictionary<string, int> _mapByIndex;
 
         public ItemDataReader(IEnumerable<T> items
-            , IDictionary<string, MemberInfo> map)
+            , IEnumerable<IItemMap> map)
         {
             if (items == null) throw new ArgumentNullException(nameof(items));
             if (map == null) throw new ArgumentNullException(nameof(map));
 
             _iterator = items.GetEnumerator();
-            _map = map;
+            var lookup = map.Select((x, i) => new { Index = i, Map = x }).ToArray();
+            _map = lookup.ToDictionary(x => x.Index, x => x.Map);
+            _mapByIndex = lookup.ToDictionary(x => x.Map.Name, x => x.Index);
         }
 
-        private MemberInfo GetMember(int i)
+        private IItemMap GetItemMap(int i)
         {
-            return _map.ElementAt(i).Value;
+            return _map[i];
         }
 
         #region FlatDataReader Support
@@ -33,30 +37,23 @@ namespace XMRN.Common.Linq
 
         public override Type GetFieldType(int i)
         {
-            var member = GetMember(i);
-            var prop = member as PropertyInfo;
-            if (prop != null)
-                return prop.PropertyType;
-            var field = member as FieldInfo;
-            if (field != null)
-                return field.FieldType;
-
-            throw new NotSupportedException(member.MemberType.ToString());
+            var map = GetItemMap(i);
+            return map.GetFieldType();
         }
 
         public override string GetName(int i)
         {
-            return _map.ElementAt(i).Key;
+            return GetItemMap(i).Name;
         }
 
         public override int GetOrdinal(string name)
         {
-
+            return _mapByIndex[name];
         }
 
         public override object GetValue(int i)
         {
-            throw new NotImplementedException();
+            return GetItemMap(i).GetValue(_iterator.Current);
         }
 
         public override bool ReadCore()
@@ -75,5 +72,69 @@ namespace XMRN.Common.Linq
         }
 
         #endregion
+    }
+
+    public interface IItemMap
+    {
+        string Name { get; }
+
+        Type GetFieldType();
+
+        object GetValue(object instance);
+    }
+
+    public class ItemMap : IItemMap
+    {
+        public ItemMap(string name, MemberInfo member)
+        {
+            Name = name ?? throw new ArgumentNullException(nameof(name));
+
+            var prop = member as PropertyInfo;
+            if (prop != null)
+                Property = prop;
+            var field = member as FieldInfo;
+            if (field != null)
+                Field = field;
+
+            if (Field == null && Property == null) throw new ArgumentException($"{nameof(member)}: {member.MemberType}");
+        }
+
+        public ItemMap(string name, PropertyInfo property)
+        {
+            Name = name ?? throw new ArgumentNullException(nameof(name));
+            Property = property ?? throw new ArgumentNullException(nameof(property));
+        }
+
+        public ItemMap(string name, FieldInfo field)
+        {
+            Name = name ?? throw new ArgumentNullException(nameof(name));
+            Field = field ?? throw new ArgumentNullException(nameof(field));
+        }
+
+        public PropertyInfo Property { get; }
+
+        public FieldInfo Field { get; }
+
+        public string Name { get; }
+
+        public Type GetFieldType()
+        {
+            if (Property != null)
+                return Property.PropertyType;
+            if (Field != null)
+                return Field.FieldType;
+
+            throw new NotSupportedException();
+        }
+
+        public object GetValue(object instance)
+        {
+            if (Property != null)
+                return Property.GetValue(instance, null);
+            if (Field != null)
+                return Field.GetValue(instance);
+
+            throw new NotSupportedException();
+        }
     }
 }
