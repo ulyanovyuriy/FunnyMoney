@@ -14,11 +14,11 @@ namespace XMRN.Common.Data
                 yield return reader;
         }
 
-        public static DataTable AsDataTable(this IDataReader reader)
+        public static DataTable AsDataTable(this IDataReader reader, string tableName = "t")
         {
             if (reader == null) throw new ArgumentNullException(nameof(reader));
 
-            var dt = new DataTable();
+            var dt = new DataTable(tableName);
             dt.Load(reader);
             return dt;
         }

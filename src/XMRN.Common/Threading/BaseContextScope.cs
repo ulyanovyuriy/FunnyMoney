@@ -110,6 +110,11 @@ namespace XMRN.Common.Threading
         #region IDisposable Support
         private bool disposedValue = false; // To detect redundant calls
 
+        protected void CheckDisposed()
+        {
+            if (disposedValue) throw new ObjectDisposedException(GetType().Name);
+        }
+
         protected virtual void Dispose(bool disposing)
         {
             if (!disposedValue)

@@ -7,6 +7,7 @@ using XMRN.Common.Compression;
 using XMRN.Common.Data;
 using XMRN.Common.IO;
 using XMRN.Common.Security.Cryptography;
+using XMRN.Common.Collections;
 
 namespace XMRN.Common.Tests
 {
@@ -46,14 +47,22 @@ namespace XMRN.Common.Tests
             IOContext.ExportToCsv(r, sb, true);
             var text = sb.ToString();
 
-            //var e = new XMRN.Android.Common.Sms.DSmsExtractor(() => dt.CreateDataReader());
-            //var msgs = e.Extract()
-            //    .Where(m => m.Address == "900")
-            //    .ToArray();
+            var e = new XMRN.Android.Common.Sms.DSmsExtractor(() => dt.CreateDataReader());
+            var msgs = e.Extract()
+                .Where(m => m.Address == "900")
+                .ToArray();
 
-            //var ssb = new StringBuilder();
-            //msgs.AsDataReader().ExportToCsv(ssb);
-            //var nt = ssb.ToString();
+            var ssb = new StringBuilder();
+            msgs.AsDataReader().ExportToCsv(ssb);
+            var nt = ssb.ToString();
+
+            msgs
+                .AsDataReader()
+                .AsDataTable()
+                .ToArray()
+                .WriteTo(@"C:\Users\ulyan\Documents\Graphics\900.ed");
         }
+
+
     }
 }

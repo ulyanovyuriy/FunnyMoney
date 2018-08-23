@@ -1,10 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
+using System.IO;
 using System.Text;
 
 namespace XMRN.Common.Collections
 {
-    public static class ByteArrayExtensions
+    public static partial class ByteArrayExtension
     {
         public static string ToHex(this byte[] data)
         {
@@ -35,6 +35,12 @@ namespace XMRN.Common.Collections
             }
 
             return hex.ToString();
+        }
+
+        public static MemoryStream AsStream(this byte[] data)
+        {
+            if (data == null) throw new ArgumentNullException("data");
+            return new MemoryStream(data);
         }
     }
 }
