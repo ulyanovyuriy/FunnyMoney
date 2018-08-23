@@ -5,7 +5,7 @@ using System.Text;
 
 namespace XMRN.Common.Data
 {
-    public static class DataReaderExtension
+    public static partial class DataReaderExtension
     {
         public static IEnumerable<IDataRecord> AsEnumerable(this IDataReader reader)
         {
