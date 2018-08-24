@@ -1,17 +1,14 @@
 ﻿using System;
 using System.Data;
+using XMRN.Common.System;
 
 namespace XMRN.Common.Data
 {
-    public abstract class BaseDataReader : IDataReader
+    public abstract class BaseDataRecord : DisposableObject, IDataRecord
     {
-        #region IDataReader Support
-
-        public abstract int RecordsAffected { get; }
+        #region IDataRecord Support
 
         public abstract int FieldCount { get; }
-
-        public abstract int Depth { get; }
 
         public abstract long GetBytes(int i, long fieldOffset, byte[] buffer, int bufferoffset, int length);
 
@@ -27,20 +24,9 @@ namespace XMRN.Common.Data
 
         public abstract object GetValue(int i);
 
-        public abstract bool NextResult();
-
-        public abstract bool Read();
-
         public virtual object this[int i] => GetValue(i);
 
         public virtual object this[string name] => GetValue(GetOrdinal(name));
-
-        public virtual bool IsClosed => disposedValue;
-
-        public virtual void Close()
-        {
-            Dispose(true);
-        }
 
         public virtual bool GetBoolean(int i)
         {
@@ -102,22 +88,6 @@ namespace XMRN.Common.Data
             return (long)GetValue(i);
         }
 
-        public virtual DataTable GetSchemaTable()
-        {
-            var tb = new DataTableBuilder();
-            for (int i = 0; i < FieldCount; i++)
-            {
-                tb.AddColumn(cb => cb.SetName(GetName(i)).SetType(GetFieldType(i)));
-            }
-
-            using (var t = tb.Build())
-            using (var r = t.CreateDataReader())
-            {
-                var schema = r.GetSchemaTable();
-                return schema;
-            }
-        }
-
         public virtual string GetString(int i)
         {
             return (string)GetValue(i);
@@ -139,27 +109,53 @@ namespace XMRN.Common.Data
             return DBNull.Value == v || v == null;
         }
 
-        #endregion
+        #endregion      
+    }
 
-        #region IDisposable Support
+    public abstract class BaseDataReader : BaseDataRecord, IDataReader
+    {
+        private int _recordsAffected;
 
-        private bool disposedValue = false; // To detect redundant calls
+        public abstract bool ReadCore();
 
-        protected virtual void Dispose(bool disposing)
+        #region IDataReader Support        
+
+        public abstract int Depth { get; }
+
+        public abstract bool NextResult();
+
+        public virtual int RecordsAffected => _recordsAffected;
+
+        public virtual bool IsClosed => Disposed;
+
+        public virtual bool Read()
         {
-            if (!disposedValue)
-            {
-                if (disposing)
-                {
-                }
+            var result = ReadCore();
+            if (result)
+                _recordsAffected++;
 
-                disposedValue = true;
-            }
+            return result;
         }
 
-        public void Dispose()
+        public virtual void Close()
         {
             Dispose(true);
+        }
+
+        public virtual DataTable GetSchemaTable()
+        {
+            var tb = new DataTableBuilder();
+            for (int i = 0; i < FieldCount; i++)
+            {
+                tb.AddColumn(cb => cb.SetName(GetName(i)).SetType(GetFieldType(i)));
+            }
+
+            using (var t = tb.Build())
+            using (var r = t.CreateDataReader())
+            {
+                var schema = r.GetSchemaTable();
+                return schema;
+            }
         }
 
         #endregion
@@ -167,28 +163,13 @@ namespace XMRN.Common.Data
 
     public abstract class FlatDataReader : BaseDataReader, IDataReader
     {
-        private int _recordsAffected;
-
-        public abstract bool ReadCore();
-
-        #region BaseDataReader Support
-
-        public override int RecordsAffected => _recordsAffected;
+        #region BaseDataReader Support        
 
         public override int Depth => 0;
 
         public override bool NextResult()
         {
             return false;
-        }
-
-        public override bool Read()
-        {
-            var result = ReadCore();
-            if (result)
-                _recordsAffected++;
-
-            return result;
         }
 
         #region Not Support

@@ -37,7 +37,7 @@ namespace XMRN.Common.Collections
             return hex.ToString();
         }
 
-        public static MemoryStream AsStream(this byte[] data)
+        public static MemoryStream ToStream(this byte[] data)
         {
             if (data == null) throw new ArgumentNullException("data");
             return new MemoryStream(data);

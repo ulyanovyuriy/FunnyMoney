@@ -47,18 +47,26 @@
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="SBER_ANALYZE.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="900.ed">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\XMRN.Common\XMRN.Common.csproj">
       <Project>{b7ce64c7-310e-4b69-a964-591547c701d7}</Project>
       <Name>XMRN.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\XMRN.Phone\XMRN.Phone.csproj">
+      <Project>{C41A01D1-C214-408A-8178-2EB6E60FF2C8}</Project>
+      <Name>XMRN.Phone</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />

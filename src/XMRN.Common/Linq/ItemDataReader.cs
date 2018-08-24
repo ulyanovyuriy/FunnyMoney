@@ -12,7 +12,7 @@ namespace XMRN.Common.Linq
 
         private Dictionary<int, IItemMap> _map;
 
-        private Dictionary<string, int> _mapByIndex;
+        private Dictionary<string, int> _indexMap;
 
         public ItemDataReader(IEnumerable<T> items
             , IEnumerable<IItemMap> map)
@@ -23,52 +23,74 @@ namespace XMRN.Common.Linq
             _iterator = items.GetEnumerator();
             var lookup = map.Select((x, i) => new { Index = i, Map = x }).ToArray();
             _map = lookup.ToDictionary(x => x.Index, x => x.Map);
-            _mapByIndex = lookup.ToDictionary(x => x.Map.Name, x => x.Index);
+            _indexMap = lookup.ToDictionary(x => x.Map.Name, x => x.Index);
         }
 
-        private IItemMap GetItemMap(int i)
+        public IEnumerator<T> Iterator
         {
-            return _map[i];
+            get
+            {
+                CheckDisposed();
+                return _iterator;
+            }
+        }
+
+        public Dictionary<int, IItemMap> Map
+        {
+            get
+            {
+                CheckDisposed();
+                return _map;
+            }
+        }
+
+        public Dictionary<string, int> IndexMap
+        {
+            get
+            {
+                CheckDisposed();
+                return _indexMap;
+            }
         }
 
         #region FlatDataReader Support
 
-        public override int FieldCount => _map.Count;
+        public override int FieldCount => Map.Count;
 
         public override Type GetFieldType(int i)
         {
-            var map = GetItemMap(i);
+            var map = Map[i];
             return map.GetFieldType();
         }
 
         public override string GetName(int i)
         {
-            return GetItemMap(i).Name;
+            return Map[i].Name;
         }
 
         public override int GetOrdinal(string name)
         {
-            return _mapByIndex[name];
+            return IndexMap[name];
         }
 
         public override object GetValue(int i)
         {
-            return GetItemMap(i).GetValue(_iterator.Current);
+            return Map[i].GetValue(Iterator.Current);
         }
 
         public override bool ReadCore()
         {
-            var result = _iterator.MoveNext();
+            var result = Iterator.MoveNext();
             return result;
         }
 
-        protected override void Dispose(bool disposing)
+        protected override void Disposing()
         {
-            if (disposing)
-                _iterator.Dispose();
-            _iterator = null;
+            _iterator.Dispose();
 
-            base.Dispose(disposing);
+            _iterator = null;
+            _map = null;
+            _indexMap = null;
         }
 
         #endregion

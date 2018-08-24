@@ -60,6 +60,8 @@ namespace XMRN.Common.Tests
                 .AsDataReader()
                 .AsDataTable()
                 .ToArray()
+                .Compress()
+                .Encrypt(key, vector)
                 .WriteTo(@"C:\Users\ulyan\Documents\Graphics\900.ed");
         }
 

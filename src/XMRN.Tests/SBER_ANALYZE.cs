@@ -1,6 +1,10 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Data;
 using System.IO;
+using System.Linq;
 using XMRN.Common.Collections;
+using XMRN.Common.Data;
+using XMRN.Phone.Sms;
 
 namespace XMRN.Tests
 {
@@ -18,6 +22,17 @@ namespace XMRN.Tests
 
             var data = File.ReadAllBytes(f);
             data = data.Decrypt(key, vector);
+            data = data.Decompress();
+            var dt = new DataTable().Load(data);
+
+            var msgs = dt.CreateDataReader().AsEnumerable(r => new SmsMessage()
+            {
+                Address = r.GetString("Address"),
+                Body = r.GetString("Body"),
+                Date = r.GetDateTime("Date"),
+                Id = r.GetInt32("Id"),
+                SentDate = r.GetDateTime("SentDate"),
+            }).ToArray();
         }
     }
 }
