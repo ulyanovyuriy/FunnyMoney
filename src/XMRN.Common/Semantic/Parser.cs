@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace XMRN.Common.Semantic
 {
-    public class Parser : ITokenParser
+    public sealed class Parser : ITokenParser
     {
         private readonly List<ITokenParser> _parsers = new List<ITokenParser>();
 

@@ -1,29 +1,23 @@
-﻿using System;
-using System.Text.RegularExpressions;
-
-namespace XMRN.Common.Semantic.Regexp
+﻿namespace XMRN.Common.Semantic.Regexp
 {
     public class RegexToken : Token
     {
-        public RegexToken(string name, Match match)
+        public RegexToken(string name, string value
+            , RegexToken parent = null) : base(name, value)
         {
-            Match = match ?? throw new ArgumentNullException(nameof(match));
-            Name = name;
+            Parent = parent;
         }
 
-        public Match Match { get; }
+        public new RegexToken Parent { get; private set; }
 
-        public override string Value
+        protected override Token GetParentCore()
         {
-            get
-            {
-                var group = Match.Groups[Name];
-                if (group != null && group.Success)
-                {
-                    return group.Value;
-                }
-                return Match.Value;
-            }
+            return Parent;
+        }
+
+        protected override void SetParentCore(Token value)
+        {
+            Parent = (RegexToken)value;
         }
     }
 }

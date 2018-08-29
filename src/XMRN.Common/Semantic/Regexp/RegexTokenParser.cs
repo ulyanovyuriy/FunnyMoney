@@ -1,29 +1,47 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Text.RegularExpressions;
+using XMRN.Common.System;
 
 namespace XMRN.Common.Semantic.Regexp
 {
     public class RegexTokenParser : TokenParser
     {
-        public RegexTokenParser(string name, Regex regex)
+        public RegexTokenParser(string name, Regex regex, params string[] groups)
         {
-            Name = name ?? throw new ArgumentNullException(nameof(name));
-            Regex = regex ?? throw new ArgumentNullException(nameof(regex));
+            Name = Guard.ArgumentNotNull(name, nameof(name));
+            Regex = Guard.ArgumentNotNull(regex, nameof(regex));
+            Groups = groups;
         }
 
         public string Name { get; }
 
         public Regex Regex { get; }
 
-        public new RegexToken Parse(string text)
+        public string[] Groups { get; }
+
+        public new IEnumerable<RegexToken> Parse(string text)
         {
             var match = Regex.Match(text);
-            if (match == null) return null;
+            if (match == null || match.Success == false)
+                yield break;
 
-            return new RegexToken(Name, match);
+            var parent = new RegexToken(Name, match.Value);
+            yield return parent;
+
+            if (Groups != null)
+            {
+                foreach (var groupName in Groups)
+                {
+                    var group = match.Groups[groupName];
+                    if (group != null && group.Success)
+                        yield return new RegexToken(groupName, group.Value, parent);
+                }
+            }
         }
 
-        protected override Token ParseToken(string text)
+        protected override IEnumerable<Token> ParseCore(string text)
         {
             return Parse(text);
         }

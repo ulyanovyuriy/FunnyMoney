@@ -10,5 +10,12 @@ namespace XMRN.Common.System
         {
             if (arg == null) throw new ArgumentNullException(name);
         }
+
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
+        public static T ArgumentNotNull<T>(T arg, string name)
+        {
+            if (arg == null) throw new ArgumentNullException(name);
+            return arg;
+        }
     }
 }

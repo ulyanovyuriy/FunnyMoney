@@ -51,60 +51,77 @@ namespace XMRN.Tests
         [DeploymentItem("900.ed")]
         public void SBER_SMS_PARSE()
         {
-            var msgs = ReadMessages();
+            //var msgs = ReadMessages();
 
-            //VISA8842 08.08.18 07:59 списание 100000р SBERBANK ONL@IN KARTA-VKLAD Баланс: 246671.36р
+            ////VISA8842 08.08.18 07:59 списание 100000р SBERBANK ONL@IN KARTA-VKLAD Баланс: 246671.36р
+            ////VISA8842 14.08.18 11:44 списание 400р Баланс: 236930.77р
+            ////VISA8842 03.06.18 21:00 списание 2000р с комиссией 20р Баланс: 292685.16р
+            ////VISA8842 08.03.18 06:27 списание 40613.37р в счет погашения кредита Баланс: 93204.52р
+
+
+            //var p = new Parser();
+            //p.Register(new RegexTokenParser("CARDNUMBER", new Regex(@"VISA\d{4}")));
+            //p.Register(new RegexTokenParser("BALANCE", new Regex(@"Баланс: (?<BALANCE>\d+(\.\d{1,2})?)р")));
+            //p.Register(new RegexTokenParser("BUY", new Regex(@"покупка (?<BUY>\d+(\.\d{1,2})?)р")));
+            //p.Register(new RegexTokenParser("WRITEOFF", new Regex(@"списание (?<WRITEOFF>\d+(\.\d{1,2})?)р")));
+            //p.Register(new RegexTokenParser("WRITEOFF_COMMISION", new Regex(@"списание \d+(\.\d{1,2})?р с комиссией (?<WRITEOFF_COMMISION>\d+(\.\d{1,2})?)р")));
+            //p.Register(new RegexTokenParser("WRITEOFF_TARGET", new Regex(@"списание \d+(\.\d{1,2})?р( с комиссией \d+(\.\d{1,2})?р)? (?<WRITEOFF_TARGET>.*) Баланс:\s")));
+            //p.Register(new RegexTokenParser("ATM", new Regex(@"выдача (?<ATM>\d+(\.\d{1,2})?)р")));
+            ////p.Register(new RegexTokenParser("TARGET", new Regex(@"(\d+(\.\d{1,2})?)р\s(?<TARGET>.*) Баланс:\s")));
+            //p.Register(new RegexTokenParser("DATETIME", new Regex(@"\d{2}\.\d{2}\.\d{2}\s\d{2}\:\d{2}")));
+
+
+            //var rs = new List<ParsedMessage>();
+
+            //foreach (var msg in msgs)
+            //{
+            //    var pm = new ParsedMessage(msg);
+
+            //    var tokens = p.Render(msg.Body).ToArray();
+            //    foreach (var token in tokens)
+            //    {
+            //        if (token.Name == "CARDNUMBER")
+            //            pm.CARNUMBER = token.Value;
+            //        else if (token.Name == "BALANCE")
+            //            pm.BALANCE = token.Value;
+            //        else if (token.Name == "BUY")
+            //            pm.BUY = token.Value;
+            //        else if (token.Name == "WRITEOFF")
+            //            pm.WRITEOFF = token.Value;
+            //        else if (token.Name == "WRITEOFF_COMMISION")
+            //            pm.WRITEOFF_COMMISION = token.Value;
+            //        else if (token.Name == "WRITEOFF_TARGET")
+            //            pm.WRITEOFF_TARGET = token.Value;
+            //        else if (token.Name == "ATM")
+            //            pm.ATM = token.Value;
+            //        else if (token.Name == "DATETIME")
+            //            pm.DATETIME = token.Value;
+            //    }
+
+            //    rs.Add(pm);
+            //}
+
+            //var b = new StringBuilder();
+            //rs.AsDataReader().ExportToCsv(b);
+
+            //var t = b.ToString();
+        }
+
+        [TestMethod]
+        public void SBER_SMS_PARSE_WRITEOFF()
+        {
             //VISA8842 14.08.18 11:44 списание 400р Баланс: 236930.77р
             //VISA8842 03.06.18 21:00 списание 2000р с комиссией 20р Баланс: 292685.16р
             //VISA8842 08.03.18 06:27 списание 40613.37р в счет погашения кредита Баланс: 93204.52р
 
-
-            var p = new Parser();
-            p.Register(new RegexTokenParser("CARDNUMBER", new Regex(@"VISA\d{4}")));
-            p.Register(new RegexTokenParser("BALANCE", new Regex(@"Баланс: (?<BALANCE>\d+(\.\d{1,2})?)р")));
-            p.Register(new RegexTokenParser("BUY", new Regex(@"покупка (?<BUY>\d+(\.\d{1,2})?)р")));
-            p.Register(new RegexTokenParser("WRITEOFF", new Regex(@"списание (?<WRITEOFF>\d+(\.\d{1,2})?)р")));
-            p.Register(new RegexTokenParser("WRITEOFF_COMMISION", new Regex(@"списание \d+(\.\d{1,2})?р с комиссией (?<WRITEOFF_COMMISION>\d+(\.\d{1,2})?)р")));
-            p.Register(new RegexTokenParser("WRITEOFF_TARGET", new Regex(@"списание \d+(\.\d{1,2})?р( с комиссией \d+(\.\d{1,2})?р)? (?<WRITEOFF_TARGET>.*) Баланс:\s")));
-            p.Register(new RegexTokenParser("ATM", new Regex(@"выдача (?<ATM>\d+(\.\d{1,2})?)р")));
-            //p.Register(new RegexTokenParser("TARGET", new Regex(@"(\d+(\.\d{1,2})?)р\s(?<TARGET>.*) Баланс:\s")));
-            p.Register(new RegexTokenParser("DATETIME", new Regex(@"\d{2}\.\d{2}\.\d{2}\s\d{2}\:\d{2}")));
+            var rp = new RegexTokenParser("WRITEOFF"
+                , new Regex(@"(?<CN>VISA\d{4}) (?<DT>\d{2}\.\d{2}\.\d{2} \d{2}:\d{2}) списание (?<V>\d+(\.\d{2})?р)( с комиссией (?<C>\d+(\.\d{2})?р))? (?<T>.*)Баланс: (?<B>\d+(\.\d{2})?р)")
+                , "CN", "DT", "V", "C", "T", "B");
 
 
-            var rs = new List<ParsedMessage>();
-
-            foreach (var msg in msgs)
-            {
-                var pm = new ParsedMessage(msg);
-
-                var tokens = p.Render(msg.Body).ToArray();
-                foreach (var token in tokens)
-                {
-                    if (token.Name == "CARDNUMBER")
-                        pm.CARNUMBER = token.Value;
-                    else if (token.Name == "BALANCE")
-                        pm.BALANCE = token.Value;
-                    else if (token.Name == "BUY")
-                        pm.BUY = token.Value;
-                    else if (token.Name == "WRITEOFF")
-                        pm.WRITEOFF = token.Value;
-                    else if (token.Name == "WRITEOFF_COMMISION")
-                        pm.WRITEOFF_COMMISION = token.Value;
-                    else if (token.Name == "WRITEOFF_TARGET")
-                        pm.WRITEOFF_TARGET = token.Value;
-                    else if (token.Name == "ATM")
-                        pm.ATM = token.Value;
-                    else if (token.Name == "DATETIME")
-                        pm.DATETIME = token.Value;
-                }
-
-                rs.Add(pm);
-            }
-
-            var b = new StringBuilder();
-            rs.AsDataReader().ExportToCsv(b);
-
-            var t = b.ToString();
+            string operation = @"VISA8842 08.08.18 07:59 списание 100000р SBERBANK ONL@IN KARTA-VKLAD Баланс: 246671.36р";
+            var op1 = rp.Parse(operation).ToArray();
+            
         }
 
         private class ParsedMessage
