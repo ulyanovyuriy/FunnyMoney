@@ -143,6 +143,7 @@ namespace XMRN.Common.Linq
         public ItemMapBuilder<T> AddAllProperties()
         {
             typeof(T).GetProperties()
+                .Where(p => p.GetIndexParameters().None())
                 .ToList()
                 .ForEach(p => AddProperty(p.Name, p));
 
