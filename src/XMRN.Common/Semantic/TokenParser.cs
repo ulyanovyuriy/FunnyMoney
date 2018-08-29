@@ -6,21 +6,21 @@ namespace XMRN.Common.Semantic
 {
     public interface ITokenParser
     {
-        IToken Parse(string text);
+        IEnumerable<IToken> Parse(string text);
     }
 
     public abstract class TokenParser : ITokenParser
     {
-        public Token Parse(string text)
+        public IEnumerable<Token> Parse(string text)
         {
-            return ParseToken(text);
+            return ParseCore(text);
         }
 
-        protected abstract Token ParseToken(string text);
+        protected abstract IEnumerable<Token> ParseCore(string text);
 
-        IToken ITokenParser.Parse(string text)
+        IEnumerable<IToken> ITokenParser.Parse(string text)
         {
-            return ParseToken(text);
+            return ParseCore(text);
         }
     }
 }

@@ -4,26 +4,29 @@ using System.Text;
 
 namespace XMRN.Common.Semantic
 {
-    public class Parser
+    public class Parser : ITokenParser
     {
-        private readonly List<TokenParser> _parsers = new List<TokenParser>();
+        private readonly List<ITokenParser> _parsers = new List<ITokenParser>();
 
-        public void Register(TokenParser parser)
+        public void Register(ITokenParser parser)
         {
             if (parser == null) throw new ArgumentNullException(nameof(parser));
             _parsers.Add(parser);
         }
 
-        public IEnumerable<Token> Render(string text)
+        public IEnumerable<IToken> Parse(string text)
         {
             if (string.IsNullOrEmpty(text))
                 yield break;
 
             foreach (var parser in _parsers)
             {
-                var token = parser.Parse(text);
-                if (token != null)
-                    yield return token;
+                var tokens = parser.Parse(text);
+                if (tokens != null)
+                {
+                    foreach (var token in tokens)
+                        yield return token;
+                }
             }
         }
     }
