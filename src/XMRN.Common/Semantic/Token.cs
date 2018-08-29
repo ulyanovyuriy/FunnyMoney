@@ -13,24 +13,20 @@ namespace XMRN.Common.Semantic
 
         IEnumerable<IToken> GetChilds();
 
+        void Add(IToken child);
+
         void AddRange(IEnumerable<IToken> childs);
     }
 
     public abstract class Token : IToken
     {
-        private readonly List<Token> _childs;
-
         public Token(string name, string value)
         {
             Name = name;
             Value = value;
         }
 
-        public string Name { get; }
-
-        public string Value { get; }
-
-        public Token Parent { get => GetParentCore(); internal set => SetParentCore(value); }
+        #region IToken Support
 
         string IToken.Name => Name;
 
@@ -38,39 +34,45 @@ namespace XMRN.Common.Semantic
 
         IToken IToken.Parent => Parent;
 
-        public IEnumerable<Token> GetChilds() => GetChildsCore();
-
         IEnumerable<IToken> IToken.GetChilds()
         {
             return GetChildsCore();
         }
+
+        void IToken.Add(IToken child)
+        {
+            AddCore(child);
+        }
+
+        void IToken.AddRange(IEnumerable<IToken> childs)
+        {
+            foreach (var child in childs)
+                AddCore(child);
+        }
+
+        #endregion
+
+        public string Name { get; set; }
+
+        public string Value { get; set; }
+
+        public Token Parent { get => GetParentCore(); }
+
+        public IEnumerable<Token> GetChilds() => GetChildsCore();
+
+        public void Add(Token token) => AddCore(token);
+
+        public void AddRange(IEnumerable<Token> childs) => AddRange(childs);
 
         public override string ToString()
         {
             return $"{Name}: {Value}";
         }
 
-        protected virtual void AddChildsCore(IEnumerable<Token> childs)
-        {
-            if (childs == null) return;
-            foreach (var child in childs)
-            {
-                if (child.Parent != null) throw new ArgumentException(nameof(child.Parent));
-                child.Parent = this;
+        protected abstract void AddCore(IToken child);
 
-                _childs.Add(child);
-            }
-        }
-
-        protected virtual IEnumerable<Token> GetChildsCore() => _childs;
+        protected abstract IEnumerable<Token> GetChildsCore();
 
         protected abstract Token GetParentCore();
-
-        protected abstract void SetParentCore(Token value);
-
-        void IToken.AddRange(IEnumerable<IToken> childs)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
