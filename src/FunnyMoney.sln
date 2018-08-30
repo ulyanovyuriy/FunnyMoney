@@ -13,9 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XMRN.Common", "XMRN.Common\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMRN.Common.Tests", "XMRN.Common.Tests\XMRN.Common.Tests.csproj", "{C6460284-EC1E-4FB2-8686-CAEED663F7BE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XMRN.Phone", "XMRN.Phone\XMRN.Phone.csproj", "{C41A01D1-C214-408A-8178-2EB6E60FF2C8}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMRN.Tests", "XMRN.Tests\XMRN.Tests.csproj", "{3CBA76AB-C9C1-4322-A516-D33C25D34C86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunnyMoney.Common", "FunnyMoney.Common\FunnyMoney.Common.csproj", "{AA44B039-982F-439A-A2A6-CD601D218882}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunnyMoney.SBER", "FunnyMoney.SBER\FunnyMoney.SBER.csproj", "{1987C3D0-EC28-4C2E-9391-6377305CBD1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMRN.Phone", "XMRN.Phone\XMRN.Phone.csproj", "{CC02A15A-0C3E-4D77-923B-C4999ADA5A55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,14 +51,22 @@ Global
 		{C6460284-EC1E-4FB2-8686-CAEED663F7BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6460284-EC1E-4FB2-8686-CAEED663F7BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6460284-EC1E-4FB2-8686-CAEED663F7BE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C41A01D1-C214-408A-8178-2EB6E60FF2C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C41A01D1-C214-408A-8178-2EB6E60FF2C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C41A01D1-C214-408A-8178-2EB6E60FF2C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C41A01D1-C214-408A-8178-2EB6E60FF2C8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3CBA76AB-C9C1-4322-A516-D33C25D34C86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3CBA76AB-C9C1-4322-A516-D33C25D34C86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3CBA76AB-C9C1-4322-A516-D33C25D34C86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3CBA76AB-C9C1-4322-A516-D33C25D34C86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA44B039-982F-439A-A2A6-CD601D218882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA44B039-982F-439A-A2A6-CD601D218882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA44B039-982F-439A-A2A6-CD601D218882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA44B039-982F-439A-A2A6-CD601D218882}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1987C3D0-EC28-4C2E-9391-6377305CBD1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1987C3D0-EC28-4C2E-9391-6377305CBD1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1987C3D0-EC28-4C2E-9391-6377305CBD1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1987C3D0-EC28-4C2E-9391-6377305CBD1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC02A15A-0C3E-4D77-923B-C4999ADA5A55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC02A15A-0C3E-4D77-923B-C4999ADA5A55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC02A15A-0C3E-4D77-923B-C4999ADA5A55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC02A15A-0C3E-4D77-923B-C4999ADA5A55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

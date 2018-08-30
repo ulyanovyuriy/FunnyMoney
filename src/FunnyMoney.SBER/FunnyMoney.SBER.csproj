@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FunnyMoney.Common\FunnyMoney.Common.csproj" />
+    <ProjectReference Include="..\XMRN.Common\XMRN.Common.csproj" />
+    <ProjectReference Include="..\XMRN.Phone\XMRN.Phone.csproj" />
+  </ItemGroup>
+
+</Project>

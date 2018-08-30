@@ -61,12 +61,20 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\FunnyMoney.Common\FunnyMoney.Common.csproj">
+      <Project>{aa44b039-982f-439a-a2a6-cd601d218882}</Project>
+      <Name>FunnyMoney.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FunnyMoney.SBER\FunnyMoney.SBER.csproj">
+      <Project>{1987c3d0-ec28-4c2e-9391-6377305cbd1a}</Project>
+      <Name>FunnyMoney.SBER</Name>
+    </ProjectReference>
     <ProjectReference Include="..\XMRN.Common\XMRN.Common.csproj">
       <Project>{b7ce64c7-310e-4b69-a964-591547c701d7}</Project>
       <Name>XMRN.Common</Name>
     </ProjectReference>
     <ProjectReference Include="..\XMRN.Phone\XMRN.Phone.csproj">
-      <Project>{C41A01D1-C214-408A-8178-2EB6E60FF2C8}</Project>
+      <Project>{cc02a15a-0c3e-4d77-923b-c4999ada5a55}</Project>
       <Name>XMRN.Phone</Name>
     </ProjectReference>
   </ItemGroup>

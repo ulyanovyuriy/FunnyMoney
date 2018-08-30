@@ -83,7 +83,7 @@
       <Name>XMRN.Common</Name>
     </ProjectReference>
     <ProjectReference Include="..\XMRN.Phone\XMRN.Phone.csproj">
-      <Project>{C41A01D1-C214-408A-8178-2EB6E60FF2C8}</Project>
+      <Project>{cc02a15a-0c3e-4d77-923b-c4999ada5a55}</Project>
       <Name>XMRN.Phone</Name>
     </ProjectReference>
   </ItemGroup>
