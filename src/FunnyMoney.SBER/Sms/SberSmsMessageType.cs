@@ -39,5 +39,10 @@ namespace FunnyMoney.SBER.Sms
         /// Оплата
         /// </summary>
         PayOut,
+
+        /// <summary>
+        /// Отмена покупки
+        /// </summary>
+        BuyCancel,
     }
 }

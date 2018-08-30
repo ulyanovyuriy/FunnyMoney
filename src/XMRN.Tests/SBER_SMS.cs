@@ -57,7 +57,8 @@ namespace XMRN.Tests
                 .ToList();
 
             var b = new StringBuilder();
-            msgs.AsDataReader(mb =>
+            msgs.Where(m => m.Type == SberSmsMessageType.None)
+                .AsDataReader(mb =>
                 mb.AddMember(m => m.Id)
                 .AddMember(m => m.Type)
                 .AddMember(m => m.CardNumber)

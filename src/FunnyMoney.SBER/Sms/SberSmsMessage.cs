@@ -11,10 +11,13 @@ namespace FunnyMoney.SBER.Sms
     {
         public const string WRITE_OFF_RX = @"(?<CN>VISA\d{4}) (?<DT>\d{2}\.\d{2}\.\d{2} \d{2}:\d{2}) списание (?<V>\d+(\.\d{2})?р)( с комиссией (?<C>\d+(\.\d{2})?р))?(\s+(?<T>.*))? Баланс: (?<B>\d+(\.\d{2})?р)";
         public const string BUY_RX = @"(?<CN>VISA\d{4}) (?<DT>\d{2}\.\d{2}\.\d{2} \d{2}:\d{2}) покупка (?<V>\d+(\.\d{2})?р)( с комиссией (?<C>\d+(\.\d{2})?р))?(\s+(?<T>.*))? Баланс: (?<B>\d+(\.\d{2})?р)";
-        public const string ATM_RX = @"(?<CN>VISA\d{4}) (?<DT>\d{2}\.\d{2}\.\d{2} \d{2}:\d{2}) выдача (?<V>\d+(\.\d{2})?р)( с комиссией (?<C>\d+(\.\d{2})?р))?(\s+(?<T>.*))? Баланс: (?<B>\d+(\.\d{2})?р)";
+        public const string ATM_RX = @"(?<CN>VISA\d{4}) (?<DT>\d{2}\.\d{2}\.\d{2} \d{2}:\d{2}) выдача (наличных )?(?<V>\d+(\.\d{2})?р)( с комиссией (?<C>\d+(\.\d{2})?р))?(\s+(?<T>.*))? Баланс: (?<B>\d+(\.\d{2})?р)";
         public const string SALARY_RX = @"(?<CN>VISA\d{4}) (?<DT>\d{2}\.\d{2}\.\d{2} \d{2}:\d{2}) зачисление зарплаты (?<V>\d+(\.\d{2})?р)( с комиссией (?<C>\d+(\.\d{2})?р))?(\s+(?<T>.*))? Баланс: (?<B>\d+(\.\d{2})?р)";
         public const string PAY_IN_RX = @"(?<CN>VISA\d{4}) (?<DT>\d{2}\.\d{2}\.\d{2} \d{2}:\d{2}) зачисление (?<V>\d+(\.\d{2})?р)( с комиссией (?<C>\d+(\.\d{2})?р))?(\s+(?<T>.*))? Баланс: (?<B>\d+(\.\d{2})?р)";
+        public const string PAY_OUT1_RX = @"(?<CN>VISA\d{4}) (?<DT>\d{2}\.\d{2}\.\d{2}) оплата(\s+ )?(\s+(?<T>.*)\s+)?(?<V>\d+(\.\d{2})?р) Баланс: (?<B>\d+(\.\d{2})?р)";
         public const string PAY_OUT_RX = @"(?<CN>VISA\d{4}) (?<DT>\d{2}\.\d{2}\.\d{2}) оплата?(\s+(?<T>.*)\s+)?(?<V>\d+(\.\d{2})?р) Баланс: (?<B>\d+(\.\d{2})?р)";
+        public const string PAY_OUT2_RX = @"(?<CN>VISA\d{4}) (?<DT>\d{2}\.\d{2}\.\d{2} \d{2}:\d{2}) оплата (?<V>\d+(\.\d{2})?р)( с комиссией (?<C>\d+(\.\d{2})?р))?(\s+(?<T>.*))? Баланс: (?<B>\d+(\.\d{2})?р)";
+        public const string BUY_CANCEL_RX = @"(?<CN>VISA\d{4}) (?<DT>\d{2}\.\d{2}\.\d{2} \d{2}:\d{2}) отмена покупки (?<V>\d+(\.\d{2})?р)( с комиссией (?<C>\d+(\.\d{2})?р))?(\s+(?<T>.*))? Баланс: (?<B>\d+(\.\d{2})?р)";
 
         public const string WRITE_OFF_TN = "WRITE_OFF";
         public const string BUY_TN = "BUY";
@@ -22,12 +25,17 @@ namespace FunnyMoney.SBER.Sms
         public const string SALARY_TN = "SALARY";
         public const string PAY_IN_TN = "PAY_IN";
         public const string PAY_OUT_TN = "PAY_OUT";
+        public const string BUY_CANCEL_TN = "BUY_CANCEL";
 
         public static Parser Parser;
 
         static SberSmsMessage()
         {
-            Parser = new Parser();
+            Parser = new Parser(new ParserOptions()
+            {
+                BreakOnFirstMatch = true
+            });
+
             Parser.Register(new RegexTokenParser(WRITE_OFF_TN, new Regex(WRITE_OFF_RX)
                 , "CN", "DT", "V", "C", "T", "B"));
             Parser.Register(new RegexTokenParser(BUY_TN, new Regex(BUY_RX)
@@ -39,6 +47,10 @@ namespace FunnyMoney.SBER.Sms
             Parser.Register(new RegexTokenParser(PAY_IN_TN, new Regex(PAY_IN_RX)
                 , "CN", "DT", "V", "C", "T", "B"));
             Parser.Register(new RegexTokenParser(PAY_OUT_TN, new Regex(PAY_OUT_RX)
+                , "CN", "DT", "V", "C", "T", "B"));
+            Parser.Register(new RegexTokenParser(PAY_OUT_TN, new Regex(PAY_OUT2_RX)
+                , "CN", "DT", "V", "C", "T", "B"));
+            Parser.Register(new RegexTokenParser(BUY_CANCEL_TN, new Regex(BUY_CANCEL_RX)
                 , "CN", "DT", "V", "C", "T", "B"));
         }
 
@@ -56,6 +68,8 @@ namespace FunnyMoney.SBER.Sms
 
         private IToken _payOut;
 
+        private IToken _buyCancel;
+
         public SberSmsMessage(SmsMessage msg) : base(msg)
         {
             _tokens = Parser.Parse(Body).ToList();
@@ -66,6 +80,7 @@ namespace FunnyMoney.SBER.Sms
             _salary = _tokens.FirstOrDefault(t => t.Name == SALARY_TN);
             _payIn = _tokens.FirstOrDefault(t => t.Name == PAY_IN_TN);
             _payOut = _tokens.FirstOrDefault(t => t.Name == PAY_OUT_TN);
+            _buyCancel = _tokens.FirstOrDefault(t => t.Name == BUY_CANCEL_TN);
         }
 
         private IToken GetToken()
@@ -82,6 +97,8 @@ namespace FunnyMoney.SBER.Sms
                 return _payIn;
             if (Type == SberSmsMessageType.PayOut)
                 return _payOut;
+            if (Type == SberSmsMessageType.BuyCancel)
+                return _buyCancel;
 
             return null;
         }
@@ -102,6 +119,8 @@ namespace FunnyMoney.SBER.Sms
                     return SberSmsMessageType.Salary;
                 if (_payIn != null)
                     return SberSmsMessageType.PayIn;
+                if (_buyCancel != null)
+                    return SberSmsMessageType.BuyCancel;
                 else
                     return SberSmsMessageType.None;
             }

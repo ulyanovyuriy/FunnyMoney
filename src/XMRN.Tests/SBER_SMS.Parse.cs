@@ -89,6 +89,15 @@ namespace XMRN.Tests
             Assert.AreEqual(token["C"], "100р");
             Assert.AreEqual(token["T"], "Malaya Semenovskaya");
             Assert.AreEqual(token["B"], "290212.14р");
+
+            operation = @"VISA8842 17.10.17 20:48 выдача наличных 4000р ATM 890426 Баланс: 226100.73р";
+            token = rp.Parse(operation).Single();
+
+            Assert.AreEqual(token["CN"], "VISA8842");
+            Assert.AreEqual(token["DT"], "17.10.17 20:48");
+            Assert.AreEqual(token["V"], "4000р");
+            Assert.AreEqual(token["T"], "ATM 890426");
+            Assert.AreEqual(token["B"], "226100.73р");
         }
 
         [TestMethod]
@@ -138,11 +147,43 @@ namespace XMRN.Tests
 
             Assert.AreEqual(token["CN"], "VISA8842");
             Assert.AreEqual(token["DT"], "08.08.18");
+            Assert.AreEqual(token["CT"], "Мобильного банка");
+            Assert.AreEqual(token["P"], "08/08/2018-07/09/2018");
             Assert.AreEqual(token["V"], "60р");
-            Assert.AreEqual(token["T"], "Мобильного банка за 08/08/2018-07/09/2018");
             Assert.AreEqual(token["B"], "246609.56р");
 
-            //VISA8842 02.08.18 15:03 оплата 540р Yota TOPUP 6983 Баланс: 236402.35р
+            operation = @"VISA8842 02.08.18 15:03 оплата 540р Yota TOPUP 6983 Баланс: 236402.35р";
+            token = rp.Parse(operation).Single();
+
+            Assert.AreEqual(token["CN"], "VISA8842");
+            Assert.AreEqual(token["DT"], "02.08.18 15:03");
+            Assert.AreEqual(token["V"], "540р");
+            Assert.AreEqual(token["T"], "Yota TOPUP 6983");
+            Assert.AreEqual(token["B"], "236402.35р");
+
+            operation = @"VISA8842 23.10.17 21:04 оплата услуг 200р MTS OAO Баланс: 223512.88р";
+            token = rp.Parse(operation).Single();
+
+            Assert.AreEqual(token["CN"], "VISA8842");
+            Assert.AreEqual(token["DT"], "23.10.17 21:04");
+            Assert.AreEqual(token["CT"], "услуг");
+            Assert.AreEqual(token["V"], "200р");
+            Assert.AreEqual(token["T"], "MTS OAO");
+            Assert.AreEqual(token["B"], "223512.88р");
+        }
+
+        [TestMethod]
+        public void SBER_SMS_PARSE_BUY_CANCEL()
+        {
+            var rp = SberSmsMessage.Parser;
+
+            string operation = @"VISA8842 16.10.17 13:17 отмена покупки 184р Баланс: 231222.12р";
+            var token = rp.Parse(operation).Single();
+
+            Assert.AreEqual(token["CN"], "VISA8842");
+            Assert.AreEqual(token["DT"], "16.10.17 13:17");
+            Assert.AreEqual(token["V"], "184р");
+            Assert.AreEqual(token["B"], "231222.12р");
         }
     }
 }
