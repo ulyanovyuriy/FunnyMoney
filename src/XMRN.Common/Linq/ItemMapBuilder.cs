@@ -157,7 +157,7 @@ namespace XMRN.Common.Linq
         public ItemMapBuilder<T> AddAllFields()
         {
             typeof(T).GetFields()
-                .ToList()
+                .Where(f => !f.IsStatic && f.IsLiteral && !f.IsInitOnly)
                 .ForEach(f => AddField(f.Name, f));
 
             return this;

@@ -12,6 +12,8 @@ namespace XMRN.Common.Semantic
 
         IToken Parent { get; set; }
 
+        string this[string name] { get; }
+
         IEnumerable<IToken> GetChilds();
 
         void Add(IToken child);

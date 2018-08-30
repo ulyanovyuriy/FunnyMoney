@@ -1,4 +1,5 @@
 ﻿using System;
+using XMRN.Common.System;
 
 namespace XMRN.Phone.Sms
 {
@@ -10,7 +11,7 @@ namespace XMRN.Phone.Sms
 
         public SmsMessage(SmsMessage from)
         {
-            if (from == null) throw new ArgumentNullException(nameof(from));
+            from = Guard.ArgumentNotNull(from, nameof(from));
 
             Id = from.Id;
             Address = from.Address;
