@@ -11,16 +11,20 @@ namespace XMRN.Common.Semantic
 
     public abstract class TokenParser : ITokenParser
     {
+        #region ITokenParser Support
+
+        IEnumerable<IToken> ITokenParser.Parse(string text)
+        {
+            return ParseCore(text);
+        }
+
+        #endregion
+
         public IEnumerable<Token> Parse(string text)
         {
             return ParseCore(text);
         }
 
         protected abstract IEnumerable<Token> ParseCore(string text);
-
-        IEnumerable<IToken> ITokenParser.Parse(string text)
-        {
-            return ParseCore(text);
-        }
     }
 }

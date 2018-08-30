@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 using XMRN.Common.System;
@@ -23,21 +22,29 @@ namespace XMRN.Common.Semantic.Regexp
 
         public new IEnumerable<RegexToken> Parse(string text)
         {
-            var match = Regex.Match(text);
-            if (match == null || match.Success == false)
+            var matches = Regex.Matches(text);
+            if (matches == null || matches.Count < 1)
                 yield break;
 
-            var parent = new RegexToken(Name, match.Value);
-            yield return parent;
-
-            if (Groups != null)
+            foreach (Match match in matches)
             {
-                foreach (var groupName in Groups)
+                if (match.Success == false) continue;
+
+                var root = new RegexToken(Name, match.Value);
+
+                if (Groups != null)
                 {
-                    var group = match.Groups[groupName];
-                    if (group != null && group.Success)
-                        yield return new RegexToken(groupName, group.Value, parent);
+                    foreach (var groupName in Groups)
+                    {
+                        var group = match.Groups[groupName];
+                        if (group != null && group.Success)
+                        {
+                            var child = new RegexToken(groupName, group.Value);
+                            root.Add(child);
+                        }
+                    }
                 }
+                yield return root;
             }
         }
 

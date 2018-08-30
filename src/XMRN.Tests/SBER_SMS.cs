@@ -15,7 +15,7 @@ using XMRN.Phone.Sms;
 namespace XMRN.Tests
 {
     [TestClass]
-    public class SBER_ANALYZE
+    public partial class SBER_SMS
     {
         private SmsMessage[] ReadMessages()
         {
@@ -107,22 +107,7 @@ namespace XMRN.Tests
             //var t = b.ToString();
         }
 
-        [TestMethod]
-        public void SBER_SMS_PARSE_WRITEOFF()
-        {
-            //VISA8842 14.08.18 11:44 списание 400р Баланс: 236930.77р
-            //VISA8842 03.06.18 21:00 списание 2000р с комиссией 20р Баланс: 292685.16р
-            //VISA8842 08.03.18 06:27 списание 40613.37р в счет погашения кредита Баланс: 93204.52р
-
-            var rp = new RegexTokenParser("WRITEOFF"
-                , new Regex(@"(?<CN>VISA\d{4}) (?<DT>\d{2}\.\d{2}\.\d{2} \d{2}:\d{2}) списание (?<V>\d+(\.\d{2})?р)( с комиссией (?<C>\d+(\.\d{2})?р))? (?<T>.*)Баланс: (?<B>\d+(\.\d{2})?р)")
-                , "CN", "DT", "V", "C", "T", "B");
-
-
-            string operation = @"VISA8842 08.08.18 07:59 списание 100000р SBERBANK ONL@IN KARTA-VKLAD Баланс: 246671.36р";
-            var op1 = rp.Parse(operation).ToArray();
-            
-        }
+       
 
         private class ParsedMessage
         {

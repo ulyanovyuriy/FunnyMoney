@@ -1,5 +1,6 @@
 ﻿
 using System.Collections.Generic;
+using XMRN.Common.System;
 
 namespace System.Linq
 {
@@ -10,6 +11,15 @@ namespace System.Linq
             if (items == null) return true;
 
             return items.Any() == false;
+        }
+
+        public static void ForEach<T>(this IEnumerable<T> items, Action<T> action)
+        {
+            items = Guard.ArgumentNotNull(items, nameof(items));
+            action = Guard.ArgumentNotNull(action, nameof(action));
+
+            foreach (var item in items)
+                action(item);
         }
     }
 }

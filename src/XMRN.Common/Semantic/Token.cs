@@ -1,15 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace XMRN.Common.Semantic
 {
     public interface IToken
     {
-        string Name { get; }
+        string Name { get; set; }
 
-        string Value { get; }
+        string Value { get; set; }
 
-        IToken Parent { get; }
+        IToken Parent { get; set; }
 
         IEnumerable<IToken> GetChilds();
 
@@ -20,7 +21,9 @@ namespace XMRN.Common.Semantic
 
     public abstract class Token : IToken
     {
-        public Token(string name, string value)
+        protected Token() { }
+
+        protected Token(string name, string value) : this()
         {
             Name = name;
             Value = value;
@@ -28,11 +31,11 @@ namespace XMRN.Common.Semantic
 
         #region IToken Support
 
-        string IToken.Name => Name;
+        string IToken.Name { get { return Name; } set { Name = value; } }
 
-        string IToken.Value => Value;
+        string IToken.Value { get { return Value; } set { Value = value; } }
 
-        IToken IToken.Parent => Parent;
+        IToken IToken.Parent { get { return ParentToken; } set { ParentToken = (Token)value; } }
 
         IEnumerable<IToken> IToken.GetChilds()
         {
@@ -41,22 +44,35 @@ namespace XMRN.Common.Semantic
 
         void IToken.Add(IToken child)
         {
-            AddCore(child);
+            AddCore((Token)child);
         }
 
         void IToken.AddRange(IEnumerable<IToken> childs)
         {
             foreach (var child in childs)
-                AddCore(child);
+                AddCore((Token)child);
         }
 
         #endregion
 
-        public string Name { get; set; }
+        public virtual string Name { get; set; }
 
-        public string Value { get; set; }
+        public virtual string Value { get; set; }
 
-        public Token Parent { get => GetParentCore(); }
+        public virtual string this[string name]
+        {
+            get
+            {
+                var token = GetChilds().FirstOrDefault(c => c.Name == name);
+
+                if (token == null)
+                    return null;
+
+                return token.Value;
+            }
+        }
+
+        public Token Parent { get { return ParentToken; } set { ParentToken = value; } }
 
         public IEnumerable<Token> GetChilds() => GetChildsCore();
 
@@ -69,10 +85,19 @@ namespace XMRN.Common.Semantic
             return $"{Name}: {Value}";
         }
 
-        protected abstract void AddCore(IToken child);
+        public override int GetHashCode()
+        {
+            return ToString().GetHashCode();
+        }
+
+        #region Abstracts
+
+        protected abstract Token ParentToken { get; set; }
 
         protected abstract IEnumerable<Token> GetChildsCore();
 
-        protected abstract Token GetParentCore();
+        protected abstract void AddCore(Token child);
+
+        #endregion
     }
 }
