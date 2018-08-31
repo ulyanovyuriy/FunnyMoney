@@ -191,6 +191,7 @@ namespace XMRN.Tests
         {
             var rp = SberSms.Parser;
 
+
             string operation = @"ЮРИЙ АЛЕКСАНДРОВИЧ, успешно подключен автоплатеж ""ЗАЩИЩЕННЫЙ ЗАЕМЩИК"" с карты VISA8842. Дата первого платежа - 13.03.18. Подробная информация об услуге sberbank.ru/autoinfo. Сбербанк";
             var token = rp.Parse(operation).Single();
         }
