@@ -112,6 +112,14 @@ namespace XMRN.Tests
             Assert.AreEqual(token["DT"], "20.07.18 12:13");
             Assert.AreEqual(token["V"], "12000р");
             Assert.AreEqual(token["B"], "420791.38р");
+
+            operation = @"VISA8842 27.04.18 15:45 зачисление отпускных 92667.38р Баланс: 288067.53р";
+            token = rp.Parse(operation).Single();
+
+            Assert.AreEqual(token["CN"], "VISA8842");
+            Assert.AreEqual(token["DT"], "27.04.18 15:45");
+            Assert.AreEqual(token["V"], "92667.38р");
+            Assert.AreEqual(token["B"], "288067.53р");
         }
 
         [TestMethod]

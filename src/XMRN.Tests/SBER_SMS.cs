@@ -69,6 +69,7 @@ namespace XMRN.Tests
                 .AddMember(m => m.Commission)
                 .AddMember(m => m.Balance)
                 .AddMember(m => m.Target)
+                .AddMember(m => m.Category)
                 .AddMember(m => m.Body)
             ).ExportToCsv(b);
 
