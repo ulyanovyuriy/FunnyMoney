@@ -4,7 +4,7 @@ using System.Text;
 
 namespace FunnyMoney.SBER.Sms
 {
-    public enum SberSmsMessageType
+    public enum SberSmsType
     {
         /// <summary>
         /// Неизвестное
@@ -44,5 +44,10 @@ namespace FunnyMoney.SBER.Sms
         /// Отмена покупки
         /// </summary>
         BuyCancel,
+
+        /// <summary>
+        /// Информационное сообщение
+        /// </summary>
+        Info,
     }
 }

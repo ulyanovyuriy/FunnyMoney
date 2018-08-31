@@ -5,9 +5,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\FunnyMoney.Common\FunnyMoney.Common.csproj" />
     <ProjectReference Include="..\XMRN.Common\XMRN.Common.csproj" />
     <ProjectReference Include="..\XMRN.Phone\XMRN.Phone.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="SberSettings.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

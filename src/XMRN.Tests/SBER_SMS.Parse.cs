@@ -11,7 +11,7 @@ namespace XMRN.Tests
         [TestMethod]
         public void SBER_SMS_PARSE_WRITE_OFF()
         {
-            var rp = SberSmsMessage.Parser;
+            var rp = SberSms.Parser;
 
             string operation = @"VISA8842 08.08.18 07:59 списание 100000р SBERBANK ONL@IN KARTA-VKLAD Баланс: 246671.36р";
             var token = rp.Parse(operation).Single();
@@ -54,7 +54,7 @@ namespace XMRN.Tests
         [TestMethod]
         public void SBER_SMS_PARSE_BUY()
         {
-            var rp = SberSmsMessage.Parser;
+            var rp = SberSms.Parser;
 
             string operation = @"VISA8842 20.08.18 10:40 покупка 121.65р YM*AliExpress Баланс: 217461.29р";
             var token = rp.Parse(operation).Single();
@@ -69,7 +69,7 @@ namespace XMRN.Tests
         [TestMethod]
         public void SBER_SMS_PARSE_ATM()
         {
-            var rp = SberSmsMessage.Parser;
+            var rp = SberSms.Parser;
 
             string operation = @"VISA8842 14.08.18 19:38 выдача 9000р ATM 60003570 Баланс: 227928.97р";
             var token = rp.Parse(operation).Single();
@@ -103,7 +103,7 @@ namespace XMRN.Tests
         [TestMethod]
         public void SBER_SMS_PARSE_SALARY()
         {
-            var rp = SberSmsMessage.Parser;
+            var rp = SberSms.Parser;
 
             string operation = @"VISA8842 20.07.18 12:13 зачисление зарплаты 12000р Баланс: 420791.38р";
             var token = rp.Parse(operation).Single();
@@ -117,7 +117,7 @@ namespace XMRN.Tests
         [TestMethod]
         public void SBER_SMS_PARSE_PAY_IN()
         {
-            var rp = SberSmsMessage.Parser;
+            var rp = SberSms.Parser;
 
             string operation = @"VISA8842 24.02.18 11:55 зачисление 5000р Баланс: 173573.89р";
             var token = rp.Parse(operation).Single();
@@ -140,7 +140,7 @@ namespace XMRN.Tests
         [TestMethod]
         public void SBER_SMS_PARSE_PAY_OUT()
         {
-            var rp = SberSmsMessage.Parser;
+            var rp = SberSms.Parser;
 
             string operation = @"VISA8842 08.08.18 оплата Мобильного банка за 08/08/2018-07/09/2018 60р Баланс: 246609.56р";
             var token = rp.Parse(operation).Single();
@@ -175,7 +175,7 @@ namespace XMRN.Tests
         [TestMethod]
         public void SBER_SMS_PARSE_BUY_CANCEL()
         {
-            var rp = SberSmsMessage.Parser;
+            var rp = SberSms.Parser;
 
             string operation = @"VISA8842 16.10.17 13:17 отмена покупки 184р Баланс: 231222.12р";
             var token = rp.Parse(operation).Single();
@@ -184,6 +184,15 @@ namespace XMRN.Tests
             Assert.AreEqual(token["DT"], "16.10.17 13:17");
             Assert.AreEqual(token["V"], "184р");
             Assert.AreEqual(token["B"], "231222.12р");
+        }
+
+        [TestMethod]
+        public void SBER_SMS_PARSE_INFO()
+        {
+            var rp = SberSms.Parser;
+
+            string operation = @"ЮРИЙ АЛЕКСАНДРОВИЧ, успешно подключен автоплатеж ""ЗАЩИЩЕННЫЙ ЗАЕМЩИК"" с карты VISA8842. Дата первого платежа - 13.03.18. Подробная информация об услуге sberbank.ru/autoinfo. Сбербанк";
+            var token = rp.Parse(operation).Single();
         }
     }
 }

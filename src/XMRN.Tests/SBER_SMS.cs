@@ -53,11 +53,11 @@ namespace XMRN.Tests
         public void SBER_SMS_PARSE()
         {
             var msgs = ReadMessages()
-                .Select(m => new SberSmsMessage(m))
+                .Select(m => new SberSms(m))
                 .ToList();
 
             var b = new StringBuilder();
-            msgs.Where(m => m.Type == SberSmsMessageType.None)
+            msgs.Where(m => m.Type == SberSmsType.None)
                 .AsDataReader(mb =>
                 mb.AddMember(m => m.Id)
                 .AddMember(m => m.Type)
@@ -69,6 +69,7 @@ namespace XMRN.Tests
                 .AddMember(m => m.Target)
                 .AddMember(m => m.Body)
             ).ExportToCsv(b);
+
 
             var t = b.ToString();
         }
