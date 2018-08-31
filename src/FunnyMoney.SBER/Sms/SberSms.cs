@@ -13,16 +13,6 @@ namespace FunnyMoney.SBER.Sms
 {
     public class SberSms : SmsMessage
     {
-        public const string WRITE_OFF_RX = @"(?<CN>VISA\d{4}) (?<DT>\d{2}\.\d{2}\.\d{2} \d{2}:\d{2}) списание (?<V>\d+(\.\d{2})?р)( с комиссией (?<C>\d+(\.\d{2})?р))?(\s+(?<T>.*))? Баланс: (?<B>\d+(\.\d{2})?р)";
-        public const string BUY_RX = @"(?<CN>VISA\d{4}) (?<DT>\d{2}\.\d{2}\.\d{2} \d{2}:\d{2}) покупка (?<V>\d+(\.\d{2})?р)( с комиссией (?<C>\d+(\.\d{2})?р))?(\s+(?<T>.*))? Баланс: (?<B>\d+(\.\d{2})?р)";
-        public const string ATM_RX = @"(?<CN>VISA\d{4}) (?<DT>\d{2}\.\d{2}\.\d{2} \d{2}:\d{2}) выдача (наличных )?(?<V>\d+(\.\d{2})?р)( с комиссией (?<C>\d+(\.\d{2})?р))?(\s+(?<T>.*))? Баланс: (?<B>\d+(\.\d{2})?р)";
-        public const string SALARY_RX = @"(?<CN>VISA\d{4}) (?<DT>\d{2}\.\d{2}\.\d{2} \d{2}:\d{2}) зачисление зарплаты (?<V>\d+(\.\d{2})?р)( с комиссией (?<C>\d+(\.\d{2})?р))?(\s+(?<T>.*))? Баланс: (?<B>\d+(\.\d{2})?р)";
-        public const string PAY_IN_RX = @"(?<CN>VISA\d{4}) (?<DT>\d{2}\.\d{2}\.\d{2} \d{2}:\d{2}) зачисление (?<V>\d+(\.\d{2})?р)( с комиссией (?<C>\d+(\.\d{2})?р))?(\s+(?<T>.*))? Баланс: (?<B>\d+(\.\d{2})?р)";
-        public const string PAY_OUT1_RX = @"(?<CN>VISA\d{4}) (?<DT>\d{2}\.\d{2}\.\d{2}) оплата(\s+ )?(\s+(?<T>.*)\s+)?(?<V>\d+(\.\d{2})?р) Баланс: (?<B>\d+(\.\d{2})?р)";
-        public const string PAY_OUT_RX = @"(?<CN>VISA\d{4}) (?<DT>\d{2}\.\d{2}\.\d{2}) оплата?(\s+(?<T>.*)\s+)?(?<V>\d+(\.\d{2})?р) Баланс: (?<B>\d+(\.\d{2})?р)";
-        public const string PAY_OUT2_RX = @"(?<CN>VISA\d{4}) (?<DT>\d{2}\.\d{2}\.\d{2} \d{2}:\d{2}) оплата (?<V>\d+(\.\d{2})?р)( с комиссией (?<C>\d+(\.\d{2})?р))?(\s+(?<T>.*))? Баланс: (?<B>\d+(\.\d{2})?р)";
-        public const string BUY_CANCEL_RX = @"(?<CN>VISA\d{4}) (?<DT>\d{2}\.\d{2}\.\d{2} \d{2}:\d{2}) отмена покупки (?<V>\d+(\.\d{2})?р)( с комиссией (?<C>\d+(\.\d{2})?р))?(\s+(?<T>.*))? Баланс: (?<B>\d+(\.\d{2})?р)";
-
         public static Parser Parser;
 
         public static Dictionary<string, SberSmsPropertyMap> Maps;
@@ -39,28 +29,12 @@ namespace FunnyMoney.SBER.Sms
                 BreakOnFirstMatch = true
             });
 
-            Parser.Register(new RegexTokenParser(SberSmsType.WriteOff.ToString(), new Regex(WRITE_OFF_RX)
-                , "CN", "DT", "V", "C", "T", "B"));
-            Parser.Register(new RegexTokenParser(SberSmsType.Buy.ToString(), new Regex(BUY_RX)
-                , "CN", "DT", "V", "C", "T", "B"));
-            Parser.Register(new RegexTokenParser(SberSmsType.Atm.ToString(), new Regex(ATM_RX)
-                , "CN", "DT", "V", "C", "T", "B"));
-            Parser.Register(new RegexTokenParser(SberSmsType.Salary.ToString(), new Regex(SALARY_RX)
-                , "CN", "DT", "V", "C", "T", "B"));
-            Parser.Register(new RegexTokenParser(SberSmsType.PayIn.ToString(), new Regex(PAY_IN_RX)
-                , "CN", "DT", "V", "C", "T", "B"));
-            Parser.Register(new RegexTokenParser(SberSmsType.PayOut.ToString(), new Regex(PAY_OUT_RX)
-                , "CN", "DT", "V", "C", "T", "B"));
-            Parser.Register(new RegexTokenParser(SberSmsType.PayOut.ToString(), new Regex(PAY_OUT2_RX)
-                , "CN", "DT", "V", "C", "T", "B"));
-            Parser.Register(new RegexTokenParser(SberSmsType.BuyCancel.ToString(), new Regex(BUY_CANCEL_RX)
-                , "CN", "DT", "V", "C", "T", "B"));
-
             SberSettings.Global.SmsTemplates
                 .OrderBy(x => x.Id)
                 .ForEach(t =>
                 {
-                    Parser.Register(new RegexTokenParser(t.Type.ToString(), new Regex(t.Regex), AllTokens));
+                    Parser.Register(new RegexTokenParser(
+                        t.Type, new Regex(t.Regex), AllTokens));
                 });
         }
 
@@ -72,14 +46,8 @@ namespace FunnyMoney.SBER.Sms
             _token = tokens.FirstOrDefault();
         }
 
-        private IToken GetToken()
-        {
-            return _token;
-        }
-
         private string GetValue(string propertyName)
         {
-            var _token = GetToken();
             if (_token == null)
                 return null;
 
@@ -88,17 +56,7 @@ namespace FunnyMoney.SBER.Sms
             return value;
         }
 
-        public SberSmsType Type
-        {
-            get
-            {
-                var token = GetToken();
-                if (token == null)
-                    return SberSmsType.None;
-
-                return token.Name.ParseTo<SberSmsType>();
-            }
-        }
+        public string Type => _token?.Name;
 
         public string CardNumber => GetValue(nameof(CardNumber));
 

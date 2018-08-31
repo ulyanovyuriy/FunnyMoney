@@ -52,12 +52,14 @@ namespace XMRN.Tests
         [DeploymentItem("900.ed")]
         public void SBER_SMS_PARSE()
         {
+
             var msgs = ReadMessages()
                 .Select(m => new SberSms(m))
                 .ToList();
 
             var b = new StringBuilder();
-            msgs.Where(m => m.Type == SberSmsType.None)
+            msgs
+                //.Where(m => m.Type == null)
                 .AsDataReader(mb =>
                 mb.AddMember(m => m.Id)
                 .AddMember(m => m.Type)

@@ -13,9 +13,9 @@ namespace FunnyMoney.SBER.Config
         }
 
         [ConfigurationProperty(nameof(Type), IsRequired = true)]
-        public SberSmsType Type
+        public string Type
         {
-            get => this.GetValue<SberSmsType>(nameof(Type));
+            get => this.GetValue<string>(nameof(Type));
         }
 
         [ConfigurationProperty(nameof(Regex), IsRequired = true)]
